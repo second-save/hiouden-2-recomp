@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 1 (recon) and 2 (debug tool) done; phase 3 (identity build) next. Rulings D1-D8 all answered (`docs/decisions.md`).
+- **Phase:** 1 (recon), 2 (debug tool) and 3 (identity build: `tools/build.py`, `tests/test_identity.py`) done; phase 4 (extract) next. Rulings D1-D8 all answered (`docs/decisions.md`).
 - **Done:**
   - Repo set up from the fan-translation template; guard hook proven (blocks `sed -i`); pre-commit runs `tools/check.py`; originals pinned in `rom.sha1`.
   - Towns CD holds no script (only names, graphics, scenes). Source = Chinese DOS (D5).
@@ -19,6 +19,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Text-site census: `docs/re/text_sites.md`. HIO.EXE text is all fixed-width padded fields (items 128x36 B, spells 24x24 B, units 48x16 B, help, menus, messages), no pointers: translate in place (verified on the title menu). VIS/OP_E/ED_E scripts: each section loaded by `mov si, imm`, so blocks can be relocated. Installers skipped.
   - Graphics survey: no Chinese drawn into any art seen (only company logos and Latin UI labels); details in text_sites.md. Phase 1 recon complete.
 - **Next:**
-  1. Phase 3 (identity build into `build/game/`), phase 4 (extract), phase 5 (bigram font + marker build).
+  1. Phase 4 extract: `tools/extract.py` + `tbl.py` codec (Big5 + `\` and `^` codes) for TM, IM/MM, HIO.EXE fixed fields, VIS/OP_E/ED_E sections, HMF/WIND names (sites in `docs/re/text_sites.md`); roundtrip + coverage tests. Mark the bopomofo picker, digit strips and font-ish runs as data.
+  2. Phase 5: bigram font + marker build.
 - **Open bugs:** none.
 - **Waiting on the user:** nothing.

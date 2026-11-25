@@ -12,7 +12,8 @@ The game runs in this repo's own recomp (`src/`, CMake, binary `build/hiouden2`)
 - Warp:     `python3 tools/debug/warp.py --stage NN --out DIR` (cold boot -> New Game on MPNN.HMF; extra `--remap`, `--click x,y,f[,btn]`); `--msg N --every 150` shows TM message N; unknown flags (`--trace-ip LINEAR`) pass to the recomp
 - Disasm:   `.venv/bin/python3 tools/dis16.py hio2/HIO.EXE <file offset>` (`python3 -m venv .venv && .venv/bin/pip install capstone`)
 - Images:   `magick` / `montage` (no PIL here)
-- Build/Release: not written yet (phase 3+)
+- Build:    `python3 tools/build.py` -> `build/game/` (checks `rom.sha1`, copies hio2, applies edits); `--identity` = no edits, must equal the originals (`tests/test_identity.py`)
+- Release: not written yet
 
 ## Paths
 - Original game: `hio2/` (Taiwanese DOS install, Big5; gitignored, pinned in `rom.sha1`). Never write into it: builds go to `build/game/`.
