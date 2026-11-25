@@ -5,8 +5,7 @@ real-time strategy RPG by Wolf Team: Markfiend, a condemned prisoner who can bin
 Mirlei, a girl jailed as a witch, fighting through a dungeon of 21 floors to the court sorcerer Lezard Valeth. The
 Chinese is itself a translation of the Japanese original, so Japanese-flavoured phrasing is normal.
 Work only on the batches named in your dispatch, one at a time in the order given, each to a passing check before
-the next. Do all translation yourself; do not dispatch subagents. Work from the repo root
-`/Users/antoineclerc-renaud/develop/hioden-2`.
+the next. Do all translation yourself; do not dispatch subagents. Work from the repo root.
 
 ## Read first
 1. `docs/style-reference.md` - character voices and example pairs (if it exists yet).

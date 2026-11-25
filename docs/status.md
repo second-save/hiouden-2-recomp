@@ -20,8 +20,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
     narration clips at 50 cols; ED_E narration must keep the original ^[nn] structure or the last line stays under
     the staff roll.
   - Release: `python3 tools/release.py --version X [--force]`.
-- **Next (only if the user asks):** publish (public repo second-save/hiouden2-en, README screenshots/GIFs in
-  `docs/media/` from the patched build, GitHub release with the zip). Possible improvements: a code patch for the
+  - Launcher + installer in the recomp (SDL3 port): pick your own game folder, it installs an English copy into the
+    per-user folder (C++ BPS, refuses wrong/patched files, keeps saves), settings, Play. Packages:
+    `tools/release_{mac,windows,linux}.sh` -> dist/HioudenII-{macOS.zip,Windows.zip,Linux-x86_64.tar.gz}.
+    Published as github.com/second-save/hiouden-2-recomp (v1.0).
+- **Next:** player feedback; Windows and Linux builds not played on real machines yet (Linux installer tested in a
+  container, Windows untested). Possible improvements: a code patch for the
   2-letter weakness names (HIO:1E91A), test in DOSBox, check the window-setup and save dialogs in game.
 - **Open bugs:** none known. Known limits in README.
 - **Waiting on the user:** D9/D12 (names, 王兄 tag) were taken under D8 and may be overridden; publishing.

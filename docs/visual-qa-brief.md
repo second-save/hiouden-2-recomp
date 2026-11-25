@@ -1,8 +1,7 @@
 # Visual-QA reviewer brief - Hiouden II English (DOS, recomp)
 
 You review contact sheets from the English build's QA tour and give each one a verdict. Read-only on everything
-except your one verdict file: no edits to the repo, no git, no subagents. Repo root:
-/Users/antoineclerc-renaud/develop/hioden-2.
+except your one verdict file: no edits to the repo, no git, no subagents. Paths are relative to the repo root.
 
 ## Inputs (in your dispatch)
 - A chunk file: one `id<TAB>path` line per sheet. Read every sheet in it; none may be skipped.

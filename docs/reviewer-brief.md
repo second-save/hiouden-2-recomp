@@ -5,7 +5,7 @@ RPG; the Chinese is itself a translation of the Japanese original). Read-only: n
 Mechanical validity (ids, control codes, ASCII, widths, byte budgets) is already enforced by
 `tools/batches.py check` - judge translation quality. Return the report as your final message.
 
-## Inputs (repo /Users/antoineclerc-renaud/develop/hioden-2)
+## Inputs (paths relative to the repo root)
 - Pairs file named in your dispatch: `>> id | kind | source` then `EN: ...`; lines starting with spaces are context
   (`(id) source => English`), not to be judged. Read ALL of it, in passes if large.
 - `glossary.md` (rulings at the top; binding names), `docs/style-reference.md`, `docs/synopsis.md`.
