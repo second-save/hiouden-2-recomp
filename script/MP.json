@@ -1,0 +1,2653 @@
+[
+ {
+  "id": "MP01:01A40",
+  "kind": "unit_name",
+  "zh": "馴獸師",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01A50",
+  "kind": "unit_name",
+  "zh": "馴獸師湯姆",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01A60",
+  "kind": "unit_name",
+  "zh": "牢頭",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01A70",
+  "kind": "unit_name",
+  "zh": "牢房守衛",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01A80",
+  "kind": "unit_name",
+  "zh": "巡邏隊長",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01A90",
+  "kind": "unit_name",
+  "zh": "巡邏隊長約翰",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01AA0",
+  "kind": "unit_name",
+  "zh": "巡邏兵",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01AB0",
+  "kind": "unit_name",
+  "zh": "猛犬",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01AC0",
+  "kind": "unit_name",
+  "zh": "獄長戴米托",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01AD0",
+  "kind": "unit_name",
+  "zh": "巡邏隊長愛爾德",
+  "field": [
+   6864,
+   6880
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01AE0",
+  "kind": "unit_name",
+  "zh": "巡邏隊長吉姆",
+  "field": [
+   6880,
+   6896
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01AF0",
+  "kind": "unit_name",
+  "zh": "牢頭克拉斯",
+  "field": [
+   6896,
+   6912
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01B00",
+  "kind": "unit_name",
+  "zh": "侍衛布蘭傑",
+  "field": [
+   6912,
+   6928
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01B10",
+  "kind": "unit_name",
+  "zh": "毒蠍",
+  "field": [
+   6928,
+   6944
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01B20",
+  "kind": "unit_name",
+  "zh": "蝙蝠",
+  "field": [
+   6944,
+   6960
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01B30",
+  "kind": "unit_name",
+  "zh": "馬克利米里安",
+  "field": [
+   6960,
+   6976
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01BB0",
+  "kind": "unit_name",
+  "zh": "大姐姐",
+  "field": [
+   7088,
+   7104
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP01:01BC0",
+  "kind": "unit_name",
+  "zh": "發呆的傢伙",
+  "field": [
+   7104,
+   7120
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01A40",
+  "kind": "unit_name",
+  "zh": "馴獸師",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01A50",
+  "kind": "unit_name",
+  "zh": "馴獸師薩姆",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01A60",
+  "kind": "unit_name",
+  "zh": "牢頭",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01A70",
+  "kind": "unit_name",
+  "zh": "牢頭霍克",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01A80",
+  "kind": "unit_name",
+  "zh": "牢房守衛",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01A90",
+  "kind": "unit_name",
+  "zh": "巡邏隊長艾爾",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01AA0",
+  "kind": "unit_name",
+  "zh": "巡邏兵",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01AB0",
+  "kind": "unit_name",
+  "zh": "猛犬",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01AC0",
+  "kind": "unit_name",
+  "zh": "獄長丁克",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01AD0",
+  "kind": "unit_name",
+  "zh": "巡邏隊長狄恩",
+  "field": [
+   6864,
+   6880
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01AE0",
+  "kind": "unit_name",
+  "zh": "巡邏隊長鮑曼",
+  "field": [
+   6880,
+   6896
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01AF0",
+  "kind": "unit_name",
+  "zh": "侍衛雷利克",
+  "field": [
+   6896,
+   6912
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01B00",
+  "kind": "unit_name",
+  "zh": "盜賊",
+  "field": [
+   6912,
+   6928
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01B10",
+  "kind": "unit_name",
+  "zh": "毒蠍",
+  "field": [
+   6928,
+   6944
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01B20",
+  "kind": "unit_name",
+  "zh": "蝙蝠",
+  "field": [
+   6944,
+   6960
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01B30",
+  "kind": "unit_name",
+  "zh": "馬克利米里安",
+  "field": [
+   6960,
+   6976
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01B90",
+  "kind": "unit_name",
+  "zh": "泡泡史萊姆",
+  "field": [
+   7056,
+   7072
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01BA0",
+  "kind": "unit_name",
+  "zh": "妙齡女郎愛麗絲",
+  "field": [
+   7072,
+   7088
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01BB0",
+  "kind": "unit_name",
+  "zh": "瘦弱的男子肯恩",
+  "field": [
+   7088,
+   7104
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP02:01BC0",
+  "kind": "unit_name",
+  "zh": "暴牙男",
+  "field": [
+   7104,
+   7120
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01A40",
+  "kind": "unit_name",
+  "zh": "下級戰士羅斯",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01A50",
+  "kind": "unit_name",
+  "zh": "下級魔法師艾斯特",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01A60",
+  "kind": "unit_name",
+  "zh": "巨蠍",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01A70",
+  "kind": "unit_name",
+  "zh": "巨蠍Ｂ",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01A80",
+  "kind": "unit_name",
+  "zh": "蝙蝠",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01A90",
+  "kind": "unit_name",
+  "zh": "吸血蝙蝠",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01AA0",
+  "kind": "unit_name",
+  "zh": "豬怪",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01AB0",
+  "kind": "unit_name",
+  "zh": "豬怪領兵",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01AC0",
+  "kind": "unit_name",
+  "zh": "豬怪王",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01AD0",
+  "kind": "unit_name",
+  "zh": "地精",
+  "field": [
+   6864,
+   6880
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01AE0",
+  "kind": "unit_name",
+  "zh": "地精領兵",
+  "field": [
+   6880,
+   6896
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01AF0",
+  "kind": "unit_name",
+  "zh": "地精領兵",
+  "field": [
+   6896,
+   6912
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01B00",
+  "kind": "unit_name",
+  "zh": "地精侍衛",
+  "field": [
+   6912,
+   6928
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01B90",
+  "kind": "unit_name",
+  "zh": "獨眼男子",
+  "field": [
+   7056,
+   7072
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01BA0",
+  "kind": "unit_name",
+  "zh": "可憐的男子",
+  "field": [
+   7072,
+   7088
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01BB0",
+  "kind": "unit_name",
+  "zh": "瘦削的男子",
+  "field": [
+   7088,
+   7104
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP03:01BC0",
+  "kind": "unit_name",
+  "zh": "盜墓王艾克",
+  "field": [
+   7104,
+   7120
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP04:01A40",
+  "kind": "unit_name",
+  "zh": "獄長芬格斯",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP04:01A50",
+  "kind": "unit_name",
+  "zh": "豬怪",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP04:01A60",
+  "kind": "unit_name",
+  "zh": "豬怪領兵",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP04:01A70",
+  "kind": "unit_name",
+  "zh": "地精",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP04:01A80",
+  "kind": "unit_name",
+  "zh": "地精領兵",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP04:01A90",
+  "kind": "unit_name",
+  "zh": "地精Ｂ",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP04:01AA0",
+  "kind": "unit_name",
+  "zh": "下級魔法師",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP04:01AB0",
+  "kind": "unit_name",
+  "zh": "下級魔法師艾米爾",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP04:01AC0",
+  "kind": "unit_name",
+  "zh": "下級戰士",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP04:01AD0",
+  "kind": "unit_name",
+  "zh": "豬怪",
+  "field": [
+   6864,
+   6880
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP04:01AE0",
+  "kind": "unit_name",
+  "zh": "獄長弟弟亞當斯",
+  "field": [
+   6880,
+   6896
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP04:01AF0",
+  "kind": "unit_name",
+  "zh": "獄長助手Ｓ",
+  "field": [
+   6896,
+   6912
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP05:01A40",
+  "kind": "unit_name",
+  "zh": "瓦斯毒霧",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP05:01A50",
+  "kind": "unit_name",
+  "zh": "裝甲車№Ⅰ",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP05:01A60",
+  "kind": "unit_name",
+  "zh": "裝甲車№ⅠＢ",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP05:01A70",
+  "kind": "unit_name",
+  "zh": "下級戰士查札",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP05:01A80",
+  "kind": "unit_name",
+  "zh": "下級戰士杜克",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP05:01A90",
+  "kind": "unit_name",
+  "zh": "火燄術士梅林",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP05:01AA0",
+  "kind": "unit_name",
+  "zh": "火燄術士瑪麗",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP05:01AB0",
+  "kind": "unit_name",
+  "zh": "火燄術士魯法",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP05:01AC0",
+  "kind": "unit_name",
+  "zh": "捕獸隊賽普泰爾",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP06:01A40",
+  "kind": "unit_name",
+  "zh": "傑達恩",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP06:01A50",
+  "kind": "unit_name",
+  "zh": "裝甲兵",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP06:01A60",
+  "kind": "unit_name",
+  "zh": "裝甲兵蓋爾",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP06:01A70",
+  "kind": "unit_name",
+  "zh": "裝甲兵羅伊",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP06:01A80",
+  "kind": "unit_name",
+  "zh": "裝甲兵傑克",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP06:01A90",
+  "kind": "unit_name",
+  "zh": "火燄術士",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP06:01AA0",
+  "kind": "unit_name",
+  "zh": "火燄術士尤米斯",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP06:01AB0",
+  "kind": "unit_name",
+  "zh": "裝甲兵戴米",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP06:01AC0",
+  "kind": "unit_name",
+  "zh": "鐵甲武士",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP07:01A40",
+  "kind": "unit_name",
+  "zh": "魔界巨蠍",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP07:01A50",
+  "kind": "unit_name",
+  "zh": "魔界巨蠍Ｂ",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP07:01A60",
+  "kind": "unit_name",
+  "zh": "投石車",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP07:01A70",
+  "kind": "unit_name",
+  "zh": "鬥士鮑伯",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP07:01A80",
+  "kind": "unit_name",
+  "zh": "鬥士剛．鮑伯",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP07:01A90",
+  "kind": "unit_name",
+  "zh": "巨蠍",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP07:01AA0",
+  "kind": "unit_name",
+  "zh": "豬怪",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP07:01AB0",
+  "kind": "unit_name",
+  "zh": "豬怪領兵",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP07:01AC0",
+  "kind": "unit_name",
+  "zh": "地精",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP07:01AD0",
+  "kind": "unit_name",
+  "zh": "地精領兵",
+  "field": [
+   6864,
+   6880
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP08:01A40",
+  "kind": "unit_name",
+  "zh": "魅影冰魔",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP08:01A50",
+  "kind": "unit_name",
+  "zh": "蝙蝠",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP08:01A60",
+  "kind": "unit_name",
+  "zh": "吸血蝙蝠",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP08:01A70",
+  "kind": "unit_name",
+  "zh": "雷魚",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP08:01A80",
+  "kind": "unit_name",
+  "zh": "雷魚Ｂ",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP08:01A90",
+  "kind": "unit_name",
+  "zh": "九犬妖女",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP08:01AA0",
+  "kind": "unit_name",
+  "zh": "九犬妖女Ｂ",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP08:01AB0",
+  "kind": "unit_name",
+  "zh": "蝙蝠",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP08:01AC0",
+  "kind": "unit_name",
+  "zh": "雷魚",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP08:01AD0",
+  "kind": "unit_name",
+  "zh": "雷魚",
+  "field": [
+   6864,
+   6880
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP08:01AE0",
+  "kind": "unit_name",
+  "zh": "魅影冰魔",
+  "field": [
+   6880,
+   6896
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP09:01A40",
+  "kind": "unit_name",
+  "zh": "魔蟹",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP09:01A50",
+  "kind": "unit_name",
+  "zh": "巨蟹",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP09:01A60",
+  "kind": "unit_name",
+  "zh": "蝙蝠",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP09:01A70",
+  "kind": "unit_name",
+  "zh": "吸血蝙蝠",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP09:01A80",
+  "kind": "unit_name",
+  "zh": "雷魚",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP09:01A90",
+  "kind": "unit_name",
+  "zh": "雷魚Ｂ",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP09:01AA0",
+  "kind": "unit_name",
+  "zh": "九犬妖女",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP09:01AB0",
+  "kind": "unit_name",
+  "zh": "九犬妖女Ｂ",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP09:01AC0",
+  "kind": "unit_name",
+  "zh": "蝙蝠",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP10:01A40",
+  "kind": "unit_name",
+  "zh": "劊子手",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP10:01A50",
+  "kind": "unit_name",
+  "zh": "劊子手",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP10:01A60",
+  "kind": "unit_name",
+  "zh": "怒髮衝冠的戰士",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP10:01A70",
+  "kind": "unit_name",
+  "zh": "裝甲車№Ⅱ",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP10:01A80",
+  "kind": "unit_name",
+  "zh": "巫婆",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP10:01A90",
+  "kind": "unit_name",
+  "zh": "黑暗祭司",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP10:01AA0",
+  "kind": "unit_name",
+  "zh": "怒髮衝冠的戰士Ｂ",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP10:01AC0",
+  "kind": "unit_name",
+  "zh": "巫婆",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP10:01AD0",
+  "kind": "unit_name",
+  "zh": "巨大的三頭火獸",
+  "field": [
+   6864,
+   6880
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP10:01AE0",
+  "kind": "unit_name",
+  "zh": "三頭火獸",
+  "field": [
+   6880,
+   6896
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP11:01A40",
+  "kind": "unit_name",
+  "zh": "盜墓王艾克",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP11:01A50",
+  "kind": "unit_name",
+  "zh": "艾克的幫手",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP11:01A60",
+  "kind": "unit_name",
+  "zh": "艾克的幫手",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP11:01A70",
+  "kind": "unit_name",
+  "zh": "艾克的手下",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP11:01A80",
+  "kind": "unit_name",
+  "zh": "艾克的僕人",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP11:01A90",
+  "kind": "unit_name",
+  "zh": "艾克的奴隸",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP11:01AA0",
+  "kind": "unit_name",
+  "zh": "艾克的手下",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP11:01AB0",
+  "kind": "unit_name",
+  "zh": "艾克的朋友",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP11:01AC0",
+  "kind": "unit_name",
+  "zh": "艾克的弟弟",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP11:01AD0",
+  "kind": "unit_name",
+  "zh": "艾克的手下",
+  "field": [
+   6864,
+   6880
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP11:01AE0",
+  "kind": "unit_name",
+  "zh": "艾克的弟弟",
+  "field": [
+   6880,
+   6896
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP11:01AF0",
+  "kind": "unit_name",
+  "zh": "艾克的手下",
+  "field": [
+   6896,
+   6912
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP11:01B00",
+  "kind": "unit_name",
+  "zh": "艾克的同夥",
+  "field": [
+   6912,
+   6928
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP12:01A40",
+  "kind": "unit_name",
+  "zh": "瓦斯毒霧",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP12:01A50",
+  "kind": "unit_name",
+  "zh": "瓦斯毒霧",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP12:01A60",
+  "kind": "unit_name",
+  "zh": "死神",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP12:01A70",
+  "kind": "unit_name",
+  "zh": "死神",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP12:01A80",
+  "kind": "unit_name",
+  "zh": "怒髮衝冠的戰士",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP12:01A90",
+  "kind": "unit_name",
+  "zh": "怒髮衝冠的戰士",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP12:01AA0",
+  "kind": "unit_name",
+  "zh": "巫師",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP12:01AB0",
+  "kind": "unit_name",
+  "zh": "瓦斯毒霧",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP12:01AC0",
+  "kind": "unit_name",
+  "zh": "瓦斯毒霧",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP13:01A40",
+  "kind": "unit_name",
+  "zh": "傀儡師",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP13:01A50",
+  "kind": "unit_name",
+  "zh": "傀儡師",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP13:01A60",
+  "kind": "unit_name",
+  "zh": "傑達恩",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP13:01A70",
+  "kind": "unit_name",
+  "zh": "娃娃雪莉兒☆",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP13:01A80",
+  "kind": "unit_name",
+  "zh": "木偶人☆",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP13:01A90",
+  "kind": "unit_name",
+  "zh": "娃娃雪莉兒☆",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP13:01AA0",
+  "kind": "unit_name",
+  "zh": "木偶人☆",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP13:01AB0",
+  "kind": "unit_name",
+  "zh": "傀儡師",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP13:01AC0",
+  "kind": "unit_name",
+  "zh": "娃娃雪莉兒☆",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP13:01AD0",
+  "kind": "unit_name",
+  "zh": "幻影騎士",
+  "field": [
+   6864,
+   6880
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP13:01AE0",
+  "kind": "unit_name",
+  "zh": "傀儡師’",
+  "field": [
+   6880,
+   6896
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP13:01BB0",
+  "kind": "unit_name",
+  "zh": "大姐姐",
+  "field": [
+   7088,
+   7104
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP13:01BC0",
+  "kind": "unit_name",
+  "zh": "發呆的男子",
+  "field": [
+   7104,
+   7120
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01A40",
+  "kind": "unit_name",
+  "zh": "骷髏三頭火獸",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01A50",
+  "kind": "unit_name",
+  "zh": "三頭火獸",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01A60",
+  "kind": "unit_name",
+  "zh": "黑暗騎士霍恩",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01A70",
+  "kind": "unit_name",
+  "zh": "魔法師布拉姆",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01A80",
+  "kind": "unit_name",
+  "zh": "魔法師薩克蘭",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01A90",
+  "kind": "unit_name",
+  "zh": "魔法師葛拉翰",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01AA0",
+  "kind": "unit_name",
+  "zh": "大魔法師",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01AB0",
+  "kind": "unit_name",
+  "zh": "魔女恰恰",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01AC0",
+  "kind": "unit_name",
+  "zh": "巨大蜈蚣",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01AD0",
+  "kind": "unit_name",
+  "zh": "黑暗魅影騎士",
+  "field": [
+   6864,
+   6880
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01AE0",
+  "kind": "unit_name",
+  "zh": "侍衛巴傑拉德",
+  "field": [
+   6880,
+   6896
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01AF0",
+  "kind": "unit_name",
+  "zh": "祈禱師",
+  "field": [
+   6896,
+   6912
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01B00",
+  "kind": "unit_name",
+  "zh": "盜賊",
+  "field": [
+   6912,
+   6928
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01B10",
+  "kind": "unit_name",
+  "zh": "毒蠍",
+  "field": [
+   6928,
+   6944
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01B20",
+  "kind": "unit_name",
+  "zh": "蝙蝠",
+  "field": [
+   6944,
+   6960
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP14:01B30",
+  "kind": "unit_name",
+  "zh": "馬克利米里安",
+  "field": [
+   6960,
+   6976
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP15:01A40",
+  "kind": "unit_name",
+  "zh": "巨蠍",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP15:01A50",
+  "kind": "unit_name",
+  "zh": "地精騎士",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP15:01A60",
+  "kind": "unit_name",
+  "zh": "狂戰士狄克",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP15:01A70",
+  "kind": "unit_name",
+  "zh": "主教薩姆遜",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP15:01A80",
+  "kind": "unit_name",
+  "zh": "主教柏西夫",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP15:01A90",
+  "kind": "unit_name",
+  "zh": "魔界巨蠍",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP15:01AA0",
+  "kind": "unit_name",
+  "zh": "尤吉里斯",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP15:01AB0",
+  "kind": "unit_name",
+  "zh": "狂戰士",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP15:01AC0",
+  "kind": "unit_name",
+  "zh": "黑暗魔界巨蠍",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP15:01AD0",
+  "kind": "unit_name",
+  "zh": "超絕漆黑魔界巨蠍",
+  "field": [
+   6864,
+   6880
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP16:01A40",
+  "kind": "unit_name",
+  "zh": "小惡魔",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP16:01A50",
+  "kind": "unit_name",
+  "zh": "雙頭蛇",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP16:01A60",
+  "kind": "unit_name",
+  "zh": "小魔精",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP16:01A70",
+  "kind": "unit_name",
+  "zh": "幼龍",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP16:01A80",
+  "kind": "unit_name",
+  "zh": "神行太保",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP16:01A90",
+  "kind": "unit_name",
+  "zh": "巨大蜈蚣",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP16:01AA0",
+  "kind": "unit_name",
+  "zh": "巨大蜘蛛",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP16:01AB0",
+  "kind": "unit_name",
+  "zh": "劊子手",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP16:01AC0",
+  "kind": "unit_name",
+  "zh": "幻影龍",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP16:01AD0",
+  "kind": "unit_name",
+  "zh": "百足死神",
+  "field": [
+   6864,
+   6880
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP17:01A40",
+  "kind": "unit_name",
+  "zh": "火龍",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP17:01A50",
+  "kind": "unit_name",
+  "zh": "沙羅曼蛇",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP17:01A60",
+  "kind": "unit_name",
+  "zh": "沙羅曼蛇",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP17:01A70",
+  "kind": "unit_name",
+  "zh": "瓦斯毒霧",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP17:01A80",
+  "kind": "unit_name",
+  "zh": "食人花",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP17:01A90",
+  "kind": "unit_name",
+  "zh": "食人花",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP17:01AA0",
+  "kind": "unit_name",
+  "zh": "火龍",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP17:01AB0",
+  "kind": "unit_name",
+  "zh": "瓦斯毒霧",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP18:01A40",
+  "kind": "unit_name",
+  "zh": "理查國王？",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP18:01A50",
+  "kind": "unit_name",
+  "zh": "馬克雷國王？",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP18:01A60",
+  "kind": "unit_name",
+  "zh": "卡克伍德？",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP18:01A70",
+  "kind": "unit_name",
+  "zh": "神箭手",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP18:01A80",
+  "kind": "unit_name",
+  "zh": "宮廷衛士",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP18:01A90",
+  "kind": "unit_name",
+  "zh": "神箭手Ｂ",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP18:01AA0",
+  "kind": "unit_name",
+  "zh": "※※※※※※※※",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP18:01AB0",
+  "kind": "unit_name",
+  "zh": "馬克西米里安？",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP19:01A40",
+  "kind": "unit_name",
+  "zh": "百吉拉",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP19:01A50",
+  "kind": "unit_name",
+  "zh": "北極熊",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP19:01A60",
+  "kind": "unit_name",
+  "zh": "魅影冰魔",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP19:01A70",
+  "kind": "unit_name",
+  "zh": "大魔法師",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP19:01A80",
+  "kind": "unit_name",
+  "zh": "黑暗騎士",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP19:01A90",
+  "kind": "unit_name",
+  "zh": "魔法師比爾雷斯",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP19:01AA0",
+  "kind": "unit_name",
+  "zh": "魅影冰魔",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP20:01A40",
+  "kind": "unit_name",
+  "zh": "龍牙兵",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP20:01A50",
+  "kind": "unit_name",
+  "zh": "巨大蜈蚣",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP20:01A60",
+  "kind": "unit_name",
+  "zh": "巨大蜈蚣",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP20:01A70",
+  "kind": "unit_name",
+  "zh": "巨大蜈蚣",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP20:01A80",
+  "kind": "unit_name",
+  "zh": "三頭火獸",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP20:01A90",
+  "kind": "unit_name",
+  "zh": "三頭火獸",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP20:01AA0",
+  "kind": "unit_name",
+  "zh": "三頭火獸",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP20:01AB0",
+  "kind": "unit_name",
+  "zh": "三頭火獸",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP20:01AC0",
+  "kind": "unit_name",
+  "zh": "銀龍",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP21:01A40",
+  "kind": "unit_name",
+  "zh": "雷薩德．瓦雷斯",
+  "field": [
+   6720,
+   6736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP21:01A50",
+  "kind": "unit_name",
+  "zh": "魔精之王",
+  "field": [
+   6736,
+   6752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP21:01A60",
+  "kind": "unit_name",
+  "zh": "亞斯克莫伊德",
+  "field": [
+   6752,
+   6768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP21:01A70",
+  "kind": "unit_name",
+  "zh": "黑騎士海傑恩",
+  "field": [
+   6768,
+   6784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP21:01A80",
+  "kind": "unit_name",
+  "zh": "黑騎士柏格",
+  "field": [
+   6784,
+   6800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP21:01A90",
+  "kind": "unit_name",
+  "zh": "黑暗祭司里克斯",
+  "field": [
+   6800,
+   6816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP21:01AA0",
+  "kind": "unit_name",
+  "zh": "黑暗之王Ⅱ",
+  "field": [
+   6816,
+   6832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP21:01AB0",
+  "kind": "unit_name",
+  "zh": "黑暗鬥士班恩",
+  "field": [
+   6832,
+   6848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP21:01AC0",
+  "kind": "unit_name",
+  "zh": "黑暗鬥士坦克斯",
+  "field": [
+   6848,
+   6864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP21:01AD0",
+  "kind": "unit_name",
+  "zh": "黑暗祭司貝爾根",
+  "field": [
+   6864,
+   6880
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP21:01AE0",
+  "kind": "unit_name",
+  "zh": "黑暗祭司亞伯",
+  "field": [
+   6880,
+   6896
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP21:01AF0",
+  "kind": "unit_name",
+  "zh": "黑暗祭司葛倫",
+  "field": [
+   6896,
+   6912
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "MP21:01B00",
+  "kind": "unit_name",
+  "zh": "幻形魔人",
+  "field": [
+   6912,
+   6928
+  ],
+  "align": "left",
+  "en": ""
+ }
+]

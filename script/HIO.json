@@ -1,0 +1,4227 @@
+[
+ {
+  "id": "HIO:0E046",
+  "kind": "spell",
+  "zh": "火燄術",
+  "field": [
+   57414,
+   57432
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E05E",
+  "kind": "spell",
+  "zh": "冰雪術",
+  "field": [
+   57438,
+   57456
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E076",
+  "kind": "spell",
+  "zh": "雷擊術",
+  "field": [
+   57462,
+   57480
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E08E",
+  "kind": "spell",
+  "zh": "殞石術",
+  "field": [
+   57486,
+   57504
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E0A6",
+  "kind": "spell",
+  "zh": "妖殺術",
+  "field": [
+   57510,
+   57528
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E0BE",
+  "kind": "spell",
+  "zh": "混亂術",
+  "field": [
+   57534,
+   57552
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E0D6",
+  "kind": "spell",
+  "zh": "蠱毒術",
+  "field": [
+   57558,
+   57576
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E0EE",
+  "kind": "spell",
+  "zh": "石化術",
+  "field": [
+   57582,
+   57600
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E106",
+  "kind": "spell",
+  "zh": "熊熊變身術",
+  "field": [
+   57606,
+   57624
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E11E",
+  "kind": "spell",
+  "zh": "治療術",
+  "field": [
+   57630,
+   57648
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E136",
+  "kind": "spell",
+  "zh": "還原術",
+  "field": [
+   57654,
+   57672
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E14E",
+  "kind": "spell",
+  "zh": "復活術",
+  "field": [
+   57678,
+   57696
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E166",
+  "kind": "spell",
+  "zh": "死靈召喚術",
+  "field": [
+   57702,
+   57720
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E17E",
+  "kind": "spell",
+  "zh": "隱身術",
+  "field": [
+   57726,
+   57744
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E196",
+  "kind": "spell",
+  "zh": "騰空術",
+  "field": [
+   57750,
+   57768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E1AE",
+  "kind": "spell",
+  "zh": "區域禁咒術",
+  "field": [
+   57774,
+   57792
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E1C6",
+  "kind": "spell",
+  "zh": "魔法陷阱術",
+  "field": [
+   57798,
+   57816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E1DE",
+  "kind": "spell",
+  "zh": "沙羅曼蛇召喚術",
+  "field": [
+   57822,
+   57840
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E1F6",
+  "kind": "spell",
+  "zh": "精靈召喚術",
+  "field": [
+   57846,
+   57864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E20E",
+  "kind": "spell",
+  "zh": "女戰神召喚術",
+  "field": [
+   57870,
+   57888
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E226",
+  "kind": "spell",
+  "zh": "獨角獸召喚術",
+  "field": [
+   57894,
+   57912
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E23E",
+  "kind": "spell",
+  "zh": "火精召喚術",
+  "field": [
+   57918,
+   57936
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E256",
+  "kind": "spell",
+  "zh": "銀龍召喚術",
+  "field": [
+   57942,
+   57960
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E268",
+  "kind": "spell",
+  "zh": "死靈召喚術",
+  "field": [
+   57960,
+   57980
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0E9BC",
+  "kind": "label",
+  "zh": "沒有",
+  "field": [
+   59836,
+   59854
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0FFA9",
+  "kind": "label",
+  "zh": "ＧＡＭＥ",
+  "field": [
+   65449,
+   65459
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:0FFB3",
+  "kind": "label",
+  "zh": "ＯＶＥＲ",
+  "field": [
+   65459,
+   65467
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:12357",
+  "kind": "label",
+  "zh": "大召喚ＦＬＯＯＲ－",
+  "field": [
+   74583,
+   74607
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:14157",
+  "kind": "message",
+  "zh": "無法留在魔界！",
+  "field": [
+   82263,
+   82279
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:14167",
+  "kind": "message",
+  "zh": "鑰匙不可以留在魔界。",
+  "field": [
+   82279,
+   82299
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:15577",
+  "kind": "dialog",
+  "zh": "進行視窗顯示格式及位置等資料的",
+  "field": [
+   87415,
+   87447
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:15597",
+  "kind": "dialog",
+  "zh": "儲存讀取並進行",
+  "field": [
+   87447,
+   87465
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:155A9",
+  "kind": "dialog",
+  "zh": "。",
+  "field": [
+   87465,
+   87477
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:155B5",
+  "kind": "dialog",
+  "zh": "目前的視窗格式已經",
+  "field": [
+   87477,
+   87499
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:155CB",
+  "kind": "dialog",
+  "zh": "。",
+  "field": [
+   87499,
+   87507
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:155D3",
+  "kind": "dialog",
+  "zh": "目前的視窗格式正在",
+  "field": [
+   87507,
+   87529
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:155E9",
+  "kind": "dialog",
+  "zh": "。",
+  "field": [
+   87529,
+   87537
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:155F1",
+  "kind": "dialog",
+  "zh": "請選擇資料的編號：",
+  "field": [
+   87537,
+   87565
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1560D",
+  "kind": "dialog",
+  "zh": "資料已存入",
+  "field": [
+   87565,
+   87577
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:15619",
+  "kind": "dialog",
+  "zh": "號的記錄中。",
+  "field": [
+   87577,
+   87591
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1580D",
+  "kind": "dialog",
+  "zh": "物品環境設定",
+  "field": [
+   88077,
+   88095
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1594A",
+  "kind": "dialog",
+  "zh": "物品操作：",
+  "field": [
+   88394,
+   88408
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:15958",
+  "kind": "dialog",
+  "zh": "物品還原：",
+  "field": [
+   88408,
+   88422
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:15966",
+  "kind": "dialog",
+  "zh": "物品整理：",
+  "field": [
+   88422,
+   88436
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:15974",
+  "kind": "dialog",
+  "zh": "物品裝備：",
+  "field": [
+   88436,
+   88450
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:15982",
+  "kind": "dialog",
+  "zh": "滑鼠抓取按鍵設定",
+  "field": [
+   88450,
+   88468
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:15994",
+  "kind": "dialog",
+  "zh": "自動",
+  "field": [
+   88468,
+   88476
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1599C",
+  "kind": "dialog",
+  "zh": "手動",
+  "field": [
+   88476,
+   88484
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:159A4",
+  "kind": "dialog",
+  "zh": "自動",
+  "field": [
+   88484,
+   88492
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:159AC",
+  "kind": "dialog",
+  "zh": "手動",
+  "field": [
+   88492,
+   88500
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:159B4",
+  "kind": "dialog",
+  "zh": "自動",
+  "field": [
+   88500,
+   88508
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:159BC",
+  "kind": "dialog",
+  "zh": "手動",
+  "field": [
+   88508,
+   88514
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:15AA0",
+  "kind": "dialog",
+  "zh": "要從這個劇本的一開始重新進行遊戲嗎？是",
+  "field": [
+   88736,
+   88776
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:15AC8",
+  "kind": "dialog",
+  "zh": "否",
+  "field": [
+   88776,
+   88782
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:18202",
+  "kind": "dialog",
+  "zh": "要儲存目前的遊戲進度嗎？",
+  "field": [
+   98818,
+   98844
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1821C",
+  "kind": "dialog",
+  "zh": "儲存",
+  "field": [
+   98844,
+   98850
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:18222",
+  "kind": "dialog",
+  "zh": "要讀取先前的遊戲進度嗎？",
+  "field": [
+   98850,
+   98876
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1823C",
+  "kind": "dialog",
+  "zh": "讀取",
+  "field": [
+   98876,
+   98882
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:18242",
+  "kind": "dialog",
+  "zh": "是",
+  "field": [
+   98882,
+   98886
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:18246",
+  "kind": "dialog",
+  "zh": "否",
+  "field": [
+   98886,
+   98892
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:18DC2",
+  "kind": "menu",
+  "zh": "重新開始遊戲",
+  "field": [
+   101826,
+   101844
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:18DD4",
+  "kind": "menu",
+  "zh": "繼續上次進度",
+  "field": [
+   101844,
+   101862
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:18DE6",
+  "kind": "menu",
+  "zh": "玩者資料格式化",
+  "field": [
+   101862,
+   101888
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:18E00",
+  "kind": "menu",
+  "zh": "開頭畫面展示",
+  "field": [
+   101888,
+   101904
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:18E10",
+  "kind": "menu",
+  "zh": "記錄",
+  "field": [
+   101904,
+   101910
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:18E16",
+  "kind": "menu",
+  "zh": "０１０重新格式化玩者資料。",
+  "field": [
+   101910,
+   101946
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:18E3A",
+  "kind": "menu",
+  "zh": "確定嗎？",
+  "field": [
+   101946,
+   101962
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:18E4A",
+  "kind": "menu",
+  "zh": "開始中斷儲存進度中‧‧‧",
+  "field": [
+   101962,
+   101988
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:18E64",
+  "kind": "menu",
+  "zh": "讀取進度中‧‧‧",
+  "field": [
+   101988,
+   102006
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:192F7",
+  "kind": "toolhelp",
+  "zh": "部隊變更指令",
+  "field": [
+   103159,
+   103175
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1930C",
+  "kind": "toolhelp",
+  "zh": "可切換目前螢幕上顯示的隊伍",
+  "field": [
+   103180,
+   103210
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19330",
+  "kind": "toolhelp",
+  "zh": "視窗撤離指令",
+  "field": [
+   103216,
+   103232
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19343",
+  "kind": "toolhelp",
+  "zh": "使螢幕的視窗變為撤離符號的指令",
+  "field": [
+   103235,
+   103267
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19369",
+  "kind": "toolhelp",
+  "zh": "視窗關閉指令",
+  "field": [
+   103273,
+   103289
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19384",
+  "kind": "toolhelp",
+  "zh": "可以將視窗關閉",
+  "field": [
+   103300,
+   103324
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:193A4",
+  "kind": "toolhelp",
+  "zh": "戰鬥指令",
+  "field": [
+   103332,
+   103346
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:193B9",
+  "kind": "toolhelp",
+  "zh": "開啟一個新的戰鬥視窗",
+  "field": [
+   103353,
+   103381
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19400",
+  "kind": "toolhelp",
+  "zh": "藍色寶玉",
+  "field": [
+   103424,
+   103438
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19414",
+  "kind": "toolhelp",
+  "zh": "地面視窗指令",
+  "field": [
+   103444,
+   103460
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1942B",
+  "kind": "toolhelp",
+  "zh": "開啟一個新的地面視窗",
+  "field": [
+   103467,
+   103495
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1944F",
+  "kind": "toolhelp",
+  "zh": "狀態指令",
+  "field": [
+   103503,
+   103517
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19464",
+  "kind": "toolhelp",
+  "zh": "開啟一個新的狀態欄視窗",
+  "field": [
+   103524,
+   103552
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19486",
+  "kind": "toolhelp",
+  "zh": "狀態切換指令",
+  "field": [
+   103558,
+   103574
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19499",
+  "kind": "toolhelp",
+  "zh": "依狀態、物品、魔法的順序，切換",
+  "field": [
+   103577,
+   103609
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:194BC",
+  "kind": "toolhelp",
+  "zh": "目前的顯示",
+  "field": [
+   103612,
+   103644
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:194E6",
+  "kind": "toolhelp",
+  "zh": "砂漏",
+  "field": [
+   103654,
+   103666
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:194F7",
+  "kind": "toolhelp",
+  "zh": "控制遊戲時間的暫停或進行",
+  "field": [
+   103671,
+   103701
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1951D",
+  "kind": "toolhelp",
+  "zh": "紅色寶玉",
+  "field": [
+   103709,
+   103723
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19532",
+  "kind": "toolhelp",
+  "zh": "開啟一個新的部隊視窗",
+  "field": [
+   103730,
+   103758
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19554",
+  "kind": "toolhelp",
+  "zh": "攻擊模式切換",
+  "field": [
+   103764,
+   103780
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19567",
+  "kind": "toolhelp",
+  "zh": "切換為魔法優先或武器優先攻擊",
+  "field": [
+   103783,
+   103815
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19591",
+  "kind": "toolhelp",
+  "zh": "燭台",
+  "field": [
+   103825,
+   103837
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:195A2",
+  "kind": "toolhelp",
+  "zh": "可以３段調整遊戲進行的速度",
+  "field": [
+   103842,
+   103872
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:195C6",
+  "kind": "toolhelp",
+  "zh": "視窗設定指令",
+  "field": [
+   103878,
+   103894
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:195D9",
+  "kind": "toolhelp",
+  "zh": "可以儲存或讀取視窗格式的資料",
+  "field": [
+   103897,
+   103929
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19622",
+  "kind": "toolhelp",
+  "zh": "物品環境設定",
+  "field": [
+   103970,
+   103986
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19637",
+  "kind": "toolhelp",
+  "zh": "可以進行物品操作設定的變更",
+  "field": [
+   103991,
+   104021
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1965D",
+  "kind": "toolhelp",
+  "zh": "羽毛筆",
+  "field": [
+   104029,
+   104043
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19674",
+  "kind": "toolhelp",
+  "zh": "可以儲存目前的進度",
+  "field": [
+   104052,
+   104078
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19696",
+  "kind": "toolhelp",
+  "zh": "記錄之書",
+  "field": [
+   104086,
+   104100
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:196AD",
+  "kind": "toolhelp",
+  "zh": "可以讀取先前的進度",
+  "field": [
+   104109,
+   104135
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:196CF",
+  "kind": "toolhelp",
+  "zh": "展示用",
+  "field": [
+   104143,
+   104157
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:196E8",
+  "kind": "toolhelp",
+  "zh": "可以儲存畫像",
+  "field": [
+   104168,
+   104192
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19704",
+  "kind": "toolhelp",
+  "zh": "視窗最大化指令",
+  "field": [
+   104196,
+   104214
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1971B",
+  "kind": "toolhelp",
+  "zh": "將視窗大小設定至最大範圍",
+  "field": [
+   104219,
+   104249
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1973D",
+  "kind": "toolhelp",
+  "zh": "視窗標準化指令",
+  "field": [
+   104253,
+   104271
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19750",
+  "kind": "toolhelp",
+  "zh": "使視窗的大小回復到最大範圍之前的",
+  "field": [
+   104272,
+   104306
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19773",
+  "kind": "toolhelp",
+  "zh": "樣子",
+  "field": [
+   104307,
+   104341
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1979D",
+  "kind": "toolhelp",
+  "zh": "大嘴魚",
+  "field": [
+   104349,
+   104363
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:197AC",
+  "kind": "toolhelp",
+  "zh": "可以把不要的角色及物品拎起來再拿去",
+  "field": [
+   104364,
+   104398
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:197CF",
+  "kind": "toolhelp",
+  "zh": "餵魚，是相當先進的垃圾處理機？",
+  "field": [
+   104399,
+   104433
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:197F7",
+  "kind": "toolhelp",
+  "zh": "行動設定指令",
+  "field": [
+   104439,
+   104455
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1980E",
+  "kind": "toolhelp",
+  "zh": "可以設定部隊的行動方針",
+  "field": [
+   104462,
+   104490
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19830",
+  "kind": "toolhelp",
+  "zh": "戰鬥設定指令",
+  "field": [
+   104496,
+   104512
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19845",
+  "kind": "toolhelp",
+  "zh": "可以設定部隊的戰鬥指導原則",
+  "field": [
+   104517,
+   104547
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19869",
+  "kind": "toolhelp",
+  "zh": "魔法設定指令",
+  "field": [
+   104553,
+   104569
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1987C",
+  "kind": "toolhelp",
+  "zh": "可以設定部隊在戰鬥中使用的魔",
+  "field": [
+   104572,
+   104604
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1989F",
+  "kind": "toolhelp",
+  "zh": "法項目",
+  "field": [
+   104607,
+   104639
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:198C5",
+  "kind": "toolhelp",
+  "zh": "方向設定指令",
+  "field": [
+   104645,
+   104661
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:198DC",
+  "kind": "toolhelp",
+  "zh": "可以設定部隊的行進方向",
+  "field": [
+   104668,
+   104696
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19900",
+  "kind": "toolhelp",
+  "zh": "重玩指令",
+  "field": [
+   104704,
+   104718
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19915",
+  "kind": "toolhelp",
+  "zh": "從這一關開始的地方重玩",
+  "field": [
+   104725,
+   104753
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19939",
+  "kind": "toolhelp",
+  "zh": "透視指令",
+  "field": [
+   104761,
+   104775
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19950",
+  "kind": "toolhelp",
+  "zh": "可透視牆壁一覽無遺",
+  "field": [
+   104784,
+   104810
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19FC0",
+  "kind": "help",
+  "zh": "■魔界ＨＥＬＰ■",
+  "field": [
+   106432,
+   106466
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:19FE2",
+  "kind": "help",
+  "zh": "ヾ符號",
+  "field": [
+   106466,
+   106518
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A016",
+  "kind": "help",
+  "zh": "‧寶箱",
+  "field": [
+   106518,
+   106526
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A01E",
+  "kind": "help",
+  "zh": "：可以交換角色之間的物品。",
+  "field": [
+   106526,
+   106568
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A048",
+  "kind": "help",
+  "zh": "‧卷軸",
+  "field": [
+   106568,
+   106576
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A050",
+  "kind": "help",
+  "zh": "：顯示角色的一覽表。",
+  "field": [
+   106576,
+   106618
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A07A",
+  "kind": "help",
+  "zh": "‧水晶球：回復到戰鬥狀態。",
+  "field": [
+   106618,
+   106716
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A0DC",
+  "kind": "help",
+  "zh": "ゝ部隊編成",
+  "field": [
+   106716,
+   106768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A110",
+  "kind": "help",
+  "zh": "‧角色單位的編成",
+  "field": [
+   106768,
+   106822
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A146",
+  "kind": "help",
+  "zh": "按住滑鼠左鍵抓起角色，並移動到編成的視窗。",
+  "field": [
+   106822,
+   106918
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A1A6",
+  "kind": "help",
+  "zh": "‧部隊單位的總體編成",
+  "field": [
+   106918,
+   106972
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A1DC",
+  "kind": "help",
+  "zh": "按滑鼠左鍵點一下編成視窗的部隊編號（１～４）",
+  "field": [
+   106972,
+   107020
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A20C",
+  "kind": "help",
+  "zh": "就可以和魔法陣上的角色交換。",
+  "field": [
+   107020,
+   107122
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A272",
+  "kind": "help",
+  "zh": "魔法陣上會出現４個單位的角色。由於每個角色都",
+  "field": [
+   107122,
+   107170
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A2A2",
+  "kind": "help",
+  "zh": "會對應到一覽表的１～１６個編號，因此必要時可以",
+  "field": [
+   107170,
+   107220
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A2D4",
+  "kind": "help",
+  "zh": "依照編號予以替換角色。",
+  "field": [
+   107220,
+   107316
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A334",
+  "kind": "help",
+  "zh": "ゞ契約的上限數",
+  "field": [
+   107316,
+   107372
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A36C",
+  "kind": "help",
+  "zh": "隨著主角的等級提昇，契約上限數也會增加。",
+  "field": [
+   107372,
+   107420
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A39C",
+  "kind": "floor",
+  "zh": "地下牢Ｂ６Ｆ",
+  "field": [
+   107420,
+   107436
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A3AC",
+  "kind": "floor",
+  "zh": "地下牢Ｂ５Ｆ",
+  "field": [
+   107436,
+   107452
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A3BC",
+  "kind": "floor",
+  "zh": "地下牢Ｂ４Ｆ",
+  "field": [
+   107452,
+   107468
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A3CC",
+  "kind": "floor",
+  "zh": "地下牢Ｂ３Ｆ",
+  "field": [
+   107468,
+   107484
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A3DC",
+  "kind": "floor",
+  "zh": "地下牢Ｂ２Ｆ",
+  "field": [
+   107484,
+   107500
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A3EC",
+  "kind": "floor",
+  "zh": "地下牢Ｂ１Ｆ",
+  "field": [
+   107500,
+   107516
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A400",
+  "kind": "floor",
+  "zh": "地下迷宮",
+  "field": [
+   107516,
+   107532
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A410",
+  "kind": "floor",
+  "zh": "地底湖１",
+  "field": [
+   107532,
+   107548
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A420",
+  "kind": "floor",
+  "zh": "地底湖２",
+  "field": [
+   107548,
+   107564
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A42E",
+  "kind": "floor",
+  "zh": "古代遺跡１",
+  "field": [
+   107564,
+   107580
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A43E",
+  "kind": "floor",
+  "zh": "古代遺跡２",
+  "field": [
+   107580,
+   107596
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A44E",
+  "kind": "floor",
+  "zh": "古代遺跡３",
+  "field": [
+   107596,
+   107612
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A45E",
+  "kind": "floor",
+  "zh": "古代遺跡４",
+  "field": [
+   107612,
+   107628
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A46E",
+  "kind": "floor",
+  "zh": "古代遺跡５",
+  "field": [
+   107628,
+   107644
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A47E",
+  "kind": "floor",
+  "zh": "溶岩地帶１",
+  "field": [
+   107644,
+   107660
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A48E",
+  "kind": "floor",
+  "zh": "溶岩地帶２",
+  "field": [
+   107660,
+   107676
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A4A0",
+  "kind": "floor",
+  "zh": "火燄結界",
+  "field": [
+   107676,
+   107692
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A4AC",
+  "kind": "floor",
+  "zh": "魔劍長眠之地",
+  "field": [
+   107692,
+   107708
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A4BE",
+  "kind": "floor",
+  "zh": "冰封的大廳",
+  "field": [
+   107708,
+   107724
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A4CE",
+  "kind": "floor",
+  "zh": "冰封的迷宮",
+  "field": [
+   107724,
+   107740
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1A4E0",
+  "kind": "floor",
+  "zh": "地下神殿",
+  "field": [
+   107740,
+   107756
+  ],
+  "align": "center",
+  "en": ""
+ },
+ {
+  "id": "HIO:1CF70",
+  "kind": "unit",
+  "zh": "風精",
+  "field": [
+   118640,
+   118656
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1CF80",
+  "kind": "unit",
+  "zh": "馬克芬德",
+  "field": [
+   118656,
+   118672
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1CF90",
+  "kind": "unit",
+  "zh": "沙羅曼蛇",
+  "field": [
+   118672,
+   118688
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1CFA0",
+  "kind": "unit",
+  "zh": "獨角獸",
+  "field": [
+   118688,
+   118704
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1CFB0",
+  "kind": "unit",
+  "zh": "泣靈",
+  "field": [
+   118704,
+   118720
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1CFC0",
+  "kind": "unit",
+  "zh": "死靈魔法師",
+  "field": [
+   118720,
+   118736
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1CFD0",
+  "kind": "unit",
+  "zh": "骷髏兵",
+  "field": [
+   118736,
+   118752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1CFE0",
+  "kind": "unit",
+  "zh": "無頭騎士",
+  "field": [
+   118752,
+   118768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1CFF0",
+  "kind": "unit",
+  "zh": "吸血鬼",
+  "field": [
+   118768,
+   118784
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D000",
+  "kind": "unit",
+  "zh": "木乃伊",
+  "field": [
+   118784,
+   118800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D010",
+  "kind": "unit",
+  "zh": "亡靈",
+  "field": [
+   118800,
+   118816
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D020",
+  "kind": "unit",
+  "zh": "木偶人★",
+  "field": [
+   118816,
+   118832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D030",
+  "kind": "unit",
+  "zh": "木巨人",
+  "field": [
+   118832,
+   118848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D040",
+  "kind": "unit",
+  "zh": "歐尼克鳥",
+  "field": [
+   118848,
+   118864
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D050",
+  "kind": "unit",
+  "zh": "魔女",
+  "field": [
+   118864,
+   118880
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D060",
+  "kind": "unit",
+  "zh": "蛇妖",
+  "field": [
+   118880,
+   118896
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D070",
+  "kind": "unit",
+  "zh": "夢靨",
+  "field": [
+   118896,
+   118912
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D080",
+  "kind": "unit",
+  "zh": "魔眼",
+  "field": [
+   118912,
+   118928
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D090",
+  "kind": "unit",
+  "zh": "黑暗魔法師",
+  "field": [
+   118928,
+   118944
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D0A0",
+  "kind": "unit",
+  "zh": "食人花",
+  "field": [
+   118944,
+   118960
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D0B0",
+  "kind": "unit",
+  "zh": "雙頭蛇",
+  "field": [
+   118960,
+   118976
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D0C0",
+  "kind": "unit",
+  "zh": "牛頭魔人",
+  "field": [
+   118976,
+   118992
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D0D0",
+  "kind": "unit",
+  "zh": "獨眼巨人",
+  "field": [
+   118992,
+   119008
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D0E0",
+  "kind": "unit",
+  "zh": "水精史萊姆",
+  "field": [
+   119008,
+   119024
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D0F0",
+  "kind": "unit",
+  "zh": "日本武士",
+  "field": [
+   119024,
+   119040
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D100",
+  "kind": "unit",
+  "zh": "蜥蜴人",
+  "field": [
+   119040,
+   119056
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D110",
+  "kind": "unit",
+  "zh": "果凍史萊姆",
+  "field": [
+   119056,
+   119072
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D120",
+  "kind": "unit",
+  "zh": "狼人",
+  "field": [
+   119072,
+   119088
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D130",
+  "kind": "unit",
+  "zh": "女戰神",
+  "field": [
+   119088,
+   119104
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D140",
+  "kind": "unit",
+  "zh": "牧羊犬",
+  "field": [
+   119104,
+   119120
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D150",
+  "kind": "unit",
+  "zh": "春麗",
+  "field": [
+   119120,
+   119136
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D160",
+  "kind": "unit",
+  "zh": "蜜爾芮",
+  "field": [
+   119136,
+   119152
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D170",
+  "kind": "unit",
+  "zh": "天使",
+  "field": [
+   119152,
+   119168
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D180",
+  "kind": "unit",
+  "zh": "巨雞",
+  "field": [
+   119168,
+   119184
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D190",
+  "kind": "unit",
+  "zh": "鷲獅",
+  "field": [
+   119184,
+   119200
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D1A0",
+  "kind": "unit",
+  "zh": "龍牙兵",
+  "field": [
+   119200,
+   119216
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D1B0",
+  "kind": "unit",
+  "zh": "魔精",
+  "field": [
+   119216,
+   119232
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D1C0",
+  "kind": "unit",
+  "zh": "妖鳥",
+  "field": [
+   119232,
+   119248
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D1D0",
+  "kind": "unit",
+  "zh": "不死騎士",
+  "field": [
+   119248,
+   119264
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D1E0",
+  "kind": "unit",
+  "zh": "影魔",
+  "field": [
+   119264,
+   119280
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D1F0",
+  "kind": "unit",
+  "zh": "火精",
+  "field": [
+   119280,
+   119296
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D200",
+  "kind": "unit",
+  "zh": "銀龍",
+  "field": [
+   119296,
+   119312
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D210",
+  "kind": "unit",
+  "zh": "鎧魂",
+  "field": [
+   119312,
+   119328
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D220",
+  "kind": "unit",
+  "zh": "傀儡師",
+  "field": [
+   119328,
+   119344
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D230",
+  "kind": "unit",
+  "zh": "長老龍",
+  "field": [
+   119344,
+   119360
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D240",
+  "kind": "unit",
+  "zh": "殭屍龍",
+  "field": [
+   119360,
+   119376
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D250",
+  "kind": "unit",
+  "zh": "石巨人",
+  "field": [
+   119376,
+   119392
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D260",
+  "kind": "unit",
+  "zh": "大烏賊",
+  "field": [
+   119392,
+   119408
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D538",
+  "kind": "item",
+  "zh": "究極生命恢復劑",
+  "field": [
+   120120,
+   120140
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D55C",
+  "kind": "item",
+  "zh": "究極魔法恢復劑",
+  "field": [
+   120156,
+   120176
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D580",
+  "kind": "item",
+  "zh": "神秘的復活藥水",
+  "field": [
+   120192,
+   120212
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D5A4",
+  "kind": "item",
+  "zh": "比爾雷斯的魔藥",
+  "field": [
+   120228,
+   120248
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D5C8",
+  "kind": "item",
+  "zh": "活力藥劑",
+  "field": [
+   120264,
+   120284
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D5EC",
+  "kind": "item",
+  "zh": "澄薰草",
+  "field": [
+   120300,
+   120320
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D610",
+  "kind": "item",
+  "zh": "白色聖水",
+  "field": [
+   120336,
+   120356
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D634",
+  "kind": "item",
+  "zh": "精靈項鍊",
+  "field": [
+   120372,
+   120392
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D658",
+  "kind": "item",
+  "zh": "砂漏",
+  "field": [
+   120408,
+   120428
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D67C",
+  "kind": "item",
+  "zh": "女神雕像",
+  "field": [
+   120444,
+   120464
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D6A0",
+  "kind": "item",
+  "zh": "蜘蛛紋章",
+  "field": [
+   120480,
+   120500
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D6C4",
+  "kind": "item",
+  "zh": "天空之瞳",
+  "field": [
+   120516,
+   120536
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D6E8",
+  "kind": "item",
+  "zh": "凝固劑",
+  "field": [
+   120552,
+   120572
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D70C",
+  "kind": "item",
+  "zh": "菸草",
+  "field": [
+   120588,
+   120608
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D730",
+  "kind": "item",
+  "zh": "日暈之戒",
+  "field": [
+   120624,
+   120644
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D754",
+  "kind": "item",
+  "zh": "雪娣女士之戒",
+  "field": [
+   120660,
+   120680
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D778",
+  "kind": "item",
+  "zh": "黑牙之戒",
+  "field": [
+   120696,
+   120716
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D79C",
+  "kind": "item",
+  "zh": "守護之戒",
+  "field": [
+   120732,
+   120752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D7C0",
+  "kind": "item",
+  "zh": "戰士雕像",
+  "field": [
+   120768,
+   120788
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D7E4",
+  "kind": "item",
+  "zh": "大氣的魔法書",
+  "field": [
+   120804,
+   120824
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D808",
+  "kind": "item",
+  "zh": "火燄的魔法書",
+  "field": [
+   120840,
+   120860
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D82C",
+  "kind": "item",
+  "zh": "冰結的魔法書",
+  "field": [
+   120876,
+   120896
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D850",
+  "kind": "item",
+  "zh": "雷擊的魔法書",
+  "field": [
+   120912,
+   120932
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D874",
+  "kind": "item",
+  "zh": "治癒的魔導書",
+  "field": [
+   120948,
+   120968
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D898",
+  "kind": "item",
+  "zh": "飛翔的魔法書",
+  "field": [
+   120984,
+   121004
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D8BC",
+  "kind": "item",
+  "zh": "還魂的魔法書",
+  "field": [
+   121020,
+   121040
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D8E0",
+  "kind": "item",
+  "zh": "致死的魔法書",
+  "field": [
+   121056,
+   121076
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D904",
+  "kind": "item",
+  "zh": "無名氏的卷軸（空白）",
+  "field": [
+   121092,
+   121112
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D928",
+  "kind": "item",
+  "zh": "無名氏的卷軸（甦醒）",
+  "field": [
+   121128,
+   121148
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D94C",
+  "kind": "item",
+  "zh": "藍灰色項鍊",
+  "field": [
+   121164,
+   121184
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D970",
+  "kind": "item",
+  "zh": "銀之鑰",
+  "field": [
+   121200,
+   121220
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D994",
+  "kind": "item",
+  "zh": "紅寶石之鑰",
+  "field": [
+   121236,
+   121256
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D9B8",
+  "kind": "item",
+  "zh": "華麗的龍之鑰",
+  "field": [
+   121272,
+   121292
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1D9DC",
+  "kind": "item",
+  "zh": "詭異的骷顱之鑰",
+  "field": [
+   121308,
+   121328
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DA00",
+  "kind": "item",
+  "zh": "蛇之鑰",
+  "field": [
+   121344,
+   121364
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DA24",
+  "kind": "item",
+  "zh": "生鏽的牢房鑰匙",
+  "field": [
+   121380,
+   121400
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DA48",
+  "kind": "item",
+  "zh": "許願金幣",
+  "field": [
+   121416,
+   121436
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DA6C",
+  "kind": "item",
+  "zh": "龍之牙",
+  "field": [
+   121452,
+   121472
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DA90",
+  "kind": "item",
+  "zh": "石榴寶石",
+  "field": [
+   121488,
+   121508
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DAB4",
+  "kind": "item",
+  "zh": "冰晶石",
+  "field": [
+   121524,
+   121544
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DAD8",
+  "kind": "item",
+  "zh": "星辰紅寶石",
+  "field": [
+   121560,
+   121580
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DAFC",
+  "kind": "item",
+  "zh": "紅水晶",
+  "field": [
+   121596,
+   121616
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DB20",
+  "kind": "item",
+  "zh": "玉獸紅寶石",
+  "field": [
+   121632,
+   121652
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DB44",
+  "kind": "item",
+  "zh": "白金豎琴",
+  "field": [
+   121668,
+   121688
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DB68",
+  "kind": "item",
+  "zh": "惡魔雕像",
+  "field": [
+   121704,
+   121724
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DB8C",
+  "kind": "item",
+  "zh": "赤燄蠟燭",
+  "field": [
+   121740,
+   121760
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DBB0",
+  "kind": "item",
+  "zh": "藍燄蠟燭",
+  "field": [
+   121776,
+   121796
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DBD4",
+  "kind": "item",
+  "zh": "頭蓋骨雕像",
+  "field": [
+   121812,
+   121832
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DBF8",
+  "kind": "item",
+  "zh": "白紙",
+  "field": [
+   121848,
+   121868
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DC1C",
+  "kind": "item",
+  "zh": "愛麗斯的信",
+  "field": [
+   121884,
+   121904
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DC40",
+  "kind": "item",
+  "zh": "『克里斯特的兵法書』",
+  "field": [
+   121920,
+   121940
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DC64",
+  "kind": "item",
+  "zh": "『惡魔教典』",
+  "field": [
+   121956,
+   121976
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DC88",
+  "kind": "item",
+  "zh": "丁字鎬",
+  "field": [
+   121992,
+   122012
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DCAC",
+  "kind": "item",
+  "zh": "松茸",
+  "field": [
+   122028,
+   122048
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DCD0",
+  "kind": "item",
+  "zh": "鮮紅的蘋果",
+  "field": [
+   122064,
+   122084
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DCF4",
+  "kind": "item",
+  "zh": "青葡萄",
+  "field": [
+   122100,
+   122120
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DD18",
+  "kind": "item",
+  "zh": "栗子",
+  "field": [
+   122136,
+   122156
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DD3C",
+  "kind": "item",
+  "zh": "甜布丁",
+  "field": [
+   122172,
+   122192
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DD60",
+  "kind": "item",
+  "zh": "鮪魚壽司",
+  "field": [
+   122208,
+   122228
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DD84",
+  "kind": "item",
+  "zh": "可愛小雞",
+  "field": [
+   122244,
+   122264
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DDA8",
+  "kind": "item",
+  "zh": "脆嫩的梨子",
+  "field": [
+   122280,
+   122300
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DDCC",
+  "kind": "item",
+  "zh": "成熟的蜜柑",
+  "field": [
+   122316,
+   122336
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DDF0",
+  "kind": "item",
+  "zh": "小小櫻桃",
+  "field": [
+   122352,
+   122372
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DE14",
+  "kind": "item",
+  "zh": "美味的大腿肉",
+  "field": [
+   122388,
+   122408
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DE38",
+  "kind": "item",
+  "zh": "玉黍蜀",
+  "field": [
+   122424,
+   122444
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DE5C",
+  "kind": "item",
+  "zh": "皮帽",
+  "field": [
+   122460,
+   122480
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DE80",
+  "kind": "item",
+  "zh": "鐵盔",
+  "field": [
+   122496,
+   122516
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DEA4",
+  "kind": "item",
+  "zh": "鐵盔＋１",
+  "field": [
+   122532,
+   122552
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DEC8",
+  "kind": "item",
+  "zh": "戰盔",
+  "field": [
+   122568,
+   122588
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DEEC",
+  "kind": "item",
+  "zh": "武士之兜",
+  "field": [
+   122604,
+   122624
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DF10",
+  "kind": "item",
+  "zh": "魔法帽",
+  "field": [
+   122640,
+   122660
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DF34",
+  "kind": "item",
+  "zh": "賢者之冠",
+  "field": [
+   122676,
+   122696
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DF58",
+  "kind": "item",
+  "zh": "破汗衫",
+  "field": [
+   122712,
+   122732
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DF7C",
+  "kind": "item",
+  "zh": "皮甲",
+  "field": [
+   122748,
+   122768
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DFA0",
+  "kind": "item",
+  "zh": "鍊甲",
+  "field": [
+   122784,
+   122804
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DFC4",
+  "kind": "item",
+  "zh": "胸甲",
+  "field": [
+   122820,
+   122840
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1DFE8",
+  "kind": "item",
+  "zh": "板甲",
+  "field": [
+   122856,
+   122876
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E00C",
+  "kind": "item",
+  "zh": "銀甲",
+  "field": [
+   122892,
+   122912
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E030",
+  "kind": "item",
+  "zh": "黑桃之鎧",
+  "field": [
+   122928,
+   122948
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E054",
+  "kind": "item",
+  "zh": "反射之鎧",
+  "field": [
+   122964,
+   122984
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E078",
+  "kind": "item",
+  "zh": "龍鎧",
+  "field": [
+   123000,
+   123020
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E09C",
+  "kind": "item",
+  "zh": "武士之鎧",
+  "field": [
+   123036,
+   123056
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E0C0",
+  "kind": "item",
+  "zh": "袍子",
+  "field": [
+   123072,
+   123092
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E0E4",
+  "kind": "item",
+  "zh": "木盾",
+  "field": [
+   123108,
+   123128
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E108",
+  "kind": "item",
+  "zh": "圓盾",
+  "field": [
+   123144,
+   123164
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E12C",
+  "kind": "item",
+  "zh": "騎士盾",
+  "field": [
+   123180,
+   123200
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E150",
+  "kind": "item",
+  "zh": "圓盾＋１",
+  "field": [
+   123216,
+   123236
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E174",
+  "kind": "item",
+  "zh": "聖印之盾",
+  "field": [
+   123252,
+   123272
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E198",
+  "kind": "item",
+  "zh": "紅寶石之盾",
+  "field": [
+   123288,
+   123308
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E1BC",
+  "kind": "item",
+  "zh": "鏡之盾",
+  "field": [
+   123324,
+   123344
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E1E0",
+  "kind": "item",
+  "zh": "鐵手套",
+  "field": [
+   123360,
+   123380
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E204",
+  "kind": "item",
+  "zh": "鐵手套＋１",
+  "field": [
+   123396,
+   123416
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E228",
+  "kind": "item",
+  "zh": "魔法手套",
+  "field": [
+   123432,
+   123452
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E24C",
+  "kind": "item",
+  "zh": "武士手甲",
+  "field": [
+   123468,
+   123488
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E270",
+  "kind": "item",
+  "zh": "棍棒",
+  "field": [
+   123504,
+   123524
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E294",
+  "kind": "item",
+  "zh": "短劍",
+  "field": [
+   123540,
+   123560
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E2B8",
+  "kind": "item",
+  "zh": "單刃劍",
+  "field": [
+   123576,
+   123596
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E2DC",
+  "kind": "item",
+  "zh": "長劍",
+  "field": [
+   123612,
+   123632
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E300",
+  "kind": "item",
+  "zh": "軍刀",
+  "field": [
+   123648,
+   123668
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E324",
+  "kind": "item",
+  "zh": "單刃劍＋１",
+  "field": [
+   123684,
+   123704
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E348",
+  "kind": "item",
+  "zh": "長劍＋１",
+  "field": [
+   123720,
+   123740
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E36C",
+  "kind": "item",
+  "zh": "軍刀＋１",
+  "field": [
+   123756,
+   123776
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E390",
+  "kind": "item",
+  "zh": "玫瑰水晶劍",
+  "field": [
+   123792,
+   123812
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E3B4",
+  "kind": "item",
+  "zh": "魔法之劍",
+  "field": [
+   123828,
+   123848
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E3D8",
+  "kind": "item",
+  "zh": "？之劍",
+  "field": [
+   123864,
+   123884
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E3FC",
+  "kind": "item",
+  "zh": "冰嘯劍",
+  "field": [
+   123900,
+   123920
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E420",
+  "kind": "item",
+  "zh": "龍牙劍",
+  "field": [
+   123936,
+   123956
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E444",
+  "kind": "item",
+  "zh": "緋王劍",
+  "field": [
+   123972,
+   123992
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E468",
+  "kind": "item",
+  "zh": "日本刀",
+  "field": [
+   124008,
+   124028
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E48C",
+  "kind": "item",
+  "zh": "名刀村正",
+  "field": [
+   124044,
+   124064
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E4B0",
+  "kind": "item",
+  "zh": "妖刀村雨",
+  "field": [
+   124080,
+   124100
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E4D4",
+  "kind": "item",
+  "zh": "鐵鎚",
+  "field": [
+   124116,
+   124136
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E4F8",
+  "kind": "item",
+  "zh": "戰斧",
+  "field": [
+   124152,
+   124172
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E51C",
+  "kind": "item",
+  "zh": "巨斧",
+  "field": [
+   124188,
+   124208
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E540",
+  "kind": "item",
+  "zh": "流星鎚",
+  "field": [
+   124224,
+   124244
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E564",
+  "kind": "item",
+  "zh": "石棒",
+  "field": [
+   124260,
+   124280
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E588",
+  "kind": "item",
+  "zh": "破運之斧",
+  "field": [
+   124296,
+   124316
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E5AC",
+  "kind": "item",
+  "zh": "法杖",
+  "field": [
+   124332,
+   124352
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E5D0",
+  "kind": "item",
+  "zh": "蛇之杖",
+  "field": [
+   124368,
+   124388
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E5F4",
+  "kind": "item",
+  "zh": "獨角獸的角",
+  "field": [
+   124404,
+   124424
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E618",
+  "kind": "item",
+  "zh": "大鮪魚壽司",
+  "field": [
+   124440,
+   124460
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E63C",
+  "kind": "item",
+  "zh": "問候大家的信",
+  "field": [
+   124476,
+   124496
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E660",
+  "kind": "item",
+  "zh": "鮮紅的水果酒",
+  "field": [
+   124512,
+   124532
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E684",
+  "kind": "item",
+  "zh": "魔法槌",
+  "field": [
+   124548,
+   124568
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E6A8",
+  "kind": "item",
+  "zh": "流光之戒",
+  "field": [
+   124584,
+   124604
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E6CC",
+  "kind": "item",
+  "zh": "紅蓮寶石",
+  "field": [
+   124620,
+   124640
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E6F0",
+  "kind": "item",
+  "zh": "預定",
+  "field": [
+   124656,
+   124676
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E714",
+  "kind": "item",
+  "zh": "預定",
+  "field": [
+   124692,
+   124712
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E740",
+  "kind": "message",
+  "zh": "死亡了！",
+  "field": [
+   124736,
+   124752
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E750",
+  "kind": "message",
+  "zh": "和敵人接觸了！",
+  "field": [
+   124752,
+   124770
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E762",
+  "kind": "message",
+  "zh": "得手了！",
+  "field": [
+   124770,
+   124790
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E776",
+  "kind": "message",
+  "zh": "提昇到",
+  "field": [
+   124790,
+   124800
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E780",
+  "kind": "message",
+  "zh": "等級了！！",
+  "field": [
+   124800,
+   124818
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E792",
+  "kind": "message",
+  "zh": "目前被封住。",
+  "field": [
+   124818,
+   124836
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E7A4",
+  "kind": "message",
+  "zh": "要召喚牠嗎？",
+  "field": [
+   124836,
+   124854
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E7B6",
+  "kind": "message",
+  "zh": "是",
+  "field": [
+   124854,
+   124858
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E7BA",
+  "kind": "message",
+  "zh": "否",
+  "field": [
+   124858,
+   124862
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E7BE",
+  "kind": "message",
+  "zh": "第",
+  "field": [
+   124862,
+   124868
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E7C4",
+  "kind": "message",
+  "zh": "部隊",
+  "field": [
+   124868,
+   124874
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E7CA",
+  "kind": "message",
+  "zh": "與敵方接觸了！",
+  "field": [
+   124874,
+   124890
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E7DA",
+  "kind": "message",
+  "zh": "被我方消滅了！",
+  "field": [
+   124890,
+   124906
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E7EA",
+  "kind": "message",
+  "zh": "暫時在魔界待命",
+  "field": [
+   124906,
+   124924
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E7FC",
+  "kind": "message",
+  "zh": "〔能力上昇〕ＨＰ±",
+  "field": [
+   124924,
+   124946
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E812",
+  "kind": "message",
+  "zh": "ＡＴＫ±ＭＰ±",
+  "field": [
+   124946,
+   124964
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E824",
+  "kind": "message",
+  "zh": "ＩＮＴ±ＡＣ±",
+  "field": [
+   124964,
+   124982
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E836",
+  "kind": "message",
+  "zh": "ＭＧＲ±〔學會咒語〕讓怪物返回到魔界，並重新進行部隊的編成。",
+  "field": [
+   124982,
+   125044
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E874",
+  "kind": "message",
+  "zh": "確定嗎？",
+  "field": [
+   125044,
+   125070
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E88E",
+  "kind": "message",
+  "zh": "是",
+  "field": [
+   125070,
+   125074
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E892",
+  "kind": "message",
+  "zh": "否",
+  "field": [
+   125074,
+   125078
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E896",
+  "kind": "message",
+  "zh": "召喚中。",
+  "field": [
+   125078,
+   125090
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E8A2",
+  "kind": "message",
+  "zh": "成功地創造出來了。精靈",
+  "field": [
+   125090,
+   125116
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E8BC",
+  "kind": "message",
+  "zh": "可以召喚出精靈從屍體上從屍體可創造出要讓牠加入嗎？",
+  "field": [
+   125116,
+   125168
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E8F1",
+  "kind": "message",
+  "zh": "咒語：",
+  "field": [
+   125169,
+   125175
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E8F8",
+  "kind": "message",
+  "zh": "物品：",
+  "field": [
+   125176,
+   125182
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E8FF",
+  "kind": "message",
+  "zh": "抵抗：",
+  "field": [
+   125183,
+   125189
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E906",
+  "kind": "message",
+  "zh": "特殊：",
+  "field": [
+   125190,
+   125196
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E90D",
+  "kind": "message",
+  "zh": "弱點：",
+  "field": [
+   125197,
+   125203
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E914",
+  "kind": "message",
+  "zh": "嗜食：",
+  "field": [
+   125204,
+   125210
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E91A",
+  "kind": "attr",
+  "zh": "沒有毒　石化混亂火冰雷星全部沒有",
+  "field": [
+   125210,
+   125242
+  ],
+  "align": "left",
+  "en": "",
+  "notes": "field boundaries unknown: find which names the game draws (marker build) before translating"
+ },
+ {
+  "id": "HIO:1E93A",
+  "kind": "message",
+  "zh": "距離太遠了。",
+  "field": [
+   125242,
+   125258
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E94B",
+  "kind": "message",
+  "zh": "ＭＰ不足！！",
+  "field": [
+   125259,
+   125275
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E95C",
+  "kind": "message",
+  "zh": "這個怪物無法復活！",
+  "field": [
+   125276,
+   125306
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E97B",
+  "kind": "message",
+  "zh": "此項物品無法丟棄！",
+  "field": [
+   125307,
+   125335
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E998",
+  "kind": "message",
+  "zh": "別鬧了，你花轟了嗎？",
+  "field": [
+   125336,
+   125358
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E9AF",
+  "kind": "message",
+  "zh": "拿著鑰匙的人不能丟掉！",
+  "field": [
+   125359,
+   125385
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E9CA",
+  "kind": "message",
+  "zh": "無法使用這把鑰匙開門！",
+  "field": [
+   125386,
+   125410
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E9E3",
+  "kind": "message",
+  "zh": "無法召喚更多的怪物！",
+  "field": [
+   125411,
+   125433
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1E9FA",
+  "kind": "message",
+  "zh": "到下一關才能夠再使用！",
+  "field": [
+   125434,
+   125464
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1EA19",
+  "kind": "message",
+  "zh": "無法使用此項物品！",
+  "field": [
+   125465,
+   125493
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1EA36",
+  "kind": "message",
+  "zh": "使用方法有誤！",
+  "field": [
+   125494,
+   125514
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1EA4B",
+  "kind": "message",
+  "zh": "創造過程中失敗了！",
+  "field": [
+   125515,
+   125533
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1EA5E",
+  "kind": "message",
+  "zh": "踩在屍體上面怎麼可能復活！",
+  "field": [
+   125534,
+   125566
+  ],
+  "align": "left",
+  "en": ""
+ },
+ {
+  "id": "HIO:1EA7F",
+  "kind": "message",
+  "zh": "沒有什麼效果！",
+  "field": [
+   125567,
+   125583
+  ],
+  "align": "left",
+  "en": ""
+ }
+]

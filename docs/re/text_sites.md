@@ -11,6 +11,11 @@ Census of 2026-11-25 (Next item 1 in status). Offsets are **image** offsets (fil
 | `IM01-16.CVD`, `MM01-03.CVD` | 196-byte records | file + record number | name 24 cells, desc 3x46 cols | text_inventory |
 | `MPnn.HMF` 0x1A40, `WIND*.HIO/INI` 0x122C | 25 x 16-byte unit names | fixed slots | 8 cells = 16 letters | text_inventory s.2 |
 
+| `MAPn.HIO/INI`, `MAP0.TMP` | unit records 0x100 apart from 0x8000 (party) and 0xC000 (enemies), name at +0x70, 16 bytes | copies of MP names | 8 cells | shipped save templates: insert maps names by source text, no entries of their own |
+
+Extracted by `tools/extract.py` into `script/*.json` (format: `script/README.md`); `tests/test_extract.py` checks
+roundtrip, padding, tiling and that no 4+ hanzi run in any game file is left out (waivers listed there).
+
 ## HIO.EXE (main game) — all fixed fields, no pointers found
 A scan for `mov r16, imm16` / `push imm16` under every paragraph base found no consistent pointers to the
 NUL-terminated pools (best base matched 5 of 14 strings). In-place edits work: swapping `重新開始遊戲` (image 0x18DC2)

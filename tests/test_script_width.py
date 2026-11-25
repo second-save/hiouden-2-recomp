@@ -1,3 +1,4 @@
+import json
 import re
 import unittest
 from pathlib import Path
@@ -20,10 +21,11 @@ class ScriptWidthTest(unittest.TestCase):
 
     def test_tm_lines_fit_the_box(self):
         over = []
-        for f in sorted((ROOT / "script" / "en").glob("TM*.txt")):
-            for n, slot in enumerate(f.read_text(encoding="utf-8").splitlines()):
-                self.assertTrue(slot.endswith(r"\e"), f"{f.name} slot {n} lacks \\e")
-                over += [f"{f.name} slot {n}: {w} cols: {t!r}" for w, t in line_widths(slot) if w > MAX_COLS]
+        for e in json.loads((ROOT / "script" / "TM.json").read_text(encoding="utf-8")):
+            if not e["en"]:
+                continue
+            self.assertTrue(e["en"].endswith(r"\e"), f"{e['id']} lacks \\e")
+            over += [f"{e['id']}: {w} cols: {t!r}" for w, t in line_widths(e["en"]) if w > MAX_COLS]
         self.assertEqual(over, [])
 
 

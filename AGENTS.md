@@ -13,6 +13,7 @@ The game runs in this repo's own recomp (`src/`, CMake, binary `build/hiouden2`)
 - Disasm:   `.venv/bin/python3 tools/dis16.py hio2/HIO.EXE <file offset>` (`python3 -m venv .venv && .venv/bin/pip install capstone`)
 - Images:   `magick` / `montage` (no PIL here)
 - Build:    `python3 tools/build.py` -> `build/game/` (checks `rom.sha1`, copies hio2, applies edits); `--identity` = no edits, must equal the originals (`tests/test_identity.py`)
+- Extract:  `python3 tools/extract.py` -> `script/*.json` (only writes missing files; `--force` re-dumps, keeps `en`/`notes`); codec `tools/codec.py`
 - Release: not written yet
 
 ## Paths

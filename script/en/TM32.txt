@@ -1,4 +1,0 @@
-\n\2             Effort and Perseverance\e
-　\n  The floor to the \2north\F has changed somehow.\e
-　\n   The floor to the \2west\F has changed somehow.\e
-\n\2        Are you sure you want to do this?\e
