@@ -101,6 +101,7 @@ struct TestClick {
     int x = 0;
     int y = 0;
     int frame = 0;
+    int buttons = 1; // 1 = left, 2 = right
 };
 
 void print_usage(const char* argv0) {
@@ -111,9 +112,10 @@ void print_usage(const char* argv0) {
                  "  --headless-test <frames>     Run N frames headlessly and exit\n"
                  "  --dump-frame <path.bmp>      Save final 640x400 framebuffer to BMP\n"
                  "  --dump-every <N> <dir>       Save every Nth frame as <dir>/fNNNNNN.bmp (dir must exist)\n"
-                 "  --test-click <x>,<y>,<frame> Inject mouse move + left click in test mode\n"
+                 "  --test-click <x>,<y>,<frame>[,<btn>] Inject a click in test mode (btn 1=left default, 2=right)\n"
                  "  --remap <FROM>=<TO>          Serve file TO whenever the game opens FROM (debug warps)\n"
-                 "  --trace-overlays            Log INT 8Eh overlays and INT B5h/21h file I/O\n",
+                 "  --trace-ip <hexlinear>       Log registers each time CS*16+IP hits this address\n"
+                 "  --trace-overlays           Log INT 8Eh overlays and INT B5h/21h file I/O\n",
                  argv0);
 }
 
@@ -129,6 +131,7 @@ int main(int argc, char** argv) {
     bool trace_overlays = false;
     std::vector<TestClick> test_clicks;
     std::vector<std::pair<std::string, std::string>> remaps;
+    std::vector<uint32_t> trace_ips;
 
     for (int i = 1; i < argc; ++i) {
         const std::string arg = argv[i];
@@ -145,7 +148,7 @@ int main(int argc, char** argv) {
             dump_every_dir = argv[++i];
         } else if (arg == "--test-click" && i + 1 < argc) {
             TestClick tc;
-            if (std::sscanf(argv[++i], "%d,%d,%d", &tc.x, &tc.y, &tc.frame) == 3) {
+            if (std::sscanf(argv[++i], "%d,%d,%d,%d", &tc.x, &tc.y, &tc.frame, &tc.buttons) >= 3) {
                 test_clicks.push_back(tc);
             } else {
                 std::fprintf(stderr, "Invalid --test-click format (expected x,y,frame)\n");
@@ -161,6 +164,8 @@ int main(int argc, char** argv) {
             std::string from = spec.substr(0, eq);
             for (char& c : from) c = static_cast<char>(std::tolower(static_cast<unsigned char>(c)));
             remaps.emplace_back(from, spec.substr(eq + 1));
+        } else if (arg == "--trace-ip" && i + 1 < argc) {
+            trace_ips.push_back(static_cast<uint32_t>(std::strtoul(argv[++i], nullptr, 16)));
         } else if (arg == "--trace-overlays") {
             trace_overlays = true;
         } else if (arg == "--help" || arg == "-h") {
@@ -273,7 +278,7 @@ int main(int argc, char** argv) {
                 if (frame == tc.frame - 2) {
                     dos.set_mouse_state(tc.x, tc.y, 0);
                 } else if (frame == tc.frame) {
-                    dos.set_mouse_state(tc.x, tc.y, 1);
+                    dos.set_mouse_state(tc.x, tc.y, static_cast<uint16_t>(tc.buttons));
                 } else if (frame == tc.frame + 2) {
                     dos.set_mouse_state(tc.x, tc.y, 0);
                 }
@@ -292,6 +297,17 @@ int main(int argc, char** argv) {
             cpu.clear_vblank_poll();
             cpu.clear_timer_read();
 
+            for (uint32_t t : trace_ips) {
+                if (((uint32_t(cpu.sreg[Cpu386::SEG_CS]) << 4) + cpu.ip) == t) {
+                    std::fprintf(stderr, "[TRACE] f=%d %04X:%04X AX=%04X BX=%04X CX=%04X DX=%04X SI=%04X DI=%04X DS=%04X ES=%04X\n",
+                                 frame, cpu.sreg[Cpu386::SEG_CS], cpu.ip, cpu.eax & 0xFFFF, cpu.ebx & 0xFFFF,
+                                 cpu.ecx & 0xFFFF, cpu.edx & 0xFFFF, cpu.esi & 0xFFFF, cpu.edi & 0xFFFF,
+                                 cpu.sreg[Cpu386::SEG_DS], cpu.sreg[0]);
+                    const uint8_t* m = cpu.ram() + (uint32_t(cpu.sreg[Cpu386::SEG_DS]) << 4) + (cpu.edi & 0xFFFF);
+                    std::fprintf(stderr, "[TRACE]   DS:DI = %02X %02X %02X %02X %02X %02X %02X %02X\n",
+                                 m[0], m[1], m[2], m[3], m[4], m[5], m[6], m[7]);
+                }
+            }
             if (!cpu.step()) break;
 
             if (cpu.hit_vblank_poll()) {

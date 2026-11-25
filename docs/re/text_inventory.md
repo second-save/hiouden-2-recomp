@@ -4,6 +4,9 @@ Summary of all text-bearing files and executable segments in `hio2/`.
 
 ## 1. Script & Description `.CVD` Files
 
+**Correction (verified 2026-11-25, `docs/re/events.md`):** each TM file holds 4 messages in 512-byte slots, 128 in all.
+The previews below show slot 0 only, and the text after its `\e` is slot 1 onward, not junk.
+
 | File | Size (bytes) | Encoding | Preview (first 80 chars) |
 |---|---:|---|---|
 | `TM01.CVD` | 2048 | Big5 | \2【沾滿污泥的男子：阿雄】\F\n\s　　事實上\o，\w\s這個地牢整個全給四通八達的地下水道圍\n　得水洩不通\o。\w\s所以嚴格說來，任何人是沒有辦法 |
