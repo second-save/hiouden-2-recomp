@@ -707,7 +707,7 @@
    1024,
    1536
   ],
-  "en": "\\2Beautiful Lady:\\F\\n\\s  If you work a certain switch in the hall\\n\\sto the north\\o,\\s\\w you can apparently get into\\n\\sthe once-sealed little room to the northwest\\o.\\s\\w\\k\\c  They say the chest inside holds some\\ntreasure\\o\\w...\\w...\\e"
+  "en": "\\2Beautiful Lady:\\F\\n\\s  If you work a certain switch in the hall\\n\\sto the north\\o,\\s\\w you can apparently get into\\n\\sthe once-sealed little room to the northwest\\o.\\s\\w\\k\\c  They say the chest inside holds\\nsome treasure\\o\\w...\\w...\\e"
  },
  {
   "id": "TM18:00600",
@@ -767,7 +767,7 @@
    0,
    512
   ],
-  "en": "\\2Onick Bird:  Unknown Family, Unknown Order\\F\\n  A mysterious creature. All that is known is\\n that it is highly intelligent; its skeleton\\n and genes seem close to a bird's. However,\\k\\c as it flatly denies being a bird, it cannot\\n yet be classified. It was once thought to be\\n related to the Nick Bird, but a closer look\\k\\c showed only that their sawtooth stripes from\\n head to back are much alike. Even that, the\\n Onick Bird flatly refuses to admit.\\e"
+  "en": "\\2Onick Bird:  Unknown Family, Unknown Order\\F\\n  A mysterious creature.\\k\\c All that is known is that it is highly\\n intelligent; its skeleton and genes seem\\n close to a bird's.\\k\\c However, as it flatly denies being a bird, it\\n cannot yet be classified.\\k\\c It was once thought to be related to the Nick\\n Bird, but a closer look showed only that\\n their sawtooth stripes from head to back\\k\\c are much alike. Even that, the Onick Bird\\n flatly refuses to admit.\\e"
  },
  {
   "id": "TM20:00200",
@@ -777,7 +777,7 @@
    512,
    1024
   ],
-  "en": "\\2Puppet*:  Slave Family, Doll Order\\F\\n  A humanoid wooden doll that the Doll Master\\n made with all his life's strength and gave a\\k\\c soul. It wears an odd hat, its feet grow out\\n of its face, and the tuft of hair on the back\\n of its head (it does not look like a tail)\\n sometimes flops forward when it looks down.\\k\\c  Its temper seems closely tied to its maker's\\n mood at the time, so it runs hot and cold.\\e"
+  "en": "\\2Puppet*:  Slave Family, Doll Order\\F\\n  A humanoid wooden doll that the Doll Master\\n made with all his life's strength and gave a\\k\\c soul. It wears an odd hat, its feet grow out\\n of its face, and the tuft of hair on the back\\n of its head (it does not look like a tail)\\k\\c sometimes flops forward when it looks down.\\n  Its temper seems closely tied to its maker's\\n mood at the time, so it runs hot and cold.\\e"
  },
  {
   "id": "TM20:00400",
@@ -787,7 +787,7 @@
    1024,
    1536
   ],
-  "en": "\\2Chimera:  Magic Beast Family, Chimera Order\\F\\n  A monster with the heads of a lion, a goat\\n and a dragon, bat wings on its lion's body\\k\\c and a venomous serpent for a tail. It can\\n petrify, and though not very bright, it uses\\n magic much like illusion. Ordinary folk\\n scraping a living day to day never meet one.\\k\\c  But if you are truly too lucky and meet one\\n some day, that day will be the day your\\n life's journey comes to a full stop.\\n  And this lucky soul?? Surely not you.\\e"
+  "en": "\\2Chimera:  Magic Beast Family, Chimera Order\\F\\n  A monster with the heads of a lion, a goat\\n and a dragon, bat wings on its lion's body\\k\\c and a venomous serpent for a tail. It can\\n petrify, and though not very bright, it uses\\n magic much like illusion.\\k\\c Ordinary folk scraping a living day to day\\n never meet one.\\k\\c  But if you are truly too lucky and meet one\\n some day, that day will be the day your\\n life's journey comes to a full stop.\\n  And this lucky soul?? Surely not you.\\e"
  },
  {
   "id": "TM20:00600",
@@ -927,7 +927,7 @@
    0,
    512
   ],
-  "en": "\\n 'Beware, ye who come! All who draw near the\\n  flames shall lose their lives.'\\n 'Even creatures of fire cannot withstand the\\n  flames as they devour and rage.'\\e"
+  "en": "\\n 'Beware, ye who come! All who draw near the\\n  flames shall lose their lives.'\\k\\c\\n 'Even creatures of fire cannot withstand the\\n  flames as they devour and rage.'\\e"
  },
  {
   "id": "TM24:00200",
@@ -1017,7 +1017,7 @@
    512,
    1024
   ],
-  "en": "\\2     'Ye must pass through the gate of\\n           the Demon Realm.'\\F\\n When ye meet twin doors, know at once that\\n they are passages that carry ye in an instant\\n from this place to another.\\e"
+  "en": "\\2     'Ye must pass through the gate of\\n           the Demon Realm.'\\F\\k\\c When ye meet twin doors, know at once that\\n they are passages that carry ye in an instant\\n from this place to another.\\e"
  },
  {
   "id": "TM26:00400",
@@ -1147,7 +1147,7 @@
    1024,
    1536
   ],
-  "en": "\\2 'The sword of legend, once guarded by the\\n  phantoms of heroes,'\\n 'was renamed and reshaped in the Scarlet\\n  King's name, and sealed in this place.'\\w\\k\\c 'Should one who bears the Scarlet King's\\n  name and holds every magic stone come,'\\n 'the right to wield \\3the King's Sword\\2 shall\\n  be granted to that one without fail.'\\w\\k\\c 'Offer the magic stones upon the statue,'\\n 'and the road ye seek shall open, step by\\n  step.'\\w\\u\\k\\e"
+  "en": "\\2 'The sword of legend, once guarded by the\\n  phantoms of heroes,'\\w\\k\\c 'was renamed and reshaped in the Scarlet\\n  King's name, and sealed in this place.'\\w\\k\\c 'Should one who bears the Scarlet King's\\n  name and holds every magic stone come,'\\w\\k\\c 'the right to wield \\3the King's Sword\\2 shall\\n  be granted to that one without fail.'\\w\\k\\c 'Offer the magic stones upon the statue,'\\n 'and the road ye seek shall open, step by\\n  step.'\\w\\u\\k\\e"
  },
  {
   "id": "TM29:00600",
@@ -1197,7 +1197,7 @@
    1536,
    2048
   ],
-  "en": "\\s  After you choose \\o'New Game'\\s,\\o\\w\\s\\n hold down the \\o'CTRL' key\\s on the keyboard\\n and the right mouse button.\\w Keep holding both\\n until the game starts, and you're all set.\\o\\s\\k\\c  Next, I'll give a quick introduction to the\\n team \\o(from my own point of view)\\s.\\o\\w\\s But\\n there isn't room in the data, so I can't\\n introduce everyone\\o...\\w...\\s *sob*\\o!\\k\\c\\s  Luckily you can still see them all in the\\n ending credits \\o(thank heavens).\\w\\s\\n  Well then,\\o \\w\\slet's begin the introductions.\\k\\e"
+  "en": "\\s  After you choose \\o'New Game'\\s,\\o\\w\\s\\n hold down the \\o'CTRL' key\\s on the keyboard\\n and the right mouse button.\\w\\k\\c Keep holding both until the game starts, and\\n you're all set.\\o\\s\\k\\c  Next, I'll give a quick introduction to the\\n team \\o(from my own point of view)\\s.\\o\\w\\k\\c\\s But there isn't room in the data, so I can't\\n introduce everyone\\o...\\w...\\s *sob*\\o!\\k\\c\\s  Luckily you can still see them all in the\\n ending credits \\o(thank heavens).\\w\\s\\n  Well then,\\o \\w\\slet's begin the introductions.\\k\\e"
  },
  {
   "id": "TM31:00000",
@@ -1207,7 +1207,7 @@
    0,
    512
   ],
-  "en": " > Joe Asanuma\\n   Wolf Team's head honcho, boss number one.\\n   He's also the one who braved the risk and\\n   first proposed a hard-disk version.\\k\\c\\n   So be grateful for his meddling, everyone.\\k\\c > Uncle Inage (don't you call him old~)\\n   Lead on the core tech. So devoted that he\\n   worked himself to death for Hiouden II'.\\n   It's enough to make you weep buckets.\\k\\c > Ozawa\\n   Genius programmer. So good he could code a\\n   link between our world and the Demon Realm.\\n   Er, just kidding. Don't take it seriously.\\k\\c > Miyake\\n   Another programmer. He did all the battle\\n   and magic AI. Though rumour has it the\\n   pathing AI nearly killed him.\\k\\e"
+  "en": " > Joe Asanuma\\n   Wolf Team's head honcho, boss number one.\\k\\c\\n   He's also the one who braved the risk and\\n   first proposed a hard-disk version.\\k\\c\\n   So be grateful for his meddling, everyone.\\k\\c > Uncle Inage (don't you call him old~)\\n   Lead on the core tech. So devoted that he\\n   worked himself to death for Hiouden II.\\k\\c\\n   It's enough to make you weep buckets.\\k\\c > Ozawa\\n   Genius programmer. So good he could code a\\n   link between our world and the Demon Realm.\\k\\c\\n   Er, just kidding. Don't take it seriously.\\k\\c > Miyake\\n   Another programmer. He did all the battle\\n   and magic AI.\\k\\c\\n   Though rumour has it the\\n   pathing AI nearly killed him.\\k\\e"
  },
  {
   "id": "TM31:00200",
@@ -1217,7 +1217,7 @@
    512,
    1024
   ],
-  "en": " > Isogai\\n   Our great artist. In truth, nearly all the\\n   maps and monsters were done by him alone.\\n   Makes you sweat just thinking about it.\\k\\c > Sakuraba\\n   Composer. He wrote a whole lot of lovely\\n   tunes for our Hiouden II. I'm a big fan of\\n   his style myself.\\k\\c Special mention: Hiro\\n   Odd-job man. Besides drawing terrain pieces\\n   for the hard-disk version, he does lots of\\n   little jobs. Quite an octopus, isn't he?\\k\\c\\nMKG:\\s You've made it this far,\\o\\w\\s and one\\n     third of the game is left.\\o\\w\\s\\n     Keep at it, everyone!\\o\\w\\s\\e"
+  "en": " > Isogai\\n   Our great artist. In truth, nearly all the\\n   maps and monsters were done by him alone.\\k\\c\\n   Makes you sweat just thinking about it.\\k\\c > Sakuraba\\n   Composer. He wrote a whole lot of lovely\\n   tunes for our Hiouden II.\\k\\c\\n   I'm a big fan of his style myself.\\k\\c Special mention: Hiro\\n   Odd-job man.\\k\\c   Besides drawing terrain pieces for the\\n   hard-disk version, he does lots of little\\n   jobs. Quite an octopus, isn't he?\\k\\c\\nMKG:\\s You've made it this far,\\o\\w\\s and one\\n     third of the game is left.\\o\\w\\s\\n     Keep at it, everyone!\\o\\w\\s\\e"
  },
  {
   "id": "TM31:00400",

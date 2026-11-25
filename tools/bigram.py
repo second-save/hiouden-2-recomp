@@ -78,11 +78,16 @@ def tm_layout(text):
     arrow has its own row (the original always writes `\\u\\k` there). Returns (text, worst rows scrolled away
     between two pauses): more than 1 means a reader loses lines that scroll off before the pause."""
     out, row, col, scrolled, worst = [], 0, 0, 0, 0
+    header = False  # the page's first row is a speaker tag (\2Name:\F): losing it to a scroll is what the original does
     for is_code, s in parts(text):
         if not is_code:
             out.append(s)
             col += 2 * cells(s)
             continue
+        if s == "\\n" and row == 0 and out and out[-1] == "\\F":
+            # a first row drawn wholly in a colour (\2Name:\F, \2Onick Bird:  Unknown Family\F) is a header
+            codes = [x for x in out if x.startswith("\\")]
+            header = any(c in ("\\2", "\\3", "\\4", "\\8") for c in codes[-3:])
         if s == "\\n":
             if row == TM_ROWS - 1:
                 s, scrolled = "\\u", scrolled + 1
@@ -95,12 +100,14 @@ def tm_layout(text):
             row, col = min(row + 1, TM_ROWS - 1), 0
         elif s == "\\c":
             row = col = scrolled = 0
+            header = False
         elif s in ("\\k", "\\e"):
             if s == "\\k" and row == TM_ROWS - 1 and col:
                 out.append("\\u")
                 scrolled += 1
                 col = 0
-            worst, scrolled = max(worst, scrolled), 0
+            worst = max(worst, scrolled - (1 if header else 0))  # content rows lost before the reader can see them
+            scrolled, header = 0, False
         out.append(s)
     return "".join(out), worst
 

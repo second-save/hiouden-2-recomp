@@ -104,9 +104,9 @@ def rule(e):
             if est_bytes(en) > TM_BYTES:
                 return f"{est_bytes(en)} bytes, the slot holds {TM_BYTES}"
             scrolled = bigram.tm_layout(bigram.slide_pauses(en))[1]
-            if scrolled > 1:
-                return (f"{scrolled} rows scroll away before a pause (the box shows 4 rows): "
-                        "add a \\k\\c page break so each page has at most 5 rows")
+            if scrolled > 0:
+                return (f"{scrolled} text row(s) scroll away before a pause (the box shows 4 rows; only a "
+                        "speaker header may scroll off): add a \\k\\c page break at a sentence end")
         return "46/line", tm
     if k.endswith("_desc"):
         return "3 rows x 50 (auto-wrapped)", lambda en: (
@@ -178,8 +178,16 @@ def problems(entry, en, terms):
         out.append(f"unencodable characters {bad} (ASCII only; no [ ] \\ ^ outside codes)")
     if re.search(r"\\u[0-9a-fA-F]{4}", en) or "\t" in en:
         out.append("escape sequence or tab in the English")
-    want = Counter(t for t in TOKEN.findall(src(entry)) if t not in FREE)
-    have = Counter(t for t in TOKEN.findall(en) if t not in FREE)
+    free = FREE
+    if block(entry) == "ED_E" and "^0" not in src(entry) and "^[01]" in src(entry):
+        # ED_E narration: ^[nn] codes drive a scrolling crawl; with any other line structure than the original's
+        # the last line stays on screen under the staff roll (verified in game 2026-11-25). Keep every ^[nn]
+        # exactly (same count, so the same number of lines, each <= 50 columns); ^0 there garbles the line.
+        free = FREE - {"^0"}
+        if "^0" in en:
+            out.append("this narration page breaks lines with ^[01], not ^0")
+    want = Counter(t for t in TOKEN.findall(src(entry)) if t not in free)
+    have = Counter(t for t in TOKEN.findall(en) if t not in free)
     if want != have:
         out.append(f"control codes differ: source {dict(want)} EN {dict(have)}")
     for zhs, ens, avoid in terms:

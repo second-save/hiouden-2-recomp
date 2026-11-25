@@ -33,6 +33,9 @@ Standing non-bugs (`ok`):
 - lines in the ORIGINAL that run onto the border (several Chinese messages are 24-27 cells wide);
 - two letters per 16 px cell, so word spacing can look slightly uneven after a colour code (half-cell gaps);
 - `+-` in level-up stats stands for the original's ± sign.
+- Second round (after fixes): a page may scroll ONE row while typing before it pauses (the original does the same);
+  more than one row lost before a pause is an issue. A line hidden under the wait arrow is an issue. Opening and
+  ending narration must not be cut at the right edge.
 
 ## Verdicts
 Write your verdict file once you have read every sheet, one line per id in the chunk:
