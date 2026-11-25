@@ -1,0 +1,28 @@
+# Hiouden II (Taiwanese DOS release, via the native recomp) English translation
+
+Skill: translate-retro-game (`~/.claude/skills/translate-retro-game/SKILL.md`; `python3 tools/skill.py` prints it). Read it before text or QA work.
+The game runs in this repo's own recomp (`src/`, CMake, binary `build/hiouden2`); there is no emulator.
+
+## Commands (run from repo root)
+- Recomp:   `cmake --build build` -> `build/hiouden2`
+- Check:    `python3 -X utf8 tools/check.py` (all tests in `tests/`; the pre-commit hook runs it; `git config core.hooksPath tools/hooks`)
+- Dump:     `python3 tools/check_rom.py` (original files vs `rom.sha1`)
+- Smoke:    `build/hiouden2 --data-dir hio2 --headless-test 1500 --dump-frame work/qa/smoke.bmp` (title menu appears ~frame 1400)
+- Click:    add `--test-click x,y,frame` (640x400 coords); `--trace-overlays` logs file I/O and mouse setup
+- Build/Release: not written yet (phase 3+)
+
+## Paths
+- Original game: `hio2/` (Taiwanese DOS install, Big5; gitignored, pinned in `rom.sha1`). Never write into it: builds go to `build/game/`.
+- FM Towns disc (Japanese names only): `Hioden-II_FM-Towns_JA/`; `tools/extract_towns_cd.py` -> `extracted/` (gitignored).
+- Font: `hio2/A.NUM` (Big5 code list) + `A.CHA` (16x15 glyphs, 30 bytes each, same order). Small set: `T_WK1.*`.
+- RE notes: `docs/re/` (`text_inventory.md`, `file_table.md`, `japanese_names.md`). Glossary: `glossary.md`. Fonts: `docs/fonts.md`.
+
+## Rulings
+- Edit source files only with the file-edit tool; scripts read and analyse, never `.replace()` and write back.
+- Python is `python3` here (no `python` on this Mac).
+- Test runs must never touch the user's saves: run QA on a copy of the game dir, never `hio2/` itself.
+- Subagents: use the skill's translator / reviewer / visual-qa briefs (`$SKILL/assets/*-brief.md`).
+- User decisions with options and reasons: `docs/decisions.md`. Read before asking; add new rulings the same session.
+
+## Status
+`docs/status.md`: done, next, open bugs. Update it at the end of every session.
