@@ -11,6 +11,6 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D3 | 2026-11-25 | Romanization source for names | Aeon Genesis Hiouden 1 patch (SNES, 2005); fresh romanization | Aeon Genesis spellings for returning characters, Hepburn from the Japanese katakana for new ones, so the two games match |
 | D4 | 2026-11-25 | English font | 8 px half-width / VWF; full-width glyphs | 8 px half-width. Implemented as two Latin letters per 16x15 glyph slot in `A.CHA` (see `docs/fonts.md`), so no engine change and the patch also runs in the original DOS game |
 | D5 | 2026-11-25 | Source script, after the Towns CD turned out to hold no dialogue (only names, graphics, scenes; the script was on the HDD install / PC-98 disks, which we don't have) | find a PC-98/floppy image; translate from Chinese | Translate from the Taiwanese DOS Big5 script. Use the Japanese wherever it survives: unit/monster names (Towns `H2MF/MAP*.LZ5`, `hio2/WIND0.HIO`), opening narration (`hio2/VIS4.EXE`) |
-| D6 | <ask> | Honorifics and name order | keep, drop; JP or Western order | <ask> |
-| D7 | <ask> | Credits (TM31/TM32 Taiwanese dev notes, staff roll) | keep, translate | <ask> |
-| D8 | <ask> | Specs and plans | need approval, pre-approved | <ask> |
+| D6 | 2026-11-25 | Honorifics and name order | keep, drop; JP or Western order | No honorifics, Western name order (given name first) |
+| D7 | 2026-11-25 | Credits (TM31/TM32 Taiwanese dev notes, staff roll) | keep, translate | Translate TM31 and TM32 into English |
+| D8 | 2026-11-25 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through checkpoints, report at the end |

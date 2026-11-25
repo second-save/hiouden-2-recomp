@@ -110,6 +110,7 @@ void print_usage(const char* argv0) {
                  "  --scale <N>                  Window integer scale factor (default: 2)\n"
                  "  --headless-test <frames>     Run N frames headlessly and exit\n"
                  "  --dump-frame <path.bmp>      Save final 640x400 framebuffer to BMP\n"
+                 "  --dump-every <N> <dir>       Save every Nth frame as <dir>/fNNNNNN.bmp (dir must exist)\n"
                  "  --test-click <x>,<y>,<frame> Inject mouse move + left click in test mode\n"
                  "  --trace-overlays             Log INT 8Eh overlays and INT B5h/21h file I/O\n",
                  argv0);
@@ -122,6 +123,8 @@ int main(int argc, char** argv) {
     int scale = 2;
     int headless_frames = -1;
     std::string dump_frame_path;
+    std::string dump_every_dir;
+    int dump_every = 0;
     bool trace_overlays = false;
     std::vector<TestClick> test_clicks;
 
@@ -135,6 +138,9 @@ int main(int argc, char** argv) {
             headless_frames = std::max(1, std::atoi(argv[++i]));
         } else if (arg == "--dump-frame" && i + 1 < argc) {
             dump_frame_path = argv[++i];
+        } else if (arg == "--dump-every" && i + 2 < argc) {
+            dump_every = std::max(1, std::atoi(argv[++i]));
+            dump_every_dir = argv[++i];
         } else if (arg == "--test-click" && i + 1 < argc) {
             TestClick tc;
             if (std::sscanf(argv[++i], "%d,%d,%d", &tc.x, &tc.y, &tc.frame) == 3) {
@@ -304,6 +310,11 @@ int main(int argc, char** argv) {
         }
 
         vga.render_argb(framebuffer.data());
+        if (dump_every > 0 && frame % dump_every == 0) {
+            char name[32];
+            std::snprintf(name, sizeof(name), "/f%06d.bmp", frame);
+            vga.save_bmp(dump_every_dir + name);
+        }
 
         if (!headless) {
             SDL_UpdateTexture(texture, nullptr, framebuffer.data(), 640 * sizeof(uint32_t));
