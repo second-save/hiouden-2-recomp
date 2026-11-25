@@ -32,7 +32,7 @@ spaces**. Where a few have direct refs (DS = image 0x10000 base, e.g. `咒語：
 | 0x18DBF | title + record menu (`重新開始遊戲` `繼續上次進度` `玩者資料格式化` `開頭畫面展示` `記錄`), format confirm, `儲存進度中•••` | padded | |
 | 0x192F2-0x19980 | toolbar help: 39 NUL-separated strings (titles 10 cells, lines 17 cells), some entries 2-3 lines | fixed 20/34-byte fields, `\0` between | 20 / 34 letters |
 | 0x19FAF-0x1A4EE | `■魔界ＨＥＬＰ■` help pages (chest/scroll/crystal, unit formation, contract limit) | 50-cell (100-byte) rows | |
-| 0x1A39C | floor names `地下牢Ｂ６Ｆ` ... `古代遺跡２` | 8-cell slots (in the 0x1A33A run) | 16 letters |
+| 0x1A39C | 21 floor names `地下牢Ｂ６Ｆ` ... `地下神殿` (one per MPnn) | 8-cell slots | 16 letters |
 | 0x1A4EF-0x1B4A0 | **bopomofo character picker**: initials row, `記號 第二 插入 削除`, then 1,425 hanzi grouped by initial, full-width symbols and A-Z/a-z | IME table | see open question |
 | 0x1CF70 | unit/monster type names (48) | 16-byte slots | 8 cells = 16 letters |
 | 0x1D538 | item names (128) | 36-byte records: 20-byte name + 16 data bytes | 10 cells = 20 letters |
@@ -57,7 +57,10 @@ Growing a block means moving it past the code that follows and patching these im
   only matter for a DOS release (D4 says the patch should also run in DOS). Low priority, `$`-terminated strings.
 
 ## Open questions
-1. Where is the bopomofo picker used (naming saves? created monsters, `成功地創造出來了`)? English needs an A-Z
-   picker in its place: find the screen first.
+1. Where is the bopomofo picker used? Probably nowhere: no naming/input wording in any text (名字 命名 輸入 名稱
+   姓名 改名 all absent), no direct code ref found, and none of these opened it (2026-11-25, warp + clicks): name in
+   the status popup (L/R), party list name, the bottom-right ornament on a 25 px grid (found: load book ~560,365,
+   restart ~590,385, item settings 625,380), right-edge and top-bar icons. If a screen turns up, replace the table
+   with A-Z in place.
 2. Exact field boundaries inside the 0x1E740 run and the help pages: confirm in-game when inserting.
 3. GR*.CVD / logo / window art: graphics-text survey (status Next).
