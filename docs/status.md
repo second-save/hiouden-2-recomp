@@ -2,16 +2,21 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 1 (recon). Setup (step 0) done 2026-11-25. No build yet.
+- **Phase:** 1 (recon) mostly done; phase 2 (debug tool) started. Rulings D1-D8 all answered (`docs/decisions.md`).
 - **Done:**
   - Repo set up from the fan-translation template; guard hook proven (blocks `sed -i`); pre-commit runs `tools/check.py`; originals pinned in `rom.sha1`.
-  - Towns CD holds no script (only names, graphics, scenes; data ends at LBA 1452, rest is zero padding). Source = Chinese DOS (D5).
-  - Font: `A.NUM` = 3244 Big5 codes (unsorted), `A.CHA` = 3244 glyphs, 16x15, 30 bytes, 2 bytes/row big-endian. Only `HIOSYS.EXE` opens it. Proven: editing the glyph for 重 changes the title menu (`work/fonttest.png`).
-  - CVD text: `TM*.CVD` 2048-byte dialogue files, text ends at `\e` (max 480 bytes used; tail is junk). Codes: `\2..\8` colour, `\F` reset, `\n`, `\w \o \s \u` waits, `\k` key wait, `\c` clear, `\e` end. `IM*/MM*.CVD` are fixed-width records (name padded to 25 full-width cols, then description rows); `CD/EN/GR*.CVD` are graphics, not text.
+  - Towns CD holds no script (only names, graphics, scenes). Source = Chinese DOS (D5).
+  - Font: `A.NUM` + `A.CHA`, 16x15, 30 bytes/glyph. **Capacity 4001 entries** (757 appendable), lookup by code, count from file size. HIOSYS title menu, OP_E opening and VIS intro all draw with it (glyph tests). Details: `docs/fonts.md`.
+  - CVD text: `TM*.CVD` dialogue, ends at `\e` (max 480 bytes used). Codes: `\2..\8` colour, `\F` reset, `\n`, `\w \o \s \u` waits, `\k` key wait, `\c` clear, `\e` end. IM/MM: 8 records x 196 bytes per file (128 items, 24 spells); see `docs/re/text_inventory.md`.
+  - Saves: `MAPn.HIO`/`WINDn.HIO` slots, all at the start; game writes `MAP0.TMP`/`WIND0.TMP` (smoke command now uses `work/qa/game`).
+  - Recomp flags added: `--dump-every N DIR`, `--remap A=B` (served in `resolve_path`).
+  - Debug warp: `tools/debug/warp.py --stage NN` boots cold, starts New Game, clicks through the VIS intro and lands on stage NN (remaps MP01.HMF). Verified on 01, 02, 08, 14.
+  - TM31/TM32 English drafts in `script/en/` (D7), Western order, no honorifics (D6). Not inserted yet.
 - **Next:**
-  1. Confirm the cutscene EXEs (`VIS.EXE`, `OP_E.EXE`, `ED_E.EXE`) draw with `A.CHA` too (warp or play to the opening, same glyph test).
-  2. Learn how HIOSYS maps a Big5 code to a glyph (linear search of A.NUM? count from file size?) to know if glyphs can be appended or only reused.
-  3. Map IM/MM record layout; list every text site (CVD, EXE string tables + their pointers/fixed fields, HMF/WIND/MAP name slots).
-  4. Phase 2 debug tool: a way to reach any TM/IM/cutscene from a cold boot in the recomp (e.g. a `--warp` flag or env var that loads a given CVD into the message window).
+  1. Debug tool, TM messages: find a TM trigger close to a stage start (walk by `--click` on the map) or the TM display call in HIO.EXE, then `--remap TMxx.CVD=TMyy.CVD` shows any TM. Same for the item window (IM) and spell window (MM), and the ending (ED_E.EXE: find how it is launched; overlay ID like OP_E's 0x4410).
+  2. Item window: measure IM/MM field widths in-game (layout is still a guess).
+  3. List every remaining text site: HIO.EXE strings (279 runs; menus, window help, save list `記錄`/`地下牢B6F-1`) and how they are addressed (fixed fields or pointers); OP_E/ED_E/VIS `^`-coded scripts; HMF/WIND name slots.
+  4. Graphics-text survey (GR*.CVD, title logo, window art).
+  5. Then phase 3 (identity build into `build/game/`) and phase 4 (extract).
 - **Open bugs:** none.
-- **Waiting on the user:** D6-D8 in `docs/decisions.md` (honorifics, credits, approval mode).
+- **Waiting on the user:** nothing.

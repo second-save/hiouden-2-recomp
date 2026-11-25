@@ -112,7 +112,8 @@ void print_usage(const char* argv0) {
                  "  --dump-frame <path.bmp>      Save final 640x400 framebuffer to BMP\n"
                  "  --dump-every <N> <dir>       Save every Nth frame as <dir>/fNNNNNN.bmp (dir must exist)\n"
                  "  --test-click <x>,<y>,<frame> Inject mouse move + left click in test mode\n"
-                 "  --trace-overlays             Log INT 8Eh overlays and INT B5h/21h file I/O\n",
+                 "  --remap <FROM>=<TO>          Serve file TO whenever the game opens FROM (debug warps)\n"
+                 "  --trace-overlays            Log INT 8Eh overlays and INT B5h/21h file I/O\n",
                  argv0);
 }
 
@@ -127,6 +128,7 @@ int main(int argc, char** argv) {
     int dump_every = 0;
     bool trace_overlays = false;
     std::vector<TestClick> test_clicks;
+    std::vector<std::pair<std::string, std::string>> remaps;
 
     for (int i = 1; i < argc; ++i) {
         const std::string arg = argv[i];
@@ -149,6 +151,16 @@ int main(int argc, char** argv) {
                 std::fprintf(stderr, "Invalid --test-click format (expected x,y,frame)\n");
                 return 1;
             }
+        } else if (arg == "--remap" && i + 1 < argc) {
+            std::string spec = argv[++i];
+            const size_t eq = spec.find('=');
+            if (eq == std::string::npos) {
+                std::fprintf(stderr, "Invalid --remap format (expected FROM=TO)\n");
+                return 1;
+            }
+            std::string from = spec.substr(0, eq);
+            for (char& c : from) c = static_cast<char>(std::tolower(static_cast<unsigned char>(c)));
+            remaps.emplace_back(from, spec.substr(eq + 1));
         } else if (arg == "--trace-overlays") {
             trace_overlays = true;
         } else if (arg == "--help" || arg == "-h") {
@@ -167,6 +179,7 @@ int main(int argc, char** argv) {
     Cpu386 cpu(&vga);
     AudioEngine audio;
     DosRuntime dos(&cpu, &vga, &audio);
+    for (const auto& r : remaps) dos.remap[r.first] = r.second;
 
     cpu.set_int_handler([&](uint8_t vec) { return dos.handle_int(vec); });
     cpu.set_port_handlers(

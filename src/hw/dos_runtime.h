@@ -32,6 +32,9 @@ public:
     bool has_pending_scancode() const { return !kbd_scancodes_.empty(); }
     uint8_t pop_scancode_for_irq();
 
+    // Debug: serve file B whenever the game opens file A (key: lower-case DOS name). Set by --remap A=B.
+    std::unordered_map<std::string, std::string> remap;
+
 private:
     Cpu386* cpu_ = nullptr;
     EgaVga* vga_ = nullptr;

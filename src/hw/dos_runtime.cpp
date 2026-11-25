@@ -177,6 +177,8 @@ std::string DosRuntime::resolve_path(const std::string& dos_path) const {
     while (!p.empty() && std::isspace(static_cast<unsigned char>(p.back()))) {
         p.pop_back();
     }
+    const auto rm = remap.find(to_lower(p));
+    if (rm != remap.end()) p = rm->second;
 
     fs::path direct = fs::path(data_dir_) / p;
     if (fs::exists(direct)) return direct.string();

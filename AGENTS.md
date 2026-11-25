@@ -7,8 +7,10 @@ The game runs in this repo's own recomp (`src/`, CMake, binary `build/hiouden2`)
 - Recomp:   `cmake --build build` -> `build/hiouden2`
 - Check:    `python3 -X utf8 tools/check.py` (all tests in `tests/`; the pre-commit hook runs it; `git config core.hooksPath tools/hooks`)
 - Dump:     `python3 tools/check_rom.py` (original files vs `rom.sha1`)
-- Smoke:    `build/hiouden2 --data-dir hio2 --headless-test 1500 --dump-frame work/qa/smoke.bmp` (title menu appears ~frame 1400)
-- Click:    add `--test-click x,y,frame` (640x400 coords); `--trace-overlays` logs file I/O and mouse setup
+- Smoke:    `cp -R hio2 work/qa/game` once, then `build/hiouden2 --data-dir work/qa/game --headless-test 1500 --dump-frame work/qa/smoke.bmp` (title menu ~frame 1400; the game writes MAP0.TMP/WIND0.TMP, so never `--data-dir hio2`)
+- Click:    add `--test-click x,y,frame` (640x400 coords); `--trace-overlays` logs file I/O; `--dump-every N DIR`; `--remap A=B` serves file B when the game opens A
+- Warp:     `python3 tools/debug/warp.py --stage NN --out DIR` (cold boot -> New Game on MPNN.HMF; extra `--remap`, `--click`)
+- Images:   `magick` / `montage` (no PIL here)
 - Build/Release: not written yet (phase 3+)
 
 ## Paths

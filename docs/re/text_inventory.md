@@ -58,6 +58,18 @@ Summary of all text-bearing files and executable segments in `hio2/`.
 | `MM02.CVD` | 2048 | Big5 | 熊熊變身術　　　　　　　　【消耗ＭＰ：１０】　　　使敵人在一定時間內變成布娃娃泰迪熊。變成泰迪　　熊的敵人只能乖乖的坐在地上，但由於這時呈無敵狀　　狀態，所以你 |
 | `MM03.CVD` | 2048 | Big5 | 魔法陷阱術　　　　　　　　【消耗ＭＰ：２０】　　　在地表上設置魔法陷阱的咒語，只是經由此陷阱打　　倒敵人的話卻賺不到經驗值。尤其要注意這個陷阱對　　敵我雙方都有 |
 
+### IM/MM record layout (verified by decoding all 19 files, 2026-11-25)
+- 8 records per file, 196 bytes each (98 double-byte cells), at 0, 196, ... 1372. Bytes after 1568 are stale buffer.
+- 16 IM files = 128 items (IM16 includes `製作群` "Staff", two `預定` "TBD" placeholders); 3 MM files = 24 spells.
+- Inside a record: name + optional stat tag (`【活力＋５０＋α】`, `【消耗ＭＰ：１０】`) padded with U+3000, then the
+  description, padded with U+3000; description lines appear to wrap at about 24 cells. **Guess**: the exact field
+  widths (name 24 or 25 cells) need an in-game look at the item window.
+
+### Save files (verified, 2026-11-25)
+- `MAPn.HIO` + `WINDn.HIO` (n = 0-9, A) are save slots; `DATA.ATR` is the slot list; `MAPn.INI`/`WINDn.INI` are
+  blanks. `MAP0.TMP`/`WIND0.TMP` are the live game state, written by the game. All 10 shipped slots sit at the
+  start (地下牢B6F-1), so they give no head start.
+
 ## 2. Stage Maps (`MP01..21.HMF`) & Window Name Tables (`WIND0.HIO`, `WIND1..A.INI`)
 
 - `MP01.HMF`..`MP21.HMF`: 7168 bytes each; 25 fixed 16-byte unit name slots at `0x1A40..0x1BD0` (Big5 in `hio2/`, Shift-JIS in FM Towns `H2MF/MAP00..20.LZ5`).
