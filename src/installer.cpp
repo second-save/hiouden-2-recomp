@@ -99,7 +99,28 @@ std::string patches_dir() {
     return b + "patches/";
 }
 
-bool is_installed() { return fs::exists(game_dir() + "install.ok") && looks_like_game(game_dir()); }
+// Names and CRCs of the shipped patches, written to install.ok: a newer release's patches don't match it,
+// so the launcher asks for the game folder again instead of running an old English copy.
+const std::string& patch_stamp() {
+    static const std::string stamp = [] {
+        std::vector<std::string> names;
+        std::error_code ec;
+        for (const auto& e : fs::directory_iterator(patches_dir(), ec)) names.push_back(e.path().filename().string());
+        std::sort(names.begin(), names.end());
+        std::string s = "Hiouden II English patch\n", p;
+        for (const auto& n : names)
+            if (read_file(fs::path(patches_dir()) / n, p)) s += n + " " + std::to_string(crc32(p, p.size())) + "\n";
+        return s;
+    }();
+    return stamp;
+}
+
+bool is_installed() {
+    std::string s;
+    return read_file(game_dir() + "install.ok", s) && s == patch_stamp() && looks_like_game(game_dir());
+}
+
+bool needs_update() { return fs::exists(game_dir() + "install.ok") && !is_installed(); }
 
 bool bps_apply(const std::string& src, const std::string& p, std::string& out) {
     out.clear();
@@ -200,7 +221,7 @@ std::string install(const std::string& src_in) {
     }
     fs::rename(tmp, dst, ec);
     if (ec) return "Couldn't finish the install: " + ec.message();
-    write_file(dst / "install.ok", "Hiouden II English patch installed\n");
+    write_file(dst / "install.ok", patch_stamp());
     return "";
 }
 

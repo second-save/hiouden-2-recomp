@@ -36,7 +36,7 @@ The full list is in `HOW-TO-PLAY.txt`, which comes with every download.
 
 Saves and the patched copy live in `~/Library/Application Support/Second Save/Hiouden II/` (macOS),
 `%APPDATA%\Second Save\Hiouden II\` (Windows) or `~/.local/share/Second Save/Hiouden II/` (Linux).
-Playing in DOSBox instead? Each release also has `Hiouden2_EN_v1.0.zip`: per-file BPS patches and `apply.py`.
+Playing in DOSBox instead? Each release also has `Hiouden2_EN_v1.1.zip`: per-file BPS patches and `apply.py`.
 
 ## Translation status
 

@@ -2,10 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** all 9 done. v1.0 built locally: `dist/Hiouden2_EN_v1.0.zip` (92 KB, 98 per-file BPS patches + `apply.py`,
-  sha1 4239ab1f4fd305d2a0c97a8552941d30ef811425, 2026-11-25). Every release gate passed: tests, smoke, no Chinese
-  left, visual QA (146 sheets, 4 rounds), story pass (3 chapters), polish list, README, re-apply check.
-  **Not published**: publishing under second-save waits for the user.
+- **Phase:** released. v1.0 then v1.1 (2026-11-25) published at github.com/second-save/hiouden-2-recomp. v1.1:
+  real-time DOS clock (v1.0 ran too fast), Esc quit box, hero renamed Mark (D13), how-to-play in README and
+  HOW-TO-PLAY.txt, launcher asks to update when the shipped patches differ from the installed copy (install.ok holds
+  the patch CRCs). v1.1 waived the visual-tour gate (only the shorter name changed; intro re-checked on screen).
 - **Done:**
   - Recon + debug tool: `docs/re/` (text_sites.md maps every string), `tools/debug/warp.py` (`--stage`, `--msg N`,
     `--vis N`, `--opening`, `--ending`, `--base DIR`; skips the start-up intro unless `--with-intro`), `tools/tour.py`
@@ -28,6 +28,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   container, Windows untested). Possible improvements: a code patch for the
   2-letter weakness names (HIO:1E91A), test in DOSBox, check the window-setup and save dialogs in game.
 - **Open bugs:** none known. Known limits in README.
-- **Waiting on the user:** D9/D12 (names, 王兄 tag) were taken under D8 and may be overridden; publishing.
+- **Waiting on the user:** D12 (王兄 tag) was taken under D8 and may be overridden. Guide facts confirmed by the
+  user: the Hourglass starts marching, fights are automatic, the v1.1 speed is right.
 - Note: `hio2/MAP0.TMP`/`WIND0.TMP`/`stdout.txt`/`stderr.txt` were written by a run on hio2/ before the repo existed;
   harmless (live state, never patched).

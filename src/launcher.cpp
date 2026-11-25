@@ -158,6 +158,9 @@ bool run_launcher(LaunchOptions& out) {
         if (ok) {
             text("Installed, English patch applied.", 76, 162, GREEN);
             text("Choose the folder again to reinstall (saves are kept).", 76, 184, MUTED);
+        } else if (installer::needs_update()) {
+            text("New version of the English patch. Choose your game", 76, 162, GOLD);
+            text("folder again to update (saves are kept).", 76, 184, GOLD);
         } else {
             text("Not installed. Choose the folder of your own copy of", 76, 162, TEXT);
             text("Hiouden II, the Taiwanese DOS release (HIO.EXE).", 76, 184, TEXT);

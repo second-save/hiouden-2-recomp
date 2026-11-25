@@ -9,7 +9,8 @@ namespace installer {
 std::string pref_dir();     // per-user app folder, e.g. ~/Library/Application Support/Second Save/Hiouden II/
 std::string game_dir();     // pref_dir() + "game/": the patched copy the game runs from
 std::string patches_dir();  // folder holding the *.bps patches
-bool is_installed();
+bool is_installed();  // installed with the patches shipped next to this program
+bool needs_update();  // installed, but with an older release's patches
 
 // Installs from `src` (the game folder, or a folder containing it). Returns "" on success, else a message for the
 // player. Saves from an earlier install are kept.
