@@ -88,6 +88,8 @@ def tm_layout(text):
             # a first row drawn wholly in a colour (\2Name:\F, \2Onick Bird:  Unknown Family\F) is a header
             codes = [x for x in out if x.startswith("\\")]
             header = any(c in ("\\2", "\\3", "\\4", "\\8") for c in codes[-3:])
+        if s == "\\n" and row == 0 and col == 0:
+            header = True  # a blank first row (the original's `\c\n` pages): scrolling it off loses nothing
         if s == "\\n":
             if row == TM_ROWS - 1:
                 s, scrolled = "\\u", scrolled + 1
@@ -95,9 +97,15 @@ def tm_layout(text):
                 row += 1
             col = 0
         elif s == "\\u":
-            if row == TM_ROWS - 1:
+            # \u always scrolls the box one row (verified in game: TM29's 3-row last page lost its first row);
+            # while the box still has free rows a plain \n does the job without losing the top row
+            if row < TM_ROWS - 1:
+                s = "\\n"
+                row += 1
+            else:
                 scrolled += 1
-            row, col = min(row + 1, TM_ROWS - 1), 0
+                row = min(row + 1, TM_ROWS - 1)
+            col = 0
         elif s == "\\c":
             row = col = scrolled = 0
             header = False
