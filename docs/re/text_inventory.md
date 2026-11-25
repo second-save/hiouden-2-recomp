@@ -64,9 +64,12 @@ The previews below show slot 0 only, and the text after its `\e` is slot 1 onwar
 ### IM/MM record layout (verified by decoding all 19 files, 2026-11-25)
 - 8 records per file, 196 bytes each (98 double-byte cells), at 0, 196, ... 1372. Bytes after 1568 are stale buffer.
 - 16 IM files = 128 items (IM16 includes `製作群` "Staff", two `預定` "TBD" placeholders); 3 MM files = 24 spells.
-- Inside a record: name + optional stat tag (`【活力＋５０＋α】`, `【消耗ＭＰ：１０】`) padded with U+3000, then the
-  description, padded with U+3000; description lines appear to wrap at about 24 cells. **Guess**: the exact field
-  widths (name 24 or 25 cells) need an in-game look at the item window.
+- Inside a record (verified in-game 2026-11-25, IM10 #0 破汗衫 via `warp.py --click 305,335,8100,2 --click
+  234,265,8700,2 --click 234,265,9000`, work/qa/it): name row = 24 cells (48 bytes), name left, stat tag
+  (`【防禦效果０】`, `【消耗ＭＰ：１０】`) right-aligned in it; then the description, 74 cells drawn as rows of 25 / 25 / 24
+  cells. Only the first 23 cells of a row are visible (the originals keep the last 2 blank), so: 3 lines of
+  46 Latin columns, the first line indented one cell.
+- The unit status popup (right-click a party member) has its own labels: 咒語 物品 抵抗 特殊 弱點 嗜食, 沒有.
 
 ### Save files (verified, 2026-11-25)
 - `MAPn.HIO` + `WINDn.HIO` (n = 0-9, A) are save slots; `DATA.ATR` is the slot list; `MAPn.INI`/`WINDn.INI` are

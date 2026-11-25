@@ -22,6 +22,8 @@ ap.add_argument("--remap", action="append", default=[])
 ap.add_argument("--click", action="append", default=[], help="extra x,y,frame[,btn] clicks after landing (btn 2=right)")
 ap.add_argument("--msg", type=lambda s: int(s, 0), help="show TM message N (file TM{N//4+1:02}, slot N%%4) on stage 1")
 ap.add_argument("--pages", type=int, default=6, help="with --msg: left clicks to page through it")
+ap.add_argument("--opening", action="store_true", help="play the opening (OP_E) via the title's demo entry")
+ap.add_argument("--ending", action="store_true", help="play the ending + staff roll (ED_E) in the opening's place")
 a, passthrough = ap.parse_known_args()  # anything else (e.g. --trace-ip 24607) goes to the recomp
 
 game = os.path.join(ROOT, "work/qa/game_warp")
@@ -43,9 +45,15 @@ if a.msg is not None:
     a.click += [f"320,300,{8400 + 300 * k}" for k in range(a.pages)]
     a.frames = max(a.frames, 8400 + 300 * a.pages + 100)
 cmd = [os.path.join(ROOT, "build/hiouden2"), "--data-dir", game, "--headless-test", str(a.frames),
-       "--test-click", TITLE_NEW_GAME, "--dump-frame", os.path.join(a.out, "last.bmp")]
-for f in INTRO_CLICKS:
-    cmd += ["--test-click", f"320,300,{f}"]
+       "--dump-frame", os.path.join(a.out, "last.bmp")]
+if a.opening or a.ending:
+    cmd += ["--test-click", "300,207,1450"]  # third title entry: opening demo (plays on its own, ~frame 1500-3500)
+    if a.ending:
+        cmd += ["--remap", "OP_E.EXE=ED_E.EXE"]  # verified 2026-11-25: ending + staff roll by ~frame 9000
+else:
+    cmd += ["--test-click", TITLE_NEW_GAME]
+    for f in INTRO_CLICKS:
+        cmd += ["--test-click", f"320,300,{f}"]
 for c in a.click:
     cmd += ["--test-click", c]
 if a.stage != "01":
