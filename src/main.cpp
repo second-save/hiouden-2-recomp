@@ -112,6 +112,8 @@ void print_usage(const char* argv0) {
                  "Usage: %s [options]\n"
                  "  --data-dir <path>            Game data directory (no flag: the launcher installs and picks it)\n"
                  "  --fullscreen                 Start fullscreen (Alt+Enter toggles)\n"
+                 "  --fast-timer                 Old fast clock (default when headless; debug tools are timed on it)\n"
+                 "  --realtime-timer             Real 18.2 Hz DOS clock even when headless\n"
                  "  --install <dir>              Install + patch your game files from <dir>, then exit\n"
                  "  --scale <N>                  Window integer scale factor (default: 2)\n"
                  "  --headless-test <frames>     Run N frames headlessly and exit\n"
@@ -132,6 +134,8 @@ int main(int argc, char** argv) {
     bool data_dir_given = false;
     int scale = 2;
     bool fullscreen = false;
+    bool fast_timer = false;      // --fast-timer: the old frame-paced clock (fast; headless default)
+    bool realtime_timer = false;  // --realtime-timer: real 18.2 Hz clock even headless
     int headless_frames = -1;
     std::string dump_frame_path;
     std::string dump_every_dir;
@@ -151,6 +155,10 @@ int main(int argc, char** argv) {
             scale = std::max(1, std::atoi(argv[++i]));
         } else if (arg == "--fullscreen") {
             fullscreen = true;
+        } else if (arg == "--fast-timer") {
+            fast_timer = true;
+        } else if (arg == "--realtime-timer") {
+            realtime_timer = true;
         } else if (arg == "--install" && i + 1 < argc) {  // install without the launcher window
             const std::string err = installer::install(argv[++i]);
             std::printf("%s\n", err.empty() ? ("installed into " + installer::game_dir()).c_str() : err.c_str());
@@ -270,6 +278,9 @@ int main(int argc, char** argv) {
     uint16_t mouse_btn = 0;
 
     const auto frame_duration = std::chrono::microseconds(16667);
+    // Headless runs keep the old fast clock: every debug warp and QA script is timed in frames against it.
+    if (headless && !realtime_timer) fast_timer = true;
+    double tick_acc = 0.0;
 
     while (running && !cpu.halted()) {
         const auto frame_start = std::chrono::steady_clock::now();
@@ -359,7 +370,7 @@ int main(int argc, char** argv) {
                 }
             }
 
-            if (cpu.hit_timer_read()) {
+            if (fast_timer && cpu.hit_timer_read()) {
                 ++timer_reads;
                 if (timer_reads % 16 == 0) {
                     cpu.trigger_irq(0x08);
@@ -372,8 +383,16 @@ int main(int argc, char** argv) {
             }
         }
 
-        if ((frame % 3) == 0 && !cpu.halted()) {
-            cpu.trigger_irq(0x08);
+        if (fast_timer) {
+            if ((frame % 3) == 0 && !cpu.halted()) cpu.trigger_irq(0x08);
+        } else {
+            // The game never reprograms the PIT: the DOS clock ticks at 1193182/65536 = 18.2065 Hz in real time.
+            // (The old pacing also ticked whenever the game polled the counter, which fast-forwarded every wait.)
+            tick_acc += 18.2065 / 60.0;
+            if (tick_acc >= 1.0 && !cpu.halted()) {
+                tick_acc -= 1.0;
+                cpu.trigger_irq(0x08);
+            }
         }
 
         vga.render_argb(framebuffer.data());
