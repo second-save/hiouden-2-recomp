@@ -15,7 +15,7 @@ How to play
 3. Click Play.
 
 Controls: mouse (left and right buttons) and keyboard, as in the original. Alt+Enter toggles fullscreen.
-Esc in the launcher quits.
+Esc asks whether to quit (Enter quits, Esc goes back; the game is paused meanwhile). Save first with the Quill.
 
 Where things go
 - macOS:   ~/Library/Application Support/Second Save/Hiouden II/

@@ -4,6 +4,7 @@
 #include "hw/ega_vga.h"
 #include "installer.h"
 #include "launcher.h"
+#include "font8x16.h"
 
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
@@ -98,6 +99,56 @@ uint16_t sdl_to_bios_key(SDL_Keycode key, uint8_t scancode) {
     if (key == SDLK_ESCAPE) return static_cast<uint16_t>((scancode << 8) | 0x1B);
     if (key == SDLK_SPACE) return static_cast<uint16_t>((scancode << 8) | ' ');
     return static_cast<uint16_t>(scancode << 8);
+}
+
+// ---- Quit box (Esc): drawn by the recomp over the last game frame, with the launcher's Spleen font
+constexpr int kQuitX = 160, kQuitY = 140, kQuitW = 320, kQuitH = 112;
+constexpr int kBtnY = kQuitY + 76, kBtnW = 130, kBtnH = 22, kQuitBtnX = kQuitX + 20, kBackBtnX = kQuitX + 170;
+
+void fill_rect(uint32_t* fb, int x, int y, int w, int h, uint32_t argb) {
+    for (int j = std::max(0, y); j < std::min(400, y + h); ++j)
+        for (int i = std::max(0, x); i < std::min(640, x + w); ++i) fb[j * 640 + i] = argb;
+}
+
+void frame_rect(uint32_t* fb, int x, int y, int w, int h, uint32_t argb) {
+    fill_rect(fb, x, y, w, 1, argb);
+    fill_rect(fb, x, y + h - 1, w, 1, argb);
+    fill_rect(fb, x, y, 1, h, argb);
+    fill_rect(fb, x + w - 1, y, 1, h, argb);
+}
+
+void draw_text(uint32_t* fb, const char* s, int x, int y, uint32_t argb) {
+    for (; *s; ++s, x += 8) {
+        int c = static_cast<unsigned char>(*s);
+        if (c < 32 || c > 126) c = '?';
+        for (int r = 0; r < 16; ++r)
+            for (int b = 0; b < 8; ++b)
+                if (kFont8x16[c - 32][r] & (0x80 >> b) && x + b < 640 && y + r < 400) fb[(y + r) * 640 + x + b] = argb;
+    }
+}
+
+void draw_centered(uint32_t* fb, const char* s, int cx, int y, uint32_t argb) {
+    draw_text(fb, s, cx - static_cast<int>(std::strlen(s)) * 4, y, argb);
+}
+
+bool in_rect(int mx, int my, int x, int y, int w, int h) { return mx >= x && mx < x + w && my >= y && my < y + h; }
+
+void draw_quit_box(uint32_t* fb, int mx, int my) {
+    for (int k = 0; k < 640 * 400; ++k) {  // dim the game behind the box
+        const uint32_t p = fb[k];
+        fb[k] = 0xFF000000u | ((p >> 18 & 0x3F) << 16) | ((p >> 10 & 0x3F) << 8) | (p >> 2 & 0x3F);
+    }
+    fill_rect(fb, kQuitX, kQuitY, kQuitW, kQuitH, 0xFF5A0F0Cu);
+    frame_rect(fb, kQuitX, kQuitY, kQuitW, kQuitH, 0xFFD8B060u);
+    draw_centered(fb, "Quit Hiouden II?", kQuitX + kQuitW / 2, kQuitY + 14, 0xFFD8B060u);
+    draw_centered(fb, "Progress since your last save is lost.", kQuitX + kQuitW / 2, kQuitY + 38, 0xFFF0E6D8u);
+    const bool hq = in_rect(mx, my, kQuitBtnX, kBtnY, kBtnW, kBtnH), hb = in_rect(mx, my, kBackBtnX, kBtnY, kBtnW, kBtnH);
+    fill_rect(fb, kQuitBtnX, kBtnY, kBtnW, kBtnH, hq ? 0xFFE8C070u : 0xFFC89C48u);
+    frame_rect(fb, kQuitBtnX, kBtnY, kBtnW, kBtnH, 0xFFF0D78Au);
+    draw_centered(fb, "Quit (Enter)", kQuitBtnX + kBtnW / 2, kBtnY + 3, 0xFF200A06u);
+    fill_rect(fb, kBackBtnX, kBtnY, kBtnW, kBtnH, hb ? 0xFF7A2A22u : 0xFF5A0F0Cu);
+    frame_rect(fb, kBackBtnX, kBtnY, kBtnW, kBtnH, 0xFFD8B060u);
+    draw_centered(fb, "Back (Esc)", kBackBtnX + kBtnW / 2, kBtnY + 3, 0xFFF0E6D8u);
 }
 
 struct TestClick {
@@ -281,6 +332,7 @@ int main(int argc, char** argv) {
     // Headless runs keep the old fast clock: every debug warp and QA script is timed in frames against it.
     if (headless && !realtime_timer) fast_timer = true;
     double tick_acc = 0.0;
+    bool quit_box = false;
 
     while (running && !cpu.halted()) {
         const auto frame_start = std::chrono::steady_clock::now();
@@ -289,8 +341,24 @@ int main(int argc, char** argv) {
             SDL_Event ev;
             while (SDL_PollEvent(&ev)) {
                 SDL_ConvertEventToRenderCoordinates(renderer, &ev);  // window pixels -> 640x400 game pixels
-                if (ev.type == SDL_EVENT_QUIT) {
+                if (ev.type == SDL_EVENT_QUIT) {  // window close button, Cmd+Q, Alt+F4
                     running = false;
+                } else if (quit_box) {  // the game is paused; only the box answers
+                    if (ev.type == SDL_EVENT_MOUSE_MOTION) {
+                        mouse_x = static_cast<int>(ev.motion.x);
+                        mouse_y = static_cast<int>(ev.motion.y);
+                    } else if (ev.type == SDL_EVENT_KEY_DOWN) {
+                        if (ev.key.key == SDLK_ESCAPE) quit_box = false;
+                        if (ev.key.key == SDLK_RETURN || ev.key.key == SDLK_KP_ENTER || ev.key.key == SDLK_Y) running = false;
+                    } else if (ev.type == SDL_EVENT_MOUSE_BUTTON_DOWN && ev.button.button == SDL_BUTTON_LEFT) {
+                        const int x = static_cast<int>(ev.button.x), y = static_cast<int>(ev.button.y);
+                        if (in_rect(x, y, kQuitBtnX, kBtnY, kBtnW, kBtnH)) running = false;
+                        if (in_rect(x, y, kBackBtnX, kBtnY, kBtnW, kBtnH)) quit_box = false;
+                    }
+                    if (!quit_box) dos.set_mouse_state(mouse_x, mouse_y, mouse_btn = 0);
+                } else if (ev.type == SDL_EVENT_KEY_DOWN && ev.key.key == SDLK_ESCAPE && !ev.key.repeat) {
+                    quit_box = true;  // Esc: ask before quitting (the game itself ignores Esc)
+                    SDL_ShowCursor();
                 } else if (ev.type == SDL_EVENT_KEY_DOWN || ev.type == SDL_EVENT_KEY_UP) {
                     if (ev.key.down && ev.key.key == SDLK_RETURN && (ev.key.mod & SDL_KMOD_ALT)) {
                         fullscreen = !fullscreen;  // Alt+Enter toggles fullscreen
@@ -333,6 +401,18 @@ int main(int argc, char** argv) {
                 }
             }
         }
+
+        if (quit_box && running) {  // paused under the quit box: redraw the last frame, run no game code
+            std::vector<uint32_t> shown = framebuffer;
+            draw_quit_box(shown.data(), mouse_x, mouse_y);
+            SDL_UpdateTexture(texture, nullptr, shown.data(), 640 * sizeof(uint32_t));
+            SDL_RenderClear(renderer);
+            SDL_RenderTexture(renderer, texture, nullptr, nullptr);
+            SDL_RenderPresent(renderer);
+            SDL_Delay(16);
+            continue;
+        }
+        if (!headless && !quit_box && SDL_CursorVisible()) SDL_HideCursor();  // back in the game: its own cursor
 
         dos.dispatch_mouse_callback();
 
@@ -438,6 +518,13 @@ int main(int argc, char** argv) {
     if (watch_hi > watch_lo) {
         std::fprintf(stderr, "[WATCH] %u accesses, range %05X-%05X\n", cpu.watch_logged,
                      cpu.watch_logged ? cpu.watch_min : 0, cpu.watch_logged ? cpu.watch_max : 0);
+    }
+    if (const char* shot = std::getenv("HIOUDEN_QUITBOX_SHOT")) {  // docs/tests: the quit box over the last frame
+        draw_quit_box(framebuffer.data(), mouse_x, mouse_y);
+        if (SDL_Surface* s = SDL_CreateSurfaceFrom(640, 400, SDL_PIXELFORMAT_ARGB8888, framebuffer.data(), 640 * 4)) {
+            SDL_SaveBMP(s, shot);
+            SDL_DestroySurface(s);
+        }
     }
     if (!dump_frame_path.empty()) {
         if (vga.save_bmp(dump_frame_path)) {
