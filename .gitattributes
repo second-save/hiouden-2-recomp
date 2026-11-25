@@ -16,3 +16,6 @@
 *.EXE binary
 *.bmp binary
 *.bdf binary
+*.ico binary
+*.icns binary
+*.gif binary

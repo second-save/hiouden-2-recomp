@@ -1,6 +1,6 @@
 #include "hw/audio.h"
 
-#include <SDL.h>
+#include <SDL3/SDL.h>
 #include <algorithm>
 #include <cctype>
 #include <cmath>
@@ -49,33 +49,25 @@ bool AudioEngine::init(bool headless) {
         initialized_ = true;
         return true;
     }
-    if (SDL_InitSubSystem(SDL_INIT_AUDIO) != 0) {
+    if (!SDL_InitSubSystem(SDL_INIT_AUDIO)) {
         std::fprintf(stderr, "[Audio] SDL_INIT_AUDIO failed: %s\n", SDL_GetError());
         return false;
     }
-    SDL_AudioSpec want{};
-    want.freq = kSampleRate;
-    want.format = AUDIO_S16SYS;
-    want.channels = 2;
-    want.samples = 1024;
-    want.callback = sdl_callback;
-    want.userdata = this;
-
-    SDL_AudioSpec have{};
-    device_id_ = SDL_OpenAudioDevice(nullptr, 0, &want, &have, 0);
-    if (device_id_ == 0) {
-        std::fprintf(stderr, "[Audio] SDL_OpenAudioDevice failed: %s\n", SDL_GetError());
+    const SDL_AudioSpec spec{SDL_AUDIO_S16, 2, kSampleRate};
+    stream_ = SDL_OpenAudioDeviceStream(SDL_AUDIO_DEVICE_DEFAULT_PLAYBACK, &spec, sdl_callback, this);
+    if (!stream_) {
+        std::fprintf(stderr, "[Audio] SDL_OpenAudioDeviceStream failed: %s\n", SDL_GetError());
         return false;
     }
-    SDL_PauseAudioDevice(device_id_, 0);
+    SDL_ResumeAudioStreamDevice(stream_);
     initialized_ = true;
     return true;
 }
 
 void AudioEngine::shutdown() {
-    if (device_id_ != 0) {
-        SDL_CloseAudioDevice(device_id_);
-        device_id_ = 0;
+    if (stream_) {
+        SDL_DestroyAudioStream(stream_);
+        stream_ = nullptr;
     }
     initialized_ = false;
 }
@@ -229,10 +221,13 @@ void AudioEngine::advance_channel(FmuChannel& ch) {
     }
 }
 
-void AudioEngine::sdl_callback(void* userdata, uint8_t* stream, int len) {
+void AudioEngine::sdl_callback(void* userdata, SDL_AudioStream* stream, int additional, int /*total*/) {
     auto* self = static_cast<AudioEngine*>(userdata);
-    std::memset(stream, 0, static_cast<size_t>(len));
-    self->mix(reinterpret_cast<int16_t*>(stream), len / 4);
+    const int frames = additional / 4;  // stereo S16
+    if (frames <= 0) return;
+    std::vector<int16_t> buf(static_cast<size_t>(frames) * 2, 0);
+    self->mix(buf.data(), frames);
+    SDL_PutAudioStreamData(stream, buf.data(), frames * 4);
 }
 
 void AudioEngine::mix(int16_t* out, int frames) {

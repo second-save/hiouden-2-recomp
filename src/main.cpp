@@ -2,8 +2,11 @@
 #include "hw/audio.h"
 #include "hw/dos_runtime.h"
 #include "hw/ega_vga.h"
+#include "installer.h"
+#include "launcher.h"
 
-#include <SDL.h>
+#include <SDL3/SDL.h>
+#include <SDL3/SDL_main.h>
 #include <algorithm>
 #include <chrono>
 #include <cstdio>
@@ -29,37 +32,37 @@ uint8_t sdl_to_scancode(SDL_Keycode key) {
         case SDLK_0: return 0x0B;
         case SDLK_BACKSPACE: return 0x0E;
         case SDLK_TAB: return 0x0F;
-        case SDLK_q: return 0x10;
-        case SDLK_w: return 0x11;
-        case SDLK_e: return 0x12;
-        case SDLK_r: return 0x13;
-        case SDLK_t: return 0x14;
-        case SDLK_y: return 0x15;
-        case SDLK_u: return 0x16;
-        case SDLK_i: return 0x17;
-        case SDLK_o: return 0x18;
-        case SDLK_p: return 0x19;
+        case SDLK_Q: return 0x10;
+        case SDLK_W: return 0x11;
+        case SDLK_E: return 0x12;
+        case SDLK_R: return 0x13;
+        case SDLK_T: return 0x14;
+        case SDLK_Y: return 0x15;
+        case SDLK_U: return 0x16;
+        case SDLK_I: return 0x17;
+        case SDLK_O: return 0x18;
+        case SDLK_P: return 0x19;
         case SDLK_RETURN:
         case SDLK_KP_ENTER: return 0x1C;
         case SDLK_LCTRL:
         case SDLK_RCTRL: return 0x1D;
-        case SDLK_a: return 0x1E;
-        case SDLK_s: return 0x1F;
-        case SDLK_d: return 0x20;
-        case SDLK_f: return 0x21;
-        case SDLK_g: return 0x22;
-        case SDLK_h: return 0x23;
-        case SDLK_j: return 0x24;
-        case SDLK_k: return 0x25;
-        case SDLK_l: return 0x26;
+        case SDLK_A: return 0x1E;
+        case SDLK_S: return 0x1F;
+        case SDLK_D: return 0x20;
+        case SDLK_F: return 0x21;
+        case SDLK_G: return 0x22;
+        case SDLK_H: return 0x23;
+        case SDLK_J: return 0x24;
+        case SDLK_K: return 0x25;
+        case SDLK_L: return 0x26;
         case SDLK_LSHIFT: return 0x2A;
-        case SDLK_z: return 0x2C;
-        case SDLK_x: return 0x2D;
-        case SDLK_c: return 0x2E;
-        case SDLK_v: return 0x2F;
-        case SDLK_b: return 0x30;
-        case SDLK_n: return 0x31;
-        case SDLK_m: return 0x32;
+        case SDLK_Z: return 0x2C;
+        case SDLK_X: return 0x2D;
+        case SDLK_C: return 0x2E;
+        case SDLK_V: return 0x2F;
+        case SDLK_B: return 0x30;
+        case SDLK_N: return 0x31;
+        case SDLK_M: return 0x32;
         case SDLK_RSHIFT: return 0x36;
         case SDLK_LALT:
         case SDLK_RALT: return 0x38;
@@ -85,7 +88,7 @@ uint8_t sdl_to_scancode(SDL_Keycode key) {
 }
 
 uint16_t sdl_to_bios_key(SDL_Keycode key, uint8_t scancode) {
-    if (key >= SDLK_a && key <= SDLK_z) {
+    if (key >= SDLK_A && key <= SDLK_Z) {  // SDL3 letter keycodes are the lowercase ASCII values
         return static_cast<uint16_t>((scancode << 8) | static_cast<uint8_t>(key));
     }
     if (key >= SDLK_0 && key <= SDLK_9) {
@@ -107,7 +110,9 @@ struct TestClick {
 void print_usage(const char* argv0) {
     std::fprintf(stderr,
                  "Usage: %s [options]\n"
-                 "  --data-dir <path>            Game data directory (default: hio2)\n"
+                 "  --data-dir <path>            Game data directory (no flag: the launcher installs and picks it)\n"
+                 "  --fullscreen                 Start fullscreen (Alt+Enter toggles)\n"
+                 "  --install <dir>              Install + patch your game files from <dir>, then exit\n"
                  "  --scale <N>                  Window integer scale factor (default: 2)\n"
                  "  --headless-test <frames>     Run N frames headlessly and exit\n"
                  "  --dump-frame <path.bmp>      Save final 640x400 framebuffer to BMP\n"
@@ -124,7 +129,9 @@ void print_usage(const char* argv0) {
 
 int main(int argc, char** argv) {
     std::string data_dir = "hio2";
+    bool data_dir_given = false;
     int scale = 2;
+    bool fullscreen = false;
     int headless_frames = -1;
     std::string dump_frame_path;
     std::string dump_every_dir;
@@ -139,8 +146,15 @@ int main(int argc, char** argv) {
         const std::string arg = argv[i];
         if (arg == "--data-dir" && i + 1 < argc) {
             data_dir = argv[++i];
+            data_dir_given = true;
         } else if (arg == "--scale" && i + 1 < argc) {
             scale = std::max(1, std::atoi(argv[++i]));
+        } else if (arg == "--fullscreen") {
+            fullscreen = true;
+        } else if (arg == "--install" && i + 1 < argc) {  // install without the launcher window
+            const std::string err = installer::install(argv[++i]);
+            std::printf("%s\n", err.empty() ? ("installed into " + installer::game_dir()).c_str() : err.c_str());
+            return err.empty() ? 0 : 1;
         } else if (arg == "--headless-test" && i + 1 < argc) {
             headless_frames = std::max(1, std::atoi(argv[++i]));
         } else if (arg == "--dump-frame" && i + 1 < argc) {
@@ -185,6 +199,17 @@ int main(int argc, char** argv) {
     }
 
     const bool headless = (headless_frames > 0);
+    if (!data_dir_given && !headless) {  // players: the launcher installs their game files, then Play
+        LaunchOptions lo;
+        lo.scale = scale;
+        if (!run_launcher(lo)) {
+            SDL_Quit();
+            return 0;
+        }
+        data_dir = lo.data_dir;
+        scale = lo.scale;
+        fullscreen = lo.fullscreen;
+    }
 
     EgaVga vga;
     Cpu386 cpu(&vga);
@@ -214,27 +239,26 @@ int main(int argc, char** argv) {
     SDL_Texture* texture = nullptr;
 
     if (!headless) {
-        if (SDL_InitSubSystem(SDL_INIT_VIDEO | SDL_INIT_EVENTS) != 0) {
+        if (!SDL_InitSubSystem(SDL_INIT_VIDEO | SDL_INIT_EVENTS)) {
             std::fprintf(stderr, "[Main] SDL_InitSubSystem(VIDEO) failed: %s\n", SDL_GetError());
             return 1;
         }
-        window = SDL_CreateWindow(
-            "Hiouden II (macOS Native Runtime)",
-            SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
-            640 * scale, 400 * scale,
-            SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE
-        );
+        window = SDL_CreateWindow("Hiouden II", 640 * scale, 400 * scale,
+                                  SDL_WINDOW_RESIZABLE | (fullscreen ? SDL_WINDOW_FULLSCREEN : 0));
         if (!window) {
             std::fprintf(stderr, "[Main] SDL_CreateWindow failed: %s\n", SDL_GetError());
             return 1;
         }
-        renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
+        renderer = SDL_CreateRenderer(window, nullptr);
         if (!renderer) {
-            renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_SOFTWARE);
+            std::fprintf(stderr, "[Main] SDL_CreateRenderer failed: %s\n", SDL_GetError());
+            return 1;
         }
-        SDL_RenderSetLogicalSize(renderer, 640, 400);
-        SDL_ShowCursor(SDL_DISABLE);
+        SDL_SetRenderVSync(renderer, 1);
+        SDL_SetRenderLogicalPresentation(renderer, 640, 400, SDL_LOGICAL_PRESENTATION_LETTERBOX);
+        SDL_HideCursor();
         texture = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STREAMING, 640, 400);
+        SDL_SetTextureScaleMode(texture, SDL_SCALEMODE_NEAREST);
     }
 
     std::vector<uint32_t> framebuffer(640 * 400, 0xFF000000u);
@@ -253,27 +277,33 @@ int main(int argc, char** argv) {
         if (!headless) {
             SDL_Event ev;
             while (SDL_PollEvent(&ev)) {
-                if (ev.type == SDL_QUIT) {
+                SDL_ConvertEventToRenderCoordinates(renderer, &ev);  // window pixels -> 640x400 game pixels
+                if (ev.type == SDL_EVENT_QUIT) {
                     running = false;
-                } else if (ev.type == SDL_KEYDOWN || ev.type == SDL_KEYUP) {
-                    const uint8_t sc = sdl_to_scancode(ev.key.keysym.sym);
-                    if (sc != 0) {
-                        const uint16_t bk = sdl_to_bios_key(ev.key.keysym.sym, sc);
-                        dos.push_key_scancode(sc, bk, ev.type == SDL_KEYDOWN);
+                } else if (ev.type == SDL_EVENT_KEY_DOWN || ev.type == SDL_EVENT_KEY_UP) {
+                    if (ev.key.down && ev.key.key == SDLK_RETURN && (ev.key.mod & SDL_KMOD_ALT)) {
+                        fullscreen = !fullscreen;  // Alt+Enter toggles fullscreen
+                        SDL_SetWindowFullscreen(window, fullscreen);
+                        continue;
                     }
-                } else if (ev.type == SDL_MOUSEMOTION) {
-                    mouse_x = ev.motion.x;
-                    mouse_y = ev.motion.y;
+                    const uint8_t sc = sdl_to_scancode(ev.key.key);
+                    if (sc != 0) {
+                        const uint16_t bk = sdl_to_bios_key(ev.key.key, sc);
+                        dos.push_key_scancode(sc, bk, ev.type == SDL_EVENT_KEY_DOWN);
+                    }
+                } else if (ev.type == SDL_EVENT_MOUSE_MOTION) {
+                    mouse_x = std::clamp(static_cast<int>(ev.motion.x), 0, 639);
+                    mouse_y = std::clamp(static_cast<int>(ev.motion.y), 0, 399);
                     dos.set_mouse_state(mouse_x, mouse_y, mouse_btn);
-                } else if (ev.type == SDL_MOUSEBUTTONDOWN || ev.type == SDL_MOUSEBUTTONUP) {
-                    const bool down = (ev.type == SDL_MOUSEBUTTONDOWN);
+                } else if (ev.type == SDL_EVENT_MOUSE_BUTTON_DOWN || ev.type == SDL_EVENT_MOUSE_BUTTON_UP) {
+                    const bool down = (ev.type == SDL_EVENT_MOUSE_BUTTON_DOWN);
                     uint16_t bit = 0;
                     if (ev.button.button == SDL_BUTTON_LEFT) bit = 1;
                     else if (ev.button.button == SDL_BUTTON_RIGHT) bit = 2;
                     if (down) mouse_btn |= bit;
                     else mouse_btn &= ~bit;
-                    mouse_x = ev.button.x;
-                    mouse_y = ev.button.y;
+                    mouse_x = std::clamp(static_cast<int>(ev.button.x), 0, 639);
+                    mouse_y = std::clamp(static_cast<int>(ev.button.y), 0, 399);
                     dos.set_mouse_state(mouse_x, mouse_y, mouse_btn);
                 }
             }
@@ -356,7 +386,7 @@ int main(int argc, char** argv) {
         if (!headless) {
             SDL_UpdateTexture(texture, nullptr, framebuffer.data(), 640 * sizeof(uint32_t));
             SDL_RenderClear(renderer);
-            SDL_RenderCopy(renderer, texture, nullptr, nullptr);
+            SDL_RenderTexture(renderer, texture, nullptr, nullptr);
             SDL_RenderPresent(renderer);
 
             const auto elapsed = std::chrono::steady_clock::now() - frame_start;

@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 
-struct SDL_AudioSpec;
+struct SDL_AudioStream;
 
 class AudioEngine {
 public:
@@ -49,7 +49,7 @@ private:
     };
 
     std::string data_dir_;
-    uint32_t device_id_ = 0;
+    SDL_AudioStream* stream_ = nullptr;
     bool initialized_ = false;
     mutable std::mutex mutex_;
 
@@ -63,7 +63,7 @@ private:
     // Active SFX voices
     std::vector<VocVoice> active_voices_;
 
-    static void sdl_callback(void* userdata, uint8_t* stream, int len);
+    static void sdl_callback(void* userdata, SDL_AudioStream* stream, int additional, int total);
     void mix(int16_t* out, int frames);
     void advance_channel(FmuChannel& ch);
     bool load_voc_file(const std::string& path, VocVoice& out);

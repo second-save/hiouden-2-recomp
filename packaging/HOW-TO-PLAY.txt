@@ -1,0 +1,35 @@
+Hiouden II - English (native recomp)
+====================================
+
+This is Hiouden II (Wolf Team, Taiwanese DOS release by Softstar, 1995) rebuilt to run natively on macOS, Windows
+and Linux, with an English translation. It contains NO game files: you need your own copy of the Taiwanese DOS
+release (the folder with HIO.EXE, HIOSYS.EXE, A.CHA ...).
+
+How to play
+1. Start "Hiouden II" (macOS: Hiouden II.app; Windows: HioudenII.exe; Linux: ./hiouden2).
+   macOS: the app is not notarized. The first time, right-click it and choose Open (or allow it in
+   System Settings > Privacy & Security).
+2. Click "Choose game folder..." and pick the folder of your Hiouden II install.
+   The launcher copies the game into its own folder and applies the English patch there. Your folder is
+   never changed. A different version, or a copy that is already patched, is refused.
+3. Click Play.
+
+Controls: mouse (left and right buttons) and keyboard, as in the original. Alt+Enter toggles fullscreen.
+Esc in the launcher quits.
+
+Where things go
+- macOS:   ~/Library/Application Support/Second Save/Hiouden II/
+- Windows: %APPDATA%\Second Save\Hiouden II\
+- Linux:   ~/.local/share/Second Save/Hiouden II/
+  game/ holds the patched copy and your saves; launcher.cfg holds the launcher settings.
+- No dialog on your Linux desktop? Install from a terminal: ./hiouden2 --install /path/to/game
+
+Known issues
+- The status popup's weakness element uses 2-letter names (Fi = fire, Ic = ice, Th = thunder, St = star).
+- Saves made with the Chinese game keep their original unit names: start a new game.
+
+Credits
+- Recomp, translation and tools: Second Save (https://github.com/second-save). Made with extensive AI assistance
+  (Claude by Anthropic). Support: https://ko-fi.com/second_save
+- Font: Spleen by Frederic Cambus (BSD 2-Clause, LICENSE-spleen.txt). SDL3 (zlib licence, SDL-LICENSE.txt).
+- Hiouden II (c) Wolf Team / Telenet Japan; Chinese edition (c) Softstar. Unofficial; not affiliated.

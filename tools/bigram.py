@@ -200,6 +200,7 @@ def free_codes(taken):
 class Font:
     def __init__(self, orig_num, orig_cha, keep_codes):
         """keep_codes: original codes whose glyphs must stay (symbols, icons, any Chinese still shown)."""
+        self.orig_num, self.orig_cha = orig_num, orig_cha
         self.orig = {}
         for i in range(0, len(orig_num), 2):
             self.orig.setdefault(orig_num[i:i + 2], orig_cha[15 * i:15 * i + 30])
@@ -231,14 +232,30 @@ class Font:
         if self.slots() > CAPACITY:
             raise SystemExit(f"font needs {self.slots()} slots, the engine reads {CAPACITY}")
         g = bdf_glyphs()
-        num, cha = bytearray(), bytearray()
-        for c in self.keep:
+
+        def glyph(p):  # BDF rows 1-15: row 0 is blank for every letter, descenders end by row 15
+            return b"".join(bytes([g[p[0]][r], g[p[1]][r]]) for r in range(1, 16))
+
+        # in place: kept glyphs stay in their original slots (a patch then never carries the game's own glyph
+        # bitmaps); slots whose glyph is no longer needed take the letter pairs; the rest are appended
+        num, cha = bytearray(self.orig_num), bytearray(self.orig_cha)
+        keep, seen = set(self.keep), set()
+        pairs = iter(self.pair_code.items())
+        for i in range(0, len(num), 2):
+            code = bytes(num[i:i + 2])
+            if code in keep and code not in seen:
+                seen.add(code)
+                continue
+            nxt = next(pairs, None)
+            if nxt is None:
+                break
+            num[i:i + 2] = nxt[1]
+            cha[15 * i:15 * i + 30] = glyph(nxt[0])
+        for p, c in pairs:
             num += c
-            cha += self.orig[c]
-        for p, c in self.pair_code.items():
-            num += c
-            for r in range(1, 16):  # BDF rows 1-15: row 0 is blank for every letter, descenders end by row 15
-                cha += bytes([g[p[0]][r], g[p[1]][r]])
+            cha += glyph(p)
+        if len(num) // 2 > CAPACITY:
+            raise SystemExit(f"font needs {len(num) // 2} slots, the engine reads {CAPACITY}")
         Path(num_path).write_bytes(num)
         Path(cha_path).write_bytes(cha)
 

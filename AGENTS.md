@@ -14,7 +14,10 @@ The game runs in this repo's own recomp (`src/`, CMake, binary `build/hiouden2`)
 - Images:   `magick` / `montage` (no PIL here)
 - Build:    `python3 tools/build.py` -> `build/game/` (checks `rom.sha1`, copies hio2, applies edits); `--identity` = no edits, must equal the originals (`tests/test_identity.py`)
 - Extract:  `python3 tools/extract.py` -> `script/*.json` (only writes missing files; `--force` re-dumps, keeps `en`/`notes`); codec `tools/codec.py`
-- Release: not written yet
+- Release: `python3 tools/release.py --version X [--force]` (all gates, per-file BPS + apply.py in dist/), then
+  `tools/release_{mac,windows,linux}.sh` (VERSION=X; SDL3 kits in build/dist-src, Windows/Linux via Docker)
+- Launcher: `build/hiouden2` with no `--data-dir` opens it; `--install DIR` installs headless; `HIOUDEN_HOME=dir`
+  redirects the per-user folder (tests: never the real one); `HIOUDEN_LAUNCHER_SHOT=x.bmp` saves one frame
 
 ## Paths
 - Original game: `hio2/` (Taiwanese DOS install, Big5; gitignored, pinned in `rom.sha1`). Never write into it: builds go to `build/game/`.

@@ -15,8 +15,9 @@ This copies the whole game folder and patches the copy; your original folder is 
 that are not the original ones. Each patches/<FILE>.bps is a standard BPS patch, usable with Flips or RomPatcher.js.
 
 How to play
-Tested in the Hiouden II native recomp (https://github.com/second-save/hiouden2-en, build/hiouden2
---data-dir <new folder>), from a new game. The patch only changes game data in ways the original DOS engine reads,
+Easiest: the native recomp for macOS / Windows / Linux, whose launcher installs and patches for you
+(https://github.com/second-save/hiouden-2-recomp/releases). This patch zip is for playing elsewhere; tested in the
+recomp from a new game. The patch only changes game data in ways the original DOS engine reads,
 but it has not been tested in DOSBox or on real hardware yet.
 
 Translation status

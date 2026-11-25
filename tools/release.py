@@ -29,6 +29,31 @@ def step(name, ok, detail=""):
         sys.exit(1)
 
 
+def original_bytes_in(src, patch):
+    """Bytes the patch stores itself (TargetRead) that also occur in the original file, in runs of 16+: game data a
+    patch must not carry. Runs of one repeated byte (padding) don't count."""
+    import bps
+    i = 4
+    _, i = bps.read_num(patch, i)
+    _, i = bps.read_num(patch, i)
+    m, i = bps.read_num(patch, i)
+    i += m
+    found = 0
+    while i < len(patch) - 12:
+        d, i = bps.read_num(patch, i)
+        cmd, n = d & 3, (d >> 2) + 1
+        if cmd == 1:
+            chunk = patch[i:i + n]
+            for k in range(0, n - 15, 16):
+                w = chunk[k:k + 16]
+                if len(set(w)) > 2 and w in src:
+                    found += 16
+            i += n
+        elif cmd in (2, 3):
+            _, i = bps.read_num(patch, i)
+    return found
+
+
 def zh_left(out):
     """Ids whose built bytes still hold a Chinese character (an untranslated entry or a missed field)."""
     import codec
@@ -91,6 +116,10 @@ def main():
     shutil.copy(ROOT / "font/LICENSE-spleen", dist / "LICENSE-spleen.txt")
     shutil.copy(ROOT / "docs/release-readme.txt", dist / "README.txt")
     step("patches", bool(changed), f"{len(changed)} files")
+    leaks = {n: original_bytes_in((ROOT / "hio2" / n).read_bytes(), (dist / "patches" / f"{n}.bps").read_bytes())
+             for n in changed}
+    leaks = {n: v for n, v in leaks.items() if v > 128}  # a few short code/name runs that moved are fine
+    step("patches carry no game data", not leaks, ", ".join(f"{n}: {v} bytes" for n, v in leaks.items()))
     with tempfile.TemporaryDirectory() as tmp:
         o = Path(tmp) / "patched"
         r = subprocess.run([sys.executable, "-B", str(dist / "apply.py"), str(ROOT / "hio2"), str(o)],
