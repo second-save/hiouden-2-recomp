@@ -108,6 +108,8 @@ def pool(fid, kind, data, a, b, whole=False):
     rs = runs(data, a, b)
     if whole:
         rs = [(rs[0][0], rs[-1][1])]
+    elif kind in ("message", "dialog"):
+        rs = [piece for r in rs for piece in split_pieces(data, *r)]
     out = []
     for k, (s, e) in enumerate(rs):
         end = rs[k + 1][0] if k + 1 < len(rs) else b
@@ -116,6 +118,22 @@ def pool(fid, kind, data, a, b, whole=False):
         if whole:
             out[-1]["notes"] = WHOLE_NOTE
     return out
+
+
+SPLIT_AFTER = {"！", "？", "。", "〕", "±"}
+
+
+def split_pieces(data, s, e):
+    """Pieces glued without padding (ＭＧＲ±〔學會咒語〕讓…, …嗎？是): the game draws each from its own offset, so each
+    becomes an entry that keeps its place. Cut after closing punctuation followed by more text."""
+    out, start = [], s
+    toks = list(tokens(data, s, e))
+    for k, (i, t) in enumerate(toks):
+        nxt = toks[k + 1][1] if k + 1 < len(toks) else None
+        if codec.decode(t) in SPLIT_AFTER and nxt is not None and codec.decode(nxt) not in SPLIT_AFTER:
+            out.append((start, i + len(t)))
+            start = i + len(t)
+    return out + [(start, e)]
 
 
 def table(fid, kind, data, start, count, stride, width, align):
@@ -202,9 +220,14 @@ def main():
                 continue
             old = {e["id"]: e for e in json.loads(path.read_text(encoding="utf-8"))}
             for e in entries:
+                o = old.get(e["id"], {})
+                if o.get("zh") != e["zh"]:
+                    if o.get("en"):
+                        print(f"  {e['id']}: source changed, English dropped: {o['en']!r}")
+                    continue
                 for k in ("en", "notes"):
-                    if old.get(e["id"], {}).get(k):
-                        e[k] = old[e["id"]][k]
+                    if o.get(k):
+                        e[k] = o[k]
         path.write_text(json.dumps(entries, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         print("wrote", path.name, len(entries))
 

@@ -8,7 +8,7 @@
    57432
   ],
   "align": "left",
-  "en": ""
+  "en": "Fire"
  },
  {
   "id": "HIO:0E05E",
@@ -19,7 +19,7 @@
    57456
   ],
   "align": "left",
-  "en": ""
+  "en": "Blizzard"
  },
  {
   "id": "HIO:0E076",
@@ -30,7 +30,7 @@
    57480
   ],
   "align": "left",
-  "en": ""
+  "en": "Thunder"
  },
  {
   "id": "HIO:0E08E",
@@ -41,7 +41,7 @@
    57504
   ],
   "align": "left",
-  "en": ""
+  "en": "Meteor"
  },
  {
   "id": "HIO:0E0A6",
@@ -52,7 +52,7 @@
    57528
   ],
   "align": "left",
-  "en": ""
+  "en": "Demon Bane"
  },
  {
   "id": "HIO:0E0BE",
@@ -63,7 +63,7 @@
    57552
   ],
   "align": "left",
-  "en": ""
+  "en": "Confuse"
  },
  {
   "id": "HIO:0E0D6",
@@ -74,7 +74,7 @@
    57576
   ],
   "align": "left",
-  "en": ""
+  "en": "Poison"
  },
  {
   "id": "HIO:0E0EE",
@@ -85,7 +85,7 @@
    57600
   ],
   "align": "left",
-  "en": ""
+  "en": "Petrify"
  },
  {
   "id": "HIO:0E106",
@@ -96,7 +96,7 @@
    57624
   ],
   "align": "left",
-  "en": ""
+  "en": "Bear Form"
  },
  {
   "id": "HIO:0E11E",
@@ -107,7 +107,7 @@
    57648
   ],
   "align": "left",
-  "en": ""
+  "en": "Heal"
  },
  {
   "id": "HIO:0E136",
@@ -118,7 +118,7 @@
    57672
   ],
   "align": "left",
-  "en": ""
+  "en": "Restore"
  },
  {
   "id": "HIO:0E14E",
@@ -129,7 +129,7 @@
    57696
   ],
   "align": "left",
-  "en": ""
+  "en": "Revive"
  },
  {
   "id": "HIO:0E166",
@@ -140,7 +140,7 @@
    57720
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Undead"
  },
  {
   "id": "HIO:0E17E",
@@ -151,7 +151,7 @@
    57744
   ],
   "align": "left",
-  "en": ""
+  "en": "Invisibility"
  },
  {
   "id": "HIO:0E196",
@@ -162,7 +162,7 @@
    57768
   ],
   "align": "left",
-  "en": ""
+  "en": "Levitate"
  },
  {
   "id": "HIO:0E1AE",
@@ -173,7 +173,7 @@
    57792
   ],
   "align": "left",
-  "en": ""
+  "en": "Anti-Magic Zone"
  },
  {
   "id": "HIO:0E1C6",
@@ -184,7 +184,7 @@
    57816
   ],
   "align": "left",
-  "en": ""
+  "en": "Magic Trap"
  },
  {
   "id": "HIO:0E1DE",
@@ -195,7 +195,7 @@
    57840
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Salamander"
  },
  {
   "id": "HIO:0E1F6",
@@ -206,7 +206,7 @@
    57864
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Spirit"
  },
  {
   "id": "HIO:0E20E",
@@ -217,7 +217,7 @@
    57888
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Valkyrie"
  },
  {
   "id": "HIO:0E226",
@@ -228,7 +228,7 @@
    57912
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Unicorn"
  },
  {
   "id": "HIO:0E23E",
@@ -239,7 +239,7 @@
    57936
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Ifrit"
  },
  {
   "id": "HIO:0E256",
@@ -250,7 +250,7 @@
    57960
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Silver Wyrm"
  },
  {
   "id": "HIO:0E268",
@@ -261,7 +261,7 @@
    57980
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Undead"
  },
  {
   "id": "HIO:0E9BC",
@@ -272,7 +272,7 @@
    59854
   ],
   "align": "left",
-  "en": ""
+  "en": "None"
  },
  {
   "id": "HIO:0FFA9",
@@ -283,7 +283,7 @@
    65459
   ],
   "align": "left",
-  "en": ""
+  "en": "GAME"
  },
  {
   "id": "HIO:0FFB3",
@@ -294,7 +294,7 @@
    65467
   ],
   "align": "left",
-  "en": ""
+  "en": "OVER"
  },
  {
   "id": "HIO:12357",
@@ -305,7 +305,7 @@
    74607
   ],
   "align": "left",
-  "en": ""
+  "en": "Grand Summon FLOOR-"
  },
  {
   "id": "HIO:14157",
@@ -316,7 +316,7 @@
    82279
   ],
   "align": "left",
-  "en": ""
+  "en": "Realm forbidden!"
  },
  {
   "id": "HIO:14167",
@@ -327,7 +327,7 @@
    82299
   ],
   "align": "left",
-  "en": ""
+  "en": "No keys in the Realm"
  },
  {
   "id": "HIO:15577",
@@ -338,7 +338,7 @@
    87447
   ],
   "align": "left",
-  "en": ""
+  "en": "Window layout and position data:"
  },
  {
   "id": "HIO:15597",
@@ -349,7 +349,7 @@
    87465
   ],
   "align": "left",
-  "en": ""
+  "en": "SaveLoad and"
  },
  {
   "id": "HIO:155A9",
@@ -360,7 +360,7 @@
    87477
   ],
   "align": "left",
-  "en": ""
+  "en": "."
  },
  {
   "id": "HIO:155B5",
@@ -371,7 +371,7 @@
    87499
   ],
   "align": "left",
-  "en": ""
+  "en": "Done with layout:"
  },
  {
   "id": "HIO:155CB",
@@ -382,7 +382,7 @@
    87507
   ],
   "align": "left",
-  "en": ""
+  "en": "."
  },
  {
   "id": "HIO:155D3",
@@ -393,7 +393,7 @@
    87529
   ],
   "align": "left",
-  "en": ""
+  "en": "Now doing layout:"
  },
  {
   "id": "HIO:155E9",
@@ -404,7 +404,7 @@
    87537
   ],
   "align": "left",
-  "en": ""
+  "en": "."
  },
  {
   "id": "HIO:155F1",
@@ -415,7 +415,7 @@
    87565
   ],
   "align": "left",
-  "en": ""
+  "en": "Choose a data number:"
  },
  {
   "id": "HIO:1560D",
@@ -426,7 +426,7 @@
    87577
   ],
   "align": "left",
-  "en": ""
+  "en": "Saved to no."
  },
  {
   "id": "HIO:15619",
@@ -437,7 +437,7 @@
    87591
   ],
   "align": "left",
-  "en": ""
+  "en": " record."
  },
  {
   "id": "HIO:1580D",
@@ -448,7 +448,7 @@
    88095
   ],
   "align": "left",
-  "en": ""
+  "en": "Item Settings"
  },
  {
   "id": "HIO:1594A",
@@ -459,7 +459,7 @@
    88408
   ],
   "align": "left",
-  "en": ""
+  "en": "Item control:"
  },
  {
   "id": "HIO:15958",
@@ -470,7 +470,7 @@
    88422
   ],
   "align": "left",
-  "en": ""
+  "en": "Item return:"
  },
  {
   "id": "HIO:15966",
@@ -481,7 +481,7 @@
    88436
   ],
   "align": "left",
-  "en": ""
+  "en": "Item sorting:"
  },
  {
   "id": "HIO:15974",
@@ -492,7 +492,7 @@
    88450
   ],
   "align": "left",
-  "en": ""
+  "en": "Item equip:"
  },
  {
   "id": "HIO:15982",
@@ -503,7 +503,7 @@
    88468
   ],
   "align": "left",
-  "en": ""
+  "en": "Mouse   Keys"
  },
  {
   "id": "HIO:15994",
@@ -514,7 +514,7 @@
    88476
   ],
   "align": "left",
-  "en": ""
+  "en": "Auto"
  },
  {
   "id": "HIO:1599C",
@@ -525,7 +525,7 @@
    88484
   ],
   "align": "left",
-  "en": ""
+  "en": "Manual"
  },
  {
   "id": "HIO:159A4",
@@ -536,7 +536,7 @@
    88492
   ],
   "align": "left",
-  "en": ""
+  "en": "Auto"
  },
  {
   "id": "HIO:159AC",
@@ -547,7 +547,7 @@
    88500
   ],
   "align": "left",
-  "en": ""
+  "en": "Manual"
  },
  {
   "id": "HIO:159B4",
@@ -558,7 +558,7 @@
    88508
   ],
   "align": "left",
-  "en": ""
+  "en": "Auto"
  },
  {
   "id": "HIO:159BC",
@@ -569,18 +569,29 @@
    88514
   ],
   "align": "left",
-  "en": ""
+  "en": "Manual"
  },
  {
   "id": "HIO:15AA0",
   "kind": "dialog",
-  "zh": "要從這個劇本的一開始重新進行遊戲嗎？是",
+  "zh": "要從這個劇本的一開始重新進行遊戲嗎？",
   "field": [
    88736,
+   88772
+  ],
+  "align": "left",
+  "en": "Replay this stage from the start?"
+ },
+ {
+  "id": "HIO:15AC4",
+  "kind": "dialog",
+  "zh": "是",
+  "field": [
+   88772,
    88776
   ],
   "align": "left",
-  "en": ""
+  "en": "Yes"
  },
  {
   "id": "HIO:15AC8",
@@ -591,7 +602,7 @@
    88782
   ],
   "align": "left",
-  "en": ""
+  "en": "No"
  },
  {
   "id": "HIO:18202",
@@ -602,7 +613,7 @@
    98844
   ],
   "align": "left",
-  "en": ""
+  "en": "  Save current progress?"
  },
  {
   "id": "HIO:1821C",
@@ -613,7 +624,7 @@
    98850
   ],
   "align": "left",
-  "en": ""
+  "en": "Save"
  },
  {
   "id": "HIO:18222",
@@ -624,7 +635,7 @@
    98876
   ],
   "align": "left",
-  "en": ""
+  "en": "  Load saved progress?"
  },
  {
   "id": "HIO:1823C",
@@ -635,7 +646,7 @@
    98882
   ],
   "align": "left",
-  "en": ""
+  "en": "Load"
  },
  {
   "id": "HIO:18242",
@@ -646,7 +657,7 @@
    98886
   ],
   "align": "left",
-  "en": ""
+  "en": "Yes"
  },
  {
   "id": "HIO:18246",
@@ -657,7 +668,7 @@
    98892
   ],
   "align": "left",
-  "en": ""
+  "en": "No"
  },
  {
   "id": "HIO:18DC2",
@@ -668,7 +679,7 @@
    101844
   ],
   "align": "left",
-  "en": ""
+  "en": "New Game"
  },
  {
   "id": "HIO:18DD4",
@@ -679,7 +690,7 @@
    101862
   ],
   "align": "left",
-  "en": ""
+  "en": "Continue"
  },
  {
   "id": "HIO:18DE6",
@@ -690,7 +701,7 @@
    101888
   ],
   "align": "left",
-  "en": ""
+  "en": "Format Player Data"
  },
  {
   "id": "HIO:18E00",
@@ -701,7 +712,7 @@
    101904
   ],
   "align": "left",
-  "en": ""
+  "en": "Opening Demo"
  },
  {
   "id": "HIO:18E10",
@@ -712,7 +723,7 @@
    101910
   ],
   "align": "left",
-  "en": ""
+  "en": "Record"
  },
  {
   "id": "HIO:18E16",
@@ -723,7 +734,7 @@
    101946
   ],
   "align": "left",
-  "en": ""
+  "en": "010   Reformat player data."
  },
  {
   "id": "HIO:18E3A",
@@ -734,7 +745,7 @@
    101962
   ],
   "align": "left",
-  "en": ""
+  "en": "Are you sure?"
  },
  {
   "id": "HIO:18E4A",
@@ -745,7 +756,7 @@
    101988
   ],
   "align": "left",
-  "en": ""
+  "en": "Saving and quitting..."
  },
  {
   "id": "HIO:18E64",
@@ -756,7 +767,7 @@
    102006
   ],
   "align": "left",
-  "en": ""
+  "en": "Loading..."
  },
  {
   "id": "HIO:192F7",
@@ -767,7 +778,7 @@
    103175
   ],
   "align": "left",
-  "en": ""
+  "en": "Change Unit"
  },
  {
   "id": "HIO:1930C",
@@ -778,7 +789,7 @@
    103210
   ],
   "align": "left",
-  "en": ""
+  "en": "Switch the unit on screen"
  },
  {
   "id": "HIO:19330",
@@ -789,7 +800,7 @@
    103232
   ],
   "align": "left",
-  "en": ""
+  "en": "Iconify Window"
  },
  {
   "id": "HIO:19343",
@@ -800,7 +811,7 @@
    103267
   ],
   "align": "left",
-  "en": ""
+  "en": "Shrinks a window to an icon"
  },
  {
   "id": "HIO:19369",
@@ -811,7 +822,7 @@
    103289
   ],
   "align": "left",
-  "en": ""
+  "en": "Close Window"
  },
  {
   "id": "HIO:19384",
@@ -822,7 +833,7 @@
    103324
   ],
   "align": "left",
-  "en": ""
+  "en": "Closes the window"
  },
  {
   "id": "HIO:193A4",
@@ -833,7 +844,7 @@
    103346
   ],
   "align": "left",
-  "en": ""
+  "en": "Battle"
  },
  {
   "id": "HIO:193B9",
@@ -844,7 +855,7 @@
    103381
   ],
   "align": "left",
-  "en": ""
+  "en": "Opens a new battle window"
  },
  {
   "id": "HIO:19400",
@@ -855,7 +866,7 @@
    103438
   ],
   "align": "left",
-  "en": ""
+  "en": "Blue Orb"
  },
  {
   "id": "HIO:19414",
@@ -866,7 +877,7 @@
    103460
   ],
   "align": "left",
-  "en": ""
+  "en": "Field Window"
  },
  {
   "id": "HIO:1942B",
@@ -877,7 +888,7 @@
    103495
   ],
   "align": "left",
-  "en": ""
+  "en": "Opens a new field window"
  },
  {
   "id": "HIO:1944F",
@@ -888,7 +899,7 @@
    103517
   ],
   "align": "left",
-  "en": ""
+  "en": "Status"
  },
  {
   "id": "HIO:19464",
@@ -899,7 +910,7 @@
    103552
   ],
   "align": "left",
-  "en": ""
+  "en": "Opens a new status window"
  },
  {
   "id": "HIO:19486",
@@ -910,7 +921,7 @@
    103574
   ],
   "align": "left",
-  "en": ""
+  "en": "Cycle Display"
  },
  {
   "id": "HIO:19499",
@@ -921,7 +932,7 @@
    103609
   ],
   "align": "left",
-  "en": ""
+  "en": "Cycles the display through"
  },
  {
   "id": "HIO:194BC",
@@ -932,7 +943,7 @@
    103644
   ],
   "align": "left",
-  "en": ""
+  "en": "status, items and magic"
  },
  {
   "id": "HIO:194E6",
@@ -943,7 +954,7 @@
    103666
   ],
   "align": "left",
-  "en": ""
+  "en": "Hourglass"
  },
  {
   "id": "HIO:194F7",
@@ -954,7 +965,7 @@
    103701
   ],
   "align": "left",
-  "en": ""
+  "en": "Pauses or resumes game time"
  },
  {
   "id": "HIO:1951D",
@@ -965,7 +976,7 @@
    103723
   ],
   "align": "left",
-  "en": ""
+  "en": "Red Orb"
  },
  {
   "id": "HIO:19532",
@@ -976,7 +987,7 @@
    103758
   ],
   "align": "left",
-  "en": ""
+  "en": "Opens a new unit window"
  },
  {
   "id": "HIO:19554",
@@ -987,7 +998,7 @@
    103780
   ],
   "align": "left",
-  "en": ""
+  "en": "Attack Mode"
  },
  {
   "id": "HIO:19567",
@@ -998,7 +1009,7 @@
    103815
   ],
   "align": "left",
-  "en": ""
+  "en": "Prefer magic or weapon attacks"
  },
  {
   "id": "HIO:19591",
@@ -1009,7 +1020,7 @@
    103837
   ],
   "align": "left",
-  "en": ""
+  "en": "Candlestick"
  },
  {
   "id": "HIO:195A2",
@@ -1020,7 +1031,7 @@
    103872
   ],
   "align": "left",
-  "en": ""
+  "en": "Sets game speed (3 levels)"
  },
  {
   "id": "HIO:195C6",
@@ -1031,7 +1042,7 @@
    103894
   ],
   "align": "left",
-  "en": ""
+  "en": "Window Setup"
  },
  {
   "id": "HIO:195D9",
@@ -1042,7 +1053,7 @@
    103929
   ],
   "align": "left",
-  "en": ""
+  "en": "Saves or loads window layouts"
  },
  {
   "id": "HIO:19622",
@@ -1053,7 +1064,7 @@
    103986
   ],
   "align": "left",
-  "en": ""
+  "en": "Item Settings"
  },
  {
   "id": "HIO:19637",
@@ -1064,7 +1075,7 @@
    104021
   ],
   "align": "left",
-  "en": ""
+  "en": "Changes item handling settings"
  },
  {
   "id": "HIO:1965D",
@@ -1075,7 +1086,7 @@
    104043
   ],
   "align": "left",
-  "en": ""
+  "en": "Quill"
  },
  {
   "id": "HIO:19674",
@@ -1086,7 +1097,7 @@
    104078
   ],
   "align": "left",
-  "en": ""
+  "en": "Saves your progress"
  },
  {
   "id": "HIO:19696",
@@ -1097,7 +1108,7 @@
    104100
   ],
   "align": "left",
-  "en": ""
+  "en": "Record Book"
  },
  {
   "id": "HIO:196AD",
@@ -1108,7 +1119,7 @@
    104135
   ],
   "align": "left",
-  "en": ""
+  "en": "Loads saved progress"
  },
  {
   "id": "HIO:196CF",
@@ -1119,7 +1130,7 @@
    104157
   ],
   "align": "left",
-  "en": ""
+  "en": "Screenshot"
  },
  {
   "id": "HIO:196E8",
@@ -1130,7 +1141,7 @@
    104192
   ],
   "align": "left",
-  "en": ""
+  "en": "Saves a screen image"
  },
  {
   "id": "HIO:19704",
@@ -1141,7 +1152,7 @@
    104214
   ],
   "align": "left",
-  "en": ""
+  "en": "Maximize Window"
  },
  {
   "id": "HIO:1971B",
@@ -1152,7 +1163,7 @@
    104249
   ],
   "align": "left",
-  "en": ""
+  "en": "Makes the window full size"
  },
  {
   "id": "HIO:1973D",
@@ -1163,7 +1174,7 @@
    104271
   ],
   "align": "left",
-  "en": ""
+  "en": "Restore Window"
  },
  {
   "id": "HIO:19750",
@@ -1174,7 +1185,7 @@
    104306
   ],
   "align": "left",
-  "en": ""
+  "en": "Returns the window to its size"
  },
  {
   "id": "HIO:19773",
@@ -1185,7 +1196,7 @@
    104341
   ],
   "align": "left",
-  "en": ""
+  "en": "before it was maximized"
  },
  {
   "id": "HIO:1979D",
@@ -1196,7 +1207,7 @@
    104363
   ],
   "align": "left",
-  "en": ""
+  "en": "Big-Mouth Fish"
  },
  {
   "id": "HIO:197AC",
@@ -1207,7 +1218,7 @@
    104398
   ],
   "align": "left",
-  "en": ""
+  "en": "Grab unwanted characters or items"
  },
  {
   "id": "HIO:197CF",
@@ -1218,7 +1229,7 @@
    104433
   ],
   "align": "left",
-  "en": ""
+  "en": "to feed it. A high-tech disposal?"
  },
  {
   "id": "HIO:197F7",
@@ -1229,7 +1240,7 @@
    104455
   ],
   "align": "left",
-  "en": ""
+  "en": "Action Setup"
  },
  {
   "id": "HIO:1980E",
@@ -1240,7 +1251,7 @@
    104490
   ],
   "align": "left",
-  "en": ""
+  "en": "Sets the unit's behavior"
  },
  {
   "id": "HIO:19830",
@@ -1251,7 +1262,7 @@
    104512
   ],
   "align": "left",
-  "en": ""
+  "en": "Battle Setup"
  },
  {
   "id": "HIO:19845",
@@ -1262,7 +1273,7 @@
    104547
   ],
   "align": "left",
-  "en": ""
+  "en": "Sets the unit's battle tactics"
  },
  {
   "id": "HIO:19869",
@@ -1273,7 +1284,7 @@
    104569
   ],
   "align": "left",
-  "en": ""
+  "en": "Magic Setup"
  },
  {
   "id": "HIO:1987C",
@@ -1284,7 +1295,7 @@
    104604
   ],
   "align": "left",
-  "en": ""
+  "en": "Sets which spells the unit"
  },
  {
   "id": "HIO:1989F",
@@ -1295,7 +1306,7 @@
    104639
   ],
   "align": "left",
-  "en": ""
+  "en": "casts in battle"
  },
  {
   "id": "HIO:198C5",
@@ -1306,7 +1317,7 @@
    104661
   ],
   "align": "left",
-  "en": ""
+  "en": "Direction Setup"
  },
  {
   "id": "HIO:198DC",
@@ -1317,7 +1328,7 @@
    104696
   ],
   "align": "left",
-  "en": ""
+  "en": "Sets where the unit marches"
  },
  {
   "id": "HIO:19900",
@@ -1328,7 +1339,7 @@
    104718
   ],
   "align": "left",
-  "en": ""
+  "en": "Retry"
  },
  {
   "id": "HIO:19915",
@@ -1339,7 +1350,7 @@
    104753
   ],
   "align": "left",
-  "en": ""
+  "en": "Restarts this stage"
  },
  {
   "id": "HIO:19939",
@@ -1350,7 +1361,7 @@
    104775
   ],
   "align": "left",
-  "en": ""
+  "en": "See-Through"
  },
  {
   "id": "HIO:19950",
@@ -1361,7 +1372,7 @@
    104810
   ],
   "align": "left",
-  "en": ""
+  "en": "See through every wall"
  },
  {
   "id": "HIO:19FC0",
@@ -1372,7 +1383,7 @@
    106466
   ],
   "align": "left",
-  "en": ""
+  "en": "* Help: the Demon Realm *"
  },
  {
   "id": "HIO:19FE2",
@@ -1383,7 +1394,7 @@
    106518
   ],
   "align": "left",
-  "en": ""
+  "en": "Icons"
  },
  {
   "id": "HIO:1A016",
@@ -1394,7 +1405,7 @@
    106526
   ],
   "align": "left",
-  "en": ""
+  "en": "- Chest"
  },
  {
   "id": "HIO:1A01E",
@@ -1405,7 +1416,7 @@
    106568
   ],
   "align": "left",
-  "en": ""
+  "en": ": Swap items between characters."
  },
  {
   "id": "HIO:1A048",
@@ -1416,7 +1427,7 @@
    106576
   ],
   "align": "left",
-  "en": ""
+  "en": "- Scroll"
  },
  {
   "id": "HIO:1A050",
@@ -1427,7 +1438,7 @@
    106618
   ],
   "align": "left",
-  "en": ""
+  "en": ": Shows the character list."
  },
  {
   "id": "HIO:1A07A",
@@ -1438,7 +1449,7 @@
    106716
   ],
   "align": "left",
-  "en": ""
+  "en": "- Crystal Ball: Back to battle mode."
  },
  {
   "id": "HIO:1A0DC",
@@ -1449,7 +1460,7 @@
    106768
   ],
   "align": "left",
-  "en": ""
+  "en": "Unit Formation"
  },
  {
   "id": "HIO:1A110",
@@ -1460,7 +1471,7 @@
    106822
   ],
   "align": "left",
-  "en": ""
+  "en": "- Placing single characters"
  },
  {
   "id": "HIO:1A146",
@@ -1471,7 +1482,7 @@
    106918
   ],
   "align": "left",
-  "en": ""
+  "en": "Left-drag a character to the formation window."
  },
  {
   "id": "HIO:1A1A6",
@@ -1482,7 +1493,7 @@
    106972
   ],
   "align": "left",
-  "en": ""
+  "en": "- Arranging whole units"
  },
  {
   "id": "HIO:1A1DC",
@@ -1493,7 +1504,7 @@
    107020
   ],
   "align": "left",
-  "en": ""
+  "en": "Click a unit number (1-4) in the formation"
  },
  {
   "id": "HIO:1A20C",
@@ -1504,7 +1515,7 @@
    107122
   ],
   "align": "left",
-  "en": ""
+  "en": "window to swap with the magic circle units."
  },
  {
   "id": "HIO:1A272",
@@ -1515,7 +1526,7 @@
    107170
   ],
   "align": "left",
-  "en": ""
+  "en": "The magic circle shows 4 units of characters."
  },
  {
   "id": "HIO:1A2A2",
@@ -1526,7 +1537,7 @@
    107220
   ],
   "align": "left",
-  "en": ""
+  "en": "Each matches a number 1-16 in the list, so you"
  },
  {
   "id": "HIO:1A2D4",
@@ -1537,7 +1548,7 @@
    107316
   ],
   "align": "left",
-  "en": ""
+  "en": "can swap characters by number as needed."
  },
  {
   "id": "HIO:1A334",
@@ -1548,7 +1559,7 @@
    107372
   ],
   "align": "left",
-  "en": ""
+  "en": "Pact Limit"
  },
  {
   "id": "HIO:1A36C",
@@ -1559,7 +1570,7 @@
    107420
   ],
   "align": "left",
-  "en": ""
+  "en": "As the hero levels up, the pact limit rises."
  },
  {
   "id": "HIO:1A39C",
@@ -1570,7 +1581,7 @@
    107436
   ],
   "align": "center",
-  "en": ""
+  "en": "Dungeon B6F"
  },
  {
   "id": "HIO:1A3AC",
@@ -1581,7 +1592,7 @@
    107452
   ],
   "align": "center",
-  "en": ""
+  "en": "Dungeon B5F"
  },
  {
   "id": "HIO:1A3BC",
@@ -1592,7 +1603,7 @@
    107468
   ],
   "align": "center",
-  "en": ""
+  "en": "Dungeon B4F"
  },
  {
   "id": "HIO:1A3CC",
@@ -1603,7 +1614,7 @@
    107484
   ],
   "align": "center",
-  "en": ""
+  "en": "Dungeon B3F"
  },
  {
   "id": "HIO:1A3DC",
@@ -1614,7 +1625,7 @@
    107500
   ],
   "align": "center",
-  "en": ""
+  "en": "Dungeon B2F"
  },
  {
   "id": "HIO:1A3EC",
@@ -1625,7 +1636,7 @@
    107516
   ],
   "align": "center",
-  "en": ""
+  "en": "Dungeon B1F"
  },
  {
   "id": "HIO:1A400",
@@ -1636,7 +1647,7 @@
    107532
   ],
   "align": "center",
-  "en": ""
+  "en": "Underground Maze"
  },
  {
   "id": "HIO:1A410",
@@ -1647,7 +1658,7 @@
    107548
   ],
   "align": "center",
-  "en": ""
+  "en": "Cavern Lake 1"
  },
  {
   "id": "HIO:1A420",
@@ -1658,7 +1669,7 @@
    107564
   ],
   "align": "center",
-  "en": ""
+  "en": "Cavern Lake 2"
  },
  {
   "id": "HIO:1A42E",
@@ -1669,7 +1680,7 @@
    107580
   ],
   "align": "center",
-  "en": ""
+  "en": "Ancient Ruins 1"
  },
  {
   "id": "HIO:1A43E",
@@ -1680,7 +1691,7 @@
    107596
   ],
   "align": "center",
-  "en": ""
+  "en": "Ancient Ruins 2"
  },
  {
   "id": "HIO:1A44E",
@@ -1691,7 +1702,7 @@
    107612
   ],
   "align": "center",
-  "en": ""
+  "en": "Ancient Ruins 3"
  },
  {
   "id": "HIO:1A45E",
@@ -1702,7 +1713,7 @@
    107628
   ],
   "align": "center",
-  "en": ""
+  "en": "Ancient Ruins 4"
  },
  {
   "id": "HIO:1A46E",
@@ -1713,7 +1724,7 @@
    107644
   ],
   "align": "center",
-  "en": ""
+  "en": "Ancient Ruins 5"
  },
  {
   "id": "HIO:1A47E",
@@ -1724,7 +1735,7 @@
    107660
   ],
   "align": "center",
-  "en": ""
+  "en": "Lava Fields 1"
  },
  {
   "id": "HIO:1A48E",
@@ -1735,7 +1746,7 @@
    107676
   ],
   "align": "center",
-  "en": ""
+  "en": "Lava Fields 2"
  },
  {
   "id": "HIO:1A4A0",
@@ -1746,7 +1757,7 @@
    107692
   ],
   "align": "center",
-  "en": ""
+  "en": "Flame Barrier"
  },
  {
   "id": "HIO:1A4AC",
@@ -1757,7 +1768,7 @@
    107708
   ],
   "align": "center",
-  "en": ""
+  "en": "Demon Sword Tomb"
  },
  {
   "id": "HIO:1A4BE",
@@ -1768,7 +1779,7 @@
    107724
   ],
   "align": "center",
-  "en": ""
+  "en": "Frozen Hall"
  },
  {
   "id": "HIO:1A4CE",
@@ -1779,7 +1790,7 @@
    107740
   ],
   "align": "center",
-  "en": ""
+  "en": "Frozen Maze"
  },
  {
   "id": "HIO:1A4E0",
@@ -1790,7 +1801,7 @@
    107756
   ],
   "align": "center",
-  "en": ""
+  "en": "Sunken Temple"
  },
  {
   "id": "HIO:1CF70",
@@ -1801,7 +1812,7 @@
    118656
   ],
   "align": "left",
-  "en": ""
+  "en": "Sylph"
  },
  {
   "id": "HIO:1CF80",
@@ -1812,7 +1823,7 @@
    118672
   ],
   "align": "left",
-  "en": ""
+  "en": "Markfiend"
  },
  {
   "id": "HIO:1CF90",
@@ -1823,7 +1834,7 @@
    118688
   ],
   "align": "left",
-  "en": ""
+  "en": "Salamander"
  },
  {
   "id": "HIO:1CFA0",
@@ -1834,7 +1845,7 @@
    118704
   ],
   "align": "left",
-  "en": ""
+  "en": "Unicorn"
  },
  {
   "id": "HIO:1CFB0",
@@ -1845,7 +1856,7 @@
    118720
   ],
   "align": "left",
-  "en": ""
+  "en": "Banshee"
  },
  {
   "id": "HIO:1CFC0",
@@ -1856,7 +1867,7 @@
    118736
   ],
   "align": "left",
-  "en": ""
+  "en": "Necromancer"
  },
  {
   "id": "HIO:1CFD0",
@@ -1867,7 +1878,7 @@
    118752
   ],
   "align": "left",
-  "en": ""
+  "en": "Skeleton"
  },
  {
   "id": "HIO:1CFE0",
@@ -1878,7 +1889,7 @@
    118768
   ],
   "align": "left",
-  "en": ""
+  "en": "Headless Knight"
  },
  {
   "id": "HIO:1CFF0",
@@ -1889,7 +1900,7 @@
    118784
   ],
   "align": "left",
-  "en": ""
+  "en": "Vampire"
  },
  {
   "id": "HIO:1D000",
@@ -1900,7 +1911,7 @@
    118800
   ],
   "align": "left",
-  "en": ""
+  "en": "Mummy"
  },
  {
   "id": "HIO:1D010",
@@ -1911,7 +1922,7 @@
    118816
   ],
   "align": "left",
-  "en": ""
+  "en": "Wraith"
  },
  {
   "id": "HIO:1D020",
@@ -1922,7 +1933,7 @@
    118832
   ],
   "align": "left",
-  "en": ""
+  "en": "Puppet"
  },
  {
   "id": "HIO:1D030",
@@ -1933,7 +1944,7 @@
    118848
   ],
   "align": "left",
-  "en": ""
+  "en": "Wood Golem"
  },
  {
   "id": "HIO:1D040",
@@ -1944,7 +1955,7 @@
    118864
   ],
   "align": "left",
-  "en": ""
+  "en": "Onick Bird"
  },
  {
   "id": "HIO:1D050",
@@ -1955,7 +1966,7 @@
    118880
   ],
   "align": "left",
-  "en": ""
+  "en": "Witch"
  },
  {
   "id": "HIO:1D060",
@@ -1966,7 +1977,7 @@
    118896
   ],
   "align": "left",
-  "en": ""
+  "en": "Lamia"
  },
  {
   "id": "HIO:1D070",
@@ -1977,7 +1988,7 @@
    118912
   ],
   "align": "left",
-  "en": ""
+  "en": "Nightmare"
  },
  {
   "id": "HIO:1D080",
@@ -1988,7 +1999,7 @@
    118928
   ],
   "align": "left",
-  "en": ""
+  "en": "Evil Eye"
  },
  {
   "id": "HIO:1D090",
@@ -1999,7 +2010,7 @@
    118944
   ],
   "align": "left",
-  "en": ""
+  "en": "Dark Mage"
  },
  {
   "id": "HIO:1D0A0",
@@ -2010,7 +2021,7 @@
    118960
   ],
   "align": "left",
-  "en": ""
+  "en": "Mantrap"
  },
  {
   "id": "HIO:1D0B0",
@@ -2021,7 +2032,7 @@
    118976
   ],
   "align": "left",
-  "en": ""
+  "en": "Two-Headed Snake"
  },
  {
   "id": "HIO:1D0C0",
@@ -2032,7 +2043,7 @@
    118992
   ],
   "align": "left",
-  "en": ""
+  "en": "Minotaur"
  },
  {
   "id": "HIO:1D0D0",
@@ -2043,7 +2054,7 @@
    119008
   ],
   "align": "left",
-  "en": ""
+  "en": "Cyclops"
  },
  {
   "id": "HIO:1D0E0",
@@ -2054,7 +2065,7 @@
    119024
   ],
   "align": "left",
-  "en": ""
+  "en": "Water Slime"
  },
  {
   "id": "HIO:1D0F0",
@@ -2065,7 +2076,7 @@
    119040
   ],
   "align": "left",
-  "en": ""
+  "en": "Samurai"
  },
  {
   "id": "HIO:1D100",
@@ -2076,7 +2087,7 @@
    119056
   ],
   "align": "left",
-  "en": ""
+  "en": "Lizardman"
  },
  {
   "id": "HIO:1D110",
@@ -2087,7 +2098,7 @@
    119072
   ],
   "align": "left",
-  "en": ""
+  "en": "Jelly Slime"
  },
  {
   "id": "HIO:1D120",
@@ -2098,7 +2109,7 @@
    119088
   ],
   "align": "left",
-  "en": ""
+  "en": "Werewolf"
  },
  {
   "id": "HIO:1D130",
@@ -2109,7 +2120,7 @@
    119104
   ],
   "align": "left",
-  "en": ""
+  "en": "Valkyrie"
  },
  {
   "id": "HIO:1D140",
@@ -2120,7 +2131,7 @@
    119120
   ],
   "align": "left",
-  "en": ""
+  "en": "Sheepdog"
  },
  {
   "id": "HIO:1D150",
@@ -2131,7 +2142,7 @@
    119136
   ],
   "align": "left",
-  "en": ""
+  "en": "Chun-Li"
  },
  {
   "id": "HIO:1D160",
@@ -2142,7 +2153,7 @@
    119152
   ],
   "align": "left",
-  "en": ""
+  "en": "Mirlei"
  },
  {
   "id": "HIO:1D170",
@@ -2153,7 +2164,7 @@
    119168
   ],
   "align": "left",
-  "en": ""
+  "en": "Angel"
  },
  {
   "id": "HIO:1D180",
@@ -2164,7 +2175,7 @@
    119184
   ],
   "align": "left",
-  "en": ""
+  "en": "Giant Chicken"
  },
  {
   "id": "HIO:1D190",
@@ -2175,7 +2186,7 @@
    119200
   ],
   "align": "left",
-  "en": ""
+  "en": "Griffin"
  },
  {
   "id": "HIO:1D1A0",
@@ -2186,7 +2197,7 @@
    119216
   ],
   "align": "left",
-  "en": ""
+  "en": "Spartoi"
  },
  {
   "id": "HIO:1D1B0",
@@ -2197,7 +2208,7 @@
    119232
   ],
   "align": "left",
-  "en": ""
+  "en": "Fiend"
  },
  {
   "id": "HIO:1D1C0",
@@ -2208,7 +2219,7 @@
    119248
   ],
   "align": "left",
-  "en": ""
+  "en": "Harpy"
  },
  {
   "id": "HIO:1D1D0",
@@ -2219,7 +2230,7 @@
    119264
   ],
   "align": "left",
-  "en": ""
+  "en": "Undead Knight"
  },
  {
   "id": "HIO:1D1E0",
@@ -2230,7 +2241,7 @@
    119280
   ],
   "align": "left",
-  "en": ""
+  "en": "Shadow Demon"
  },
  {
   "id": "HIO:1D1F0",
@@ -2241,7 +2252,7 @@
    119296
   ],
   "align": "left",
-  "en": ""
+  "en": "Ifrit"
  },
  {
   "id": "HIO:1D200",
@@ -2252,7 +2263,7 @@
    119312
   ],
   "align": "left",
-  "en": ""
+  "en": "Silver Wyrm"
  },
  {
   "id": "HIO:1D210",
@@ -2263,7 +2274,7 @@
    119328
   ],
   "align": "left",
-  "en": ""
+  "en": "Living Armor"
  },
  {
   "id": "HIO:1D220",
@@ -2274,7 +2285,7 @@
    119344
   ],
   "align": "left",
-  "en": ""
+  "en": "Doll Master"
  },
  {
   "id": "HIO:1D230",
@@ -2285,7 +2296,7 @@
    119360
   ],
   "align": "left",
-  "en": ""
+  "en": "Elder Dragon"
  },
  {
   "id": "HIO:1D240",
@@ -2296,7 +2307,7 @@
    119376
   ],
   "align": "left",
-  "en": ""
+  "en": "Zombie Dragon"
  },
  {
   "id": "HIO:1D250",
@@ -2307,7 +2318,7 @@
    119392
   ],
   "align": "left",
-  "en": ""
+  "en": "Stone Golem"
  },
  {
   "id": "HIO:1D260",
@@ -2318,7 +2329,7 @@
    119408
   ],
   "align": "left",
-  "en": ""
+  "en": "Giant Squid"
  },
  {
   "id": "HIO:1D538",
@@ -2329,7 +2340,7 @@
    120140
   ],
   "align": "left",
-  "en": ""
+  "en": "Supreme Life Potion"
  },
  {
   "id": "HIO:1D55C",
@@ -2340,7 +2351,7 @@
    120176
   ],
   "align": "left",
-  "en": ""
+  "en": "Supreme Mana Potion"
  },
  {
   "id": "HIO:1D580",
@@ -2351,7 +2362,7 @@
    120212
   ],
   "align": "left",
-  "en": ""
+  "en": "Mystic Revival Brew"
  },
  {
   "id": "HIO:1D5A4",
@@ -2362,7 +2373,7 @@
    120248
   ],
   "align": "left",
-  "en": ""
+  "en": "Biares's Elixir"
  },
  {
   "id": "HIO:1D5C8",
@@ -2373,7 +2384,7 @@
    120284
   ],
   "align": "left",
-  "en": ""
+  "en": "Vigor Tonic"
  },
  {
   "id": "HIO:1D5EC",
@@ -2384,7 +2395,7 @@
    120320
   ],
   "align": "left",
-  "en": ""
+  "en": "Clearscent Herb"
  },
  {
   "id": "HIO:1D610",
@@ -2395,7 +2406,7 @@
    120356
   ],
   "align": "left",
-  "en": ""
+  "en": "White Holy Water"
  },
  {
   "id": "HIO:1D634",
@@ -2406,7 +2417,7 @@
    120392
   ],
   "align": "left",
-  "en": ""
+  "en": "Spirit Necklace"
  },
  {
   "id": "HIO:1D658",
@@ -2417,7 +2428,7 @@
    120428
   ],
   "align": "left",
-  "en": ""
+  "en": "Hourglass"
  },
  {
   "id": "HIO:1D67C",
@@ -2428,7 +2439,7 @@
    120464
   ],
   "align": "left",
-  "en": ""
+  "en": "Goddess Statue"
  },
  {
   "id": "HIO:1D6A0",
@@ -2439,7 +2450,7 @@
    120500
   ],
   "align": "left",
-  "en": ""
+  "en": "Spider Crest"
  },
  {
   "id": "HIO:1D6C4",
@@ -2450,7 +2461,7 @@
    120536
   ],
   "align": "left",
-  "en": ""
+  "en": "Eye of the Sky"
  },
  {
   "id": "HIO:1D6E8",
@@ -2461,7 +2472,7 @@
    120572
   ],
   "align": "left",
-  "en": ""
+  "en": "Coagulant"
  },
  {
   "id": "HIO:1D70C",
@@ -2472,7 +2483,7 @@
    120608
   ],
   "align": "left",
-  "en": ""
+  "en": "Tobacco"
  },
  {
   "id": "HIO:1D730",
@@ -2483,7 +2494,7 @@
    120644
   ],
   "align": "left",
-  "en": ""
+  "en": "Halo Ring"
  },
  {
   "id": "HIO:1D754",
@@ -2494,7 +2505,7 @@
    120680
   ],
   "align": "left",
-  "en": ""
+  "en": "Lady Shetty's Ring"
  },
  {
   "id": "HIO:1D778",
@@ -2505,7 +2516,7 @@
    120716
   ],
   "align": "left",
-  "en": ""
+  "en": "Black Fang Ring"
  },
  {
   "id": "HIO:1D79C",
@@ -2516,7 +2527,7 @@
    120752
   ],
   "align": "left",
-  "en": ""
+  "en": "Guardian Ring"
  },
  {
   "id": "HIO:1D7C0",
@@ -2527,7 +2538,7 @@
    120788
   ],
   "align": "left",
-  "en": ""
+  "en": "Warrior Statue"
  },
  {
   "id": "HIO:1D7E4",
@@ -2538,7 +2549,7 @@
    120824
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Air"
  },
  {
   "id": "HIO:1D808",
@@ -2549,7 +2560,7 @@
    120860
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Fire"
  },
  {
   "id": "HIO:1D82C",
@@ -2560,7 +2571,7 @@
    120896
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Ice"
  },
  {
   "id": "HIO:1D850",
@@ -2571,7 +2582,7 @@
    120932
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Thunder"
  },
  {
   "id": "HIO:1D874",
@@ -2582,7 +2593,7 @@
    120968
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Healing"
  },
  {
   "id": "HIO:1D898",
@@ -2593,7 +2604,7 @@
    121004
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Flight"
  },
  {
   "id": "HIO:1D8BC",
@@ -2604,7 +2615,7 @@
    121040
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Revival"
  },
  {
   "id": "HIO:1D8E0",
@@ -2615,7 +2626,7 @@
    121076
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Death"
  },
  {
   "id": "HIO:1D904",
@@ -2626,7 +2637,7 @@
    121112
   ],
   "align": "left",
-  "en": ""
+  "en": "Anon Scroll (Blank)"
  },
  {
   "id": "HIO:1D928",
@@ -2637,7 +2648,7 @@
    121148
   ],
   "align": "left",
-  "en": ""
+  "en": "Anon Scroll (Waking)"
  },
  {
   "id": "HIO:1D94C",
@@ -2648,7 +2659,7 @@
    121184
   ],
   "align": "left",
-  "en": ""
+  "en": "Blue-Gray Necklace"
  },
  {
   "id": "HIO:1D970",
@@ -2659,7 +2670,7 @@
    121220
   ],
   "align": "left",
-  "en": ""
+  "en": "Silver Key"
  },
  {
   "id": "HIO:1D994",
@@ -2670,7 +2681,7 @@
    121256
   ],
   "align": "left",
-  "en": ""
+  "en": "Ruby Key"
  },
  {
   "id": "HIO:1D9B8",
@@ -2681,7 +2692,7 @@
    121292
   ],
   "align": "left",
-  "en": ""
+  "en": "Ornate Dragon Key"
  },
  {
   "id": "HIO:1D9DC",
@@ -2692,7 +2703,7 @@
    121328
   ],
   "align": "left",
-  "en": ""
+  "en": "Eerie Skull Key"
  },
  {
   "id": "HIO:1DA00",
@@ -2703,7 +2714,7 @@
    121364
   ],
   "align": "left",
-  "en": ""
+  "en": "Serpent Key"
  },
  {
   "id": "HIO:1DA24",
@@ -2714,7 +2725,7 @@
    121400
   ],
   "align": "left",
-  "en": ""
+  "en": "Rusty Cell Key"
  },
  {
   "id": "HIO:1DA48",
@@ -2725,7 +2736,7 @@
    121436
   ],
   "align": "left",
-  "en": ""
+  "en": "Wishing Coin"
  },
  {
   "id": "HIO:1DA6C",
@@ -2736,7 +2747,7 @@
    121472
   ],
   "align": "left",
-  "en": ""
+  "en": "Dragon Fang"
  },
  {
   "id": "HIO:1DA90",
@@ -2747,7 +2758,7 @@
    121508
   ],
   "align": "left",
-  "en": ""
+  "en": "Garnet"
  },
  {
   "id": "HIO:1DAB4",
@@ -2758,7 +2769,7 @@
    121544
   ],
   "align": "left",
-  "en": ""
+  "en": "Ice Crystal"
  },
  {
   "id": "HIO:1DAD8",
@@ -2769,7 +2780,7 @@
    121580
   ],
   "align": "left",
-  "en": ""
+  "en": "Star Ruby"
  },
  {
   "id": "HIO:1DAFC",
@@ -2780,7 +2791,7 @@
    121616
   ],
   "align": "left",
-  "en": ""
+  "en": "Red Crystal"
  },
  {
   "id": "HIO:1DB20",
@@ -2791,7 +2802,7 @@
    121652
   ],
   "align": "left",
-  "en": ""
+  "en": "Jade Beast Ruby"
  },
  {
   "id": "HIO:1DB44",
@@ -2802,7 +2813,7 @@
    121688
   ],
   "align": "left",
-  "en": ""
+  "en": "Platinum Harp"
  },
  {
   "id": "HIO:1DB68",
@@ -2813,7 +2824,7 @@
    121724
   ],
   "align": "left",
-  "en": ""
+  "en": "Demon Statue"
  },
  {
   "id": "HIO:1DB8C",
@@ -2824,7 +2835,7 @@
    121760
   ],
   "align": "left",
-  "en": ""
+  "en": "Red Flame Candle"
  },
  {
   "id": "HIO:1DBB0",
@@ -2835,7 +2846,7 @@
    121796
   ],
   "align": "left",
-  "en": ""
+  "en": "Blue Flame Candle"
  },
  {
   "id": "HIO:1DBD4",
@@ -2846,7 +2857,7 @@
    121832
   ],
   "align": "left",
-  "en": ""
+  "en": "Skull Statue"
  },
  {
   "id": "HIO:1DBF8",
@@ -2857,7 +2868,7 @@
    121868
   ],
   "align": "left",
-  "en": ""
+  "en": "Blank Paper"
  },
  {
   "id": "HIO:1DC1C",
@@ -2868,7 +2879,7 @@
    121904
   ],
   "align": "left",
-  "en": ""
+  "en": "Alice's Letter"
  },
  {
   "id": "HIO:1DC40",
@@ -2879,7 +2890,7 @@
    121940
   ],
   "align": "left",
-  "en": ""
+  "en": "'Krist's Art of War'"
  },
  {
   "id": "HIO:1DC64",
@@ -2890,7 +2901,7 @@
    121976
   ],
   "align": "left",
-  "en": ""
+  "en": "'Demon Codex'"
  },
  {
   "id": "HIO:1DC88",
@@ -2901,7 +2912,7 @@
    122012
   ],
   "align": "left",
-  "en": ""
+  "en": "Pickaxe"
  },
  {
   "id": "HIO:1DCAC",
@@ -2912,7 +2923,7 @@
    122048
   ],
   "align": "left",
-  "en": ""
+  "en": "Matsutake"
  },
  {
   "id": "HIO:1DCD0",
@@ -2923,7 +2934,7 @@
    122084
   ],
   "align": "left",
-  "en": ""
+  "en": "Crimson Apple"
  },
  {
   "id": "HIO:1DCF4",
@@ -2934,7 +2945,7 @@
    122120
   ],
   "align": "left",
-  "en": ""
+  "en": "Green Grapes"
  },
  {
   "id": "HIO:1DD18",
@@ -2945,7 +2956,7 @@
    122156
   ],
   "align": "left",
-  "en": ""
+  "en": "Chestnut"
  },
  {
   "id": "HIO:1DD3C",
@@ -2956,7 +2967,7 @@
    122192
   ],
   "align": "left",
-  "en": ""
+  "en": "Sweet Pudding"
  },
  {
   "id": "HIO:1DD60",
@@ -2967,7 +2978,7 @@
    122228
   ],
   "align": "left",
-  "en": ""
+  "en": "Tuna Sushi"
  },
  {
   "id": "HIO:1DD84",
@@ -2978,7 +2989,7 @@
    122264
   ],
   "align": "left",
-  "en": ""
+  "en": "Cute Chick"
  },
  {
   "id": "HIO:1DDA8",
@@ -2989,7 +3000,7 @@
    122300
   ],
   "align": "left",
-  "en": ""
+  "en": "Crisp Pear"
  },
  {
   "id": "HIO:1DDCC",
@@ -3000,7 +3011,7 @@
    122336
   ],
   "align": "left",
-  "en": ""
+  "en": "Ripe Tangerine"
  },
  {
   "id": "HIO:1DDF0",
@@ -3011,7 +3022,7 @@
    122372
   ],
   "align": "left",
-  "en": ""
+  "en": "Tiny Cherries"
  },
  {
   "id": "HIO:1DE14",
@@ -3022,7 +3033,7 @@
    122408
   ],
   "align": "left",
-  "en": ""
+  "en": "Tasty Drumstick"
  },
  {
   "id": "HIO:1DE38",
@@ -3033,7 +3044,7 @@
    122444
   ],
   "align": "left",
-  "en": ""
+  "en": "Corn on the Cob"
  },
  {
   "id": "HIO:1DE5C",
@@ -3044,7 +3055,7 @@
    122480
   ],
   "align": "left",
-  "en": ""
+  "en": "Leather Cap"
  },
  {
   "id": "HIO:1DE80",
@@ -3055,7 +3066,7 @@
    122516
   ],
   "align": "left",
-  "en": ""
+  "en": "Iron Helm"
  },
  {
   "id": "HIO:1DEA4",
@@ -3066,7 +3077,7 @@
    122552
   ],
   "align": "left",
-  "en": ""
+  "en": "Iron Helm +1"
  },
  {
   "id": "HIO:1DEC8",
@@ -3077,7 +3088,7 @@
    122588
   ],
   "align": "left",
-  "en": ""
+  "en": "War Helm"
  },
  {
   "id": "HIO:1DEEC",
@@ -3088,7 +3099,7 @@
    122624
   ],
   "align": "left",
-  "en": ""
+  "en": "Samurai Helm"
  },
  {
   "id": "HIO:1DF10",
@@ -3099,7 +3110,7 @@
    122660
   ],
   "align": "left",
-  "en": ""
+  "en": "Magic Hat"
  },
  {
   "id": "HIO:1DF34",
@@ -3110,7 +3121,7 @@
    122696
   ],
   "align": "left",
-  "en": ""
+  "en": "Sage's Crown"
  },
  {
   "id": "HIO:1DF58",
@@ -3121,7 +3132,7 @@
    122732
   ],
   "align": "left",
-  "en": ""
+  "en": "Ragged Shirt"
  },
  {
   "id": "HIO:1DF7C",
@@ -3132,7 +3143,7 @@
    122768
   ],
   "align": "left",
-  "en": ""
+  "en": "Leather Armor"
  },
  {
   "id": "HIO:1DFA0",
@@ -3143,7 +3154,7 @@
    122804
   ],
   "align": "left",
-  "en": ""
+  "en": "Chain Mail"
  },
  {
   "id": "HIO:1DFC4",
@@ -3154,7 +3165,7 @@
    122840
   ],
   "align": "left",
-  "en": ""
+  "en": "Breastplate"
  },
  {
   "id": "HIO:1DFE8",
@@ -3165,7 +3176,7 @@
    122876
   ],
   "align": "left",
-  "en": ""
+  "en": "Plate Mail"
  },
  {
   "id": "HIO:1E00C",
@@ -3176,7 +3187,7 @@
    122912
   ],
   "align": "left",
-  "en": ""
+  "en": "Silver Mail"
  },
  {
   "id": "HIO:1E030",
@@ -3187,7 +3198,7 @@
    122948
   ],
   "align": "left",
-  "en": ""
+  "en": "Armor of Spades"
  },
  {
   "id": "HIO:1E054",
@@ -3198,7 +3209,7 @@
    122984
   ],
   "align": "left",
-  "en": ""
+  "en": "Reflect Armor"
  },
  {
   "id": "HIO:1E078",
@@ -3209,7 +3220,7 @@
    123020
   ],
   "align": "left",
-  "en": ""
+  "en": "Dragon Mail"
  },
  {
   "id": "HIO:1E09C",
@@ -3220,7 +3231,7 @@
    123056
   ],
   "align": "left",
-  "en": ""
+  "en": "Samurai Armor"
  },
  {
   "id": "HIO:1E0C0",
@@ -3231,7 +3242,7 @@
    123092
   ],
   "align": "left",
-  "en": ""
+  "en": "Robe"
  },
  {
   "id": "HIO:1E0E4",
@@ -3242,7 +3253,7 @@
    123128
   ],
   "align": "left",
-  "en": ""
+  "en": "Wooden Shield"
  },
  {
   "id": "HIO:1E108",
@@ -3253,7 +3264,7 @@
    123164
   ],
   "align": "left",
-  "en": ""
+  "en": "Round Shield"
  },
  {
   "id": "HIO:1E12C",
@@ -3264,7 +3275,7 @@
    123200
   ],
   "align": "left",
-  "en": ""
+  "en": "Knight Shield"
  },
  {
   "id": "HIO:1E150",
@@ -3275,7 +3286,7 @@
    123236
   ],
   "align": "left",
-  "en": ""
+  "en": "Round Shield +1"
  },
  {
   "id": "HIO:1E174",
@@ -3286,7 +3297,7 @@
    123272
   ],
   "align": "left",
-  "en": ""
+  "en": "Holy Crest Shield"
  },
  {
   "id": "HIO:1E198",
@@ -3297,7 +3308,7 @@
    123308
   ],
   "align": "left",
-  "en": ""
+  "en": "Ruby Shield"
  },
  {
   "id": "HIO:1E1BC",
@@ -3308,7 +3319,7 @@
    123344
   ],
   "align": "left",
-  "en": ""
+  "en": "Mirror Shield"
  },
  {
   "id": "HIO:1E1E0",
@@ -3319,7 +3330,7 @@
    123380
   ],
   "align": "left",
-  "en": ""
+  "en": "Iron Gloves"
  },
  {
   "id": "HIO:1E204",
@@ -3330,7 +3341,7 @@
    123416
   ],
   "align": "left",
-  "en": ""
+  "en": "Iron Gloves +1"
  },
  {
   "id": "HIO:1E228",
@@ -3341,7 +3352,7 @@
    123452
   ],
   "align": "left",
-  "en": ""
+  "en": "Magic Gloves"
  },
  {
   "id": "HIO:1E24C",
@@ -3352,7 +3363,7 @@
    123488
   ],
   "align": "left",
-  "en": ""
+  "en": "Samurai Gauntlets"
  },
  {
   "id": "HIO:1E270",
@@ -3363,7 +3374,7 @@
    123524
   ],
   "align": "left",
-  "en": ""
+  "en": "Club"
  },
  {
   "id": "HIO:1E294",
@@ -3374,7 +3385,7 @@
    123560
   ],
   "align": "left",
-  "en": ""
+  "en": "Dagger"
  },
  {
   "id": "HIO:1E2B8",
@@ -3385,7 +3396,7 @@
    123596
   ],
   "align": "left",
-  "en": ""
+  "en": "Falchion"
  },
  {
   "id": "HIO:1E2DC",
@@ -3396,7 +3407,7 @@
    123632
   ],
   "align": "left",
-  "en": ""
+  "en": "Long Sword"
  },
  {
   "id": "HIO:1E300",
@@ -3407,7 +3418,7 @@
    123668
   ],
   "align": "left",
-  "en": ""
+  "en": "Saber"
  },
  {
   "id": "HIO:1E324",
@@ -3418,7 +3429,7 @@
    123704
   ],
   "align": "left",
-  "en": ""
+  "en": "Falchion +1"
  },
  {
   "id": "HIO:1E348",
@@ -3429,7 +3440,7 @@
    123740
   ],
   "align": "left",
-  "en": ""
+  "en": "Long Sword +1"
  },
  {
   "id": "HIO:1E36C",
@@ -3440,7 +3451,7 @@
    123776
   ],
   "align": "left",
-  "en": ""
+  "en": "Saber +1"
  },
  {
   "id": "HIO:1E390",
@@ -3451,7 +3462,7 @@
    123812
   ],
   "align": "left",
-  "en": ""
+  "en": "Rose Quartz Sword"
  },
  {
   "id": "HIO:1E3B4",
@@ -3462,7 +3473,7 @@
    123848
   ],
   "align": "left",
-  "en": ""
+  "en": "Magic Sword"
  },
  {
   "id": "HIO:1E3D8",
@@ -3473,7 +3484,7 @@
    123884
   ],
   "align": "left",
-  "en": ""
+  "en": "Sword of ?"
  },
  {
   "id": "HIO:1E3FC",
@@ -3484,7 +3495,7 @@
    123920
   ],
   "align": "left",
-  "en": ""
+  "en": "Frost Brand"
  },
  {
   "id": "HIO:1E420",
@@ -3495,7 +3506,7 @@
    123956
   ],
   "align": "left",
-  "en": ""
+  "en": "Dragon Fang Sword"
  },
  {
   "id": "HIO:1E444",
@@ -3506,7 +3517,7 @@
    123992
   ],
   "align": "left",
-  "en": ""
+  "en": "Scarlet King's Sword"
  },
  {
   "id": "HIO:1E468",
@@ -3517,7 +3528,7 @@
    124028
   ],
   "align": "left",
-  "en": ""
+  "en": "Katana"
  },
  {
   "id": "HIO:1E48C",
@@ -3528,7 +3539,7 @@
    124064
   ],
   "align": "left",
-  "en": ""
+  "en": "Muramasa"
  },
  {
   "id": "HIO:1E4B0",
@@ -3539,7 +3550,7 @@
    124100
   ],
   "align": "left",
-  "en": ""
+  "en": "Cursed Murasame"
  },
  {
   "id": "HIO:1E4D4",
@@ -3550,7 +3561,7 @@
    124136
   ],
   "align": "left",
-  "en": ""
+  "en": "War Hammer"
  },
  {
   "id": "HIO:1E4F8",
@@ -3561,7 +3572,7 @@
    124172
   ],
   "align": "left",
-  "en": ""
+  "en": "Battle Axe"
  },
  {
   "id": "HIO:1E51C",
@@ -3572,7 +3583,7 @@
    124208
   ],
   "align": "left",
-  "en": ""
+  "en": "Great Axe"
  },
  {
   "id": "HIO:1E540",
@@ -3583,7 +3594,7 @@
    124244
   ],
   "align": "left",
-  "en": ""
+  "en": "Meteor Hammer"
  },
  {
   "id": "HIO:1E564",
@@ -3594,7 +3605,7 @@
    124280
   ],
   "align": "left",
-  "en": ""
+  "en": "Stone Club"
  },
  {
   "id": "HIO:1E588",
@@ -3605,7 +3616,7 @@
    124316
   ],
   "align": "left",
-  "en": ""
+  "en": "Luckbreaker Axe"
  },
  {
   "id": "HIO:1E5AC",
@@ -3616,7 +3627,7 @@
    124352
   ],
   "align": "left",
-  "en": ""
+  "en": "Staff"
  },
  {
   "id": "HIO:1E5D0",
@@ -3627,7 +3638,7 @@
    124388
   ],
   "align": "left",
-  "en": ""
+  "en": "Serpent Staff"
  },
  {
   "id": "HIO:1E5F4",
@@ -3638,7 +3649,7 @@
    124424
   ],
   "align": "left",
-  "en": ""
+  "en": "Unicorn Horn"
  },
  {
   "id": "HIO:1E618",
@@ -3649,7 +3660,7 @@
    124460
   ],
   "align": "left",
-  "en": ""
+  "en": "Great Tuna Sushi"
  },
  {
   "id": "HIO:1E63C",
@@ -3660,7 +3671,7 @@
    124496
   ],
   "align": "left",
-  "en": ""
+  "en": "Letter to Everyone"
  },
  {
   "id": "HIO:1E660",
@@ -3671,7 +3682,7 @@
    124532
   ],
   "align": "left",
-  "en": ""
+  "en": "Crimson Fruit Wine"
  },
  {
   "id": "HIO:1E684",
@@ -3682,7 +3693,7 @@
    124568
   ],
   "align": "left",
-  "en": ""
+  "en": "Magic Mallet"
  },
  {
   "id": "HIO:1E6A8",
@@ -3693,7 +3704,7 @@
    124604
   ],
   "align": "left",
-  "en": ""
+  "en": "Glimmer Ring"
  },
  {
   "id": "HIO:1E6CC",
@@ -3704,7 +3715,7 @@
    124640
   ],
   "align": "left",
-  "en": ""
+  "en": "Crimson Lotus Gem"
  },
  {
   "id": "HIO:1E6F0",
@@ -3715,7 +3726,7 @@
    124676
   ],
   "align": "left",
-  "en": ""
+  "en": "Reserved"
  },
  {
   "id": "HIO:1E714",
@@ -3726,7 +3737,7 @@
    124712
   ],
   "align": "left",
-  "en": ""
+  "en": "Reserved"
  },
  {
   "id": "HIO:1E740",
@@ -3737,7 +3748,7 @@
    124752
   ],
   "align": "left",
-  "en": ""
+  "en": "has died!"
  },
  {
   "id": "HIO:1E750",
@@ -3748,7 +3759,7 @@
    124770
   ],
   "align": "left",
-  "en": ""
+  "en": "met the enemy!"
  },
  {
   "id": "HIO:1E762",
@@ -3759,7 +3770,7 @@
    124790
   ],
   "align": "left",
-  "en": ""
+  "en": "got it!"
  },
  {
   "id": "HIO:1E776",
@@ -3770,7 +3781,7 @@
    124800
   ],
   "align": "left",
-  "en": ""
+  "en": "rose to Lv"
  },
  {
   "id": "HIO:1E780",
@@ -3781,7 +3792,7 @@
    124818
   ],
   "align": "left",
-  "en": ""
+  "en": "!!"
  },
  {
   "id": "HIO:1E792",
@@ -3792,7 +3803,7 @@
    124836
   ],
   "align": "left",
-  "en": ""
+  "en": "is sealed now."
  },
  {
   "id": "HIO:1E7A4",
@@ -3803,7 +3814,7 @@
    124854
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon it?"
  },
  {
   "id": "HIO:1E7B6",
@@ -3814,7 +3825,7 @@
    124858
   ],
   "align": "left",
-  "en": ""
+  "en": "Yes"
  },
  {
   "id": "HIO:1E7BA",
@@ -3825,7 +3836,7 @@
    124862
   ],
   "align": "left",
-  "en": ""
+  "en": "No"
  },
  {
   "id": "HIO:1E7BE",
@@ -3836,7 +3847,7 @@
    124868
   ],
   "align": "left",
-  "en": ""
+  "en": "Unit"
  },
  {
   "id": "HIO:1E7C4",
@@ -3847,7 +3858,7 @@
    124874
   ],
   "align": "left",
-  "en": ""
+  "en": ":"
  },
  {
   "id": "HIO:1E7CA",
@@ -3858,7 +3869,7 @@
    124890
   ],
   "align": "left",
-  "en": ""
+  "en": "met the enemy!"
  },
  {
   "id": "HIO:1E7DA",
@@ -3869,7 +3880,7 @@
    124906
   ],
   "align": "left",
-  "en": ""
+  "en": "was wiped out!"
  },
  {
   "id": "HIO:1E7EA",
@@ -3880,51 +3891,106 @@
    124924
   ],
   "align": "left",
-  "en": ""
+  "en": "Waiting in Realm."
  },
  {
   "id": "HIO:1E7FC",
   "kind": "message",
-  "zh": "〔能力上昇〕ＨＰ±",
+  "zh": "〔能力上昇〕",
   "field": [
    124924,
+   124936
+  ],
+  "align": "left",
+  "en": "Stats Up:"
+ },
+ {
+  "id": "HIO:1E808",
+  "kind": "message",
+  "zh": "ＨＰ±",
+  "field": [
+   124936,
    124946
   ],
   "align": "left",
-  "en": ""
+  "en": "HP+-"
  },
  {
   "id": "HIO:1E812",
   "kind": "message",
-  "zh": "ＡＴＫ±ＭＰ±",
+  "zh": "ＡＴＫ±",
   "field": [
    124946,
+   124954
+  ],
+  "align": "left",
+  "en": "ATK+-"
+ },
+ {
+  "id": "HIO:1E81A",
+  "kind": "message",
+  "zh": "ＭＰ±",
+  "field": [
+   124954,
    124964
   ],
   "align": "left",
-  "en": ""
+  "en": "MP+-"
  },
  {
   "id": "HIO:1E824",
   "kind": "message",
-  "zh": "ＩＮＴ±ＡＣ±",
+  "zh": "ＩＮＴ±",
   "field": [
    124964,
+   124972
+  ],
+  "align": "left",
+  "en": "INT+-"
+ },
+ {
+  "id": "HIO:1E82C",
+  "kind": "message",
+  "zh": "ＡＣ±",
+  "field": [
+   124972,
    124982
   ],
   "align": "left",
-  "en": ""
+  "en": "AC+-"
  },
  {
   "id": "HIO:1E836",
   "kind": "message",
-  "zh": "ＭＧＲ±〔學會咒語〕讓怪物返回到魔界，並重新進行部隊的編成。",
+  "zh": "ＭＧＲ±",
   "field": [
    124982,
+   124990
+  ],
+  "align": "left",
+  "en": "MGR+-"
+ },
+ {
+  "id": "HIO:1E83E",
+  "kind": "message",
+  "zh": "〔學會咒語〕",
+  "field": [
+   124990,
+   125002
+  ],
+  "align": "left",
+  "en": "New spell:"
+ },
+ {
+  "id": "HIO:1E84A",
+  "kind": "message",
+  "zh": "讓怪物返回到魔界，並重新進行部隊的編成。",
+  "field": [
+   125002,
    125044
   ],
   "align": "left",
-  "en": ""
+  "en": "Return demons to the Demon Realm; regroup."
  },
  {
   "id": "HIO:1E874",
@@ -3935,7 +4001,7 @@
    125070
   ],
   "align": "left",
-  "en": ""
+  "en": "Are you sure?"
  },
  {
   "id": "HIO:1E88E",
@@ -3946,7 +4012,7 @@
    125074
   ],
   "align": "left",
-  "en": ""
+  "en": "Yes"
  },
  {
   "id": "HIO:1E892",
@@ -3957,7 +4023,7 @@
    125078
   ],
   "align": "left",
-  "en": ""
+  "en": "No"
  },
  {
   "id": "HIO:1E896",
@@ -3968,18 +4034,29 @@
    125090
   ],
   "align": "left",
-  "en": ""
+  "en": "Summoning."
  },
  {
   "id": "HIO:1E8A2",
   "kind": "message",
-  "zh": "成功地創造出來了。精靈",
+  "zh": "成功地創造出來了。",
   "field": [
    125090,
+   125108
+  ],
+  "align": "left",
+  "en": "Creation complete."
+ },
+ {
+  "id": "HIO:1E8B4",
+  "kind": "message",
+  "zh": "精靈",
+  "field": [
+   125108,
    125116
   ],
   "align": "left",
-  "en": ""
+  "en": "Spirit"
  },
  {
   "id": "HIO:1E8BC",
@@ -3990,7 +4067,8 @@
    125168
   ],
   "align": "left",
-  "en": ""
+  "en": "Summons spiritCorpse: Corpse yields:Have it join? ",
+  "notes": "four pieces glued at fixed offsets (14|8|14|14 bytes: 可以召喚出精靈|從屍體上|從屍體可創造出|要讓牠加入嗎？); each English piece fills exactly its width; check in game"
  },
  {
   "id": "HIO:1E8F1",
@@ -4001,7 +4079,7 @@
    125175
   ],
   "align": "left",
-  "en": ""
+  "en": "Spell:"
  },
  {
   "id": "HIO:1E8F8",
@@ -4012,7 +4090,7 @@
    125182
   ],
   "align": "left",
-  "en": ""
+  "en": "Item:"
  },
  {
   "id": "HIO:1E8FF",
@@ -4023,7 +4101,7 @@
    125189
   ],
   "align": "left",
-  "en": ""
+  "en": "Resist"
  },
  {
   "id": "HIO:1E906",
@@ -4034,7 +4112,7 @@
    125196
   ],
   "align": "left",
-  "en": ""
+  "en": "Trait:"
  },
  {
   "id": "HIO:1E90D",
@@ -4045,7 +4123,7 @@
    125203
   ],
   "align": "left",
-  "en": ""
+  "en": "Weak:"
  },
  {
   "id": "HIO:1E914",
@@ -4056,7 +4134,7 @@
    125210
   ],
   "align": "left",
-  "en": ""
+  "en": "Food:"
  },
  {
   "id": "HIO:1E91A",
@@ -4067,8 +4145,8 @@
    125242
   ],
   "align": "left",
-  "en": "",
-  "notes": "field boundaries unknown: find which names the game draws (marker build) before translating"
+  "en": "NonePoisPetrConfFiIcThStAll None",
+  "notes": "field boundaries unknown: find which names the game draws (marker build) before translating; read as tables 4-byte (none/poison/petrify/confuse = Special), 2-byte (fire/ice/thunder/star = Weakness), All, None: each English name keeps its byte offset"
  },
  {
   "id": "HIO:1E93A",
@@ -4079,7 +4157,7 @@
    125258
   ],
   "align": "left",
-  "en": ""
+  "en": "Too far away."
  },
  {
   "id": "HIO:1E94B",
@@ -4090,7 +4168,7 @@
    125275
   ],
   "align": "left",
-  "en": ""
+  "en": "Not enough MP!!"
  },
  {
   "id": "HIO:1E95C",
@@ -4101,7 +4179,7 @@
    125306
   ],
   "align": "left",
-  "en": ""
+  "en": "This monster can't be revived!"
  },
  {
   "id": "HIO:1E97B",
@@ -4112,7 +4190,7 @@
    125335
   ],
   "align": "left",
-  "en": ""
+  "en": "This item can't be dropped!"
  },
  {
   "id": "HIO:1E998",
@@ -4123,7 +4201,7 @@
    125358
   ],
   "align": "left",
-  "en": ""
+  "en": "Stop it. Are you mad?"
  },
  {
   "id": "HIO:1E9AF",
@@ -4134,7 +4212,7 @@
    125385
   ],
   "align": "left",
-  "en": ""
+  "en": "Can't dismiss key holder!"
  },
  {
   "id": "HIO:1E9CA",
@@ -4145,7 +4223,7 @@
    125410
   ],
   "align": "left",
-  "en": ""
+  "en": "This key won't open it!"
  },
  {
   "id": "HIO:1E9E3",
@@ -4156,7 +4234,7 @@
    125433
   ],
   "align": "left",
-  "en": ""
+  "en": "Can't summon any more!"
  },
  {
   "id": "HIO:1E9FA",
@@ -4167,7 +4245,7 @@
    125464
   ],
   "align": "left",
-  "en": ""
+  "en": "Usable again on next floor!"
  },
  {
   "id": "HIO:1EA19",
@@ -4178,7 +4256,7 @@
    125493
   ],
   "align": "left",
-  "en": ""
+  "en": "This item can't be used!"
  },
  {
   "id": "HIO:1EA36",
@@ -4189,7 +4267,7 @@
    125514
   ],
   "align": "left",
-  "en": ""
+  "en": "Wrong way to use it!"
  },
  {
   "id": "HIO:1EA4B",
@@ -4200,7 +4278,7 @@
    125533
   ],
   "align": "left",
-  "en": ""
+  "en": "Creation failed!"
  },
  {
   "id": "HIO:1EA5E",
@@ -4211,7 +4289,7 @@
    125566
   ],
   "align": "left",
-  "en": ""
+  "en": "Revive? You're standing on it!"
  },
  {
   "id": "HIO:1EA7F",
@@ -4222,6 +4300,6 @@
    125583
   ],
   "align": "left",
-  "en": ""
+  "en": "Nothing happens!"
  }
 ]

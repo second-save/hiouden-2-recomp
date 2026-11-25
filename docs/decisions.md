@@ -14,3 +14,6 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D6 | 2026-11-25 | Honorifics and name order | keep, drop; JP or Western order | No honorifics, Western name order (given name first) |
 | D7 | 2026-11-25 | Credits (TM31/TM32 Taiwanese dev notes, staff roll) | keep, translate | Translate TM31 and TM32 into English |
 | D8 | 2026-11-25 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through checkpoints, report at the end |
+| D9 | 2026-11-25 | Main names (taken under D8, user may override) | literal Hepburn (Marukufiindo, Miirurei); readable forms | Readable forms of the katakana: Markfiend (マルクフィーンド, short 馬克 = Mark), Mirlei (ミィルレイ), Lezard Valeth (レザードヴァレス, as Valkyrie Profile spells the same katakana), Jadain (ジェイダイン); returning: Richard A. MacIntyre, Beatrix (Wikipedia; the AGTP page is offline) |
+| D10 | 2026-11-25 | Long TM messages (English ~1.75x the Big5 bytes) | cut to 512 B; patch slots | Patch HIO.EXE (image 0x17AED: `and ax,0x300; shl ax,2`) for 1024-byte slots, TM files become 4 KB; verified in-game on slots 2 and 3 |
+| D11 | 2026-11-25 | Latin font | macOS system font; game glyphs; free bitmap font | Spleen 8x16 (BSD-2-Clause), rows 1-15, two letters per cell; licence in `font/LICENSE-spleen`, ships with the patch |

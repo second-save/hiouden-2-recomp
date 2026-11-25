@@ -115,7 +115,8 @@ void print_usage(const char* argv0) {
                  "  --test-click <x>,<y>,<frame>[,<btn>] Inject a click in test mode (btn 1=left default, 2=right)\n"
                  "  --remap <FROM>=<TO>          Serve file TO whenever the game opens FROM (debug warps)\n"
                  "  --trace-ip <hexlinear>       Log registers each time CS*16+IP hits this address\n"
-                 "  --trace-overlays           Log INT 8Eh overlays and INT B5h/21h file I/O\n",
+                 "  --trace-overlays           Log INT 8Eh overlays and INT B5h/21h file I/O\n"
+                 "  --watch <hexlo>-<hexhi>      Log CPU reads/writes to that linear range (first 60, then min/max)\n",
                  argv0);
 }
 
@@ -132,6 +133,7 @@ int main(int argc, char** argv) {
     std::vector<TestClick> test_clicks;
     std::vector<std::pair<std::string, std::string>> remaps;
     std::vector<uint32_t> trace_ips;
+    uint32_t watch_lo = 0, watch_hi = 0;
 
     for (int i = 1; i < argc; ++i) {
         const std::string arg = argv[i];
@@ -168,6 +170,10 @@ int main(int argc, char** argv) {
             trace_ips.push_back(static_cast<uint32_t>(std::strtoul(argv[++i], nullptr, 16)));
         } else if (arg == "--trace-overlays") {
             trace_overlays = true;
+        } else if (arg == "--watch" && i + 1 < argc) {
+            const std::string spec = argv[++i];
+            watch_lo = static_cast<uint32_t>(std::strtoul(spec.c_str(), nullptr, 16));
+            watch_hi = static_cast<uint32_t>(std::strtoul(spec.substr(spec.find('-') + 1).c_str(), nullptr, 16));
         } else if (arg == "--help" || arg == "-h") {
             print_usage(argv[0]);
             return 0;
@@ -182,6 +188,8 @@ int main(int argc, char** argv) {
 
     EgaVga vga;
     Cpu386 cpu(&vga);
+    cpu.watch_lo = watch_lo;
+    cpu.watch_hi = watch_hi;
     AudioEngine audio;
     DosRuntime dos(&cpu, &vga, &audio);
     for (const auto& r : remaps) dos.remap[r.first] = r.second;
@@ -378,6 +386,10 @@ int main(int argc, char** argv) {
         }
     }
 
+    if (watch_hi > watch_lo) {
+        std::fprintf(stderr, "[WATCH] %u accesses, range %05X-%05X\n", cpu.watch_logged,
+                     cpu.watch_logged ? cpu.watch_min : 0, cpu.watch_logged ? cpu.watch_max : 0);
+    }
     if (!dump_frame_path.empty()) {
         if (vga.save_bmp(dump_frame_path)) {
             std::fprintf(stderr, "[Main] Saved frame %d to %s\n", frame, dump_frame_path.c_str());

@@ -13,23 +13,27 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import check_rom  # noqa: E402
 
+import insert  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
-EDITS = []  # phase 4/5 add steps here: each a function(out_dir: Path)
 
 
-def build(out=ROOT / "build" / "game", identity=False):
+def build(out=ROOT / "build" / "game", identity=False, marker=False):
     check_rom.check()
     out = Path(out)
     shutil.rmtree(out, ignore_errors=True)
     shutil.copytree(ROOT / "hio2", out)
-    for step in [] if identity else EDITS:
-        step(out)
+    if not identity:
+        font = insert.insert(out, marker)
+        print(f"font: {font.slots()} slots, {len(font.pair_code)} letter pairs")
     return out
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--identity", action="store_true")
-    ap.add_argument("--out", default=str(ROOT / "build" / "game"))
+    ap.add_argument("--marker", action="store_true", help="every entry shows #n + filler at full width")
+    ap.add_argument("--out", default=None)
     a = ap.parse_args()
-    print("built", build(a.out, a.identity))
+    out = a.out or str(ROOT / "build" / ("marker" if a.marker else "game"))
+    print("built", build(out, a.identity, a.marker))

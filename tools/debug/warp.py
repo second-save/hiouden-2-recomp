@@ -26,11 +26,12 @@ ap.add_argument("--vis", type=lambda s: int(s, 0), help="play VIS.EXE cutscene N
 ap.add_argument("--opening", action="store_true", help="play the opening (OP_E) via the title's demo entry")
 ap.add_argument("--ending", action="store_true", help="play the ending + staff roll (ED_E) in the opening's place")
 ap.add_argument("--game", default=os.path.join(ROOT, "work/qa/game_warp"), help="scratch copy of hio2 (one per parallel run)")
+ap.add_argument("--base", default=os.path.join(ROOT, "hio2"), help="game files to copy (e.g. build/game)")
 a, passthrough = ap.parse_known_args()  # anything else (e.g. --trace-ip 24607) goes to the recomp
 
 game = a.game
 shutil.rmtree(game, ignore_errors=True)
-shutil.copytree(os.path.join(ROOT, "hio2"), game)
+shutil.copytree(a.base, game)
 os.makedirs(a.out, exist_ok=True)
 if a.vis is not None:
     # HIO.EXE start-up plays VIS.EXE scene 0 (the intro) via `mov ax,0; lcall VIS` at image 0x5F; in-game

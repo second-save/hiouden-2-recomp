@@ -59,6 +59,7 @@ uint8_t Cpu386::read8(uint32_t addr) {
     if (addr == 0x00450u || addr == 0x00451u) {
         hit_timer_read_ = true;
     }
+    watch(addr, false);
     return ram_[addr];
 }
 
@@ -72,6 +73,7 @@ uint16_t Cpu386::read16(uint32_t addr) {
     if (addr == 0x00450u) {
         hit_timer_read_ = true;
     }
+    watch(addr, false);
     const uint8_t lo = ram_[addr];
     const uint8_t hi = ram_[(addr + 1) & 0xFFFFFu];
     return static_cast<uint16_t>(lo | (static_cast<uint16_t>(hi) << 8));
@@ -89,6 +91,7 @@ void Cpu386::write8(uint32_t addr, uint8_t val) {
         vga_->vram_write8(addr - 0xA0000u, val);
         return;
     }
+    watch(addr, true);
     ram_[addr] = val;
 }
 
@@ -99,6 +102,7 @@ void Cpu386::write16(uint32_t addr, uint16_t val) {
         vga_->vram_write8(((addr + 1) & 0xFFFFFu) - 0xA0000u, static_cast<uint8_t>(val >> 8));
         return;
     }
+    watch(addr, true);
     ram_[addr] = static_cast<uint8_t>(val & 0xFFu);
     ram_[(addr + 1) & 0xFFFFFu] = static_cast<uint8_t>(val >> 8);
 }

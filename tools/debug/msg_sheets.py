@@ -13,6 +13,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--out", default=os.path.join(ROOT, "work/qa/msg"))
 ap.add_argument("--jobs", type=int, default=8)
 ap.add_argument("--remap", action="append", default=[])
+ap.add_argument("--base", default=os.path.join(ROOT, "hio2"), help="game files to copy (e.g. build/game)")
 ap.add_argument("--pages", type=int, default=6, help="page clicks (0, 4, 8, 49, 55, 118, 119 need ~20)")
 ap.add_argument("msgs", nargs="*", type=int)
 a = ap.parse_args()
@@ -21,7 +22,7 @@ a = ap.parse_args()
 def one(n):
     d = os.path.join(a.out, f"{n:03d}")
     cmd = [sys.executable, os.path.join(ROOT, "tools/debug/warp.py"), "--msg", str(n), "--out", d,
-           "--every", "300", "--pages", str(a.pages), "--game", os.path.join(d, "game")] + [f"--remap={r}" for r in a.remap]
+           "--every", "300", "--pages", str(a.pages), "--game", os.path.join(d, "game"), "--base", a.base] + [f"--remap={r}" for r in a.remap]
     rc = subprocess.run(cmd, stdout=subprocess.DEVNULL).returncode
     frames = [f for f in sorted(glob.glob(os.path.join(d, "f*.bmp"))) if int(os.path.basename(f)[1:7]) >= 8400]
     sheet = os.path.join(a.out, f"m{n:03d}.png")

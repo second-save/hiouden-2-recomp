@@ -7,7 +7,7 @@
    9825,
    10199
   ],
-  "en": "",
+  "en": "  Once, in a time of war, a chance meeting gave a^[00]young warrior a spirit's guidance and a lifelong^[00]pact with demons. He saved his comrades from ruin^[00]and led his army to victory.^[01]  His name was 'Richard A. MacIntyre'. Third heir of^[00]the house of MacIntyre, he later drove off the horse^[00]nomads, united the continent and founded a kingdom.^[00]  Yet he was also a tragic figure, feared by all and^[00]known as 'the Scarlet King'.^[10]^\\",
   "section": true
  },
  {
@@ -18,7 +18,7 @@
    10199,
    10543
   ],
-  "en": "",
+  "en": "  King Richard had become the hero who ended an age of^[00]strife, yet his power over demons made men shun him.^[00]None would come near him, let alone offer thanks.^[00]  Old and disheartened, he resolved to leave this sad^[00]land with the spirit Beatrix for the realm of trees.^[00]  When he reached the sky garden he held dear, its old^[00]trees had long grown into a tangle. And in that brief^[00]visit to the small wood, he met someone unforeseen.^[10]^\\",
   "section": true
  },
  {
@@ -29,7 +29,7 @@
    10543,
    10675
   ],
-  "en": "",
+  "en": "\\F\\s  Watching him with wide eyes from the shade of the\\ntrees was a girl, not yet grown. When the old king\\nnoticed her, she seemed too frightened to speak.\\e",
   "section": true
  },
  {
@@ -40,7 +40,7 @@
    10675,
    10793
   ],
-  "en": ""
+  "en": "\\c\\s  She had often heard the grown-ups tell fearful\\ntales of the king.\\w When she knew the old man for the\\nking, she trembled all over and could not move.\\e"
  },
  {
   "id": "OP_E:02A29",
@@ -50,7 +50,7 @@
    10793,
    10961
   ],
-  "en": ""
+  "en": "\\F\\s\"...Are you all right? Have you lost your way?\"\\nLifted up by the old king's broad hands, the girl\\nseemed puzzled by his unexpected gentleness.\\n\"I... I play... play here every day...\"\\e"
  },
  {
   "id": "OP_E:02AD1",
@@ -60,7 +60,7 @@
    10961,
    11035
   ],
-  "en": ""
+  "en": "\\F\\n\\s  At this, King Richard turned, took off Beatrix's\\nring and placed it on the girl's finger.\\e"
  },
  {
   "id": "OP_E:02B1B",
@@ -70,7 +70,7 @@
    11035,
    11195
   ],
-  "en": ""
+  "en": "\\F\\n\\s  The old king must have sensed something in her,\\nand gave her this guardian ring for her future. But\\none day its power would sweep her into chaos.\\w\\e"
  },
  {
   "id": "OP_E:02BBB",
@@ -80,7 +80,7 @@
    11195,
    11283
   ],
-  "en": ""
+  "en": "\\F\\s\"Go home now. Aren't you lonely here all alone?\"\\nWith that, King Richard left with his queen Beatrix.\\e"
  },
  {
   "id": "OP_E:02C13",
@@ -90,6 +90,6 @@
    11283,
    11723
   ],
-  "en": ""
+  "en": "  It was only a brief meeting, and it ended in a^[01]parting forever: a chance encounter, no more, just^[01]before the old king and his queen left for the trees.^[02]  All the girl kept was the sight of Richard leaving,^[01]the sorrow in his eyes as he looked back once, and a^[01]plain ring carved with a spirit seal.^[02]  That was six years ago. Without King Richard, the^[01]kingdom began to rot. When the witch hunts of a mad^[01]reign began, her strange power made the girl a target,^[01]and she was thrown in a cell to await death...^[10]^\\"
  }
 ]

@@ -2,6 +2,7 @@
 
 #include <array>
 #include <cstdint>
+#include <cstdio>
 #include <functional>
 #include <vector>
 
@@ -130,6 +131,15 @@ public:
     // Spin/wait detection hints for main loop
     bool hit_vblank_poll() const { return hit_vblank_poll_; }
     void clear_vblank_poll() { hit_vblank_poll_ = false; }
+    // --watch LO-HI: log CPU reads/writes to a linear range (who touches memory past an overlay's image)
+    uint32_t watch_lo = 0, watch_hi = 0, watch_logged = 0, watch_min = 0xFFFFFFFFu, watch_max = 0;
+    void watch(uint32_t addr, bool wr) {
+        if (addr - watch_lo >= watch_hi - watch_lo) return;
+        if (addr < watch_min) watch_min = addr;
+        if (addr > watch_max) watch_max = addr;
+        if (watch_logged++ < 60)
+            std::fprintf(stderr, "[WATCH] %s %05X at %04X:%04X\n", wr ? "W" : "R", addr, sreg[1], ip);
+    }
     bool hit_timer_read() const { return hit_timer_read_; }
     void clear_timer_read() { hit_timer_read_ = false; }
 

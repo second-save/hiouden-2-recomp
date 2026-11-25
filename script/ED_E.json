@@ -7,7 +7,7 @@
    9636,
    9808
   ],
-  "en": "",
+  "en": "^%Lezard Valeth:^0 \"Curses! To fail at the very last step...^0  Just as I was about to turn this hell of lost souls^0  into a true paradise, you bastard ruined it!\"^\\",
   "section": true
  },
  {
@@ -18,7 +18,7 @@
    9808,
    9810
   ],
-  "en": "",
+  "en": "^@",
   "section": true
  },
  {
@@ -29,7 +29,7 @@
    9810,
    9914
   ],
-  "en": ""
+  "en": "^%Markfiend:^0 \"...Shut up!! You rotten, raving zealot.^0  You're the one who made this place a living hell!^\\"
  },
  {
   "id": "ED_E:026BA",
@@ -39,7 +39,7 @@
    9914,
    9916
   ],
-  "en": "",
+  "en": "^@",
   "section": true
  },
  {
@@ -50,7 +50,7 @@
    9916,
    10008
   ],
-  "en": ""
+  "en": " \"If this place was hell to begin with, then the^0  gods above are far too kind to us, aren't they?\"^\\"
  },
  {
   "id": "ED_E:02718",
@@ -60,7 +60,7 @@
    10008,
    10010
   ],
-  "en": "",
+  "en": "^@",
   "section": true
  },
  {
@@ -71,7 +71,7 @@
    10010,
    10052
   ],
-  "en": ""
+  "en": "^%Lezard Valeth:^0 \"...Nngh.\"^\\"
  },
  {
   "id": "ED_E:02744",
@@ -81,7 +81,7 @@
    10052,
    10144
   ],
-  "en": "",
+  "en": "^%Markfiend:^0 \"Mirlei, wait for me outside.\"^0^%Mirlei:^0 \"Huh? B-but I...\"^\\",
   "section": true
  },
  {
@@ -92,7 +92,7 @@
    10144,
    10146
   ],
-  "en": "",
+  "en": "^@",
   "section": true
  },
  {
@@ -103,7 +103,7 @@
    10146,
    10228
   ],
-  "en": ""
+  "en": "^%Markfiend:^0 \"It's nothing. Just go!\"^0^%Mirlei:^0 \"...All right. I...\"^\\"
  },
  {
   "id": "ED_E:027F4",
@@ -113,7 +113,7 @@
    10228,
    10284
   ],
-  "en": "",
+  "en": "^%The King's Brother:^0 \"Mark, we're brothers... Spare me!\"^\\",
   "section": true
  },
  {
@@ -124,7 +124,7 @@
    10284,
    10286
   ],
-  "en": "",
+  "en": "^@",
   "section": true
  },
  {
@@ -135,7 +135,7 @@
    10286,
    10432
   ],
-  "en": ""
+  "en": "^%Markfiend:^0 \"Even if that old crook fooled you, it won't^0  change the fact that you killed countless people.^0  Sorry... I can't let you go!\"^0^%The King's Brother:^0 \"You... you...!\"^\\"
  },
  {
   "id": "ED_E:028C0",
@@ -145,7 +145,7 @@
    10432,
    10468
   ],
-  "en": "",
+  "en": "^%Mirlei:^0 \"Mark...?\"^\\",
   "section": true
  },
  {
@@ -156,7 +156,7 @@
    10468,
    10470
   ],
-  "en": "",
+  "en": "^@",
   "section": true
  },
  {
@@ -167,7 +167,7 @@
    10470,
    10518
   ],
-  "en": ""
+  "en": "^0^%Markfiend:^0 \"Don't stay here! Didn't you hear me?\"^\\"
  },
  {
   "id": "ED_E:02916",
@@ -177,7 +177,7 @@
    10518,
    10566
   ],
-  "en": "",
+  "en": "^%Markfiend:^0 \"The village is to the east. Hurry!\"^\\",
   "section": true
  },
  {
@@ -188,7 +188,7 @@
    10566,
    10568
   ],
-  "en": "",
+  "en": "^@",
   "section": true
  },
  {
@@ -199,7 +199,7 @@
    10568,
    10668
   ],
-  "en": ""
+  "en": "^%Mirlei:^0 \"...Throw your weapon away. There's no need^0  for it now, is there?\"^0^%Markfiend:^0 \"......\"^\\"
  },
  {
   "id": "ED_E:029AC",
@@ -209,7 +209,7 @@
    10668,
    10850
   ],
-  "en": "",
+  "en": "^%Mirlei:^0 \"Throw it away! We don't need it anymore...^0  We've finally seen daylight again. Aren't you even^0  a little happy? A moment ago, weren't we sure we^0  were going to die in this place?\"^\\",
   "section": true
  },
  {
@@ -220,7 +220,7 @@
    10850,
    10852
   ],
-  "en": "",
+  "en": "^@",
   "section": true
  },
  {
@@ -231,7 +231,7 @@
    10852,
    10878
   ],
-  "en": ""
+  "en": " \"Die? Don't be stupid.\"^\\"
  },
  {
   "id": "ED_E:02A7E",
@@ -241,7 +241,7 @@
    10878,
    11004
   ],
-  "en": "",
+  "en": "^%Markfiend:^0 \"Once you're back in your village, hide for a^0  while. You'll be safe then.\"^0^%Mirlei:^0 \"No! Don't go!\"^\\",
   "section": true
  },
  {
@@ -252,7 +252,7 @@
    11004,
    11388
   ],
-  "en": "",
+  "en": " In that instant, Mirlei understood it all. His face^[01]as he glanced back matched a memory from her youth.^[02] It was all far too alike.^[02] Seeing King Richard in Mark's figure, she felt at^[01]last, through Markfiend's torn heart in this moment,^[01]all that King Richard had buried within him then.^[01] The day she, a dazed child, watched King Richard^[01]leave forever was about to happen here once more.^[03] And so Mirlei felt a sorrow she could not name...^[14]^\\",
   "section": true
  },
  {
@@ -263,7 +263,7 @@
    11388,
    11492
   ],
-  "en": "",
+  "en": "Staff^[03]Planning^[01]Masaki Norimoto^[02]Programming^[01]Yuichi Inage^[01]Koji Ozawa^[01]Kaiji Miyake^[02]^\\",
   "section": true
  },
  {
@@ -274,7 +274,7 @@
    11492,
    11582
   ],
-  "en": "",
+  "en": "Art^[01]Takeharu Isogai^[01]Tadashi Hamada^[01]Miyuki Watanabe^[01]Nobuo Kanuma^[02]^\\",
   "section": true
  },
  {
@@ -285,7 +285,7 @@
    11582,
    11750
   ],
-  "en": "",
+  "en": "Music^[01]Motoi Sakuraba^[01]Shinji Tamura^[01]Hiroya Hatsushiba^[01]Ryota Furuya^[02]Publicity^[01]Yoshio Inui^[01]Takao Yoshioka^[01]Masayoshi Suzuki^[01]Isao Kadowaki^[02]^\\",
   "section": true
  },
  {
@@ -296,7 +296,7 @@
    11750,
    11936
   ],
-  "en": "",
+  "en": "Assistance^[01]Hiroshi Ijimino^[01]Hiroshi Hashimoto^[01]Mamoru Takahashi^[01]Kazuyasu Yokoo^[01]Terunobu Shiratori^[01]Yoko Namikata^[01]Hiroshi Ogawa^[01]Toshimasa Ogiwara^[01]Seiji Goto^[02]^\\",
   "section": true
  },
  {
@@ -307,7 +307,7 @@
    11936,
    12042
   ],
-  "en": "",
+  "en": "Programming Support^[01]Ryuichi Ishizawa^[01]Shuhei Rokumoto^[02]Special Thanks^[01]Kazuyuki Fukushima^[02]Executive Producer^[01]Minoru Asanuma^[0A]^\\",
   "section": true
  },
  {
@@ -318,7 +318,7 @@
    12042,
    12162
   ],
-  "en": "",
+  "en": "Porting^[01]Wen-feng Shih^[02]Japanese Translation^[01]Hung-chang Su^[02]Music Arrangement^[01]Feeling Studio^[02]Sound Assistance^[01]Wei-jen Su^[02]^\\",
   "section": true
  },
  {
@@ -329,7 +329,7 @@
    12162,
    12266
   ],
-  "en": "",
+  "en": "Cover Art^[01]Hung-jen Yang^[02]Advertising^[01]Cho-lun Chia^[02]Art Editing^[01]Chien-hung Hsiao^[01]Meng-fen Li^[02]^\\",
   "section": true
  },
  {
@@ -340,7 +340,7 @@
    12266,
    12396
   ],
-  "en": "",
+  "en": "Testing^[01]Chih-hung Chen^[01]Wei-jen Su^[01]Chi-hao Mei^[02]Produced by^[01]  Wolf Team^[02]Chinese edition published by^[01]  Softstar^[02]^\\",
   "section": true
  }
 ]

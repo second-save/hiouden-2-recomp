@@ -8,7 +8,7 @@
    48
   ],
   "align": "left",
-  "en": ""
+  "en": "Supreme Life Potion"
  },
  {
   "id": "IM01:00030",
@@ -19,7 +19,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "A red potion that restores half your life. A by-product the sorcerers called exorcists found while seeking eternal life."
  },
  {
   "id": "IM01:000C4",
@@ -30,7 +30,7 @@
    244
   ],
   "align": "left",
-  "en": ""
+  "en": "Supreme Mana Potion"
  },
  {
   "id": "IM01:000F4",
@@ -41,7 +41,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "A green potion that restores half your magic. A by-product the sorcerers called exorcists found while seeking eternal life."
  },
  {
   "id": "IM01:00188",
@@ -52,7 +52,7 @@
    440
   ],
   "align": "left",
-  "en": ""
+  "en": "Mystic Revival Brew"
  },
  {
   "id": "IM01:001B8",
@@ -63,7 +63,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "A potion that raises the dead. Like the other restoratives, an evil by-product the exorcists stumbled on while seeking eternal life."
  },
  {
   "id": "IM01:0024C",
@@ -74,7 +74,7 @@
    636
   ],
   "align": "left",
-  "en": ""
+  "en": "Biares's Elixir"
  },
  {
   "id": "IM01:0027C",
@@ -85,7 +85,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "Made by the sorcerer Biares. Raises max life and magic by 5 each and base AC by 1, but its side effects kill the drinker."
  },
  {
   "id": "IM01:00310",
@@ -96,7 +96,7 @@
    832
   ],
   "align": "left",
-  "en": ""
+  "en": "Vigor Tonic"
  },
  {
   "id": "IM01:00340",
@@ -107,7 +107,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "A yellow potion that spares your stamina. Another evil by-product of the exorcists' quest for eternal life."
  },
  {
   "id": "IM01:003D4",
@@ -118,7 +118,7 @@
    1028
   ],
   "align": "left",
-  "en": ""
+  "en": "Clearscent Herb"
  },
  {
   "id": "IM01:00404",
@@ -129,7 +129,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "A herb with a faint, sweet scent. Boiled and drunk, it raises max magic and life by 5."
  },
  {
   "id": "IM01:00498",
@@ -140,7 +140,7 @@
    1224
   ],
   "align": "left",
-  "en": ""
+  "en": "White Holy Water"
  },
  {
   "id": "IM01:004C8",
@@ -151,7 +151,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "Water blessed by the Holy Mother Aetricia. Wash yourself in it and your power rises by one level."
  },
  {
   "id": "IM01:0055C",
@@ -162,7 +162,7 @@
    1420
   ],
   "align": "left",
-  "en": ""
+  "en": "Spirit Necklace"
  },
  {
   "id": "IM01:0058C",
@@ -173,7 +173,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "A necklace holding the power of the spirit world's people. Its bearer gains the spirits' strength and spends only half the magic."
  },
  {
   "id": "IM02:00000",
@@ -184,7 +184,7 @@
    48
   ],
   "align": "left",
-  "en": ""
+  "en": "Hourglass"
  },
  {
   "id": "IM02:00030",
@@ -195,7 +195,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "Said to be a relic of the god who rules time. Smash the hourglass and time stands still around every enemy for a while."
  },
  {
   "id": "IM02:000C4",
@@ -206,7 +206,7 @@
    208
   ],
   "align": "left",
-  "en": ""
+  "en": "Goddess Statue"
  },
  {
   "id": "IM02:000D0",
@@ -217,7 +217,7 @@
    244
   ],
   "align": "right",
-  "en": ""
+  "en": "A secret trick: immortality?"
  },
  {
   "id": "IM02:000F4",
@@ -228,7 +228,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "Offer it to heaven in prayer to trade your life for all your companions'. But the soul of the one who prays is lost forever."
  },
  {
   "id": "IM02:00188",
@@ -239,7 +239,7 @@
    440
   ],
   "align": "left",
-  "en": ""
+  "en": "Spider Crest"
  },
  {
   "id": "IM02:001B8",
@@ -250,7 +250,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "A gold spider crest. The gods guard its bearer, raising INT and spell resistance. Feels like cheating, but it's a fine shortcut."
  },
  {
   "id": "IM02:0024C",
@@ -261,7 +261,7 @@
    636
   ],
   "align": "left",
-  "en": ""
+  "en": "Eye of the Sky"
  },
  {
   "id": "IM02:0027C",
@@ -272,7 +272,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "A crystal ball that shows the floor's hidden enemies and every chest on the full map. It also finds treasure hidden in the maze."
  },
  {
   "id": "IM02:00310",
@@ -283,7 +283,7 @@
    832
   ],
   "align": "left",
-  "en": ""
+  "en": "Coagulant"
  },
  {
   "id": "IM02:00340",
@@ -294,7 +294,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "A sticky potion that makes a Water Slime set a little. Also gives AC +1. Its nickname: \"Jelly-O Potion.\""
  },
  {
   "id": "IM02:003D4",
@@ -305,7 +305,7 @@
    1028
   ],
   "align": "left",
-  "en": ""
+  "en": "Tobacco"
  },
  {
   "id": "IM02:00404",
@@ -316,7 +316,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "Looks like a certain brand. You might get hooked. Kidding! Relax, everyone. A player in Japan read this and phoned to ask if it was true."
  },
  {
   "id": "IM02:00498",
@@ -327,7 +327,7 @@
    1224
   ],
   "align": "left",
-  "en": ""
+  "en": "Halo Ring"
  },
  {
   "id": "IM02:004C8",
@@ -338,7 +338,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "A ring with a red rose pattern in its gem, seen when the light is right. Its magic guards the wearer from Fire and Confuse."
  },
  {
   "id": "IM02:0055C",
@@ -349,7 +349,7 @@
    1420
   ],
   "align": "left",
-  "en": ""
+  "en": "Lady Shetty's Ring"
  },
  {
   "id": "IM02:0058C",
@@ -360,7 +360,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "A ring with a yellow rose pattern in its gem, seen when the light is right. Its magic guards the wearer from Thunder and Petrify."
  },
  {
   "id": "IM03:00000",
@@ -371,7 +371,7 @@
    48
   ],
   "align": "left",
-  "en": ""
+  "en": "Black Fang Ring"
  },
  {
   "id": "IM03:00030",
@@ -382,7 +382,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "A ring with a black rose pattern in its gem, seen when the light is right. Its magic guards the wearer from death spells."
  },
  {
   "id": "IM03:000C4",
@@ -393,7 +393,7 @@
    244
   ],
   "align": "left",
-  "en": ""
+  "en": "Guardian Ring"
  },
  {
   "id": "IM03:000F4",
@@ -404,7 +404,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "A magic ring made by frail sorcerers to protect themselves from blades. Wearing it raises AC by 2."
  },
  {
   "id": "IM03:00188",
@@ -415,7 +415,7 @@
    440
   ],
   "align": "left",
-  "en": ""
+  "en": "Warrior Statue"
  },
  {
   "id": "IM03:001B8",
@@ -426,7 +426,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "A statue of a mighty, broad-shouldered warrior. Raises its bearer's attack by 3."
  },
  {
   "id": "IM03:0024C",
@@ -437,7 +437,7 @@
    636
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Air"
  },
  {
   "id": "IM03:0027C",
@@ -448,7 +448,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "A spellbook that calls forth the power of \"Invisibility\" from the 4th layer of the spirit world."
  },
  {
   "id": "IM03:00310",
@@ -459,7 +459,7 @@
    832
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Fire"
  },
  {
   "id": "IM03:00340",
@@ -470,7 +470,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "A spellbook that calls forth the power of \"Fire\" from the 3rd layer of the spirit world."
  },
  {
   "id": "IM03:003D4",
@@ -481,7 +481,7 @@
    1028
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Ice"
  },
  {
   "id": "IM03:00404",
@@ -492,7 +492,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "A spellbook that calls forth the power of \"Blizzard\" from the 2nd layer of the spirit world."
  },
  {
   "id": "IM03:00498",
@@ -503,7 +503,7 @@
    1224
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Thunder"
  },
  {
   "id": "IM03:004C8",
@@ -514,7 +514,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "A spellbook that calls forth the power of \"Thunder\" from the 4th layer of the spirit world."
  },
  {
   "id": "IM03:0055C",
@@ -525,7 +525,7 @@
    1420
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Healing"
  },
  {
   "id": "IM03:0058C",
@@ -536,7 +536,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "A spellbook that calls forth the power of \"Heal\" from the highest layer of the spirit world."
  },
  {
   "id": "IM04:00000",
@@ -547,7 +547,7 @@
    48
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Flight"
  },
  {
   "id": "IM04:00030",
@@ -558,7 +558,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "A spellbook that calls forth the power of \"Levitate\" from the 4th layer of the spirit world."
  },
  {
   "id": "IM04:000C4",
@@ -569,7 +569,7 @@
    244
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Revival"
  },
  {
   "id": "IM04:000F4",
@@ -580,7 +580,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "A spellbook that calls forth the power of \"Revive\" from the lowest layer of the spirit world."
  },
  {
   "id": "IM04:00188",
@@ -591,7 +591,7 @@
    440
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Death"
  },
  {
   "id": "IM04:001B8",
@@ -602,7 +602,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "A spellbook that calls forth the power of \"Demon Bane\" from the lowest layer of the spirit world."
  },
  {
   "id": "IM04:0024C",
@@ -613,7 +613,7 @@
    636
   ],
   "align": "left",
-  "en": ""
+  "en": "Anon Scroll (Blank)"
  },
  {
   "id": "IM04:0027C",
@@ -624,7 +624,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "Unroll it before a spirit statue to write any spell into it, and rewrite it as often as you like. Its maker seems to be one \"Anonymous.\""
  },
  {
   "id": "IM04:00310",
@@ -635,7 +635,7 @@
    832
   ],
   "align": "left",
-  "en": ""
+  "en": "Anon Scroll (Waking)"
  },
  {
   "id": "IM04:00340",
@@ -646,7 +646,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "Unroll it before a spirit statue to write any spell into it, and rewrite it as often as you like. Its maker seems to be one \"Anonymous.\""
  },
  {
   "id": "IM04:003D4",
@@ -657,7 +657,7 @@
    1028
   ],
   "align": "left",
-  "en": ""
+  "en": "Blue-Gray Necklace"
  },
  {
   "id": "IM04:00404",
@@ -668,7 +668,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "A cloudy, grayish sapphire necklace, it seems once laid on the dead to guard their souls. Equipped, magic resistance +60."
  },
  {
   "id": "IM04:00498",
@@ -679,7 +679,7 @@
    1224
   ],
   "align": "left",
-  "en": ""
+  "en": "Silver Key"
  },
  {
   "id": "IM04:004C8",
@@ -690,7 +690,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "A key made of silver. It opens one of the many kinds of doors."
  },
  {
   "id": "IM04:0055C",
@@ -701,7 +701,7 @@
    1420
   ],
   "align": "left",
-  "en": ""
+  "en": "Ruby Key"
  },
  {
   "id": "IM04:0058C",
@@ -712,7 +712,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "A key with a ruby set in its handle. It seems to have a great many uses."
  },
  {
   "id": "IM05:00000",
@@ -723,7 +723,7 @@
    48
   ],
   "align": "left",
-  "en": ""
+  "en": "Ornate Dragon Key"
  },
  {
   "id": "IM05:00030",
@@ -734,7 +734,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "A splendid key with a dragon carved on its handle. You need it to open the door to the next floor."
  },
  {
   "id": "IM05:000C4",
@@ -745,7 +745,7 @@
    244
   ],
   "align": "left",
-  "en": ""
+  "en": "Eerie Skull Key"
  },
  {
   "id": "IM05:000F4",
@@ -756,7 +756,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "A key with a human skull carved on its handle. It looks like it has some special use."
  },
  {
   "id": "IM05:00188",
@@ -767,7 +767,7 @@
    440
   ],
   "align": "left",
-  "en": ""
+  "en": "Serpent Key"
  },
  {
   "id": "IM05:001B8",
@@ -778,7 +778,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "A key with a serpent carved on its handle. It looks like it has some special use."
  },
  {
   "id": "IM05:0024C",
@@ -789,7 +789,7 @@
    636
   ],
   "align": "left",
-  "en": ""
+  "en": "Rusty Cell Key"
  },
  {
   "id": "IM05:0027C",
@@ -800,7 +800,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "A key for the iron bars of a cell."
  },
  {
   "id": "IM05:00310",
@@ -811,7 +811,7 @@
    832
   ],
   "align": "left",
-  "en": ""
+  "en": "Wishing Coin"
  },
  {
   "id": "IM05:00340",
@@ -822,7 +822,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "A gold coin embossed with a sprite. Toss it into any of the springs found all over, they say, and the sprite sends you gifts."
  },
  {
   "id": "IM05:003D4",
@@ -833,7 +833,7 @@
    1028
   ],
   "align": "left",
-  "en": ""
+  "en": "Dragon Fang"
  },
  {
   "id": "IM05:00404",
@@ -844,7 +844,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "A Silver Wyrm's fang. Dragon fangs are said to have the power to turn skeletons into the legendary Spartoi."
  },
  {
   "id": "IM05:00498",
@@ -855,7 +855,7 @@
    1224
   ],
   "align": "left",
-  "en": ""
+  "en": "Garnet"
  },
  {
   "id": "IM05:004C8",
@@ -866,7 +866,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "Legend says a god made a child-eating demon eat pomegranates instead. So this red, seed-like gem is called \"the demon's meal.\""
  },
  {
   "id": "IM05:0055C",
@@ -877,7 +877,7 @@
    1420
   ],
   "align": "left",
-  "en": ""
+  "en": "Ice Crystal"
  },
  {
   "id": "IM05:0058C",
@@ -888,7 +888,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "A rare ore mineralogists call \"ice that never melts.\" White, lumpy and mostly buried in ice, it is hard to spot with the naked eye."
  },
  {
   "id": "IM06:00000",
@@ -899,7 +899,7 @@
    48
   ],
   "align": "left",
-  "en": ""
+  "en": "Star Ruby"
  },
  {
   "id": "IM06:00030",
@@ -910,7 +910,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "A ruby in which starlike glints sparkle as the light shifts. Less clear than a common ruby, but the starlight more than makes up for it."
  },
  {
   "id": "IM06:000C4",
@@ -921,7 +921,7 @@
    244
   ],
   "align": "left",
-  "en": ""
+  "en": "Red Crystal"
  },
  {
   "id": "IM06:000F4",
@@ -932,7 +932,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "The most prized of the crystals long called \"ice fossils\": peach-pink. Why a clear, colorless crystal turns pink is unknown."
  },
  {
   "id": "IM06:00188",
@@ -943,7 +943,7 @@
    440
   ],
   "align": "left",
-  "en": ""
+  "en": "Jade Beast Ruby"
  },
  {
   "id": "IM06:001B8",
@@ -954,7 +954,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "A ruby that grows on the brow of the \"Jade Beast.\" The beast is so rare that the gem is priceless. Raises its bearer's strength by 5."
  },
  {
   "id": "IM06:0024C",
@@ -965,7 +965,7 @@
    636
   ],
   "align": "left",
-  "en": ""
+  "en": "Platinum Harp"
  },
  {
   "id": "IM06:0027C",
@@ -976,7 +976,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "A silver harp topped with a carving of the Holy Mother Aetricia. Its music is soft and calm. Some sect's priest once owned it."
  },
  {
   "id": "IM06:00310",
@@ -987,7 +987,7 @@
    832
   ],
   "align": "left",
-  "en": ""
+  "en": "Demon Statue"
  },
  {
   "id": "IM06:00340",
@@ -998,7 +998,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "A demon statue that gives off an evil air. For some reason, holding it makes you uneasy."
  },
  {
   "id": "IM06:003D4",
@@ -1009,7 +1009,7 @@
    1028
   ],
   "align": "left",
-  "en": ""
+  "en": "Red Flame Candle"
  },
  {
   "id": "IM06:00404",
@@ -1020,7 +1020,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "A candle burning with a crimson flame. However long it stays lit, the wax never seems to melt."
  },
  {
   "id": "IM06:00498",
@@ -1031,7 +1031,7 @@
    1224
   ],
   "align": "left",
-  "en": ""
+  "en": "Blue Flame Candle"
  },
  {
   "id": "IM06:004C8",
@@ -1042,7 +1042,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "A candle burning with an azure flame. However long it stays lit, the wax never seems to melt."
  },
  {
   "id": "IM06:0055C",
@@ -1053,7 +1053,7 @@
    1420
   ],
   "align": "left",
-  "en": ""
+  "en": "Skull Statue"
  },
  {
   "id": "IM06:0058C",
@@ -1064,7 +1064,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "A statue shaped like a human skull. The ruby set in its mouth flickers on and off like a beating heart."
  },
  {
   "id": "IM07:00000",
@@ -1075,7 +1075,7 @@
    48
   ],
   "align": "left",
-  "en": ""
+  "en": "Blank Paper"
  },
  {
   "id": "IM07:00030",
@@ -1086,7 +1086,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "A sheet with nothing written on it. Maybe it's just you, but it seems to give off a faint scent of tangerine."
  },
  {
   "id": "IM07:000C4",
@@ -1097,7 +1097,7 @@
    244
   ],
   "align": "left",
-  "en": ""
+  "en": "Alice's Letter"
  },
  {
   "id": "IM07:000F4",
@@ -1108,7 +1108,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "To my dear Camus: Soon to be called by Death, I have long wanted to confess something. What I want to say is, I always loved you...."
  },
  {
   "id": "IM07:00188",
@@ -1119,7 +1119,7 @@
    426
   ],
   "align": "left",
-  "en": ""
+  "en": "'Krist's Art of War'"
  },
  {
   "id": "IM07:001AA",
@@ -1130,7 +1130,7 @@
    440
   ],
   "align": "right",
-  "en": ""
+  "en": "(Excerpts)"
  },
  {
   "id": "IM07:001B8",
@@ -1141,7 +1141,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "One: in peril, chant the spell of transparency to escape. Two: White Holy Water is for the hero alone. Three: learn the warp circles."
  },
  {
   "id": "IM07:0024C",
@@ -1152,7 +1152,7 @@
    622
   ],
   "align": "left",
-  "en": ""
+  "en": "'Demon Codex'"
  },
  {
   "id": "IM07:0026E",
@@ -1163,7 +1163,7 @@
    636
   ],
   "align": "right",
-  "en": ""
+  "en": "(Excerpts)"
  },
  {
   "id": "IM07:0027C",
@@ -1174,7 +1174,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "Demons summoned by the Saim tribe's secret art are all called \"Saim.\" Any demon who gains this art's power will never die."
  },
  {
   "id": "IM07:00310",
@@ -1185,7 +1185,7 @@
    832
   ],
   "align": "left",
-  "en": ""
+  "en": "Pickaxe"
  },
  {
   "id": "IM07:00340",
@@ -1196,7 +1196,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "A T-shaped tool with a handle and two ends sharp as a crane's beak. It breaks things no ordinary blow can break."
  },
  {
   "id": "IM07:003D4",
@@ -1207,7 +1207,7 @@
    1008
   ],
   "align": "left",
-  "en": ""
+  "en": "Matsutake"
  },
  {
   "id": "IM07:003F0",
@@ -1218,7 +1218,7 @@
    1028
   ],
   "align": "right",
-  "en": ""
+  "en": "Vigor +50 & more"
  },
  {
   "id": "IM07:00404",
@@ -1229,7 +1229,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "A mushroom that grows at the roots of red pines. Rare and prized. Its scent is rich, but it doesn't taste as good as shimeji."
  },
  {
   "id": "IM07:00498",
@@ -1240,7 +1240,7 @@
    1204
   ],
   "align": "left",
-  "en": ""
+  "en": "Crimson Apple"
  },
  {
   "id": "IM07:004B4",
@@ -1251,7 +1251,7 @@
    1224
   ],
   "align": "right",
-  "en": ""
+  "en": "Vigor +50 & more"
  },
  {
   "id": "IM07:004C8",
@@ -1262,7 +1262,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "A bright red, sweet-and-sour fruit grown in the eastern land of Mashike, Ezo. Far tastier than the ones grown in the MacIntyre lands."
  },
  {
   "id": "IM07:0055C",
@@ -1273,7 +1273,7 @@
    1400
   ],
   "align": "left",
-  "en": ""
+  "en": "Green Grapes"
  },
  {
   "id": "IM07:00578",
@@ -1284,7 +1284,7 @@
    1420
   ],
   "align": "right",
-  "en": ""
+  "en": "Vigor +50 & more"
  },
  {
   "id": "IM07:0058C",
@@ -1295,7 +1295,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "A kind of grape. Pale green, bigger than most, with a fine aroma. Pop one in your mouth and a honeyed sweetness fills it."
  },
  {
   "id": "IM08:00000",
@@ -1306,7 +1306,7 @@
    28
   ],
   "align": "left",
-  "en": ""
+  "en": "Chestnut"
  },
  {
   "id": "IM08:0001C",
@@ -1317,7 +1317,7 @@
    48
   ],
   "align": "right",
-  "en": ""
+  "en": "Vigor +50 & more"
  },
  {
   "id": "IM08:00030",
@@ -1328,7 +1328,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "A beech-family nut in a spiny burr that really hurts. Find a worm inside while picking chestnuts and your spirit is crushed."
  },
  {
   "id": "IM08:000C4",
@@ -1339,7 +1339,7 @@
    224
   ],
   "align": "left",
-  "en": ""
+  "en": "Sweet Pudding"
  },
  {
   "id": "IM08:000E0",
@@ -1350,7 +1350,7 @@
    244
   ],
   "align": "right",
-  "en": ""
+  "en": "Vigor +50 & more"
  },
  {
   "id": "IM08:000F4",
@@ -1361,7 +1361,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "A wobbly dessert of eggs, milk, sugar and spice, steamed. Sticky and sweet; children and women love it."
  },
  {
   "id": "IM08:00188",
@@ -1372,7 +1372,7 @@
    420
   ],
   "align": "left",
-  "en": ""
+  "en": "Tuna Sushi"
  },
  {
   "id": "IM08:001A4",
@@ -1383,7 +1383,7 @@
    440
   ],
   "align": "right",
-  "en": ""
+  "en": "Vigor +50 & more"
  },
  {
   "id": "IM08:001B8",
@@ -1394,7 +1394,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "The fattiest cut of tuna on vinegared rice. It melts in your mouth beyond words. And then there is the legendary Great Tuna Sushi."
  },
  {
   "id": "IM08:0024C",
@@ -1405,7 +1405,7 @@
    616
   ],
   "align": "left",
-  "en": ""
+  "en": "Cute Chick"
  },
  {
   "id": "IM08:00268",
@@ -1416,7 +1416,7 @@
    636
   ],
   "align": "right",
-  "en": ""
+  "en": "Vigor +50 & more"
  },
  {
   "id": "IM08:0027C",
@@ -1427,7 +1427,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "A baby chicken. So fluffy, its dopey, innocent face and moves just melt you. But eat it, er... and life, magic and vigor recover."
  },
  {
   "id": "IM08:00310",
@@ -1438,7 +1438,7 @@
    812
   ],
   "align": "left",
-  "en": ""
+  "en": "Crisp Pear"
  },
  {
   "id": "IM08:0032C",
@@ -1449,7 +1449,7 @@
    832
   ],
   "align": "right",
-  "en": ""
+  "en": "Vigor +50 & more"
  },
  {
   "id": "IM08:00340",
@@ -1460,7 +1460,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "A rose-family fruit not yet discovered in this era, but... one of the creators of this game world insisted, so in it went...."
  },
  {
   "id": "IM08:003D4",
@@ -1471,7 +1471,7 @@
    1008
   ],
   "align": "left",
-  "en": ""
+  "en": "Ripe Tangerine"
  },
  {
   "id": "IM08:003F0",
@@ -1482,7 +1482,7 @@
    1028
   ],
   "align": "right",
-  "en": ""
+  "en": "Vigor +50 & more"
  },
  {
   "id": "IM08:00404",
@@ -1493,7 +1493,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "Fruit of an evergreen citrus tree. Peel it and you find eight segments inside. Its strong sweet-and-sour taste is like no other fruit."
  },
  {
   "id": "IM08:00498",
@@ -1504,7 +1504,7 @@
    1204
   ],
   "align": "left",
-  "en": ""
+  "en": "Tiny Cherries"
  },
  {
   "id": "IM08:004B4",
@@ -1515,7 +1515,7 @@
    1224
   ],
   "align": "right",
-  "en": ""
+  "en": "Vigor +50 & more"
  },
  {
   "id": "IM08:004C8",
@@ -1526,7 +1526,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "Bright red, sweet-sour fruit of the cherry tree. Fingertip-sized, it recalls a certain dainty part of a woman. (Which one?)"
  },
  {
   "id": "IM08:0055C",
@@ -1537,7 +1537,7 @@
    1400
   ],
   "align": "left",
-  "en": ""
+  "en": "Tasty Drumstick"
  },
  {
   "id": "IM08:00578",
@@ -1548,7 +1548,7 @@
    1420
   ],
   "align": "right",
-  "en": ""
+  "en": "Vigor +50 & more"
  },
  {
   "id": "IM08:0058C",
@@ -1559,7 +1559,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "Meat on the thigh bone of some beast. Juicy, delicious and very nourishing. The bone makes a fine broth too."
  },
  {
   "id": "IM09:00000",
@@ -1570,7 +1570,7 @@
    28
   ],
   "align": "left",
-  "en": ""
+  "en": "Corn on the Cob"
  },
  {
   "id": "IM09:0001C",
@@ -1581,7 +1581,7 @@
    48
   ],
   "align": "right",
-  "en": ""
+  "en": "Vigor +50 & more"
  },
  {
   "id": "IM09:00030",
@@ -1592,7 +1592,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "An annual grass. Its big seeds sit in neat rows on a starchy cob. Grilled with a dab of soy sauce, it is pure bliss."
  },
  {
   "id": "IM09:000C4",
@@ -1603,7 +1603,7 @@
    228
   ],
   "align": "left",
-  "en": ""
+  "en": "Leather Cap"
  },
  {
   "id": "IM09:000E4",
@@ -1614,7 +1614,7 @@
    244
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 1"
  },
  {
   "id": "IM09:000F4",
@@ -1625,7 +1625,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "It looks cheap, but it beats wearing nothing. Mind you, put it on and you look like a dork. Equip it if you don't care."
  },
  {
   "id": "IM09:00188",
@@ -1636,7 +1636,7 @@
    424
   ],
   "align": "left",
-  "en": ""
+  "en": "Iron Helm"
  },
  {
   "id": "IM09:001A8",
@@ -1647,7 +1647,7 @@
    440
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 2"
  },
  {
   "id": "IM09:001B8",
@@ -1658,7 +1658,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "An iron helmet. Sturdier than a leather cap, but heavy: skip it if your neck is weak. A staple of common soldiers."
  },
  {
   "id": "IM09:0024C",
@@ -1669,7 +1669,7 @@
    620
   ],
   "align": "left",
-  "en": ""
+  "en": "Iron Helm +1"
  },
  {
   "id": "IM09:0026C",
@@ -1680,7 +1680,7 @@
    636
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 3"
  },
  {
   "id": "IM09:0027C",
@@ -1691,7 +1691,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "An iron helmet imbued with magic. Its left side bears a seal of the source of magic."
  },
  {
   "id": "IM09:00310",
@@ -1702,7 +1702,7 @@
    816
   ],
   "align": "left",
-  "en": ""
+  "en": "War Helm"
  },
  {
   "id": "IM09:00330",
@@ -1713,7 +1713,7 @@
    832
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 4"
  },
  {
   "id": "IM09:00340",
@@ -1724,7 +1724,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "A helmet forged in one piece by a special method. Some are so strong you would never guess they were the same metal."
  },
  {
   "id": "IM09:003D4",
@@ -1735,7 +1735,7 @@
    1012
   ],
   "align": "left",
-  "en": ""
+  "en": "Samurai Helm"
  },
  {
   "id": "IM09:003F4",
@@ -1746,7 +1746,7 @@
    1028
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 4"
  },
  {
   "id": "IM09:00404",
@@ -1757,7 +1757,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "Helmet of the samurai. Mystic Eastern power gives it astonishing strength and makes poison and confusion spells fail."
  },
  {
   "id": "IM09:00498",
@@ -1768,7 +1768,7 @@
    1208
   ],
   "align": "left",
-  "en": ""
+  "en": "Magic Hat"
  },
  {
   "id": "IM09:004B8",
@@ -1779,7 +1779,7 @@
    1224
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 3"
  },
  {
   "id": "IM09:004C8",
@@ -1790,7 +1790,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "The tall hat worn by mages, proof of a master's skill. Its wearer is protected from spells of death."
  },
  {
   "id": "IM09:0055C",
@@ -1801,7 +1801,7 @@
    1420
   ],
   "align": "left",
-  "en": ""
+  "en": "Sage's Crown"
  },
  {
   "id": "IM09:0058C",
@@ -1812,7 +1812,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "A splendid crown that calls up a phantom of King Richard. Teaches 4 attack and 4 other spells, and raises INT, resistance and more."
  },
  {
   "id": "IM10:00000",
@@ -1823,7 +1823,7 @@
    32
   ],
   "align": "left",
-  "en": ""
+  "en": "Ragged Shirt"
  },
  {
   "id": "IM10:00020",
@@ -1834,7 +1834,7 @@
    48
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 0"
  },
  {
   "id": "IM10:00030",
@@ -1845,7 +1845,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "As the name says, a torn, filthy shirt. It stinks to high heaven and itches like mad. Throw it away, quick."
  },
  {
   "id": "IM10:000C4",
@@ -1856,7 +1856,7 @@
    228
   ],
   "align": "left",
-  "en": ""
+  "en": "Leather Armor"
  },
  {
   "id": "IM10:000E4",
@@ -1867,7 +1867,7 @@
    244
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 1"
  },
  {
   "id": "IM10:000F4",
@@ -1878,7 +1878,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "Armor of softened leather. Plenty against light blows like a dagger's. Against anything stronger, good luck."
  },
  {
   "id": "IM10:00188",
@@ -1889,7 +1889,7 @@
    424
   ],
   "align": "left",
-  "en": ""
+  "en": "Chain Mail"
  },
  {
   "id": "IM10:001A8",
@@ -1900,7 +1900,7 @@
    440
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 2"
  },
  {
   "id": "IM10:001B8",
@@ -1911,7 +1911,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "Armor of linked metal rings, 1 or 2 cm across. Move an inch and it jangles. The racket is unbearable."
  },
  {
   "id": "IM10:0024C",
@@ -1922,7 +1922,7 @@
    620
   ],
   "align": "left",
-  "en": ""
+  "en": "Breastplate"
  },
  {
   "id": "IM10:0026C",
@@ -1933,7 +1933,7 @@
    636
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 3"
  },
  {
   "id": "IM10:0027C",
@@ -1944,7 +1944,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "Plate covering only chest and back. With iron wrapped all the way round you, how could it not be strong?"
  },
  {
   "id": "IM10:00310",
@@ -1955,7 +1955,7 @@
    816
   ],
   "align": "left",
-  "en": ""
+  "en": "Plate Mail"
  },
  {
   "id": "IM10:00330",
@@ -1966,7 +1966,7 @@
    832
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 4"
  },
  {
   "id": "IM10:00340",
@@ -1977,7 +1977,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "Plate armor forged in one piece from chest to waist. It covers far more of the body than a breastplate."
  },
  {
   "id": "IM10:003D4",
@@ -1988,7 +1988,7 @@
    1012
   ],
   "align": "left",
-  "en": ""
+  "en": "Silver Mail"
  },
  {
   "id": "IM10:003F4",
@@ -1999,7 +1999,7 @@
    1028
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 5"
  },
  {
   "id": "IM10:00404",
@@ -2010,7 +2010,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "Plate armor of silver steeped in magic. It guards better than any armor of mere metal."
  },
  {
   "id": "IM10:00498",
@@ -2021,7 +2021,7 @@
    1208
   ],
   "align": "left",
-  "en": ""
+  "en": "Armor of Spades"
  },
  {
   "id": "IM10:004B8",
@@ -2032,7 +2032,7 @@
    1224
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 7"
  },
  {
   "id": "IM10:004C8",
@@ -2043,7 +2043,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "Jet-black armor with a spade, as on a playing card, carved on the chest. The mark boosts its defense. In fact, it is the best armor."
  },
  {
   "id": "IM10:0055C",
@@ -2054,7 +2054,7 @@
    1404
   ],
   "align": "left",
-  "en": ""
+  "en": "Reflect Armor"
  },
  {
   "id": "IM10:0057C",
@@ -2065,7 +2065,7 @@
    1420
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 6"
  },
  {
   "id": "IM10:0058C",
@@ -2076,7 +2076,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "This armor, called \"Reflect\", was forged by an unknown master. True to its name, it sends every attack right back."
  },
  {
   "id": "IM11:00000",
@@ -2087,7 +2087,7 @@
    32
   ],
   "align": "left",
-  "en": ""
+  "en": "Dragon Mail"
  },
  {
   "id": "IM11:00020",
@@ -2098,7 +2098,7 @@
    48
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 7"
  },
  {
   "id": "IM11:00030",
@@ -2109,7 +2109,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "Armor of dragon scales. In pure defense it is the best there is, but only the legendary Spartoi can wear it."
  },
  {
   "id": "IM11:000C4",
@@ -2120,7 +2120,7 @@
    228
   ],
   "align": "left",
-  "en": ""
+  "en": "Samurai Armor"
  },
  {
   "id": "IM11:000E4",
@@ -2131,7 +2131,7 @@
    244
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 6"
  },
  {
   "id": "IM11:000F4",
@@ -2142,7 +2142,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "Armor of the samurai. They say a stubborn old craftsman made it."
  },
  {
   "id": "IM11:00188",
@@ -2153,7 +2153,7 @@
    424
   ],
   "align": "left",
-  "en": ""
+  "en": "Robe"
  },
  {
   "id": "IM11:001A8",
@@ -2164,7 +2164,7 @@
    440
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 1"
  },
  {
   "id": "IM11:001B8",
@@ -2175,7 +2175,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "Cloth garb for mages. Don't expect much defense, but a mage can't wander around naked! Wear it for peace of mind."
  },
  {
   "id": "IM11:0024C",
@@ -2186,7 +2186,7 @@
    620
   ],
   "align": "left",
-  "en": ""
+  "en": "Wooden Shield"
  },
  {
   "id": "IM11:0026C",
@@ -2197,7 +2197,7 @@
    636
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 1"
  },
  {
   "id": "IM11:0027C",
@@ -2208,7 +2208,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "A wooden shield. Barely any defense, but better than nothing."
  },
  {
   "id": "IM11:00310",
@@ -2219,7 +2219,7 @@
    816
   ],
   "align": "left",
-  "en": ""
+  "en": "Round Shield"
  },
  {
   "id": "IM11:00330",
@@ -2230,7 +2230,7 @@
    832
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 2"
  },
  {
   "id": "IM11:00340",
@@ -2241,7 +2241,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "A round iron shield. Big and heavy, and awkward to use."
  },
  {
   "id": "IM11:003D4",
@@ -2252,7 +2252,7 @@
    1012
   ],
   "align": "left",
-  "en": ""
+  "en": "Knight Shield"
  },
  {
   "id": "IM11:003F4",
@@ -2263,7 +2263,7 @@
    1028
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 3"
  },
  {
   "id": "IM11:00404",
@@ -2274,7 +2274,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "A knight's shield shaped like home plate. Lighter than a round shield and easier to fight with."
  },
  {
   "id": "IM11:00498",
@@ -2285,7 +2285,7 @@
    1208
   ],
   "align": "left",
-  "en": ""
+  "en": "Round Shield +1"
  },
  {
   "id": "IM11:004B8",
@@ -2296,7 +2296,7 @@
    1224
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 4"
  },
  {
   "id": "IM11:004C8",
@@ -2307,7 +2307,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "A round shield imbued with magic. The red dye in its carved cross seems to hold magic power."
  },
  {
   "id": "IM11:0055C",
@@ -2318,7 +2318,7 @@
    1404
   ],
   "align": "left",
-  "en": ""
+  "en": "Holy Crest Shield"
  },
  {
   "id": "IM11:0057C",
@@ -2329,7 +2329,7 @@
    1420
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 5"
  },
  {
   "id": "IM11:0058C",
@@ -2340,7 +2340,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "A shield with a holy crest in the center. The crest has no magic, but it carries the blessing of the gods."
  },
  {
   "id": "IM12:00000",
@@ -2351,7 +2351,7 @@
    32
   ],
   "align": "left",
-  "en": ""
+  "en": "Ruby Shield"
  },
  {
   "id": "IM12:00020",
@@ -2362,7 +2362,7 @@
    48
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 6"
  },
  {
   "id": "IM12:00030",
@@ -2373,7 +2373,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "Set with a ruby that hides great protective power. That makes the shield just a vessel for the gem's magic."
  },
  {
   "id": "IM12:000C4",
@@ -2384,7 +2384,7 @@
    228
   ],
   "align": "left",
-  "en": ""
+  "en": "Mirror Shield"
  },
  {
   "id": "IM12:000E4",
@@ -2395,7 +2395,7 @@
    244
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 2"
  },
  {
   "id": "IM12:000F4",
@@ -2406,7 +2406,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "Polished like a mirror, and so about as tough as one. Its only use: guarding you from the stone gaze of the lamia Medusa."
  },
  {
   "id": "IM12:00188",
@@ -2417,7 +2417,7 @@
    424
   ],
   "align": "left",
-  "en": ""
+  "en": "Iron Gloves"
  },
  {
   "id": "IM12:001A8",
@@ -2428,7 +2428,7 @@
    440
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 1"
  },
  {
   "id": "IM12:001B8",
@@ -2439,7 +2439,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "Iron gear that guards from wrist to fingertip."
  },
  {
   "id": "IM12:0024C",
@@ -2450,7 +2450,7 @@
    620
   ],
   "align": "left",
-  "en": ""
+  "en": "Iron Gloves +1"
  },
  {
   "id": "IM12:0026C",
@@ -2461,7 +2461,7 @@
    636
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 2"
  },
  {
   "id": "IM12:0027C",
@@ -2472,7 +2472,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "Iron gloves imbued with magic."
  },
  {
   "id": "IM12:00310",
@@ -2483,7 +2483,7 @@
    816
   ],
   "align": "left",
-  "en": ""
+  "en": "Magic Gloves"
  },
  {
   "id": "IM12:00330",
@@ -2494,7 +2494,7 @@
    832
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 3"
  },
  {
   "id": "IM12:00340",
@@ -2505,7 +2505,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "Iron gloves made of a metal that holds magic."
  },
  {
   "id": "IM12:003D4",
@@ -2516,7 +2516,7 @@
    1012
   ],
   "align": "left",
-  "en": ""
+  "en": "Samurai Gauntlets"
  },
  {
   "id": "IM12:003F4",
@@ -2527,7 +2527,7 @@
    1028
   ],
   "align": "right",
-  "en": ""
+  "en": "DEF 3"
  },
  {
   "id": "IM12:00404",
@@ -2538,7 +2538,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "Bracers of the samurai."
  },
  {
   "id": "IM12:00498",
@@ -2549,7 +2549,7 @@
    1208
   ],
   "align": "left",
-  "en": ""
+  "en": "Club"
  },
  {
   "id": "IM12:004B8",
@@ -2560,7 +2560,7 @@
    1224
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 4"
  },
  {
   "id": "IM12:004C8",
@@ -2571,7 +2571,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "A wooden club, about as primitive as weapons get. Weak and flimsy, but better than bare fists."
  },
  {
   "id": "IM12:0055C",
@@ -2582,7 +2582,7 @@
    1404
   ],
   "align": "left",
-  "en": ""
+  "en": "Dagger"
  },
  {
   "id": "IM12:0057C",
@@ -2593,7 +2593,7 @@
    1420
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 8"
  },
  {
   "id": "IM12:0058C",
@@ -2604,7 +2604,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "Fine for self-defense, as a rule. In a real fight, it is no use at all."
  },
  {
   "id": "IM13:00000",
@@ -2615,7 +2615,7 @@
    30
   ],
   "align": "left",
-  "en": ""
+  "en": "Falchion"
  },
  {
   "id": "IM13:0001E",
@@ -2626,7 +2626,7 @@
    48
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 12"
  },
  {
   "id": "IM13:00030",
@@ -2637,7 +2637,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "A long, single-edged blade curved like a crescent moon. Made mainly for slashing."
  },
  {
   "id": "IM13:000C4",
@@ -2648,7 +2648,7 @@
    226
   ],
   "align": "left",
-  "en": ""
+  "en": "Long Sword"
  },
  {
   "id": "IM13:000E2",
@@ -2659,7 +2659,7 @@
    244
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 16"
  },
  {
   "id": "IM13:000F4",
@@ -2670,7 +2670,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "A one-handed double-edged sword. No frills, no ornament: made for fighting and nothing else."
  },
  {
   "id": "IM13:00188",
@@ -2681,7 +2681,7 @@
    422
   ],
   "align": "left",
-  "en": ""
+  "en": "Saber"
  },
  {
   "id": "IM13:001A6",
@@ -2692,7 +2692,7 @@
    440
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 20"
  },
  {
   "id": "IM13:001B8",
@@ -2703,7 +2703,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "A long sword with a light blade. Fine for slashing, and excellent for thrusting too."
  },
  {
   "id": "IM13:0024C",
@@ -2714,7 +2714,7 @@
    618
   ],
   "align": "left",
-  "en": ""
+  "en": "Falchion +1"
  },
  {
   "id": "IM13:0026A",
@@ -2725,7 +2725,7 @@
    636
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 24"
  },
  {
   "id": "IM13:0027C",
@@ -2736,7 +2736,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "A falchion imbued with magic. The power in its blade makes it shine steel blue."
  },
  {
   "id": "IM13:00310",
@@ -2747,7 +2747,7 @@
    814
   ],
   "align": "left",
-  "en": ""
+  "en": "Long Sword +1"
  },
  {
   "id": "IM13:0032E",
@@ -2758,7 +2758,7 @@
    832
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 28"
  },
  {
   "id": "IM13:00340",
@@ -2769,7 +2769,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "A long sword imbued with magic. The power in its blade makes it shine steel red."
  },
  {
   "id": "IM13:003D4",
@@ -2780,7 +2780,7 @@
    1010
   ],
   "align": "left",
-  "en": ""
+  "en": "Saber +1"
  },
  {
   "id": "IM13:003F2",
@@ -2791,7 +2791,7 @@
    1028
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 32"
  },
  {
   "id": "IM13:00404",
@@ -2802,7 +2802,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "A saber imbued with magic. The power in its blade makes it shine steel green."
  },
  {
   "id": "IM13:00498",
@@ -2813,7 +2813,7 @@
    1206
   ],
   "align": "left",
-  "en": ""
+  "en": "Rose Quartz Sword"
  },
  {
   "id": "IM13:004B6",
@@ -2824,7 +2824,7 @@
    1224
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 36"
  },
  {
   "id": "IM13:004C8",
@@ -2835,7 +2835,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "A sword of red crystal. They say the crystal starts pale pink, but the more blood it drinks, the deeper red it turns."
  },
  {
   "id": "IM13:0055C",
@@ -2846,7 +2846,7 @@
    1402
   ],
   "align": "left",
-  "en": ""
+  "en": "Magic Sword"
  },
  {
   "id": "IM13:0057A",
@@ -2857,7 +2857,7 @@
    1420
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 40"
  },
  {
   "id": "IM13:0058C",
@@ -2868,7 +2868,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "A magic sword of a metal that holds magic. Its aura leaves a white trail wherever the blade swings."
  },
  {
   "id": "IM14:00000",
@@ -2879,7 +2879,7 @@
    30
   ],
   "align": "left",
-  "en": ""
+  "en": "Sword of ?"
  },
  {
   "id": "IM14:0001E",
@@ -2890,7 +2890,7 @@
    48
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK ??"
  },
  {
   "id": "IM14:00030",
@@ -2901,7 +2901,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "The rather old long sword Markfiend starts with. Those who played Hiouden 1 to the end may know its real purpose (?)"
  },
  {
   "id": "IM14:000C4",
@@ -2912,7 +2912,7 @@
    226
   ],
   "align": "left",
-  "en": ""
+  "en": "Frost Brand"
  },
  {
   "id": "IM14:000E2",
@@ -2923,7 +2923,7 @@
    244
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 25"
  },
  {
   "id": "IM14:000F4",
@@ -2934,7 +2934,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "This sword, called \"Breath of Ice\", was forged long ago to slay the red dragon \"Bloodline\". Best against fire creatures."
  },
  {
   "id": "IM14:00188",
@@ -2945,7 +2945,7 @@
    422
   ],
   "align": "left",
-  "en": ""
+  "en": "Dragon Fang Sword"
  },
  {
   "id": "IM14:001A6",
@@ -2956,7 +2956,7 @@
    440
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 41"
  },
  {
   "id": "IM14:001B8",
@@ -2967,7 +2967,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "As the name says, a sword forged from dragon fangs. Naturally, only the Spartoi can use it."
  },
  {
   "id": "IM14:0024C",
@@ -2978,7 +2978,7 @@
    618
   ],
   "align": "left",
-  "en": ""
+  "en": "Scarlet King's Sword"
  },
  {
   "id": "IM14:0026A",
@@ -2989,7 +2989,7 @@
    636
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 50"
  },
  {
   "id": "IM14:0027C",
@@ -3000,7 +3000,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "Ancient sword of the Scarlet King, Richard A. MacIntyre, once called the King's Sword. It turns its magic into pure might."
  },
  {
   "id": "IM14:00310",
@@ -3011,7 +3011,7 @@
    814
   ],
   "align": "left",
-  "en": ""
+  "en": "Katana"
  },
  {
   "id": "IM14:0032E",
@@ -3022,7 +3022,7 @@
    832
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 30"
  },
  {
   "id": "IM14:00340",
@@ -3033,7 +3033,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "Sword of the samurai. Its fierce strokes leave an eerie, crystal-clear impression: art born of the Eastern smith's soul."
  },
  {
   "id": "IM14:003D4",
@@ -3044,7 +3044,7 @@
    1010
   ],
   "align": "left",
-  "en": ""
+  "en": "Muramasa"
  },
  {
   "id": "IM14:003F2",
@@ -3055,7 +3055,7 @@
    1028
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 39"
  },
  {
   "id": "IM14:00404",
@@ -3066,7 +3066,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "Sword of the samurai. A red battle aura rises in wisps from its blade."
  },
  {
   "id": "IM14:00498",
@@ -3077,7 +3077,7 @@
    1206
   ],
   "align": "left",
-  "en": ""
+  "en": "Cursed Murasame"
  },
  {
   "id": "IM14:004B6",
@@ -3088,7 +3088,7 @@
    1224
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 40"
  },
  {
   "id": "IM14:004C8",
@@ -3099,7 +3099,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "Sword of the samurai. A blue, unholy aura rises from its blade. Its owner gains 10 magic resist and INT and learns Fire."
  },
  {
   "id": "IM14:0055C",
@@ -3110,7 +3110,7 @@
    1402
   ],
   "align": "left",
-  "en": ""
+  "en": "War Hammer"
  },
  {
   "id": "IM14:0057A",
@@ -3121,7 +3121,7 @@
    1420
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 12"
  },
  {
   "id": "IM14:0058C",
@@ -3132,7 +3132,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "A kind of rod with a lump of metal on the end. You can fight by clubbing each other with it, but it is a nasty business."
  },
  {
   "id": "IM15:00000",
@@ -3143,7 +3143,7 @@
    30
   ],
   "align": "left",
-  "en": ""
+  "en": "Battle Axe"
  },
  {
   "id": "IM15:0001E",
@@ -3154,7 +3154,7 @@
    48
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 16"
  },
  {
   "id": "IM15:00030",
@@ -3165,7 +3165,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "A weapon with an axe head on each side of the haft. Hits hard, but takes real strength to wield."
  },
  {
   "id": "IM15:000C4",
@@ -3176,7 +3176,7 @@
    226
   ],
   "align": "left",
-  "en": ""
+  "en": "Great Axe"
  },
  {
   "id": "IM15:000E2",
@@ -3187,7 +3187,7 @@
    244
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 32"
  },
  {
   "id": "IM15:000F4",
@@ -3198,7 +3198,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "Even bigger than a battle axe. Far more power, and it needs far more brawn."
  },
  {
   "id": "IM15:00188",
@@ -3209,7 +3209,7 @@
    422
   ],
   "align": "left",
-  "en": ""
+  "en": "Meteor Hammer"
  },
  {
   "id": "IM15:001A6",
@@ -3220,7 +3220,7 @@
    440
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 36"
  },
  {
   "id": "IM15:001B8",
@@ -3231,7 +3231,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "A savage weapon: a spiked iron ball chained to a stick, swung at the foe. Get hit with this and all we can do is pray for you."
  },
  {
   "id": "IM15:0024C",
@@ -3242,7 +3242,7 @@
    618
   ],
   "align": "left",
-  "en": ""
+  "en": "Stone Club"
  },
  {
   "id": "IM15:0026A",
@@ -3253,7 +3253,7 @@
    636
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 40"
  },
  {
   "id": "IM15:0027C",
@@ -3264,7 +3264,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "A stone club. It looks like a plain rock, but don't underestimate it: an even nastier weapon than a hammer."
  },
  {
   "id": "IM15:00310",
@@ -3275,7 +3275,7 @@
    814
   ],
   "align": "left",
-  "en": ""
+  "en": "Luckbreaker Axe"
  },
  {
   "id": "IM15:0032E",
@@ -3286,7 +3286,7 @@
    832
   ],
   "align": "right",
-  "en": ""
+  "en": "ATK 45"
  },
  {
   "id": "IM15:00340",
@@ -3297,7 +3297,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "An axe that smashes ill luck and brings victory. Blessed by the goddess of fortune, it is deadly against evil spirits."
  },
  {
   "id": "IM15:003D4",
@@ -3308,7 +3308,7 @@
    1010
   ],
   "align": "left",
-  "en": ""
+  "en": "Staff"
  },
  {
   "id": "IM15:003F2",
@@ -3319,7 +3319,7 @@
    1028
   ],
   "align": "right",
-  "en": ""
+  "en": "Catalyst 8"
  },
  {
   "id": "IM15:00404",
@@ -3330,7 +3330,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "The mage's usual gear: a catalyst when chanting spells. Of course, it has no direct attack power whatsoever."
  },
  {
   "id": "IM15:00498",
@@ -3341,7 +3341,7 @@
    1206
   ],
   "align": "left",
-  "en": ""
+  "en": "Serpent Staff"
  },
  {
   "id": "IM15:004B6",
@@ -3352,7 +3352,7 @@
    1224
   ],
   "align": "right",
-  "en": ""
+  "en": "Catalyst"
  },
  {
   "id": "IM15:004C8",
@@ -3363,7 +3363,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "A magic staff with what looks like a real snake coiled on it. The snake's divinity gives the staff its power."
  },
  {
   "id": "IM15:0055C",
@@ -3374,7 +3374,7 @@
    1402
   ],
   "align": "left",
-  "en": ""
+  "en": "Unicorn Horn"
  },
  {
   "id": "IM15:0057A",
@@ -3385,7 +3385,7 @@
    1420
   ],
   "align": "right",
-  "en": ""
+  "en": "Catalyst 50"
  },
  {
   "id": "IM15:0058C",
@@ -3396,7 +3396,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "Horn of the unicorn, holy messenger of life. Its great magic soothes the bearer's spirit and heals wounds."
  },
  {
   "id": "IM16:00000",
@@ -3407,7 +3407,7 @@
    48
   ],
   "align": "left",
-  "en": ""
+  "en": "Great Tuna Sushi"
  },
  {
   "id": "IM16:00030",
@@ -3418,7 +3418,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "King of tuna sushi. Its taste is beyond my (whose?) words. Taste it if you can, and make the ancient legend real."
  },
  {
   "id": "IM16:000C4",
@@ -3429,7 +3429,7 @@
    244
   ],
   "align": "left",
-  "en": ""
+  "en": "Development Staff"
  },
  {
   "id": "IM16:000F4",
@@ -3440,7 +3440,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "TALES OF PHANTASIA ... How is everyone doing? -- MKG"
  },
  {
   "id": "IM16:00188",
@@ -3451,7 +3451,7 @@
    410
   ],
   "align": "left",
-  "en": ""
+  "en": "Crimson Fruit Wine"
  },
  {
   "id": "IM16:0019A",
@@ -3462,7 +3462,7 @@
    440
   ],
   "align": "right",
-  "en": ""
+  "en": "Raises level to the hero's"
  },
  {
   "id": "IM16:001B8",
@@ -3473,7 +3473,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "A crimson fruit wine laced with magic. Drink it, reach the Garden of Joy, and you will find your level rising."
  },
  {
   "id": "IM16:0024C",
@@ -3484,7 +3484,7 @@
    616
   ],
   "align": "left",
-  "en": ""
+  "en": "Magic Mallet"
  },
  {
   "id": "IM16:00268",
@@ -3495,7 +3495,7 @@
    636
   ],
   "align": "right",
-  "en": ""
+  "en": "Giant SD character"
  },
  {
   "id": "IM16:0027C",
@@ -3506,7 +3506,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "A late work of Gimli, a sturdy yet deft smith. Meant to make dwarves taller, it made them too big. He declared it a flop."
  },
  {
   "id": "IM16:00310",
@@ -3517,7 +3517,7 @@
    832
   ],
   "align": "left",
-  "en": ""
+  "en": "Glimmer Ring"
  },
  {
   "id": "IM16:00340",
@@ -3528,7 +3528,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "A ring whose gem shows white roses in the right light. It guards its bearer from Blizzard spells."
  },
  {
   "id": "IM16:003D4",
@@ -3539,7 +3539,7 @@
    1028
   ],
   "align": "left",
-  "en": ""
+  "en": "Crimson Lotus Gem"
  },
  {
   "id": "IM16:00404",
@@ -3550,7 +3550,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "A small red gem. Hold it in your palm and you somehow feel braver. It was once called a Ten Sages' Gem."
  },
  {
   "id": "IM16:00498",
@@ -3561,7 +3561,7 @@
    1224
   ],
   "align": "left",
-  "en": ""
+  "en": "Reserved"
  },
  {
   "id": "IM16:004C8",
@@ -3572,7 +3572,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "????"
  },
  {
   "id": "IM16:0055C",
@@ -3583,7 +3583,7 @@
    1420
   ],
   "align": "left",
-  "en": ""
+  "en": "Reserved"
  },
  {
   "id": "IM16:0058C",
@@ -3594,7 +3594,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "????"
  },
  {
   "id": "MM01:00000",
@@ -3605,7 +3605,7 @@
    26
   ],
   "align": "left",
-  "en": ""
+  "en": "Fire"
  },
  {
   "id": "MM01:0001A",
@@ -3616,7 +3616,7 @@
    48
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 5"
  },
  {
   "id": "MM01:00030",
@@ -3627,7 +3627,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "Wraps the foe in flames until it burns away. No effect on Salamanders or fire creatures."
  },
  {
   "id": "MM01:000C4",
@@ -3638,7 +3638,7 @@
    222
   ],
   "align": "left",
-  "en": ""
+  "en": "Blizzard"
  },
  {
   "id": "MM01:000DE",
@@ -3649,7 +3649,7 @@
    244
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 5"
  },
  {
   "id": "MM01:000F4",
@@ -3660,7 +3660,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "Also called Great Snowstorm. True to its name, it slices the foe with countless ice crystals. No effect on Giant Squid or water creatures."
  },
  {
   "id": "MM01:00188",
@@ -3671,7 +3671,7 @@
    418
   ],
   "align": "left",
-  "en": ""
+  "en": "Thunder"
  },
  {
   "id": "MM01:001A2",
@@ -3682,7 +3682,7 @@
    440
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 5"
  },
  {
   "id": "MM01:001B8",
@@ -3693,7 +3693,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "A lightning spell that pierces enemies. No effect on spirits or wind monsters. From level 20, it calls down divine lightning from above."
  },
  {
   "id": "MM01:0024C",
@@ -3704,7 +3704,7 @@
    614
   ],
   "align": "left",
-  "en": ""
+  "en": "Meteor"
  },
  {
   "id": "MM01:00266",
@@ -3715,7 +3715,7 @@
    636
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 5"
  },
  {
   "id": "MM01:0027C",
@@ -3726,7 +3726,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "Calls a swarm of meteors down on enemies from the sky. The strongest spell, and the most effective against every foe."
  },
  {
   "id": "MM01:00310",
@@ -3737,7 +3737,7 @@
    810
   ],
   "align": "left",
-  "en": ""
+  "en": "Demon Bane"
  },
  {
   "id": "MM01:0032A",
@@ -3748,7 +3748,7 @@
    832
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 40"
  },
  {
   "id": "MM01:00340",
@@ -3759,7 +3759,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "Kills an enemy outright. It can destroy even spirits, but has no effect on the undead."
  },
  {
   "id": "MM01:003D4",
@@ -3770,7 +3770,7 @@
    1006
   ],
   "align": "left",
-  "en": ""
+  "en": "Confuse"
  },
  {
   "id": "MM01:003EE",
@@ -3781,7 +3781,7 @@
    1028
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 20"
  },
  {
   "id": "MM01:00404",
@@ -3792,7 +3792,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "Confuses enemies for a time so they cannot act. It also disrupts the magic of those who control the undead. No effect on spirits."
  },
  {
   "id": "MM01:00498",
@@ -3803,7 +3803,7 @@
    1202
   ],
   "align": "left",
-  "en": ""
+  "en": "Poison"
  },
  {
   "id": "MM01:004B2",
@@ -3814,7 +3814,7 @@
    1224
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 30"
  },
  {
   "id": "MM01:004C8",
@@ -3825,7 +3825,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "Breeds poison inside an enemy's body that slowly drains its vigor. No effect on spirits or the undead."
  },
  {
   "id": "MM01:0055C",
@@ -3836,7 +3836,7 @@
    1398
   ],
   "align": "left",
-  "en": ""
+  "en": "Petrify"
  },
  {
   "id": "MM01:00576",
@@ -3847,7 +3847,7 @@
    1420
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 20"
  },
  {
   "id": "MM01:0058C",
@@ -3858,7 +3858,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "Turns enemies into statues for a time so they cannot act. No effect on spirits."
  },
  {
   "id": "MM02:00000",
@@ -3869,7 +3869,7 @@
    26
   ],
   "align": "left",
-  "en": ""
+  "en": "Bear Form"
  },
  {
   "id": "MM02:0001A",
@@ -3880,7 +3880,7 @@
    48
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 10"
  },
  {
   "id": "MM02:00030",
@@ -3891,7 +3891,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "Turns enemies into teddy bears for a time. A bear can only sit on the ground, but it is invincible, so you can't hurt it either..."
  },
  {
   "id": "MM02:000C4",
@@ -3902,7 +3902,7 @@
    222
   ],
   "align": "left",
-  "en": ""
+  "en": "Heal"
  },
  {
   "id": "MM02:000DE",
@@ -3913,7 +3913,7 @@
    244
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 10"
  },
  {
   "id": "MM02:000F4",
@@ -3924,7 +3924,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "Restores an ally's vigor. You can also heal by hand in battle. Keep a close eye on the hero: if he croaks, it's all over."
  },
  {
   "id": "MM02:00188",
@@ -3935,7 +3935,7 @@
    418
   ],
   "align": "left",
-  "en": ""
+  "en": "Restore"
  },
  {
   "id": "MM02:001A2",
@@ -3946,7 +3946,7 @@
    440
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 10"
  },
  {
   "id": "MM02:001B8",
@@ -3957,7 +3957,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "Cures Levitate, Invisibility, Petrify and the like. It can't be cast in battle, though they say a certain spell on the caster allows it?"
  },
  {
   "id": "MM02:0024C",
@@ -3968,7 +3968,7 @@
    614
   ],
   "align": "left",
-  "en": ""
+  "en": "Revive"
  },
  {
   "id": "MM02:00266",
@@ -3979,7 +3979,7 @@
    636
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 60"
  },
  {
   "id": "MM02:0027C",
@@ -3990,7 +3990,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "Brings an ally back to life. It can be used only once per stage."
  },
  {
   "id": "MM02:00310",
@@ -4001,7 +4001,7 @@
    810
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Undead"
  },
  {
   "id": "MM02:0032A",
@@ -4012,7 +4012,7 @@
    832
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 10"
  },
  {
   "id": "MM02:00340",
@@ -4023,7 +4023,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "Raises an undead monster from the corpse of a foe or ally. They say it succeeds 100% of the time."
  },
  {
   "id": "MM02:003D4",
@@ -4034,7 +4034,7 @@
    1006
   ],
   "align": "left",
-  "en": ""
+  "en": "Invisibility"
  },
  {
   "id": "MM02:003EE",
@@ -4045,7 +4045,7 @@
    1028
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 10"
  },
  {
   "id": "MM02:00404",
@@ -4056,7 +4056,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "Makes your party transparent to avoid enemies. You cannot attack meanwhile, but used well it is a real asset in battle."
  },
  {
   "id": "MM02:00498",
@@ -4067,7 +4067,7 @@
    1202
   ],
   "align": "left",
-  "en": ""
+  "en": "Levitate"
  },
  {
   "id": "MM02:004B2",
@@ -4078,7 +4078,7 @@
    1224
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 20"
  },
  {
   "id": "MM02:004C8",
@@ -4089,7 +4089,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "Lets your party fly. In flight you can avoid your own magic traps and cross ruins and chasms."
  },
  {
   "id": "MM02:0055C",
@@ -4100,7 +4100,7 @@
    1398
   ],
   "align": "left",
-  "en": ""
+  "en": "Anti-Magic Zone"
  },
  {
   "id": "MM02:00576",
@@ -4111,7 +4111,7 @@
    1420
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 10"
  },
  {
   "id": "MM02:0058C",
@@ -4122,7 +4122,7 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "Creates an area on the ground where no spell can be cast. It affects friend and foe alike, so remember where you cast it."
  },
  {
   "id": "MM03:00000",
@@ -4133,7 +4133,7 @@
    26
   ],
   "align": "left",
-  "en": ""
+  "en": "Magic Trap"
  },
  {
   "id": "MM03:0001A",
@@ -4144,7 +4144,7 @@
    48
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 20"
  },
  {
   "id": "MM03:00030",
@@ -4155,7 +4155,7 @@
    196
   ],
   "align": "rows",
-  "en": ""
+  "en": "Sets a magic trap on the ground, but enemies it kills give no experience. It hits friend and foe alike, so fly over it where you can."
  },
  {
   "id": "MM03:000C4",
@@ -4166,7 +4166,7 @@
    222
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Salamander"
  },
  {
   "id": "MM03:000DE",
@@ -4177,7 +4177,7 @@
    244
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 20"
  },
  {
   "id": "MM03:000F4",
@@ -4188,7 +4188,7 @@
    392
   ],
   "align": "rows",
-  "en": ""
+  "en": "A summoning spell. Calls Salamander, the fire spirit."
  },
  {
   "id": "MM03:00188",
@@ -4199,7 +4199,7 @@
    418
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Spirit"
  },
  {
   "id": "MM03:001A2",
@@ -4210,7 +4210,7 @@
    440
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 20"
  },
  {
   "id": "MM03:001B8",
@@ -4221,7 +4221,7 @@
    588
   ],
   "align": "rows",
-  "en": ""
+  "en": "A summoning spell. Calls a spirit of the wind."
  },
  {
   "id": "MM03:0024C",
@@ -4232,7 +4232,7 @@
    614
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Valkyrie"
  },
  {
   "id": "MM03:00266",
@@ -4243,7 +4243,7 @@
    636
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 40"
  },
  {
   "id": "MM03:0027C",
@@ -4254,7 +4254,7 @@
    784
   ],
   "align": "rows",
-  "en": ""
+  "en": "A summoning spell. Calls the Valkyrie, the war maiden who serves Odin, the Norse god of war."
  },
  {
   "id": "MM03:00310",
@@ -4265,7 +4265,7 @@
    810
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Unicorn"
  },
  {
   "id": "MM03:0032A",
@@ -4276,7 +4276,7 @@
    832
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 30"
  },
  {
   "id": "MM03:00340",
@@ -4287,7 +4287,7 @@
    980
   ],
   "align": "rows",
-  "en": ""
+  "en": "A summoning spell. Calls the Unicorn, the \"Spirit of Life\"."
  },
  {
   "id": "MM03:003D4",
@@ -4298,7 +4298,7 @@
    1006
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Ifrit"
  },
  {
   "id": "MM03:003EE",
@@ -4309,7 +4309,7 @@
    1028
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 60"
  },
  {
   "id": "MM03:00404",
@@ -4320,7 +4320,7 @@
    1176
   ],
   "align": "rows",
-  "en": ""
+  "en": "A summoning spell. Calls Ifrit, a greater fire spirit."
  },
  {
   "id": "MM03:00498",
@@ -4331,7 +4331,7 @@
    1202
   ],
   "align": "left",
-  "en": ""
+  "en": "Summon Phoenix"
  },
  {
   "id": "MM03:004B2",
@@ -4342,7 +4342,7 @@
    1224
   ],
   "align": "right",
-  "en": ""
+  "en": "MP 60"
  },
  {
   "id": "MM03:004C8",
@@ -4353,7 +4353,7 @@
    1372
   ],
   "align": "rows",
-  "en": ""
+  "en": "A summoning spell. Calls the Phoenix, \"Holy Messenger of Life\"."
  },
  {
   "id": "MM03:0055C",
@@ -4364,7 +4364,7 @@
    1420
   ],
   "align": "left",
-  "en": ""
+  "en": "Tome of Healing"
  },
  {
   "id": "MM03:0058C",
@@ -4375,6 +4375,6 @@
    1568
   ],
   "align": "rows",
-  "en": ""
+  "en": "A spellbook that calls forth the power of \"Heal\" from the highest layer of the spirit world."
  }
 ]

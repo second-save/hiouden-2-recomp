@@ -7,7 +7,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\2Hsiung, the Mud-Caked Man:\\F\\n\\s  Truth is, this whole dungeon is boxed in by\\n sewers running every which way.\\w\\s So strictly\\n speaking, nobody can get in here.\\u\\k\\c\\s  Or rather, it was built so the monsters\\n roaming the sewers can't get in.\\w\\s Though the\\n guards go down to fight them now and then...\\w\\s\\n Ugh, this mud itches like mad.\\s\\e"
  },
  {
   "id": "TM01:00200",
@@ -17,7 +17,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\2Alisa, the Thinly Clad Woman:\\F\\n\\s  The monsters here turn on a whim.\\w\\s One\\n minute they're friendly with the guards, the\\n next they're hacking away at each other.\\s\\e"
  },
  {
   "id": "TM01:00400",
@@ -27,7 +27,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\2Kunohan, the Sagely Man:\\F\\n\\s  Ever heard of a rare treasure called the\\n \"Ten Sages' Gems\"?\\w\\s They say if you gather\\n 10 Crimson Lotus Gems that blaze like fire,\\n then...\\w\\s something good will happen.\\s\\e"
  },
  {
   "id": "TM01:00600",
@@ -37,7 +37,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\2Hsiang, the Madman:\\F\\n\\s  Heh heh.\\w\\s ...Heh heh, hee hee hee, ha ha ha,\\n ha ha ha ha!\\w\\s So funny, too funny!\\w\\s That\\n lout, that bastard, all dead, every last one!\\k\\c\\w\\s I'm dead too...\\w\\n\\s  Yes, yes, yes, you'll be dead soon too~.\\w\\n\\s The cross, the cross is c-coming closer...\\w\\s\\n ugh... no...\\e"
  },
  {
   "id": "TM02:00000",
@@ -47,7 +47,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\2Marie, the Bespectacled Woman:\\F\\n\\s  They say... the Scarlet King... forgive me,\\n that's rude.\\w\\s King Richard's great sword, the\\n \"King's Sword\", sleeps deep in this dungeon.\\w\\s\\u\\k\\c  If I remember right, the guards often\\n bragged to me that the sword is really sealed\\n away.\\w\\s\\k\\c  Where is it?\\w\\s Oh yes, listen quietly and\\n you'll know.\\w\\s If you remember the tune...\\u\\n\\s It must be where a nostalgic melody plays.\\e"
  },
  {
   "id": "TM02:00200",
@@ -57,7 +57,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\2Guard:\\F\\n \\sSomeone's escaped!\\e"
  },
  {
   "id": "TM02:00400",
@@ -67,7 +67,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n\\2  Open the sluice gate to get what you seek\\F\\e"
  },
  {
   "id": "TM02:00600",
@@ -77,7 +77,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n\\2             Sluice Gate Control\\F\\e"
  },
  {
   "id": "TM03:00000",
@@ -87,7 +87,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\2Gaunt Man:\\F\\n\\w ......\\w\\sAt last... at last my turn to die.\\s\\w\\nOh, not here to kill me?\\w......\\w\\s It can't be.\\nIs this a dream?\\s Wait,\\s\\w you came to free me?\\nTh-thank you for your great kindness.\\s\\w\\u\\k\\c If I really get out of here alive, I'll repay\\nthis debt.\\s\\w Please, you must accept this token.\\e"
  },
  {
   "id": "TM03:00200",
@@ -97,7 +97,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\2Bucktoothed Man:\\F\\n \\sThankth for gettin' me out.\\s\\w Pleathe accept\\nthith little gift.\\s\\w You mutht take it.\\s\\w\\n I hope we both get out of thith plathe alive\\nand meet again outthide.\\s\\w\\u Hang in there, brother!\\e"
  },
  {
   "id": "TM03:00400",
@@ -107,7 +107,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\4\\n   Suddenly an alarm rings out all around!\\e"
  },
  {
   "id": "TM03:00600",
@@ -117,7 +117,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n            -- Restricted Area --\\n    Wall switch: authorized personnel only\\e"
  },
  {
   "id": "TM04:00000",
@@ -127,7 +127,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n          -- Patrol Guards' Room --\\e"
  },
  {
   "id": "TM04:00200",
@@ -137,7 +137,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\n               -- Storeroom --\\e"
  },
  {
   "id": "TM04:00400",
@@ -147,7 +147,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\2Ike the Grave King:\\F\\n\\s  Yo~...\\w\\s Real sorry, but every treasure in\\n here's already spoken for.\\w\\s Yahoo~! A whole\\n mountain of loot, I could die happy!\\e"
  },
  {
   "id": "TM04:00600",
@@ -157,7 +157,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n\\n                -- Sealed --\\e"
  },
  {
   "id": "TM05:00000",
@@ -167,7 +167,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n  All non-essential persons, leave at once.\\n   East sector dangerous. Entry forbidden.\\e"
  },
  {
   "id": "TM05:00200",
@@ -177,7 +177,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\n  'Here is held the witch who brings calamity'\\e"
  },
  {
   "id": "TM05:00400",
@@ -187,7 +187,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": " \\n    The \\2east\\F wall seems to have shifted.\\e"
  },
  {
   "id": "TM05:00600",
@@ -197,7 +197,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": " \\n    The \\2west\\F wall seems to have shifted.\\e"
  },
  {
   "id": "TM06:00000",
@@ -207,7 +207,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": " \\n    The \\2south\\F wall seems to have shifted.\\e"
  },
  {
   "id": "TM06:00200",
@@ -217,7 +217,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": " \\n    The \\2north\\F wall seems to have shifted.\\e"
  },
  {
   "id": "TM06:00400",
@@ -227,7 +227,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": " \\n    The \\2southeast\\F wall seems to have shifted.\\e"
  },
  {
   "id": "TM06:00600",
@@ -237,7 +237,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": " \\n    The \\2southwest\\F wall seems to have shifted.\\e"
  },
  {
   "id": "TM07:00000",
@@ -247,7 +247,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": " \\n    The \\2northeast\\F wall seems to have shifted.\\e"
  },
  {
   "id": "TM07:00200",
@@ -257,7 +257,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": " \\n    The \\2northwest\\F wall seems to have shifted.\\e"
  },
  {
   "id": "TM07:00400",
@@ -267,7 +267,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n  These bars look like they can be opened\\n  with the \\2'Rusty Cell Key'\\F.\\e"
  },
  {
   "id": "TM07:00600",
@@ -277,7 +277,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n  These bars look like they can be opened\\n  with the \\2'Silver Key'\\F.\\e"
  },
  {
   "id": "TM08:00000",
@@ -287,7 +287,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n  These bars look like they can be opened\\n  with the \\2'Ruby Key'\\F.\\e"
  },
  {
   "id": "TM08:00200",
@@ -297,7 +297,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\n  These bars look like they can be opened\\n  with the \\2'Ornate Dragon Key'\\F.\\e"
  },
  {
   "id": "TM08:00400",
@@ -307,7 +307,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n        There is no lock on these bars.\\e"
  },
  {
   "id": "TM08:00600",
@@ -317,7 +317,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n  This door looks like it can be opened\\n  with the \\2'Rusty Cell Key'\\F.\\e"
  },
  {
   "id": "TM09:00000",
@@ -327,7 +327,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n  This door looks like it can be opened\\n  with the \\2'Silver Key'\\F.\\e"
  },
  {
   "id": "TM09:00200",
@@ -337,7 +337,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\n  This door looks like it can be opened\\n  with the \\2'Ruby Key'\\F.\\e"
  },
  {
   "id": "TM09:00400",
@@ -347,7 +347,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n  This door looks like it can be opened\\n  with the \\2'Ornate Dragon Key'\\F.\\e"
  },
  {
   "id": "TM09:00600",
@@ -357,7 +357,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n  This door seems to need some special key\\n  to open it.\\e"
  },
  {
   "id": "TM10:00000",
@@ -367,7 +367,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n        There is no lock on this door.\\e"
  },
  {
   "id": "TM10:00200",
@@ -377,7 +377,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\n      The lock has rotted away completely.\\e"
  },
  {
   "id": "TM10:00400",
@@ -387,7 +387,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n\\2              SPECIAL WARNING!\\F\\k\\c \\2Next floor deployment\\F: Unit 1 = Area 000A\\n                      : Unit 2 = Area 000B\\n                      : Unit 3 = Area 000C\\k\\c Movement between areas is impossible by\\n ordinary means.\\n          Dungeon Warden \\2Jadain\\F\\e"
  },
  {
   "id": "TM10:00600",
@@ -397,7 +397,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": " 'To the west, the door to treasure;\\n  to the east, the path to the magic circle.'\\n          'Which way will ye go?'\\e"
  },
  {
   "id": "TM11:00000",
@@ -407,7 +407,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n      'As time flows back upon itself,'\\n        'kindle the candle's light.'\\e"
  },
  {
   "id": "TM11:00200",
@@ -417,7 +417,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\n\\2 'Curb thy greed, and thou shalt live long.'\\F\\e"
  },
  {
   "id": "TM11:00400",
@@ -427,7 +427,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n\\2      'Care to see a lifelike statue?'\\F\\e"
  },
  {
   "id": "TM11:00600",
@@ -437,7 +437,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\2Lady:\\F\\n\\s  Nearly all the people locked up here were\\ntaken off to somewhere I don't know...\\o\\w\\n\\s  Surely... surely they were all executed\\o\\w\\n\\s...\\w...\\w\\s Oh... oh...\\o\\e"
  },
  {
   "id": "TM12:00000",
@@ -447,7 +447,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\2Steadfast Woman:\\F\\n\\s  You... you're...\\o?\\s\\w So you two are the ones\\nwho fled all the way here from the depths\\o.\\s\\k\\c\\s  The Dungeon is a kicked hornets' nest; the\\nguards have all swarmed out\\o.\\s\\w\\n  Be careful, both of you...\\o\\s\\w They say some\\ndreadful monster is being sent to kill you...\\o\\e"
  },
  {
   "id": "TM12:00200",
@@ -457,7 +457,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\2Young Man:\\F\\n\\s  The guards patrolling near here should\\n\\shave a key carved with a skull\\o.\\s\\w Take that\\n\\sSkull Key to the skeleton statue to the north\\n\\sand put it in the keyhole hidden in its eye\\o.\\k\\c\\s  The wall should open then\\o.\\u\\s Have you tried that\\o?\\e"
  },
  {
   "id": "TM12:00400",
@@ -467,7 +467,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n  Deep in the skeleton statue's eye is a small\\n  hole that looks like a keyhole.\\e"
  },
  {
   "id": "TM12:00600",
@@ -477,7 +477,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n 'If ye want none of the treasure before ye,\\n  press the button nearby!'\\n 'All the treasure shall crumble into dust.'\\e"
  },
  {
   "id": "TM13:00000",
@@ -487,7 +487,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\2Lady:\\F\\n\\s  That Jadain is a notoriously sly one\\o.\\n\\sThey say he wields some unknown power to\\n\\swork illusions\\o.\\s\\w Be wary of him\\o.\\s\\e"
  },
  {
   "id": "TM13:00200",
@@ -497,7 +497,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\2Unyielding Man:\\F\\n\\s  Jadain, the Dungeon Warden, has a strange\\n\\spower. They say he uses illusions to hide the\\n\\splaces where important things are kept, so\\n\\syou never notice them\\o.\\u\\s\\k\\c\\s  To escape, you must get past every vile and\\n\\sbrutal trap he has laid\\o.\\s\\w\\n\\s  Where nothing seems to be, something is\\n\\sthere\\o...\\w...\\w\\s I bet the floor below has one\\o.\\s\\e"
  },
  {
   "id": "TM13:00400",
@@ -507,7 +507,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n      Suddenly, there is a noise nearby.\\k\\c\\2Jadain:\\F\\n\\s  So you actually made it here alive\\o.\\s\\w\\n\\sHeh heh\\o...\\s\\w I would love to praise your\\n\\sfearless courage\\o.\\s\\w But that would cost me\\n\\smy head\\o.\\s\\w\\k\\c\\s  Your luck has run out\\o.\\u\\s Go on, thrash about in your\\n\\sdeath throes\\o!\\s\\e"
  },
  {
   "id": "TM13:00600",
@@ -517,7 +517,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n?!\\e"
  },
  {
   "id": "TM14:00000",
@@ -527,7 +527,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n      Suddenly, there is a noise nearby.\\k\\c\\n                  \\4\"Die!\"\\e"
  },
  {
   "id": "TM14:00200",
@@ -537,7 +537,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "       'Better to wait than to hurry.'\\n 'Watching ye crawl like ants: a joy of life.'\\e"
  },
  {
   "id": "TM14:00400",
@@ -547,7 +547,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n  This seems to be a switch that lowers a\\ncertain bridge. On its face you can see a\\nkeyhole that seems to work it.\\e"
  },
  {
   "id": "TM14:00600",
@@ -557,7 +557,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\2Water Spirit:\\F\\n\\s  I am the spirit of this Cavern Lake\\o.\\s\\w Of\\n\\slate, a sorcerer calling himself the \"Ice\\n\\sPhantom\" appeared and took my precious\\n\\snecklace from me by force\\o.\\u\\s\\k\\c\\s  With my necklace gone, I have lost my power\\n\\sand cannot leave this spot\\o.\\s\\w\\n\\s  Please...\\o\\s\\w whatever it takes\\o,\\s\\w could you\\n\\swin my necklace back from the Ice Phantom\\o?\\s\\e"
  },
  {
   "id": "TM15:00000",
@@ -567,7 +567,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\2Water Spirit:\\F\\n\\s  Please win back my necklace from\\n\\sthe Ice Phantom\\o.\\s\\w I beg you\\o.\\s\\w I believe he\\n\\sis hiding somewhere in this lake\\o.\\s\\e"
  },
  {
   "id": "TM15:00200",
@@ -577,7 +577,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\2Water Spirit:\\F\\n\\s  Thank you so much for your help\\o.\\s\\w To\\n\\srepay you both, I give you the sword sealed\\n\\sin the pillar to the southwest\\o.\\s\\w Please, do\\n\\saccept it\\o.\\s\\e"
  },
  {
   "id": "TM15:00400",
@@ -587,7 +587,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\2Water Spirit:\\F\\n\\s  Thank you both so much\\o.\\s I will never forget\\n\\syour kindness\\o.\\s\\e"
  },
  {
   "id": "TM15:00600",
@@ -597,7 +597,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n  Perhaps it is only your imagination, but the\\nair seems to have grown a little colder.\\e"
  },
  {
   "id": "TM16:00000",
@@ -607,7 +607,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n  A bitter, breath-stealing cold is blowing in\\nfrom nearby as well. Something is not right!\\e"
  },
  {
   "id": "TM16:00200",
@@ -617,7 +617,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\2Shifty Mage:\\F\\n\\s  They say the spirit on the west side of the\\n\\sCavern Lake has a necklace that halves the\\n\\smagic you spend...\\o\\s\\w\\k\\c\\s  If you can get your hands on that treasure\\n\\ssomehow, would you bring it to me\\o?\\s\\u\\s  I'll make it worth your while\\o.\\s\\e"
  },
  {
   "id": "TM16:00400",
@@ -627,7 +627,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\2Shifty Mage:\\F\\n\\s  I'm counting on you\\o.\\s\\w And don't go slipping\\n\\sit into your own pocket\\o.\\s\\e"
  },
  {
   "id": "TM16:00600",
@@ -637,7 +637,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\2Shifty Mage:\\F\\n\\s  Th\\o-\\s\\wthis is the legendary\\n\\sSpirit Necklace\\o!\\s\\w Here, this is for you\\o.\\n\\sTake it and go, quickly\\o.\\s\\w\\e"
  },
  {
   "id": "TM17:00000",
@@ -647,7 +647,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\2Shifty Mage:\\F\\n\\sWhat do you want now\\o?\\s\\w I already paid you\\o!\\n\\w...\\w...\\w\\s Go on, get out of here\\o!\\s\\e"
  },
  {
   "id": "TM17:00200",
@@ -657,7 +657,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\n 'The skull seal binds Heaven's envoy here.'\\n    'Take me in hand and break its seal.'\\e"
  },
  {
   "id": "TM17:00400",
@@ -667,7 +667,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n    A bridge seems to span the \\8east\\F shore.\\e"
  },
  {
   "id": "TM17:00600",
@@ -677,7 +677,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n    A bridge seems to span the \\8west\\F shore.\\e"
  },
  {
   "id": "TM18:00000",
@@ -687,7 +687,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n A bridge seems to span the \\8northwest\\F shore.\\e"
  },
  {
   "id": "TM18:00200",
@@ -697,7 +697,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\n A bridge seems to span the \\8southeast\\F shore.\\e"
  },
  {
   "id": "TM18:00400",
@@ -707,7 +707,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\2Beautiful Lady:\\F\\n\\s  North of here is a hall. If you work a\\n\\scertain switch there\\o,\\s\\w you can apparently\\n\\sget into the small room in the northwest\\n\\scorner that was closed off before\\o.\\s\\w\\k\\c  They say the chest inside holds some\\ntreasure\\o\\w...\\w...\\e"
  },
  {
   "id": "TM18:00600",
@@ -717,7 +717,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\2Young Man:\\F\\n\\s  See those people\\o?\\s\\w The ones by the blue\\n\\sram statue\\o.\\s\\w Know what they're muttering\\n\\sabout\\o?\\s\\w\\k\\c\\s  I only heard it secondhand\\o,\\s\\w but they\\n\\ssay that statue, quiet most of the time,\\n\\ssometimes lets out a bloodcurdling moan...\\o\\e"
  },
  {
   "id": "TM19:00000",
@@ -727,7 +727,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n  The \\2southeast\\F pillar seems to have changed.\\e"
  },
  {
   "id": "TM19:00200",
@@ -737,7 +737,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\2Simple Demon Museum:\\F\\n\\s  Welcome\\o.\\w\\s Please feel free to browse.\\e"
  },
  {
   "id": "TM19:00400",
@@ -747,7 +747,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\2Slime II':  Fruit Jelly Family, Slime Order\\F\\n  A jelly-like creature with the intelligence\\n of a human toddler. The eye- or mouth-like\\k\\c parts seen on its surface are only hardened\\n skin, not true organs. It is usually green.\\n  A recent sudden mutation is making its body\\n more and more transparent.\\e"
  },
  {
   "id": "TM19:00600",
@@ -757,7 +757,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\2Bubble Slime:  Fruit Jelly Family, Slime Order\\F\\n  A jelly-like creature: a mutant slime. Its\\n body holds so little water that it can only\\k\\c live in fresh water. It is usually blue, but\\n on death its pigment settles and it turns\\n green, so its corpse is hard to tell apart\\n from that of a Slime II'.\\e"
  },
  {
   "id": "TM20:00000",
@@ -767,7 +767,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\2Onick Bird:  Unknown Family, Unknown Order\\F\\n  A mysterious creature. All that is known is\\n that it is highly intelligent; its skeleton\\n and genes seem close to a bird's. However,\\k\\c as it flatly denies being a bird, it cannot\\n yet be classified. It was once thought to be\\n related to the Nick Bird, but a closer look\\k\\c showed only that their sawtooth stripes from\\n head to back are much alike. Even that, the\\n Onick Bird flatly refuses to admit.\\e"
  },
  {
   "id": "TM20:00200",
@@ -777,7 +777,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\2Puppet*:  Slave Family, Doll Order\\F\\n  A humanoid wooden doll that the Doll Master\\n made with all his life's strength and gave a\\k\\c soul. It wears an odd hat, its feet grow out\\n of its face, and the tuft of hair on the back\\n of its head (it does not look like a tail)\\n sometimes flops forward when it looks down.\\k\\c  Its temper seems closely tied to its maker's\\n mood at the time, so it runs hot and cold.\\e"
  },
  {
   "id": "TM20:00400",
@@ -787,7 +787,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\2Chimera:  Magic Beast Family, Chimera Order\\F\\n  A monster with the heads of a lion, a goat\\n and a dragon, bat wings on its lion's body\\k\\c and a venomous serpent for a tail. It can\\n petrify, and though not very bright, it uses\\n magic much like illusion. Ordinary folk\\n scraping a living day to day never meet one.\\k\\c  But if you are truly too lucky and meet one\\n some day, that day will be the day your\\n life's journey comes to a full stop.\\n  And this lucky soul?? Surely not you.\\e"
  },
  {
   "id": "TM20:00600",
@@ -797,7 +797,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\2Ike the Grave King:\\F\\n\\s    Wha~t? You're a real pest. Get lost!\\e"
  },
  {
   "id": "TM21:00000",
@@ -807,7 +807,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\nThere is a stone statue.\\e"
  },
  {
   "id": "TM21:00200",
@@ -817,7 +817,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\n             'The Sleeping Enemy'\\e"
  },
  {
   "id": "TM21:00400",
@@ -827,7 +827,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n    'Instead of throwing a fit over there,'\\n    'bash that noggin till it shatters.'\\e"
  },
  {
   "id": "TM21:00600",
@@ -837,7 +837,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "        'Whip the dead to open their mouths.'\\n     'O pale ghost of dim and hazy form,'\\n 'pass beyond the withered husk, and lead us\\n  on to the land not yet reached.'\\e"
  },
  {
   "id": "TM22:00000",
@@ -847,7 +847,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\2Old Man:\\F\\n\\s  Every monster on this floor is a phantom\\o.\\nHit them all you like, they won't die\\o.\\k\\c\\s Understand\\o?\\s\\w Not everything can be\\nsettled by brute force\\o\\w...\\w...\\k\\c\\n  Having said all he had to say, the old man\\nvanished like smoke, without a trace.\\e"
  },
  {
   "id": "TM22:00200",
@@ -857,7 +857,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\2Jadain:\\F\\n\\s  I never thought you'd make it here alive\\o.\\n\\sVery well\\o,\\s\\w I shall finish you off myself\\o!\\e"
  },
  {
   "id": "TM22:00400",
@@ -867,7 +867,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n                 The Wolf's Den\\e"
  },
  {
   "id": "TM22:00600",
@@ -877,7 +877,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n       Afternoon Tea -- Break Time\\n\\s Good work. Take a break.\\e"
  },
  {
   "id": "TM23:00000",
@@ -887,7 +887,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\s\\2 The stone tablet explains how to operate the\\nmachine before you,\\o \\s\\wbut some of its letters\\ncan no longer be read.\\o\\w\\k\\c\\F This device has two main uses:\\n    - Use 1: Act#vate/stop the poison needles\\n    - Use 2: St#p the *#%\\k\\c\\n Also, to switch the device on or st#p it, the\\n light of the *% gem is required.\\e"
  },
  {
   "id": "TM23:00200",
@@ -897,7 +897,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\n 'Take care! One false step, and all is lost.'\\n         'Deftly evade the traps.'\\e"
  },
  {
   "id": "TM23:00400",
@@ -907,7 +907,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n             'Become invisible!'\\e"
  },
  {
   "id": "TM23:00600",
@@ -917,7 +917,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n 'That one dances amid the flames as a fish\\n  swims in water.'\\e"
  },
  {
   "id": "TM24:00000",
@@ -927,7 +927,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n 'Beware, ye who come! All who draw near the\\n  flames shall lose their lives.'\\n 'Even creatures of fire cannot withstand the\\n  flames as they devour and rage.'\\e"
  },
  {
   "id": "TM24:00200",
@@ -937,7 +937,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\2     'Ye must pass through the gate of\\n           the Demon Realm.'\\F\\k\\c 'However sure ye may be, look once more upon\\n  the foe before you.'\\n 'How could one of fire ever take the life of\\n  the King of Flames?'\\e"
  },
  {
   "id": "TM24:00400",
@@ -947,7 +947,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n              'Endless Inferno'\\e"
  },
  {
   "id": "TM24:00600",
@@ -957,7 +957,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n 'Look down below. A treasure chest shall be\\n  seen.'\\e"
  },
  {
   "id": "TM25:00000",
@@ -967,7 +967,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n If something could destroy this power, the\\n flames would vanish.\\e"
  },
  {
   "id": "TM25:00200",
@@ -977,7 +977,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\n If something could destroy this power, would\\n the flames vanish?\\e"
  },
  {
   "id": "TM25:00400",
@@ -987,7 +987,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "'Lash the dead and make them open their lips.'\\n'O dead whose souls are spent, yet whose husks\\n remain in this world,'\\k\\c'I now grant ye a brief, borrowed life,'\\n'that ye may obey those who hold the dread key\\n of the Netherworld.'\\e"
  },
  {
   "id": "TM25:00600",
@@ -997,7 +997,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n 'Hold me in the arms of the Holy Mother\\n  Aetricia, and play me gently.'\\e"
  },
  {
   "id": "TM26:00000",
@@ -1007,7 +1007,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n 'An unseen barrier is the cornerstone of\\n  victory.'\\e"
  },
  {
   "id": "TM26:00200",
@@ -1017,7 +1017,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\2     'Ye must pass through the gate of\\n           the Demon Realm.'\\F\\n When ye meet twin doors, know at once that\\n they are passages that carry ye in an instant\\n from this place to another.\\e"
  },
  {
   "id": "TM26:00400",
@@ -1027,7 +1027,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n      There is a corroded, crumbling statue.\\e"
  },
  {
   "id": "TM26:00600",
@@ -1037,7 +1037,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n   'Only one at a time... and quietly...'\\e"
  },
  {
   "id": "TM27:00000",
@@ -1047,7 +1047,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n It seems the curse of Medusa the Lamia has\\n been lifted.\\e"
  },
  {
   "id": "TM27:00200",
@@ -1057,7 +1057,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\2Shifty Mage:\\F\\n\\s By this humble one's reckoning...\\o\\w\\s\\nhow sparingly you use the revival potions you\\ncarry will be the key to reaching your goal.\\o\\s\\e"
  },
  {
   "id": "TM27:00400",
@@ -1067,7 +1067,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\2Doll Master:\\F\\n\\s My beloved \"Puppet\" and \"Cheryl\"...\\o what a\\npair of lovebirds they are!\\o\\w\\s Look at them,\\naren't they adorable?\\o\\w\\s\\k\\c To give the two of them eternal life,\\o\\w\\s\\nI need you\\o...\\w\\s to DIE\\o!\\e"
  },
  {
   "id": "TM27:00600",
@@ -1077,7 +1077,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n 'O ye clowns capering about the world, ye\\n  mock yourselves far too much.'\\e"
  },
  {
   "id": "TM28:00000",
@@ -1087,7 +1087,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\2Clown Puppet:\\F\\n\\s My sweetheart \"Cheryl\" has left me, and\\nshe'll never come back to me.\\o\\w\\s Just now I\\nheard her scream nearby.\\o\\w\\s\\k\\c I see\\o...\\w\\s you did this\\o!\\w\\s\\n Your lives are mine\\o!\\e"
  },
  {
   "id": "TM28:00200",
@@ -1097,7 +1097,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": " 'Judge the true and the false before thee.'\\n 'Phantoms are hollow: strike one with a sword\\n  and it shall scatter, soul and all.'\\e"
  },
  {
   "id": "TM28:00400",
@@ -1107,7 +1107,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n 'Ye who seek death and cannot find it, come\\n  hither with haste.'\\e"
  },
  {
   "id": "TM28:00600",
@@ -1117,7 +1117,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\n  'Offer sacrifice thrice, and ye may call\\n   upon me.'\\e"
  },
  {
   "id": "TM29:00000",
@@ -1127,7 +1127,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n\\s Thank you for freeing us.\\e"
  },
  {
   "id": "TM29:00200",
@@ -1137,7 +1137,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\n\\2               Choose One\\F\\e"
  },
  {
   "id": "TM29:00400",
@@ -1147,7 +1147,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\n\\2 'The sword of legend, once guarded by the\\n  phantoms of heroes,'\\n 'was renamed and reshaped in the Scarlet\\n  King's name, and sealed in this place.'\\w\\k\\c 'Should one who bears the Scarlet King's\\n  name and holds every magic stone come,'\\n 'the right to wield \\3the King's Sword\\2 shall\\n  be granted to that one without fail.'\\w\\k\\c 'Offer the magic stones upon the statue,'\\n 'and the road ye seek shall open, step by\\n  step.'\\w\\u\\k\\e"
  },
  {
   "id": "TM29:00600",
@@ -1157,7 +1157,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": " \\n It looks like these iron bars can be opened\\n with the \\2'Serpent Key'\\F.\\e"
  },
  {
   "id": "TM30:00000",
@@ -1167,7 +1167,7 @@
    0,
    512
   ],
-  "en": ""
+  "en": "\\n\\2           Thou Mayst See Through\\F\\e"
  },
  {
   "id": "TM30:00200",
@@ -1177,7 +1177,7 @@
    512,
    1024
   ],
-  "en": ""
+  "en": "\\n\\2            Art Thou Prepared?\\F\\e"
  },
  {
   "id": "TM30:00400",
@@ -1187,7 +1187,7 @@
    1024,
    1536
   ],
-  "en": ""
+  "en": "\\s  Hello, players.\\o\\w\\s I'm MKG, the planner on\\n Hiouden II'.\\o\\w\\s Originally we planned a\\n special column called 'The Wolf's Den', where\\n everyone on the team would share their\\n thoughts and impressions.\\o\\k\\c\\w\\s But there wasn't enough disk space, so we\\n had to cut it. It broke our hearts.\\o\\s\\u\\k\\c  So here, on behalf of all my teammates, I'll\\n let you in on a secret trick in the game, and\\n briefly introduce each member of the team.\\o\\s\\k\\c  I bet you're all wondering,\\o \\w\\swhat secret\\n tricks could Hiouden II possibly have?\\o\\w\\s\\n Well, hidden in stage one is a super trick\\n that makes every monster join your side.\\o\\w\\s\\n And here's how\\o...\\w\\o...\\k\\e"
  },
  {
   "id": "TM30:00600",
@@ -1197,7 +1197,7 @@
    1536,
    2048
   ],
-  "en": ""
+  "en": "\\s  After you choose \\o'Restart Game'\\s,\\o\\w\\s\\n hold down the \\o'CTRL' key\\s on the keyboard\\n and hold the right mouse button too. Keep\\n holding them until the game starts, and\\n you're all set.\\o\\s\\k\\c  Next, I'll give a quick introduction to the\\n team \\o(from my own point of view)\\s.\\o\\w\\s But\\n there isn't room in the data, so I can't\\n introduce everyone\\o...\\w...\\s *sob*\\o!\\k\\c\\s  Luckily you can still see them all in the\\n ending credits \\o(thank heavens).\\w\\s\\n  Well then,\\o \\w\\slet's begin the introductions.\\k\\e"
  },
  {
   "id": "TM31:00000",
@@ -1207,7 +1207,7 @@
    0,
    512
   ],
-  "en": "　》Joe Asanuma\\n    Head of Wolf Team, a.k.a. Big Boss No. 1.\\n    First to dare pitch the hard-disk version.\\k\\c\\n    So everyone, thank him for being so nosy.\\k\\c　》Inage (don't you call him an old man!)\\n    Core tech lead. So devoted to Hiouden II',\\n    he worked himself into an early grave.\\k\\c\\n    Truly a tearjerker.\\k\\c　》Ozawa\\n    Programming genius. His code could link\\n    this world to the Demon Realm. (Kidding!)\\k\\c　》Miyake\\n    Programmer for the battle and magic AI.\\n    Nearly croaked writing the pathfinding AI.\\k\\e"
+  "en": " > Joe Asanuma\\n   Wolf Team's head honcho, boss number one.\\n   He's also the one who braved the risk and\\n   first proposed a hard-disk version.\\k\\c\\n   So be grateful for his meddling, everyone.\\k\\c > Uncle Inage (don't you call him old~)\\n   Lead on the core tech. So devoted that he\\n   worked himself to death for Hiouden II'.\\n   It's enough to make you weep buckets.\\k\\c > Ozawa\\n   Genius programmer. So good he could code a\\n   link between our world and the Demon Realm.\\n   Er, just kidding. Don't take it seriously.\\k\\c > Miyake\\n   Another programmer. He did all the battle\\n   and magic AI. Though rumour has it the\\n   pathing AI nearly killed him.\\k\\e"
  },
  {
   "id": "TM31:00200",
@@ -1217,7 +1217,7 @@
    512,
    1024
   ],
-  "en": "　》Isogai\\n    Great artist. He drew nearly all the maps\\n    and monsters by himself. Makes you sweat!\\k\\c　》Sakuraba\\n    Composer. He wrote many lovely tunes for\\n    our Hiouden II. I love his style.\\k\\c　Special mention》Hiro\\n    Odd-job helper. Drew terrain for the HDD\\n    version and juggled chores. An octopus!\\k\\c\\n【MKG】\\s You've come this far\\o,\\w\\s but a third of\\n       the game still lies ahead\\o.\\w\\s Keep at it\\o!\\w\\s\\e"
+  "en": " > Isogai\\n   Our great artist. In truth, nearly all the\\n   maps and monsters were done by him alone.\\n   Makes you sweat just thinking about it.\\k\\c > Sakuraba\\n   Composer. He wrote a whole lot of lovely\\n   tunes for our Hiouden II. I'm a big fan of\\n   his style myself.\\k\\c Special mention: Hiro\\n   Our odd-job helper. Besides drawing terrain\\n   pieces for the hard-disk version, he does\\n   all sorts of other little jobs. Quite the\\n   octopus, isn't he?\\k\\c\\nMKG:\\s You've made it this far,\\o\\w\\s and one\\n     third of the game is left.\\o\\w\\s\\n     Keep at it, everyone!\\o\\w\\s\\e"
  },
  {
   "id": "TM31:00400",
@@ -1227,7 +1227,7 @@
    1024,
    1536
   ],
-  "en": "\\n\\2                 Watch your step\\e"
+  "en": "\\n\\2              Watch yourself\\e"
  },
  {
   "id": "TM31:00600",
@@ -1237,7 +1237,7 @@
    1536,
    2048
   ],
-  "en": "\\n\\2        Are you sure you want to do this?\\e"
+  "en": "\\n\\2       Do you truly mean to do this?\\e"
  },
  {
   "id": "TM32:00000",
@@ -1247,7 +1247,7 @@
    0,
    512
   ],
-  "en": "\\n\\2             Effort and Perseverance\\e"
+  "en": "\\n\\2          Effort and Perseverance\\e"
  },
  {
   "id": "TM32:00200",
@@ -1257,7 +1257,7 @@
    512,
    1024
   ],
-  "en": "　\\n  The floor to the \\2north\\F has changed somehow.\\e"
+  "en": " \\n  Something seems to have changed on the\\n  ground to the \\2north\\F.\\e"
  },
  {
   "id": "TM32:00400",
@@ -1267,7 +1267,7 @@
    1024,
    1536
   ],
-  "en": "　\\n   The floor to the \\2west\\F has changed somehow.\\e"
+  "en": " \\n  Something seems to have changed on the\\n  ground to the \\2west\\F.\\e"
  },
  {
   "id": "TM32:00600",
@@ -1277,6 +1277,6 @@
    1536,
    2048
   ],
-  "en": "\\n\\2        Are you sure you want to do this?\\e"
+  "en": "\\n\\2       Do you truly mean to do this?\\e"
  }
 ]

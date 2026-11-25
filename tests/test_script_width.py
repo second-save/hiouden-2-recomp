@@ -1,32 +1,25 @@
-import json
-import re
+import sys
 import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MAX_COLS = 46  # TM message box: 23 cells of 16 px, two Latin letters per cell (measured 2026-11-25, work/qa/m0)
-CODE = re.compile(r"\\[0-9A-Za-z]")
-
-
-def line_widths(slot):
-    """Visible width of each box line in one CVD slot: full-width chars count 2, control codes 0."""
-    for part in re.split(r"\\n|\\c", slot):
-        text = CODE.sub("", part)
-        yield sum(2 if ord(c) > 0x2000 else 1 for c in text), text
+sys.path.insert(0, str(ROOT / "tools"))
+import batches  # noqa: E402
+import bigram  # noqa: E402
 
 
 class ScriptWidthTest(unittest.TestCase):
     def test_widths(self):
-        self.assertEqual(list(line_widths(r"\2ab\Fc\nd")), [(3, "abc"), (1, "d")])
+        """Columns in bigram cells: an odd run before a code wastes half a cell (TM box: 46 columns, measured
+        2026-11-25 work/qa/m0; `\\u` starts a new line too)."""
+        self.assertEqual([bigram.cols(l) for l in bigram.lines(r"\2ab\Fc\nd", batches.TM_BREAKS)], [4, 2])
 
-    def test_tm_lines_fit_the_box(self):
-        over = []
-        for e in json.loads((ROOT / "script" / "TM.json").read_text(encoding="utf-8")):
-            if not e["en"]:
-                continue
-            self.assertTrue(e["en"].endswith(r"\e"), f"{e['id']} lacks \\e")
-            over += [f"{e['id']}: {w} cols: {t!r}" for w, t in line_widths(e["en"]) if w > MAX_COLS]
-        self.assertEqual(over, [])
+    def test_all_english_passes_the_batch_check(self):
+        """Every shipped English line: codes matched, ASCII, glossary, widths and byte budgets (tools/batches.py)."""
+        entries, terms = batches.index(), batches.glossary()
+        bad = [f"{i}: {p}" for i, e in entries.items() if e.get("en") for p in batches.problems(e, e["en"], terms)]
+        bad += batches.budget_problems({}, entries)
+        self.assertEqual(bad, [])
 
 
 if __name__ == "__main__":
