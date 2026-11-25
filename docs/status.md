@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 1 (recon) done except the full text-site list; phase 2 (debug tool) mostly done. Rulings D1-D8 all answered (`docs/decisions.md`).
+- **Phase:** 1 (recon) and 2 (debug tool) done; phase 3 (identity build) next. Rulings D1-D8 all answered (`docs/decisions.md`).
 - **Done:**
   - Repo set up from the fan-translation template; guard hook proven (blocks `sed -i`); pre-commit runs `tools/check.py`; originals pinned in `rom.sha1`.
   - Towns CD holds no script (only names, graphics, scenes). Source = Chinese DOS (D5).
@@ -17,8 +17,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - TM31/TM32 English drafts, all 4 slots each, in `script/en/` (D7), Western order, no honorifics (D6), fit 46 cols. Not inserted yet (no insert tool or bigram font yet).
   - Debug tool complete for text QA: spell popup by clicks (text_inventory); `tools/debug/msg_sheets.py` shot-lists all 128 messages in ~4 min (0, 4, 8, 49, 55, 118, 119 need `--pages 20`); `warp.py --vis N` plays VIS.EXE cutscene N (0-8) in the intro's place; `--game DIR` for parallel runs. How scenes are chosen: `docs/re/events.md`.
   - Text-site census: `docs/re/text_sites.md`. HIO.EXE text is all fixed-width padded fields (items 128x36 B, spells 24x24 B, units 48x16 B, help, menus, messages), no pointers: translate in place (verified on the title menu). VIS/OP_E/ED_E scripts: each section loaded by `mov si, imm`, so blocks can be relocated. Installers skipped.
+  - Graphics survey: no Chinese drawn into any art seen (only company logos and Latin UI labels); details in text_sites.md. Phase 1 recon complete.
 - **Next:**
-  1. Graphics-text survey (GR*.CVD, title logo, window art).
-  2. Then phase 3 (identity build into `build/game/`), phase 4 (extract), phase 5 (bigram font + marker build).
+  1. Phase 3 (identity build into `build/game/`), phase 4 (extract), phase 5 (bigram font + marker build).
 - **Open bugs:** none.
 - **Waiting on the user:** nothing.

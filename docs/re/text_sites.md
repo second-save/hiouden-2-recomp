@@ -56,6 +56,15 @@ Growing a block means moving it past the code that follows and patching these im
 - `SETUP.EXE`, `INSTALL.EXE`: DOS installers (CD install, sound card, joystick). The recomp never runs them;
   only matter for a DOS release (D4 says the patch should also run in DOS). Low priority, `$`-terminated strings.
 
+## Graphics (survey 2026-11-25): no Chinese drawn into images
+Seen on screen: title menu, opening (OP_E), all 9 VIS scenes, ending + staff roll (ED_E), stage maps 01/02/08/14,
+status/item/spell popups, load/restart/item-settings dialogs, help. Every Chinese string on them comes from the
+font. Art with lettering: SOFTSTAR and WOLFTEAM logos (company marks, keep) and Latin UI labels (HP MP LV ATK AC
+INT STM MGR, `PT 1`), already English. Files by trace: GR01-04 UI (boot), GR05/GR08 + CD01/EN01 in stage 1,
+cutscene art `MV*.WL2`/`OV*.WL2`, ending art `ED*.WLF`. Not seen: GR06-07 and GR09-23 (per-stage sets, presumably
+tiles and sprites); glance at them when QA reaches those stages.
+The help pages use `ヾ ゝ ゞ` (Big5 kana codes) as section icons: custom glyphs in A.CHA, keep the codes.
+
 ## Open questions
 1. Where is the bopomofo picker used? Probably nowhere: no naming/input wording in any text (名字 命名 輸入 名稱
    姓名 改名 all absent), no direct code ref found, and none of these opened it (2026-11-25, warp + clicks): name in
@@ -63,4 +72,4 @@ Growing a block means moving it past the code that follows and patching these im
    restart ~590,385, item settings 625,380), right-edge and top-bar icons. If a screen turns up, replace the table
    with A-Z in place.
 2. Exact field boundaries inside the 0x1E740 run and the help pages: confirm in-game when inserting.
-3. GR*.CVD / logo / window art: graphics-text survey (status Next).
+3. Do the `ヾ ゝ ゞ` help icons really draw as custom glyphs? (Assumed from context; check on the help screen.)
