@@ -7,7 +7,7 @@
    9636,
    9808
   ],
-  "en": "^%Lezard Valeth:^0 \"Curses! To fail at the very last step...^0  Just as I was about to turn this hell of lost souls^0  into a true paradise, you bastard ruined it!\"^\\",
+  "en": "^%Lezard Valeth:^0 \"Curses! To fail at the very last step...^0  Just as I was making this hell of lost souls^0  a true paradise, you bastard ruined it!\"^\\",
   "section": true
  },
  {
@@ -29,7 +29,7 @@
    9810,
    9914
   ],
-  "en": "^%Markfiend:^0 \"...Shut up!! You rotten, raving zealot.^0  You're the one who made this place a living hell!^\\"
+  "en": "^%Markfiend:^0 \"...Shut up!! You rotten, raving zealot.^0  You're the one who made this a living hell!^\\"
  },
  {
   "id": "ED_E:026BA",
@@ -113,7 +113,7 @@
    10228,
    10284
   ],
-  "en": "^%The King's Brother:^0 \"Mark, we're brothers... Spare me!\"^\\",
+  "en": "^%Royal Brother:^0 \"Mark, we're brothers... Spare me!\"^\\",
   "section": true
  },
  {
@@ -135,7 +135,7 @@
    10286,
    10432
   ],
-  "en": "^%Markfiend:^0 \"Even if that old crook fooled you, it won't^0  change the fact that you killed countless people.^0  Sorry... I can't let you go!\"^0^%The King's Brother:^0 \"You... you...!\"^\\"
+  "en": "^%Markfiend:^0 \"Even if that old crook fooled you, it won't^0  change that you killed countless people.^0  Sorry... I can't let you go!\"^0^%Royal Brother:^0 \"You... you...!\"^\\"
  },
  {
   "id": "ED_E:028C0",
@@ -209,7 +209,7 @@
    10668,
    10850
   ],
-  "en": "^%Mirlei:^0 \"Throw it away! We don't need it anymore...^0  We've finally seen daylight again. Aren't you even^0  a little happy? A moment ago, weren't we sure we^0  were going to die in this place?\"^\\",
+  "en": "^%Mirlei:^0 \"Throw it away! We don't need it anymore...^0  We've finally seen daylight again. Aren't you^0  even a little happy? A moment ago, weren't we^0  sure we were going to die in this place?\"^\\",
   "section": true
  },
  {
@@ -252,7 +252,7 @@
    11004,
    11388
   ],
-  "en": " In that instant, Mirlei understood it all. His face^[01]as he glanced back matched a memory from her youth.^[02] It was all far too alike.^[02] Seeing King Richard in Mark's figure, she felt at^[01]last, through Markfiend's torn heart in this moment,^[01]all that King Richard had buried within him then.^[01] The day she, a dazed child, watched King Richard^[01]leave forever was about to happen here once more.^[03] And so Mirlei felt a sorrow she could not name...^[14]^\\",
+  "en": " In that instant, Mirlei understood it all. The^0face he turned back for a moment, his back to her,^[01]matched a memory from her youth.^[02] It was all far too alike.^[02] Seeing King Richard in Mark's figure, she felt at^[01]last, through Markfiend's torn heart in this^0moment, all that King Richard had buried within^[01]him then.^[01] The day she, a dazed child, watched King Richard^[01]leave forever was about to happen here once more.^[03] And so Mirlei felt all the more a sorrow she^0could not name...^[14]^\\",
   "section": true
  },
  {
@@ -318,7 +318,7 @@
    12042,
    12162
   ],
-  "en": "Porting^[01]Wen-feng Shih^[02]Japanese Translation^[01]Hung-chang Su^[02]Music Arrangement^[01]Feeling Studio^[02]Sound Assistance^[01]Wei-jen Su^[02]^\\",
+  "en": "Porting^[01]Wen-feng Shih^[02]Translation^[01]Hung-chang Su^[02]Music Arrangement^[01]Feeling Studio^[02]Sound Assistance^[01]Wei-jen Su^[02]^\\",
   "section": true
  },
  {

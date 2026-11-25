@@ -107,6 +107,8 @@ def insert(out, marker=False):
         t = en.get(e["id"])
         if t is not None and e.get("align") == "rows" and "\n" not in t:
             t = "\n".join(bigram.wrap(t, DESC_COLS))
+        if t is not None and e["id"].startswith("TM"):
+            t = bigram.tm_layout(bigram.slide_pauses(t))[0]  # codes only: the original's scroll rules, no gaps
         return t
 
     # font: keep symbols/icons (leads below 0xA4) and every glyph of text that stays Chinese or is non-ASCII
@@ -194,10 +196,11 @@ def insert(out, marker=False):
         t = text_of(e)
         if t is not None:
             names[codec.encode(e["zh"])] = pack(font.encode(t), 16, "left")
+    # only the blank slot templates (.INI): .HIO are the player's save slots and .TMP the live state, never patched
     for f in sorted((ROOT / "hio2").iterdir()):
-        if f.name.startswith("MAP") and f.suffix in (".HIO", ".INI", ".TMP"):
+        if f.name.startswith("MAP") and f.suffix == ".INI":
             slots = [0x8000 + 0x100 * k + 0x70 for k in range(0x80)]
-        elif f.name.startswith("WIND") and f.suffix in (".HIO", ".INI", ".TMP"):
+        elif f.name.startswith("WIND") and f.suffix == ".INI":
             slots = [0x122C + 16 * k for k in range(25)]
         else:
             continue

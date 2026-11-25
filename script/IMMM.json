@@ -173,7 +173,7 @@
    1568
   ],
   "align": "rows",
-  "en": "A necklace holding the power of the spirit world's people. Its bearer gains the spirits' strength and spends only half the magic."
+  "en": "A necklace holding the power of the spirit world's dwellers. Its bearer gains the spirits' strength and spends only half the magic."
  },
  {
   "id": "IM02:00000",
@@ -668,7 +668,7 @@
    1176
   ],
   "align": "rows",
-  "en": "A cloudy, grayish sapphire necklace, it seems once laid on the dead to guard their souls. Equipped, magic resistance +60."
+  "en": "A cloudy, grayish sapphire necklace, once laid on the dead to guard their souls, it seems. Equipped: magic resist +60."
  },
  {
   "id": "IM04:00498",
@@ -932,7 +932,7 @@
    392
   ],
   "align": "rows",
-  "en": "The most prized of the crystals long called \"ice fossils\": peach-pink. Why a clear, colorless crystal turns pink is unknown."
+  "en": "The most prized of the crystals long called \"ice fossils\", tinged peach-pink. Why a clear crystal turns pink is unknown."
  },
  {
   "id": "IM06:00188",
@@ -1141,7 +1141,7 @@
    588
   ],
   "align": "rows",
-  "en": "One: in peril, chant the spell of transparency to escape. Two: White Holy Water is for the hero alone. Three: learn the warp circles."
+  "en": "One: in peril, chant Invisibility to escape. Two: White Holy Water is for the hero alone. Three: learn the warp circles."
  },
  {
   "id": "IM07:0024C",
@@ -1427,7 +1427,7 @@
    784
   ],
   "align": "rows",
-  "en": "A baby chicken. So fluffy, its dopey, innocent face and moves just melt you. But eat it, er... and life, magic and vigor recover."
+  "en": "A baby chicken. So fluffy, its dopey, innocent face and moves just melt you. But eat it, er... and life, magic and vigor fully recover."
  },
  {
   "id": "IM08:00310",
@@ -1757,7 +1757,7 @@
    1176
   ],
   "align": "rows",
-  "en": "Helmet of the samurai. Mystic Eastern power gives it astonishing strength and makes poison and confusion spells fail."
+  "en": "Helmet of the samurai. Mystic Eastern power gives it astonishing strength and makes Poison and Confuse spells fail."
  },
  {
   "id": "IM09:00498",
@@ -3099,7 +3099,7 @@
    1372
   ],
   "align": "rows",
-  "en": "Sword of the samurai. A blue, unholy aura rises from its blade. Its owner gains 10 magic resist and INT and learns Fire."
+  "en": "Sword of the samurai. A blue, unholy aura rises from its blade. Raises its owner's magic resist and INT by 10, and teaches Fire."
  },
  {
   "id": "IM14:0055C",
@@ -3495,7 +3495,7 @@
    636
   ],
   "align": "right",
-  "en": "Giant SD character"
+  "en": "SD sprite turns huge"
  },
  {
   "id": "IM16:0027C",
@@ -3506,7 +3506,7 @@
    784
   ],
   "align": "rows",
-  "en": "A late work of Gimli, a sturdy yet deft smith. Meant to make dwarves taller, it made them too big. He declared it a flop."
+  "en": "A sturdy yet finely made late work of the smith Gimli. Meant to make dwarves taller, it made them too big. He declared it a flop."
  },
  {
   "id": "IM16:00310",
@@ -3891,7 +3891,7 @@
    196
   ],
   "align": "rows",
-  "en": "Turns enemies into teddy bears for a time. A bear can only sit on the ground, but it is invincible, so you can't hurt it either..."
+  "en": "Turns enemies into teddy bears for a time. A bear can only sit there nicely, but it is invincible, so you can't hurt it either..."
  },
  {
   "id": "MM02:000C4",
@@ -4089,7 +4089,7 @@
    1372
   ],
   "align": "rows",
-  "en": "Lets your party fly. In flight you can avoid your own magic traps and cross ruins and chasms."
+  "en": "Lets your party fly. In flight you can avoid your own magic traps and cross rubble and cliffs."
  },
  {
   "id": "MM02:0055C",

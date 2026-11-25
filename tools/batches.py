@@ -27,12 +27,13 @@ MAX_ENTRIES = 150
 
 # ---- ADAPTER: this game's text format ----
 TOKEN = bigram.TOKEN
-FREE = {"\\n", "\\w", "\\o", "\\s", "\\u", "\\k", "\\c", "^0", "^$"}  # layout and pacing: the English may move them
+FREE = {"\\n", "\\w", "\\o", "\\s", "\\u", "\\k", "\\c", "^0", "^$", "^[00]"}  # layout/pacing: may move or be added
 HONORIFICS = {}  # dropped (D6)
 SKIP_KINDS = {"attr"}  # field boundaries unknown until the marker build maps them
 TM_BREAKS = {"\\n", "\\c", "\\u"}
 SCRIPT_BREAKS = {"^0", "^[00]", "^@", "^\\", "^$", "\\n", "\\c", "\\u", "^[01]", "^[02]", "^[03]"}  # ^[00]: OP_E lines
-SCRIPT_COLS = {"VIS": 56, "OP_E": 54, "ED_E": 54}  # widest original line of each (one 60-col outlier each ignored)
+# VIS: widest original line. OP_E/ED_E: the screen edge clips narration after 25 cells (visual QA 2026-11-25)
+SCRIPT_COLS = {"VIS": 56, "OP_E": 50, "ED_E": 50}
 TM_BYTES = 1024  # slot size after the D10 patch
 NAME_KINDS = {"unit", "unit_name", "item", "item_name", "item_tag", "spell", "spell_name", "spell_tag", "floor"}
 # OP_E/ED_E load inside HIOSYS's image; HIOSYS reads its own table at linear 0xE95B, so each image may grow only to
@@ -102,6 +103,10 @@ def rule(e):
                 return "must end with \\e"
             if est_bytes(en) > TM_BYTES:
                 return f"{est_bytes(en)} bytes, the slot holds {TM_BYTES}"
+            scrolled = bigram.tm_layout(bigram.slide_pauses(en))[1]
+            if scrolled > 1:
+                return (f"{scrolled} rows scroll away before a pause (the box shows 4 rows): "
+                        "add a \\k\\c page break so each page has at most 5 rows")
         return "46/line", tm
     if k.endswith("_desc"):
         return "3 rows x 50 (auto-wrapped)", lambda en: (

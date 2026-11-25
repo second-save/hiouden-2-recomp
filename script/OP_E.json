@@ -7,7 +7,7 @@
    9825,
    10199
   ],
-  "en": "  Once, in a time of war, a chance meeting gave a^[00]young warrior a spirit's guidance and a lifelong^[00]pact with demons. He saved his comrades from ruin^[00]and led his army to victory.^[01]  His name was 'Richard A. MacIntyre'. Third heir of^[00]the house of MacIntyre, he later drove off the horse^[00]nomads, united the continent and founded a kingdom.^[00]  Yet he was also a tragic figure, feared by all and^[00]known as 'the Scarlet King'.^[10]^\\",
+  "en": "  Once, in a time of war, a chance meeting gave a^[00]young warrior a spirit's guidance and a lifelong^[00]pact with demons. He saved his comrades from ruin^[00]and led his army to victory.^[01]  His name was 'Richard A. MacIntyre'. Third^[00]heir of the house of MacIntyre, he later drove off^[00]the horse nomads, united the continent and founded^[00]a kingdom.^[00]  Yet he was also a tragic figure, feared by all^[00]and known as 'the Scarlet King'.^[10]^\\",
   "section": true
  },
  {
@@ -18,7 +18,7 @@
    10199,
    10543
   ],
-  "en": "  King Richard had become the hero who ended an age of^[00]strife, yet his power over demons made men shun him.^[00]None would come near him, let alone offer thanks.^[00]  Old and disheartened, he resolved to leave this sad^[00]land with the spirit Beatrix for the realm of trees.^[00]  When he reached the sky garden he held dear, its old^[00]trees had long grown into a tangle. And in that brief^[00]visit to the small wood, he met someone unforeseen.^[10]^\\",
+  "en": "  King Richard had become the hero who ended an^[00]age of strife, yet his power over demons made men^[00]shun him. None would come near him, let alone^[00]offer thanks.^[00]  Old and disheartened, he resolved to leave this^[00]sad land with the spirit Beatrix for the realm of^[00]trees.^[00]  When he reached the sky garden he held dear, its^[00]old trees had long grown into a tangle. And in^[00]that brief visit to the small wood, he once again^[00]had an unforeseen encounter.^[10]^\\",
   "section": true
  },
  {
@@ -29,7 +29,7 @@
    10543,
    10675
   ],
-  "en": "\\F\\s  Watching him with wide eyes from the shade of the\\ntrees was a girl, not yet grown. When the old king\\nnoticed her, she seemed too frightened to speak.\\e",
+  "en": "\\F\\s  A young girl stared at him wide-eyed from the\\nshade of the trees. When the old king noticed her,\\nshe seemed too frightened to speak.\\e",
   "section": true
  },
  {
@@ -40,7 +40,7 @@
    10675,
    10793
   ],
-  "en": "\\c\\s  She had often heard the grown-ups tell fearful\\ntales of the king.\\w When she knew the old man for the\\nking, she trembled all over and could not move.\\e"
+  "en": "\\c\\s  She had often heard the grown-ups tell fearful\\ntales of the king.\\w When she knew the old man for\\nthe king, she trembled all over and couldn't move.\\e"
  },
  {
   "id": "OP_E:02A29",
@@ -70,7 +70,7 @@
    11035,
    11195
   ],
-  "en": "\\F\\n\\s  The old king must have sensed something in her,\\nand gave her this guardian ring for her future. But\\none day its power would sweep her into chaos.\\w\\e"
+  "en": "\\F\\n\\s  Perhaps the old king saw something in her, and\\ngave her this ring to protect her in times ahead.\\nYet one day its power would sweep her into chaos.\\w\\e"
  },
  {
   "id": "OP_E:02BBB",
@@ -80,7 +80,7 @@
    11195,
    11283
   ],
-  "en": "\\F\\s\"Go home now. Aren't you lonely here all alone?\"\\nWith that, King Richard left with his queen Beatrix.\\e"
+  "en": "\\F\\s\"Go home now. Aren't you lonely here alone?\"\\nWith that, King Richard left with Queen Beatrix.\\e"
  },
  {
   "id": "OP_E:02C13",
@@ -90,6 +90,6 @@
    11283,
    11723
   ],
-  "en": "  It was only a brief meeting, and it ended in a^[01]parting forever: a chance encounter, no more, just^[01]before the old king and his queen left for the trees.^[02]  All the girl kept was the sight of Richard leaving,^[01]the sorrow in his eyes as he looked back once, and a^[01]plain ring carved with a spirit seal.^[02]  That was six years ago. Without King Richard, the^[01]kingdom began to rot. When the witch hunts of a mad^[01]reign began, her strange power made the girl a target,^[01]and she was thrown in a cell to await death...^[10]^\\"
+  "en": "  It was only a brief meeting, and it ended in a^[01]parting forever: a chance encounter, no more, just^[01]before the old king and queen left for the trees.^[02]  All the girl kept was Richard's form as he left,^[01]the sorrow in his eyes when he looked back once,^[01]and a plain ring carved with a spirit seal.^[02]  That was six years ago. Without King Richard,^[01]the kingdom rotted. When the witch hunts of a mad^[01]reign began, her strange power made her a target,^[01]and she was thrown in a cell to await death...^[10]^\\"
  }
 ]

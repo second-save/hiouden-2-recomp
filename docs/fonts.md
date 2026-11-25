@@ -12,5 +12,10 @@
 
 ## English plan (decision D4)
 - Two 8 px Latin letters per 16 px glyph slot ("bigram" glyphs): English is encoded as Big5 codes whose glyphs show letter pairs, giving ~50 Latin characters per line with no engine change.
-- The bigram set is built from the translated script; slots come from glyphs the English build no longer needs.
-- Latin source font: not chosen yet. Record the font, its source and licence here before shipping.
+- The bigram set is built from the translated script (`tools/bigram.py`, `tools/insert.py`): the new A.NUM keeps
+  every symbol/icon code (lead byte below 0xA4, 1,279 entries) and any Chinese glyph still drawn, then one slot per
+  letter pair (~950 pairs; 2,197 of 4,001 slots used, 2026-11-25). Pair codes are Big5-shaped (lead A4-F9) and
+  never reuse a code the original font knows; trails 5B/5C/5E are skipped.
+- Latin source font: **Spleen 8x16** 2.3.0 by Frederic Cambus, BSD 2-Clause, `font/spleen-8x16.bdf` +
+  `font/LICENSE-spleen` (from github.com/fcambus/spleen, 2026-11-25). Rows 1-15 of each glyph (row 0 is blank for
+  every printable letter). The licence ships in the release zip.

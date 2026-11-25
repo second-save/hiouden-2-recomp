@@ -37,7 +37,7 @@
    1536,
    2048
   ],
-  "en": "\\2Hsiang, the Madman:\\F\\n\\s  Heh heh.\\w\\s ...Heh heh, hee hee hee, ha ha ha,\\n ha ha ha ha!\\w\\s So funny, too funny!\\w\\s That\\n lout, that bastard, all dead, every last one!\\k\\c\\w\\s I'm dead too...\\w\\n\\s  Yes, yes, yes, you'll be dead soon too~.\\w\\n\\s The cross, the cross is c-coming closer...\\w\\s\\n ugh... no...\\e"
+  "en": "\\2Hsiang, the Madman:\\F\\n\\s  Heh heh.\\w\\s ...Heh heh, hee hee hee, ha ha ha,\\n ha ha ha ha!\\w\\s So funny, too funny!\\w\\s That\\n lout, that bastard, all dead, every last one!\\k\\c\\w\\s I'm dead too...\\w\\n\\s  Yes, yes, yes, and you'll be dead soon too~\\w\\n\\s The cross, the cross is c-coming closer...\\w\\s\\n ugh... no...\\e"
  },
  {
   "id": "TM02:00000",
@@ -47,7 +47,7 @@
    0,
    512
   ],
-  "en": "\\2Marie, the Bespectacled Woman:\\F\\n\\s  They say... the Scarlet King... forgive me,\\n that's rude.\\w\\s King Richard's great sword, the\\n \"King's Sword\", sleeps deep in this dungeon.\\w\\s\\u\\k\\c  If I remember right, the guards often\\n bragged to me that the sword is really sealed\\n away.\\w\\s\\k\\c  Where is it?\\w\\s Oh yes, listen quietly and\\n you'll know.\\w\\s If you remember the tune...\\u\\n\\s It must be where a nostalgic melody plays.\\e"
+  "en": "\\2Marie, the Bespectacled Woman:\\F\\n\\s  They say... the Scarlet King... forgive me,\\n that's rude.\\w\\s\\k\\c  I mean, King Richard's sword, the \"King's\\n Sword\", sleeps deep within this dungeon.\\w\\s\\k\\c  If I remember right, the guards often\\n bragged to me that the sword is really sealed\\n away.\\w\\s\\k\\c  Where is it?\\w\\s Oh yes, listen quietly and\\n you'll know.\\w\\s If you remember the tune...\\u\\n\\s It must be where a nostalgic melody plays.\\e"
  },
  {
   "id": "TM02:00200",
@@ -87,7 +87,7 @@
    0,
    512
   ],
-  "en": "\\2Gaunt Man:\\F\\n\\w ......\\w\\sAt last... at last my turn to die.\\s\\w\\nOh, not here to kill me?\\w......\\w\\s It can't be.\\nIs this a dream?\\s Wait,\\s\\w you came to free me?\\nTh-thank you for your great kindness.\\s\\w\\u\\k\\c If I really get out of here alive, I'll repay\\nthis debt.\\s\\w Please, you must accept this token.\\e"
+  "en": "\\2Gaunt Man:\\F\\n\\w......\\w\\sAt last... at last it's my turn to die.\\s\\w\\nOh, not here to kill me?\\w......\\w\\s It can't be.\\nIs this a dream?\\s Wait,\\s\\w you came to free me?\\k\\cTh-thank you for your great kindness.\\s\\w\\n If I really get out of here alive, I'll repay\\nthis debt.\\s\\w Please, you must accept this token.\\e"
  },
  {
   "id": "TM03:00200",
@@ -97,7 +97,7 @@
    512,
    1024
   ],
-  "en": "\\2Bucktoothed Man:\\F\\n \\sThankth for gettin' me out.\\s\\w Pleathe accept\\nthith little gift.\\s\\w You mutht take it.\\s\\w\\n I hope we both get out of thith plathe alive\\nand meet again outthide.\\s\\w\\u Hang in there, brother!\\e"
+  "en": "\\2Bucktoothed Man:\\F\\n \\sThankth for gettin' me out.\\s\\w Pleathe accept\\nthith little gift.\\s\\w You mutht take it.\\s\\w\\k\\c I hope we both get out of thith plathe alive\\nand meet again outthide.\\s\\w\\n Hang in there, brother!\\e"
  },
  {
   "id": "TM03:00400",
@@ -417,7 +417,7 @@
    512,
    1024
   ],
-  "en": "\\n\\2 'Curb thy greed, and thou shalt live long.'\\F\\e"
+  "en": "\\n\\2 'Curb your greed, and ye shall live long.'\\F\\e"
  },
  {
   "id": "TM11:00400",
@@ -437,7 +437,7 @@
    1536,
    2048
   ],
-  "en": "\\2Lady:\\F\\n\\s  Nearly all the people locked up here were\\ntaken off to somewhere I don't know...\\o\\w\\n\\s  Surely... surely they were all executed\\o\\w\\n\\s...\\w...\\w\\s Oh... oh...\\o\\e"
+  "en": "\\2Lady:\\F\\n\\s  Nearly all the people locked up here were\\ntaken off to somewhere I don't know...\\o\\w\\n\\s  They must... they must all have been\\n\\sexecuted\\o\\w...\\w...\\w\\s Oh... oh...\\o\\e"
  },
  {
   "id": "TM12:00000",
@@ -457,7 +457,7 @@
    512,
    1024
   ],
-  "en": "\\2Young Man:\\F\\n\\s  The guards patrolling near here should\\n\\shave a key carved with a skull\\o.\\s\\w Take that\\n\\sSkull Key to the skeleton statue to the north\\n\\sand put it in the keyhole hidden in its eye\\o.\\k\\c\\s  The wall should open then\\o.\\u\\s Have you tried that\\o?\\e"
+  "en": "\\2Young Man:\\F\\n\\s  The guards patrolling near here should\\n\\shave a key carved with a skull\\o.\\s\\w\\k\\c\\s  Take that Skull Key to the skeleton statue\\n\\sto the north and put it in the keyhole hidden\\n\\sin its eye\\o.\\s\\w The wall should open then\\o.\\n\\s Have you tried that\\o?\\e"
  },
  {
   "id": "TM12:00400",
@@ -497,7 +497,7 @@
    512,
    1024
   ],
-  "en": "\\2Unyielding Man:\\F\\n\\s  Jadain, the Dungeon Warden, has a strange\\n\\spower. They say he uses illusions to hide the\\n\\splaces where important things are kept, so\\n\\syou never notice them\\o.\\u\\s\\k\\c\\s  To escape, you must get past every vile and\\n\\sbrutal trap he has laid\\o.\\s\\w\\n\\s  Where nothing seems to be, something is\\n\\sthere\\o...\\w...\\w\\s I bet the floor below has one\\o.\\s\\e"
+  "en": "\\2Unyielding Man:\\F\\n\\s  Jadain, the Dungeon Warden, has a strange\\n\\spower. They say he uses illusions to hide\\n\\sthe places where important things are kept\\o.\\s\\w\\k\\c\\s  You'll never notice them\\o.\\s\\w To escape, you\\n\\smust get past every vile and brutal trap he\\n\\shas laid\\o.\\s\\w\\k\\c\\s  Where nothing seems to be, something is\\n\\sthere\\o...\\w...\\w\\s I bet the floor below has one\\o.\\s\\e"
  },
  {
   "id": "TM13:00400",
@@ -507,7 +507,7 @@
    1024,
    1536
   ],
-  "en": "\\n      Suddenly, there is a noise nearby.\\k\\c\\2Jadain:\\F\\n\\s  So you actually made it here alive\\o.\\s\\w\\n\\sHeh heh\\o...\\s\\w I would love to praise your\\n\\sfearless courage\\o.\\s\\w But that would cost me\\n\\smy head\\o.\\s\\w\\k\\c\\s  Your luck has run out\\o.\\u\\s Go on, thrash about in your\\n\\sdeath throes\\o!\\s\\e"
+  "en": "\\n      Suddenly, there is a noise nearby.\\k\\c\\2Jadain:\\F\\n\\s  So you actually made it here alive\\o.\\s\\w\\n\\sHeh heh\\o...\\s\\w I would love to praise your\\n\\sfearless courage\\o.\\s\\w\\k\\c\\s  But that would cost me my head\\o.\\s\\w Your\\n\\sluck has run out\\o.\\u\\s Go on, thrash about in\\n\\syour death throes\\o!\\s\\e"
  },
  {
   "id": "TM13:00600",
@@ -557,7 +557,7 @@
    1536,
    2048
   ],
-  "en": "\\2Water Spirit:\\F\\n\\s  I am the spirit of this Cavern Lake\\o.\\s\\w Of\\n\\slate, a sorcerer calling himself the \"Ice\\n\\sPhantom\" appeared and took my precious\\n\\snecklace from me by force\\o.\\u\\s\\k\\c\\s  With my necklace gone, I have lost my power\\n\\sand cannot leave this spot\\o.\\s\\w\\n\\s  Please...\\o\\s\\w whatever it takes\\o,\\s\\w could you\\n\\swin my necklace back from the Ice Phantom\\o?\\s\\e"
+  "en": "\\2Water Spirit:\\F\\n\\s  I am the spirit of this Cavern Lake\\o.\\s\\w\\n\\s  Of late, a sorcerer calling himself the\\n\\s\"Ice Phantom\" appeared out of nowhere\\o.\\s\\w\\k\\c\\s  He took my precious necklace by force\\o.\\s\\w\\n\\s  With my necklace gone, I have lost my power\\n\\sand cannot leave this spot\\o.\\s\\w\\k\\c\\s  Please...\\o\\s\\w whatever it takes\\o,\\s\\w could you\\n\\swin my necklace back from the Ice Phantom\\o?\\s\\e"
  },
  {
   "id": "TM15:00000",
@@ -707,7 +707,7 @@
    1024,
    1536
   ],
-  "en": "\\2Beautiful Lady:\\F\\n\\s  North of here is a hall. If you work a\\n\\scertain switch there\\o,\\s\\w you can apparently\\n\\sget into the small room in the northwest\\n\\scorner that was closed off before\\o.\\s\\w\\k\\c  They say the chest inside holds some\\ntreasure\\o\\w...\\w...\\e"
+  "en": "\\2Beautiful Lady:\\F\\n\\s  If you work a certain switch in the hall\\n\\sto the north\\o,\\s\\w you can apparently get into\\n\\sthe once-sealed little room to the northwest\\o.\\s\\w\\k\\c  They say the chest inside holds some\\ntreasure\\o\\w...\\w...\\e"
  },
  {
   "id": "TM18:00600",
@@ -717,7 +717,7 @@
    1536,
    2048
   ],
-  "en": "\\2Young Man:\\F\\n\\s  See those people\\o?\\s\\w The ones by the blue\\n\\sram statue\\o.\\s\\w Know what they're muttering\\n\\sabout\\o?\\s\\w\\k\\c\\s  I only heard it secondhand\\o,\\s\\w but they\\n\\ssay that statue, quiet most of the time,\\n\\ssometimes lets out a bloodcurdling moan...\\o\\e"
+  "en": "\\2Young Man:\\F\\n\\s  See those people\\o?\\s\\w The ones guarding the\\n\\sblue ram statue\\o.\\s\\w Know what they're muttering\\n\\sabout\\o?\\s\\w\\k\\c\\s  I only heard it secondhand\\o,\\s\\w but they\\n\\ssay that statue, quiet most of the time,\\n\\ssometimes lets out a bloodcurdling moan...\\o\\e"
  },
  {
   "id": "TM19:00000",
@@ -987,7 +987,7 @@
    1024,
    1536
   ],
-  "en": "'Lash the dead and make them open their lips.'\\n'O dead whose souls are spent, yet whose husks\\n remain in this world,'\\k\\c'I now grant ye a brief, borrowed life,'\\n'that ye may obey those who hold the dread key\\n of the Netherworld.'\\e"
+  "en": "'Whip the dead to open their mouths.'\\n'O dead whose souls are spent, yet whose husks\\n remain in this world,'\\k\\c'I now grant ye a brief, borrowed life,'\\n'that ye may obey those who hold the dread key\\n of the Netherworld.'\\e"
  },
  {
   "id": "TM25:00600",
@@ -1097,7 +1097,7 @@
    512,
    1024
   ],
-  "en": " 'Judge the true and the false before thee.'\\n 'Phantoms are hollow: strike one with a sword\\n  and it shall scatter, soul and all.'\\e"
+  "en": " 'Judge the true and the false before you.'\\n 'Phantoms are hollow: strike one with a sword\\n  and it shall scatter, soul and all.'\\e"
  },
  {
   "id": "TM28:00400",
@@ -1147,7 +1147,7 @@
    1024,
    1536
   ],
-  "en": "\\n\\2 'The sword of legend, once guarded by the\\n  phantoms of heroes,'\\n 'was renamed and reshaped in the Scarlet\\n  King's name, and sealed in this place.'\\w\\k\\c 'Should one who bears the Scarlet King's\\n  name and holds every magic stone come,'\\n 'the right to wield \\3the King's Sword\\2 shall\\n  be granted to that one without fail.'\\w\\k\\c 'Offer the magic stones upon the statue,'\\n 'and the road ye seek shall open, step by\\n  step.'\\w\\u\\k\\e"
+  "en": "\\2 'The sword of legend, once guarded by the\\n  phantoms of heroes,'\\n 'was renamed and reshaped in the Scarlet\\n  King's name, and sealed in this place.'\\w\\k\\c 'Should one who bears the Scarlet King's\\n  name and holds every magic stone come,'\\n 'the right to wield \\3the King's Sword\\2 shall\\n  be granted to that one without fail.'\\w\\k\\c 'Offer the magic stones upon the statue,'\\n 'and the road ye seek shall open, step by\\n  step.'\\w\\u\\k\\e"
  },
  {
   "id": "TM29:00600",
@@ -1157,7 +1157,7 @@
    1536,
    2048
   ],
-  "en": " \\n It looks like these iron bars can be opened\\n with the \\2'Serpent Key'\\F.\\e"
+  "en": " \\n These bars look like they can be opened\\n with the \\2'Serpent Key'\\F.\\e"
  },
  {
   "id": "TM30:00000",
@@ -1187,7 +1187,7 @@
    1024,
    1536
   ],
-  "en": "\\s  Hello, players.\\o\\w\\s I'm MKG, the planner on\\n Hiouden II'.\\o\\w\\s Originally we planned a\\n special column called 'The Wolf's Den', where\\n everyone on the team would share their\\n thoughts and impressions.\\o\\k\\c\\w\\s But there wasn't enough disk space, so we\\n had to cut it. It broke our hearts.\\o\\s\\u\\k\\c  So here, on behalf of all my teammates, I'll\\n let you in on a secret trick in the game, and\\n briefly introduce each member of the team.\\o\\s\\k\\c  I bet you're all wondering,\\o \\w\\swhat secret\\n tricks could Hiouden II possibly have?\\o\\w\\s\\n Well, hidden in stage one is a super trick\\n that makes every monster join your side.\\o\\w\\s\\n And here's how\\o...\\w\\o...\\k\\e"
+  "en": "\\s  Hello, players.\\o\\w\\s I'm MKG, the planner on\\n Hiouden II.\\o\\w\\k\\c\\s  Originally we planned a special column,\\n 'The Wolf's Den', where everyone on the team\\n would share their thoughts and impressions.\\o\\k\\c\\w\\s  But there wasn't enough disk space, so we\\n had to cut it. It broke our hearts.\\o\\s\\k\\c  So here, on behalf of all my teammates, I'll\\n let you in on a secret trick in the game, and\\n briefly introduce each member of the team.\\o\\s\\k\\c  I bet you're all wondering,\\o \\w\\swhat secret\\n tricks could Hiouden II possibly have?\\o\\w\\s\\k\\c  Well, hidden in stage one is a super trick\\n that makes every monster join your side.\\o\\w\\s\\n And here's how\\o...\\w\\o...\\k\\e"
  },
  {
   "id": "TM30:00600",
@@ -1197,7 +1197,7 @@
    1536,
    2048
   ],
-  "en": "\\s  After you choose \\o'Restart Game'\\s,\\o\\w\\s\\n hold down the \\o'CTRL' key\\s on the keyboard\\n and hold the right mouse button too. Keep\\n holding them until the game starts, and\\n you're all set.\\o\\s\\k\\c  Next, I'll give a quick introduction to the\\n team \\o(from my own point of view)\\s.\\o\\w\\s But\\n there isn't room in the data, so I can't\\n introduce everyone\\o...\\w...\\s *sob*\\o!\\k\\c\\s  Luckily you can still see them all in the\\n ending credits \\o(thank heavens).\\w\\s\\n  Well then,\\o \\w\\slet's begin the introductions.\\k\\e"
+  "en": "\\s  After you choose \\o'New Game'\\s,\\o\\w\\s\\n hold down the \\o'CTRL' key\\s on the keyboard\\n and the right mouse button.\\w Keep holding both\\n until the game starts, and you're all set.\\o\\s\\k\\c  Next, I'll give a quick introduction to the\\n team \\o(from my own point of view)\\s.\\o\\w\\s But\\n there isn't room in the data, so I can't\\n introduce everyone\\o...\\w...\\s *sob*\\o!\\k\\c\\s  Luckily you can still see them all in the\\n ending credits \\o(thank heavens).\\w\\s\\n  Well then,\\o \\w\\slet's begin the introductions.\\k\\e"
  },
  {
   "id": "TM31:00000",
@@ -1217,7 +1217,7 @@
    512,
    1024
   ],
-  "en": " > Isogai\\n   Our great artist. In truth, nearly all the\\n   maps and monsters were done by him alone.\\n   Makes you sweat just thinking about it.\\k\\c > Sakuraba\\n   Composer. He wrote a whole lot of lovely\\n   tunes for our Hiouden II. I'm a big fan of\\n   his style myself.\\k\\c Special mention: Hiro\\n   Our odd-job helper. Besides drawing terrain\\n   pieces for the hard-disk version, he does\\n   all sorts of other little jobs. Quite the\\n   octopus, isn't he?\\k\\c\\nMKG:\\s You've made it this far,\\o\\w\\s and one\\n     third of the game is left.\\o\\w\\s\\n     Keep at it, everyone!\\o\\w\\s\\e"
+  "en": " > Isogai\\n   Our great artist. In truth, nearly all the\\n   maps and monsters were done by him alone.\\n   Makes you sweat just thinking about it.\\k\\c > Sakuraba\\n   Composer. He wrote a whole lot of lovely\\n   tunes for our Hiouden II. I'm a big fan of\\n   his style myself.\\k\\c Special mention: Hiro\\n   Odd-job man. Besides drawing terrain pieces\\n   for the hard-disk version, he does lots of\\n   little jobs. Quite an octopus, isn't he?\\k\\c\\nMKG:\\s You've made it this far,\\o\\w\\s and one\\n     third of the game is left.\\o\\w\\s\\n     Keep at it, everyone!\\o\\w\\s\\e"
  },
  {
   "id": "TM31:00400",

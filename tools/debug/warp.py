@@ -26,6 +26,7 @@ ap.add_argument("--vis", type=lambda s: int(s, 0), help="play VIS.EXE cutscene N
 ap.add_argument("--opening", action="store_true", help="play the opening (OP_E) via the title's demo entry")
 ap.add_argument("--ending", action="store_true", help="play the ending + staff roll (ED_E) in the opening's place")
 ap.add_argument("--game", default=os.path.join(ROOT, "work/qa/game_warp"), help="scratch copy of hio2 (one per parallel run)")
+ap.add_argument("--with-intro", action="store_true", help="play the start-up intro (default: skipped)")
 ap.add_argument("--base", default=os.path.join(ROOT, "hio2"), help="game files to copy (e.g. build/game)")
 a, passthrough = ap.parse_known_args()  # anything else (e.g. --trace-ip 24607) goes to the recomp
 
@@ -33,6 +34,14 @@ game = a.game
 shutil.rmtree(game, ignore_errors=True)
 shutil.copytree(a.base, game)
 os.makedirs(a.out, exist_ok=True)
+if a.vis is None and not (a.opening or a.ending) and not a.with_intro:
+    # skip the start-up intro (its length differs per build: English pages type out longer) by NOPing the
+    # `lcall VIS` at image 0x62; the map is then up long before frame 8100, so the fixed click frames still hold
+    exe = os.path.join(game, "HIO.EXE")
+    d = bytearray(open(exe, "rb").read())
+    assert d[0x1862:0x1867] == bytes.fromhex("9a0000c91e"), "unexpected HIO.EXE start-up code"
+    d[0x1862:0x1867] = b"\x90" * 5
+    open(exe, "wb").write(d)
 if a.vis is not None:
     # HIO.EXE start-up plays VIS.EXE scene 0 (the intro) via `mov ax,0; lcall VIS` at image 0x5F; in-game
     # the stage-clear path plays scene cs:[0x576D] the same way (image 0xFEE5). Swap the start-up scene.
@@ -63,7 +72,8 @@ if a.opening or a.ending:
         cmd += ["--remap", "OP_E.EXE=ED_E.EXE"]  # verified 2026-11-25: ending + staff roll by ~frame 9000
 else:
     cmd += ["--test-click", TITLE_NEW_GAME]
-    for f in (range(2400, a.frames - 400, 300) if a.vis is not None else INTRO_CLICKS):  # scenes run longer
+    clicks = range(2400, a.frames - 400, 300) if a.vis is not None else INTRO_CLICKS if a.with_intro else []
+    for f in clicks:  # scenes run longer than the intro
         cmd += ["--test-click", f"320,300,{f}"]
 for c in a.click:
     cmd += ["--test-click", c]

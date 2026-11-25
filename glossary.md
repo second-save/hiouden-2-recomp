@@ -36,7 +36,7 @@ Source text is Traditional Chinese (Big5); the JP column holds the Chinese form 
 | 馬克利米里安 | Maclimilian | | unit name on stage 1 (JP マクリミリアン) | |
 | 淺沼 / 稻毛 / 小澤 / 三宅 / 磯谷 / 櫻庭 / 阿廣 | Asanuma / Inage / Ozawa / Miyake / Isogai / Sakuraba / Hiro | | Wolf Team staff (TM31) | |
 | 狼組 | Wolf Team | | the developer | Wolfteam |
-| 王兄 | my brother / the King's brother | | late reveal (ending): Markfiend's royal brother; see synopsis | |
+| 王兄 | Royal Brother / brother | | late reveal (ending): Markfiend's royal elder brother, most likely the reigning king; speaker tag "Royal Brother:" (D12) | The King's Brother |
 | 阿雄 / 阿祥 / 愛麗莎 / 庫諾翰 / 瑪麗 | Hsiung / Hsiang / Alisa / Kunohan / Marie | | prisoners and NPCs in TM messages (no Japanese source) | |
 | 愛麗絲 / 肯恩 / 艾克 | Alice / Ken / Ike | | prisoners; Ike the grave robber (盜墓王艾克 = Ike the Grave King) | |
 | 獄長 / 戴米托 / 芬格斯 | Warden / Demiter / Fungus | | | |

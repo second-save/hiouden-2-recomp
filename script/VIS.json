@@ -93,7 +93,7 @@
    6320,
    6388
   ],
-  "en": "^%Markfiend:^0  ...Seems she has to get out... Sigh. What a pain.^\\",
+  "en": "^%Markfiend:^0  ...Looks like you really have to get out...^0   Sigh. What a pain.^\\",
   "section": true
  },
  {
@@ -301,7 +301,7 @@
    7980,
    8180
   ],
-  "en": "^%Jadain:^0  \"Hmph! A little late to be reporting that now. I^0   already have a plan for this.^$   And you idiots had better clear out too! If you run^0   into the demon I let loose from the second level, it^0   won't care whether you're friend or foe.\"^@"
+  "en": "^%Jadain:^0  \"Hmph! A little late to be reporting that now. I^0   already have a plan for this.^$   And you idiots had better clear out too! If you run^0   into the demon I let loose on B2, it won't care^0   whether you're friend or foe.\"^@"
  },
  {
   "id": "VIS:01FF4",
@@ -342,7 +342,7 @@
    8414,
    8554
   ],
-  "en": "^%Jadain:^0  \"Heh heh... Think about what this dungeon is for.^0   It never needed an exit, did it?^$   After all... whoever is brought here dies sooner or^0   later anyway.\"^@"
+  "en": "^%Jadain:^0  \"Heh heh... Think about what this Dungeon is for.^0   It never needed an exit, did it?^$   After all... whoever is brought here dies sooner or^0   later anyway.\"^@"
  },
  {
   "id": "VIS:0216A",
@@ -372,7 +372,7 @@
    8852,
    8912
   ],
-  "en": "^%Markfiend:^0  \"......So the only way for us is down, is it?\"^@"
+  "en": "^%Markfiend:^0  \"...So the only way for us is down, is it?\"^@"
  },
  {
   "id": "VIS:022D0",
@@ -556,7 +556,7 @@
    10188,
    10224
   ],
-  "en": "^%Mirlei:^0  \"That's because......\"^@"
+  "en": "^%Mirlei:^0  \"That's because...\"^@"
  },
  {
   "id": "VIS:027F0",
@@ -566,7 +566,7 @@
    10224,
    10276
   ],
-  "en": "^%Markfiend:^0  \"...You, honestly! This is how you use the thing.\"^@"
+  "en": "^%Markfiend:^0  \"...Honestly, you! This is how you use the thing.\"^@"
  },
  {
   "id": "VIS:02824",
@@ -628,7 +628,7 @@
    10932,
    10966
   ],
-  "en": "^%Mirlei:^0  \"......A sea of fire!?\"^@"
+  "en": "^%Mirlei:^0  \"...A sea of fire!?\"^@"
  },
  {
   "id": "VIS:02AD6",
@@ -648,7 +648,7 @@
    11062,
    11172
   ],
-  "en": "^%Markfiend:^0  \"......This is a special barrier made with magic.^0   Looks like that wretch Jadain doesn't want us getting^0   through here.\"^@"
+  "en": "^%Markfiend:^0  \"...This is a special barrier made with magic.^0   Looks like that wretch Jadain doesn't want us getting^0   through here.\"^@"
  },
  {
   "id": "VIS:02BA4",
@@ -759,7 +759,7 @@
    11692,
    11742
   ],
-  "en": "^%Markfiend:^0  \"Did it start as you grew old enough to understand?\"^@"
+  "en": "^%Markfiend:^0  \"Did it start when you were little?\"^@"
  },
  {
   "id": "VIS:02DDE",
@@ -769,7 +769,7 @@
    11742,
    11980
   ],
-  "en": "^%Mirlei:^0  \"I don't really know... When I noticed I wasn't quite^0   like everyone else, the people around me began to^0   treat me differently. B-but no one ever bullied me or^0   looked down on me for being different... It was the^0   opposite, I should say... They looked after me and^0   loved me, only......\"^@"
+  "en": "^%Mirlei:^0  \"I don't really know... When I noticed I wasn't quite^0   like everyone else, the people around me began to^0   treat me differently. B-but no one ever bullied me or^0   looked down on me for being different... It was the^0   opposite, I should say... They looked after me and^0   loved me, only...\"^@"
  },
  {
   "id": "VIS:02ECC",
@@ -789,7 +789,7 @@
    12010,
    12106
   ],
-  "en": "^%Mirlei:^0  \"Only... when I think that I can never live an^0   ordinary life, I feel a little sad............\"^@"
+  "en": "^%Mirlei:^0  \"Only... when I think that I can never live an^0   ordinary life, I feel a little sad...\"^@"
  },
  {
   "id": "VIS:02F4A",

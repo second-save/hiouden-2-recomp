@@ -69,6 +69,62 @@ def cols(line_runs):
     return 2 * sum(cells(r) for r in line_runs)
 
 
+TM_ROWS = 4  # the TM box shows rows 0-3; \u starts a row by scrolling, \n may only go down to row 3
+
+
+def tm_layout(text):
+    """The original's layout rules applied to codes only (verified on the Chinese script, 2026-11-25):
+    a \\n that would go past row 3 becomes \\u (scroll), and a \\k after text on row 3 gets a \\u first so the wait
+    arrow has its own row (the original always writes `\\u\\k` there). Returns (text, worst rows scrolled away
+    between two pauses): more than 1 means a reader loses lines that scroll off before the pause."""
+    out, row, col, scrolled, worst = [], 0, 0, 0, 0
+    for is_code, s in parts(text):
+        if not is_code:
+            out.append(s)
+            col += 2 * cells(s)
+            continue
+        if s == "\\n":
+            if row == TM_ROWS - 1:
+                s, scrolled = "\\u", scrolled + 1
+            else:
+                row += 1
+            col = 0
+        elif s == "\\u":
+            if row == TM_ROWS - 1:
+                scrolled += 1
+            row, col = min(row + 1, TM_ROWS - 1), 0
+        elif s == "\\c":
+            row = col = scrolled = 0
+        elif s in ("\\k", "\\e"):
+            if s == "\\k" and row == TM_ROWS - 1 and col:
+                out.append("\\u")
+                scrolled += 1
+                col = 0
+            worst, scrolled = max(worst, scrolled), 0
+        out.append(s)
+    return "".join(out), worst
+
+
+PAUSES = {"\\w", "\\o", "\\s"}
+
+
+def slide_pauses(text):
+    """A pause code after an odd-length run leaves half a cell blank ("die ."): move the next character in front of
+    the pause instead (the pause then falls just after the punctuation). Codes other than pauses never move."""
+    ps = parts(text)
+    for k in range(len(ps)):
+        is_code, s = ps[k]
+        if is_code or not s or (cells(s) * 2 - len(s)) % 2 == 0 or not all(" " <= c <= "~" for c in s):
+            continue
+        j = k + 1
+        while j < len(ps) and ps[j][0] and ps[j][1] in PAUSES:
+            j += 1
+        if j > k + 1 and j < len(ps) and not ps[j][0] and ps[j][1] and " " <= ps[j][1][0] <= "~":
+            ps[k] = (False, s + ps[j][1][0])
+            ps[j] = (False, ps[j][1][1:])
+    return "".join(s for _, s in ps)
+
+
 def wrap(text, width):
     """Greedy word wrap of a code-free paragraph to rows of at most `width` columns (a word never splits)."""
     rows, cur = [], ""
