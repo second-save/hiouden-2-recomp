@@ -93,13 +93,14 @@ def main():
     step("patches", bool(changed), f"{len(changed)} files")
     with tempfile.TemporaryDirectory() as tmp:
         o = Path(tmp) / "patched"
-        r = subprocess.run([sys.executable, str(dist / "apply.py"), str(ROOT / "hio2"), str(o)], capture_output=True, text=True)
+        r = subprocess.run([sys.executable, "-B", str(dist / "apply.py"), str(ROOT / "hio2"), str(o)],
+                           capture_output=True, text=True)  # -B: no __pycache__ in the release folder
         same = r.returncode == 0 and all((o / f.name).read_bytes() == (out / f.name).read_bytes()
                                          for f in out.iterdir() if f.is_file())
         step("re-applied patch equals the build", same, r.stderr.strip())
     with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:
         for f in sorted(dist.rglob("*")):
-            if f.is_file():
+            if f.is_file() and "__pycache__" not in f.parts:
                 z.write(f, f"{name}/{f.relative_to(dist)}")
     print(f"released {zpath} ({zpath.stat().st_size // 1024} KB, {len(changed)} patched files)")
 
