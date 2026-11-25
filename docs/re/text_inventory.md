@@ -69,6 +69,8 @@ The previews below show slot 0 only, and the text after its `\e` is slot 1 onwar
   (`【防禦效果０】`, `【消耗ＭＰ：１０】`) right-aligned in it; then the description, 74 cells drawn as rows of 25 / 25 / 24
   cells. Only the first 23 cells of a row are visible (the originals keep the last 2 blank), so: 3 lines of
   46 Latin columns, the first line indented one cell.
+- Spell popup (verified 2026-11-25, MM 冰雪術): `warp.py --click 305,335,8100,2 --click 232,247,8700,2
+  --frames 9000` (status popup, then right-click the spell icon). Same layout as items: 3 lines of 46 columns.
 - The unit status popup (right-click a party member) has its own labels: 咒語 物品 抵抗 特殊 弱點 嗜食, 沒有.
 
 ### Save files (verified, 2026-11-25)

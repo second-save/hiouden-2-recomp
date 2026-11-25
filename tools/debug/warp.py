@@ -22,14 +22,24 @@ ap.add_argument("--remap", action="append", default=[])
 ap.add_argument("--click", action="append", default=[], help="extra x,y,frame[,btn] clicks after landing (btn 2=right)")
 ap.add_argument("--msg", type=lambda s: int(s, 0), help="show TM message N (file TM{N//4+1:02}, slot N%%4) on stage 1")
 ap.add_argument("--pages", type=int, default=6, help="with --msg: left clicks to page through it")
+ap.add_argument("--vis", type=lambda s: int(s, 0), help="play VIS.EXE cutscene N in the intro's place (use --every)")
 ap.add_argument("--opening", action="store_true", help="play the opening (OP_E) via the title's demo entry")
 ap.add_argument("--ending", action="store_true", help="play the ending + staff roll (ED_E) in the opening's place")
+ap.add_argument("--game", default=os.path.join(ROOT, "work/qa/game_warp"), help="scratch copy of hio2 (one per parallel run)")
 a, passthrough = ap.parse_known_args()  # anything else (e.g. --trace-ip 24607) goes to the recomp
 
-game = os.path.join(ROOT, "work/qa/game_warp")
+game = a.game
 shutil.rmtree(game, ignore_errors=True)
 shutil.copytree(os.path.join(ROOT, "hio2"), game)
 os.makedirs(a.out, exist_ok=True)
+if a.vis is not None:
+    # HIO.EXE start-up plays VIS.EXE scene 0 (the intro) via `mov ax,0; lcall VIS` at image 0x5F; in-game
+    # the stage-clear path plays scene cs:[0x576D] the same way (image 0xFEE5). Swap the start-up scene.
+    exe = os.path.join(game, "HIO.EXE")
+    d = bytearray(open(exe, "rb").read())
+    assert d[0x185F:0x1862] == b"\xb8\x00\x00" and d[0x1862] == 0x9A, "unexpected HIO.EXE start-up code"
+    d[0x1860] = a.vis
+    open(exe, "wb").write(d)
 if a.msg is not None:
     # MP01 event record 0x12B0 is a type-5 (2x2, examine with right-click) message event: move it onto tile
     # (0x32,0x0C), which a right-click at (600,140) checks on a cold boot (BX=0x18DC = (0x32+16)*96 + 0x0C+16),
@@ -52,7 +62,7 @@ if a.opening or a.ending:
         cmd += ["--remap", "OP_E.EXE=ED_E.EXE"]  # verified 2026-11-25: ending + staff roll by ~frame 9000
 else:
     cmd += ["--test-click", TITLE_NEW_GAME]
-    for f in INTRO_CLICKS:
+    for f in (range(2400, a.frames - 400, 300) if a.vis is not None else INTRO_CLICKS):  # scenes run longer
         cmd += ["--test-click", f"320,300,{f}"]
 for c in a.click:
     cmd += ["--test-click", c]

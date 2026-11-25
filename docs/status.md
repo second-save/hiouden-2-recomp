@@ -15,10 +15,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Debug tool (`tools/debug/warp.py`, all from a cold boot): `--stage NN`; `--msg N` (any TM message, verified on N=0); `--opening`; `--ending` (ED_E + staff roll via `--remap OP_E.EXE=ED_E.EXE`); item popup by clicks (see text_inventory). Recomp flags added: `--trace-ip`, right-click in `--test-click x,y,f,2`.
   - Width gate measured: TM box and IM/MM descriptions both 23 visible cells = **46 Latin columns** a line; `tests/test_script_width.py` enforces it on `script/en/TM*.txt`.
   - TM31/TM32 English drafts, all 4 slots each, in `script/en/` (D7), Western order, no honorifics (D6), fit 46 cols. Not inserted yet (no insert tool or bigram font yet).
+  - Debug tool complete for text QA: spell popup by clicks (text_inventory); `tools/debug/msg_sheets.py` shot-lists all 128 messages in ~4 min (0, 4, 8, 49, 55, 118, 119 need `--pages 20`); `warp.py --vis N` plays VIS.EXE cutscene N (0-8) in the intro's place; `--game DIR` for parallel runs. How scenes are chosen: `docs/re/events.md`.
 - **Next:**
-  1. Debug tool gaps: MM (spell) popup (right-click a spell icon in the status popup, like items); `--msg` shot list for all 128 messages (loop N=0..127); VIS in-game cutscenes other than the intro (VISM.EXE? which events launch them).
-  2. List every remaining text site: HIO.EXE strings (279 runs; menus, window help, status popup labels, save list `記錄`/`地下牢B6F-1`) and how they are addressed (fixed fields or pointers); OP_E/ED_E/VIS `^`-coded scripts; HMF/WIND name slots.
-  3. Graphics-text survey (GR*.CVD, title logo, window art).
-  4. Then phase 3 (identity build into `build/game/`), phase 4 (extract), phase 5 (bigram font + marker build).
+  1. List every remaining text site: HIO.EXE strings (279 runs; menus, window help, status popup labels, save list `記錄`/`地下牢B6F-1`) and how they are addressed (fixed fields or pointers); OP_E/ED_E/VIS `^`-coded scripts; HMF/WIND name slots.
+  2. Graphics-text survey (GR*.CVD, title logo, window art).
+  3. Then phase 3 (identity build into `build/game/`), phase 4 (extract), phase 5 (bigram font + marker build).
 - **Open bugs:** none.
 - **Waiting on the user:** nothing.

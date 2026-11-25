@@ -18,3 +18,16 @@ linear 0xCC10 + X (CS 1CC1 covers image 0x10000+). `tools/dis16.py hio2/HIO.EXE 
   `00 cond 0xFF N`. Opcodes 1/2 look like tile changes (`01 xx yy 00`), not mapped yet.
 - A right-click at screen (600,140) on a cold-boot stage 1 examines tile (0x32,0x0C) (BX=0x18DC); `warp.py --msg`
   moves MP01's area event 0x12B0 there.
+
+## VIS cutscenes (verified 2026-11-25, `warp.py --vis N --every 300`, sheets were in work/qa/vis)
+- All in-game cutscene scripts live in `VIS.EXE` (`^`-coded Big5, see text_inventory). HIO.EXE loads it with
+  `INT B5h AX=0x42F0` at 5000:0 and far-calls 5020:0 with **AX = scene number** (stub at image 0x1EC90).
+- Callers: start-up, image 0x5F (`mov ax,0`: scene 0, the prison intro); stage clear, image 0xFEE5 (scene
+  `cs:[0x576D]`), reached from image 0x5AF0 when the clear flag `cs:[0x576E]` is set (OR-ed in by unit logic at
+  image 0xB0CE); image 0xFEA9 plays scene 8 (雷薩德), taken when stage `cs:[0x576A]` == 0x14.
+  Where `cs:[0x576D]` gets its value is not traced (no direct write in the code; likely a state-block copy).
+- Scenes: 0 prison intro, 1 talking statue, 2 soldier reports to 傑達恩, 3 broken stairs / 傑達恩, 4 statue + ring,
+  5 傑達恩 "dance with my phantoms", 6 sea of fire, 7 蜜爾芮's healing talk, 8 雷薩德．瓦雷斯. 9 hangs (green
+  screen), 10+ fall back to the intro, so there are 9.
+- `VISM.EXE` (id 0x2F1, 2922 bytes, no text) is loaded by a twin stub at image 0x1ECB0 to 3800:0; no caller found
+  by far-call scan, purpose unknown.
