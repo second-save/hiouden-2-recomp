@@ -17,6 +17,22 @@ How to play
 Controls: mouse (left and right buttons) and keyboard, as in the original. Alt+Enter toggles fullscreen.
 Esc asks whether to quit (Enter quits, Esc goes back; the game is paused meanwhile). Save first with the Quill.
 
+Playing the game
+- Right-click anything on screen for a help box saying what it does. That's the quickest way to learn.
+- Mark and Mirlei have to fight their way out, floor by floor. The windows show the floor map, the battle view
+  and your characters. The desk at the bottom right holds the game's controls:
+    Hourglass (blue)  pauses or resumes time. Time starts paused: click it and your unit starts marching.
+                      Click it again to pause, look around and change settings.
+    Candlestick       game speed (3 levels)
+    Quill             save            Record Book   load
+    Red Orb           open another unit window    Retry   restart this stage
+    Big-Mouth Fish    drag unwanted characters or items to it to get rid of them
+- Fighting is automatic: when your unit meets monsters, your characters attack on their own. The unit window's
+  icons set how it acts: Action Setup (behaviour), Battle Setup (tactics), Magic Setup (which spells it casts),
+  Direction Setup (where it marches), Attack Mode (magic or weapons). Click a portrait to see that character's
+  items.
+- Save often with the Quill. Esc asks whether to quit.
+
 Where things go
 - macOS:   ~/Library/Application Support/Second Save/Hiouden II/
 - Windows: %APPDATA%\Second Save\Hiouden II\

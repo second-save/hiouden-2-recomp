@@ -29,7 +29,7 @@
    9810,
    9914
   ],
-  "en": "^%Markfiend:^0 \"...Shut up!! You rotten, raving zealot.^0  You're the one who made this a living hell!^\\"
+  "en": "^%Mark:^0 \"...Shut up!! You rotten, raving zealot.^0  You're the one who made this a living hell!^\\"
  },
  {
   "id": "ED_E:026BA",
@@ -81,7 +81,7 @@
    10052,
    10144
   ],
-  "en": "^%Markfiend:^0 \"Mirlei, wait for me outside.\"^0^%Mirlei:^0 \"Huh? B-but I...\"^\\",
+  "en": "^%Mark:^0 \"Mirlei, wait for me outside.\"^0^%Mirlei:^0 \"Huh? B-but I...\"^\\",
   "section": true
  },
  {
@@ -103,7 +103,7 @@
    10146,
    10228
   ],
-  "en": "^%Markfiend:^0 \"It's nothing. Just go!\"^0^%Mirlei:^0 \"...All right. I...\"^\\"
+  "en": "^%Mark:^0 \"It's nothing. Just go!\"^0^%Mirlei:^0 \"...All right. I...\"^\\"
  },
  {
   "id": "ED_E:027F4",
@@ -135,7 +135,7 @@
    10286,
    10432
   ],
-  "en": "^%Markfiend:^0 \"Even if that old crook fooled you, it won't^0  change that you killed countless people.^0  Sorry... I can't let you go!\"^0^%Royal Brother:^0 \"You... you...!\"^\\"
+  "en": "^%Mark:^0 \"Even if that old crook fooled you, it won't^0  change that you killed countless people.^0  Sorry... I can't let you go!\"^0^%Royal Brother:^0 \"You... you...!\"^\\"
  },
  {
   "id": "ED_E:028C0",
@@ -167,7 +167,7 @@
    10470,
    10518
   ],
-  "en": "^0^%Markfiend:^0 \"Don't stay here! Didn't you hear me?\"^\\"
+  "en": "^0^%Mark:^0 \"Don't stay here! Didn't you hear me?\"^\\"
  },
  {
   "id": "ED_E:02916",
@@ -177,7 +177,7 @@
    10518,
    10566
   ],
-  "en": "^%Markfiend:^0 \"The village is to the east. Hurry!\"^\\",
+  "en": "^%Mark:^0 \"The village is to the east. Hurry!\"^\\",
   "section": true
  },
  {
@@ -199,7 +199,7 @@
    10568,
    10668
   ],
-  "en": "^%Mirlei:^0 \"...Throw your weapon away. There's no need^0  for it now, is there?\"^0^%Markfiend:^0 \"......\"^\\"
+  "en": "^%Mirlei:^0 \"...Throw your weapon away. There's no need^0  for it now, is there?\"^0^%Mark:^0 \"......\"^\\"
  },
  {
   "id": "ED_E:029AC",
@@ -241,7 +241,7 @@
    10878,
    11004
   ],
-  "en": "^%Markfiend:^0 \"Once you're back in your village, hide for a^0  while. You'll be safe then.\"^0^%Mirlei:^0 \"No! Don't go!\"^\\",
+  "en": "^%Mark:^0 \"Once you're back in your village, hide for a^0  while. You'll be safe then.\"^0^%Mirlei:^0 \"No! Don't go!\"^\\",
   "section": true
  },
  {
@@ -252,7 +252,7 @@
    11004,
    11388
   ],
-  "en": " In that instant, Mirlei understood it all: the^[01]face he turned back matched a memory of her youth.^[02] It was all far too alike.^[02] Seeing King Richard in Mark, she felt at last,^[01]through Markfiend's torn heart, all that King^[01]Richard had buried within him then.^[01] The day she, a child, watched King Richard leave^[01]forever was about to happen here once more.^[03] And so Mirlei's nameless sorrow grew deeper...^[14]^\\",
+  "en": " In that instant, Mirlei understood it all: the^[01]face he turned back matched a memory of her youth.^[02] It was all far too alike.^[02] Seeing King Richard in Mark, she felt at last,^[01]through Mark's torn heart, all that King^[01]Richard had buried within him then.^[01] The day she, a child, watched King Richard leave^[01]forever was about to happen here once more.^[03] And so Mirlei's nameless sorrow grew deeper...^[14]^\\",
   "section": true
  },
  {

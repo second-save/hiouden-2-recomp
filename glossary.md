@@ -24,7 +24,7 @@ Source text is Traditional Chinese (Big5); the JP column holds the Chinese form 
 ## Characters
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
-| 馬克芬德 / 馬克 | Markfiend / Mark | | hero (JP マルクフィーンド); 馬克 alone = Mark (Mirlei's and others' short form) | Macfinder / Marc |
+| 馬克芬德 / 馬克 | Mark | | hero, both forms (D13) (JP マルクフィーンド, full form "Markfiend" no longer used in the script); 馬克 alone = Mark | Macfinder / Marc |
 | 蜜爾芮 | Mirlei | | heroine (JP ミィルレイ), healer, wears the spirit ring | Mirrei / Mireille |
 | 理查‧Ａ‧馬金泰爾 / 理查國王 / 理查 | Richard A. MacIntyre / King Richard / Richard | | the Scarlet King of Hiouden 1 | McIntyre / Makintyre |
 | 緋王 | the Scarlet King / Hiouden | | Richard's epithet; inside the title 緋王傳 it is the game name | Crimson King |

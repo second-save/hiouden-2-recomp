@@ -21,7 +21,18 @@ folder and applies the English patch there.
 2. Start **Hiouden II**. On macOS the app isn't notarized: the first time, right-click it and choose Open.
 3. Click **Choose game folder...** and pick the folder of your Hiouden II install (the one with `HIO.EXE`).
    The launcher checks every file, copies the game and applies the English patch. Your folder is never changed.
-4. Click **Play**. Mouse and keyboard as in the original; Alt+Enter toggles fullscreen.
+4. Click **Play**. Mouse and keyboard as in the original; Alt+Enter toggles fullscreen; Esc asks whether to quit.
+
+### First steps in the game
+
+- **Right-click anything** for a help box saying what it does.
+- **Time starts paused.** Click the blue **Hourglass** on the desk (bottom right) and your unit starts marching.
+  Click it again to pause. The **Candlestick** sets the speed.
+- **Fighting is automatic:** your characters attack monsters on their own. The unit window's icons set how they act
+  (Action, Battle, Magic and Direction Setup, Attack Mode).
+- **Save** with the **Quill**, load with the **Record Book**. **Retry** restarts the stage.
+
+The full list is in `HOW-TO-PLAY.txt`, which comes with every download.
 
 Saves and the patched copy live in `~/Library/Application Support/Second Save/Hiouden II/` (macOS),
 `%APPDATA%\Second Save\Hiouden II\` (Windows) or `~/.local/share/Second Save/Hiouden II/` (Linux).

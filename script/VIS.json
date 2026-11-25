@@ -18,7 +18,7 @@
    5578,
    5738
   ],
-  "en": "^%Markfiend:^0  ...Someone's coming.^$  One... two... three. The usual lot, I suppose?^0  ...Come on. Surely it's my turn today?^0  Hurry up! Come on, just kill me already!...^\\"
+  "en": "^%Mark:^0  ...Someone's coming.^$  One... two... three. The usual lot, I suppose?^0  ...Come on. Surely it's my turn today?^0  Hurry up! Come on, just kill me already!...^\\"
  },
  {
   "id": "VIS:0166A",
@@ -39,7 +39,7 @@
    5846,
    5968
   ],
-  "en": "^%Markfiend:^0  Same words, over and over, all day long, and you^0  never tire of it! Honestly... Your luck's run out.^0  Looks like death is the only road left to you...^\\"
+  "en": "^%Mark:^0  Same words, over and over, all day long, and you^0  never tire of it! Honestly... Your luck's run out.^0  Looks like death is the only road left to you...^\\"
  },
  {
   "id": "VIS:01750",
@@ -93,7 +93,7 @@
    6320,
    6388
   ],
-  "en": "^%Markfiend:^0  ...Looks like you really have to get out...^0   Sigh. What a pain.^\\",
+  "en": "^%Mark:^0  ...Looks like you really have to get out...^0   Sigh. What a pain.^\\",
   "section": true
  },
  {
@@ -147,7 +147,7 @@
    6626,
    6654
   ],
-  "en": "^%Markfiend:^0  \"Move!\"^\\"
+  "en": "^%Mark:^0  \"Move!\"^\\"
  },
  {
   "id": "VIS:019FE",
@@ -157,7 +157,7 @@
    6654,
    6776
   ],
-  "en": "^%Markfiend:^0  \"How long are you going to sit there? You wanted out,^0  didn't you? Or have you changed your mind?^0  Fine. If you want to die, stay right there.\"^@",
+  "en": "^%Mark:^0  \"How long are you going to sit there? You wanted out,^0  didn't you? Or have you changed your mind?^0  Fine. If you want to die, stay right there.\"^@",
   "section": true
  },
  {
@@ -178,7 +178,7 @@
    6822,
    6892
   ],
-  "en": "^%Markfiend:^0  ...Once I get this girl up top, I can die in peace...^\\",
+  "en": "^%Mark:^0  ...Once I get this girl up top, I can die in peace...^\\",
   "section": true
  },
  {
@@ -189,7 +189,7 @@
    6892,
    7002
   ],
-  "en": "At the top of the stairs, Markfiend suddenly heard a^0strange voice calling him. He turned to find a^0crumbling, decayed statue standing not far away.^@",
+  "en": "At the top of the stairs, Mark suddenly heard a^0strange voice calling him. He turned to find a^0crumbling, decayed statue standing not far away.^@",
   "section": true
  },
  {
@@ -210,7 +210,7 @@
    7030,
    7070
   ],
-  "en": "^%Markfiend:^0  \"A-a talking statue?!\"^@"
+  "en": "^%Mark:^0  \"A-a talking statue?!\"^@"
  },
  {
   "id": "VIS:01B9E",
@@ -250,7 +250,7 @@
    7408,
    7494
   ],
-  "en": "^%Markfiend:^0  \"Release you from the statue? ...You mean you want me^0  to make a pact with you?\"^@"
+  "en": "^%Mark:^0  \"Release you from the statue? ...You mean you want me^0  to make a pact with you?\"^@"
  },
  {
   "id": "VIS:01D46",
@@ -270,7 +270,7 @@
    7700,
    7734
   ],
-  "en": "^%Markfiend:^0  ............^@"
+  "en": "^%Mark:^0  ............^@"
  },
  {
   "id": "VIS:01E36",
@@ -332,7 +332,7 @@
    8366,
    8414
   ],
-  "en": "^%Markfiend:^0  \"Wh-what the hell is this!?\"^@"
+  "en": "^%Mark:^0  \"Wh-what the hell is this!?\"^@"
  },
  {
   "id": "VIS:020DE",
@@ -352,7 +352,7 @@
    8554,
    8592
   ],
-  "en": "^%Markfiend:^0  \"You snake!!\"^@"
+  "en": "^%Mark:^0  \"You snake!!\"^@"
  },
  {
   "id": "VIS:02190",
@@ -372,7 +372,7 @@
    8852,
    8912
   ],
-  "en": "^%Markfiend:^0  \"...So the only way for us is down, is it?\"^@"
+  "en": "^%Mark:^0  \"...So the only way for us is down, is it?\"^@"
  },
  {
   "id": "VIS:022D0",
@@ -392,7 +392,7 @@
    9062,
    9150
   ],
-  "en": "^%Markfiend:^0  \"Even if I get out of here, what about the MacIntyre^0   soldiers and the prisoners? What happens to them?\"^@"
+  "en": "^%Mark:^0  \"Even if I get out of here, what about the MacIntyre^0   soldiers and the prisoners? What happens to them?\"^@"
  },
  {
   "id": "VIS:023BE",
@@ -412,7 +412,7 @@
    9264,
    9296
   ],
-  "en": "^%Markfiend:^0  \"You bastard!\"^@"
+  "en": "^%Mark:^0  \"You bastard!\"^@"
  },
  {
   "id": "VIS:02450",
@@ -432,7 +432,7 @@
    9398,
    9422
   ],
-  "en": "^%Markfiend:^0  ?!^\\"
+  "en": "^%Mark:^0  ?!^\\"
  },
  {
   "id": "VIS:024CE",
@@ -463,7 +463,7 @@
    9534,
    9678
   ],
-  "en": "Before Markfiend's eyes, a life-size statue of a woman^0gave off a strange light.^0It seemed to be reacting to something, and Mirlei felt^0something much the same stir inside her.^\\",
+  "en": "Before Mark's eyes, a life-size statue of a woman^0gave off a strange light.^0It seemed to be reacting to something, and Mirlei felt^0something much the same stir inside her.^\\",
   "section": true
  },
  {
@@ -485,7 +485,7 @@
    9708,
    9774
   ],
-  "en": "^%Markfiend:^0  \"Strange. The closer you get, the stronger the magic^0   reacts.\"^@"
+  "en": "^%Mark:^0  \"Strange. The closer you get, the stronger the magic^0   reacts.\"^@"
  },
  {
   "id": "VIS:0262E",
@@ -505,7 +505,7 @@
    9830,
    9862
   ],
-  "en": "^%Markfiend:^0  \"This is...!\"^@",
+  "en": "^%Mark:^0  \"This is...!\"^@",
   "section": true
  },
  {
@@ -526,7 +526,7 @@
    9900,
    10024
   ],
-  "en": "^%Markfiend:^0  \"Where on earth did you get this thing!? It looks like^0   a plain, ordinary ring, and you wear it all the time?^0   That's pretty poor taste, isn't it?\"^@"
+  "en": "^%Mark:^0  \"Where on earth did you get this thing!? It looks like^0   a plain, ordinary ring, and you wear it all the time?^0   That's pretty poor taste, isn't it?\"^@"
  },
  {
   "id": "VIS:02728",
@@ -546,7 +546,7 @@
    10116,
    10188
   ],
-  "en": "^%Markfiend:^0  \"Protects you? ...Hmph. If that were true, how did^0   you end up in here?\"^@"
+  "en": "^%Mark:^0  \"Protects you? ...Hmph. If that were true, how did^0   you end up in here?\"^@"
  },
  {
   "id": "VIS:027CC",
@@ -566,7 +566,7 @@
    10224,
    10276
   ],
-  "en": "^%Markfiend:^0  \"...Honestly, you! This is how you use the thing.\"^@"
+  "en": "^%Mark:^0  \"...Honestly, you! This is how you use the thing.\"^@"
  },
  {
   "id": "VIS:02824",
@@ -576,7 +576,7 @@
    10276,
    10426
   ],
-  "en": "Markfiend chanted a string of strange, rhyming^0incantations. Marks like letters, or perhaps scratches,^0slowly surfaced on the ring, and in an instant a^0dazzling white light wrapped around it.^@"
+  "en": "Mark chanted a string of strange, rhyming^0incantations. Marks like letters, or perhaps scratches,^0slowly surfaced on the ring, and in an instant a^0dazzling white light wrapped around it.^@"
  },
  {
   "id": "VIS:028BA",
@@ -586,7 +586,7 @@
    10426,
    10658
   ],
-  "en": "^%Markfiend:^0  \"This ring has no power to protect anyone by itself.^0   It's just a medium for summoning spirits. Use it^0   that way, and then it'll really protect you. Got it?^$   Good. Now I don't have to go to the trouble of^0   summoning them myself. Hooray, hooray, three^0   cheers.\"^\\"
+  "en": "^%Mark:^0  \"This ring has no power to protect anyone by itself.^0   It's just a medium for summoning spirits. Use it^0   that way, and then it'll really protect you. Got it?^$   Good. Now I don't have to go to the trouble of^0   summoning them myself. Hooray, hooray, three^0   cheers.\"^\\"
  },
  {
   "id": "VIS:029A2",
@@ -648,7 +648,7 @@
    11062,
    11172
   ],
-  "en": "^%Markfiend:^0  \"...This is a special barrier made with magic.^0   Looks like that wretch Jadain doesn't want us getting^0   through here.\"^@"
+  "en": "^%Mark:^0  \"...This is a special barrier made with magic.^0   Looks like that wretch Jadain doesn't want us getting^0   through here.\"^@"
  },
  {
   "id": "VIS:02BA4",
@@ -668,7 +668,7 @@
    11218,
    11396
   ],
-  "en": "^%Markfiend:^0  \"No human could get through here safely. We'll have^0   to borrow the power of the spirits. In other words,^0   the rest of the show is yours.^$   Can you handle it? This time we're summoning a^0   spirit of the highest order.\"^\\"
+  "en": "^%Mark:^0  \"No human could get through here safely. We'll have^0   to borrow the power of the spirits. In other words,^0   the rest of the show is yours.^$   Can you handle it? This time we're summoning a^0   spirit of the highest order.\"^\\"
  },
  {
   "id": "VIS:02C84",
@@ -689,7 +689,7 @@
    11432,
    11460
   ],
-  "en": "^%Markfiend:^0  \"Mm...\"^@"
+  "en": "^%Mark:^0  \"Mm...\"^@"
  },
  {
   "id": "VIS:02CC4",
@@ -709,7 +709,7 @@
    11490,
    11522
   ],
-  "en": "^%Markfiend:^0  \"......\"^@"
+  "en": "^%Mark:^0  \"......\"^@"
  },
  {
   "id": "VIS:02D02",
@@ -719,7 +719,7 @@
    11522,
    11586
   ],
-  "en": "^%Markfiend:^0  \"When did you first have this strange power of yours?\"^@"
+  "en": "^%Mark:^0  \"When did you first have this strange power of yours?\"^@"
  },
  {
   "id": "VIS:02D42",
@@ -739,7 +739,7 @@
    11610,
    11650
   ],
-  "en": "^%Markfiend:^0  \"The healing power, I mean.\"^@"
+  "en": "^%Mark:^0  \"The healing power, I mean.\"^@"
  },
  {
   "id": "VIS:02D82",
@@ -759,7 +759,7 @@
    11692,
    11742
   ],
-  "en": "^%Markfiend:^0  \"Did it start when you were little?\"^@"
+  "en": "^%Mark:^0  \"Did it start when you were little?\"^@"
  },
  {
   "id": "VIS:02DDE",
@@ -779,7 +779,7 @@
    11980,
    12010
   ],
-  "en": "^%Markfiend:^0  \"Only what?\"^@"
+  "en": "^%Mark:^0  \"Only what?\"^@"
  },
  {
   "id": "VIS:02EEA",
@@ -799,7 +799,7 @@
    12106,
    12198
   ],
-  "en": "^%Markfiend:^0  \"Don't say any more... Sorry. I shouldn't have asked.^0   Cheer up, and don't let it weigh on you...\"^\\"
+  "en": "^%Mark:^0  \"Don't say any more... Sorry. I shouldn't have asked.^0   Cheer up, and don't let it weigh on you...\"^\\"
  },
  {
   "id": "VIS:02FA6",
@@ -809,7 +809,7 @@
    12198,
    12320
   ],
-  "en": "^%Markfiend:^0  \"You swine! You leave our kingdom's rotten government^0   to the king so you can sit here preparing to summon^0   an evil god, is that it?^0   Answer me, Lezard Valeth!\"^\\",
+  "en": "^%Mark:^0  \"You swine! You leave our kingdom's rotten government^0   to the king so you can sit here preparing to summon^0   an evil god, is that it?^0   Answer me, Lezard Valeth!\"^\\",
   "section": true
  },
  {
@@ -831,7 +831,7 @@
    12506,
    12746
   ],
-  "en": "^%Markfiend:^0  \"I've changed my mind. I'll kill you with my own hands^0   and then walk out! Thanks for letting me use the warp^0   circles you lot always use, or I'd never have made it^0   here. As for your useless idiot underlings, they're^0   all stuck at the Dungeon entrance.^$   That's not instinct. Only someone who knows magic can^0   understand its secrets.\"^@"
+  "en": "^%Mark:^0  \"I've changed my mind. I'll kill you with my own hands^0   and then walk out! Thanks for letting me use the warp^0   circles you lot always use, or I'd never have made it^0   here. As for your useless idiot underlings, they're^0   all stuck at the Dungeon entrance.^$   That's not instinct. Only someone who knows magic can^0   understand its secrets.\"^@"
  },
  {
   "id": "VIS:031CA",
